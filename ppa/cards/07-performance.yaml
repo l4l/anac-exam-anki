@@ -443,8 +443,8 @@
 - id: k347
   source:
     key_item: 347
-  question: 'NAV: Sobre el siguiente grafico calcular la componente para el despegue con viento a 60°
-    de 18 Kt de intensidad.'
+  question: Sobre el siguiente grafico calcular la componente para el despegue con viento a 60° de 18
+    Kt de intensidad.
   options:
     a: 20 Kt de viento de frente y 15 Kt de cruzado.
     b: 16 Kt de viento de frente y 10 Kt de viento cruzado.
@@ -459,12 +459,12 @@
 - id: k348
   source:
     key_item: 348
-  question: NAV:Sobre el siguiente grafico calcular la componente para el despegue con viento a 15° de
-    18 Kt de intensidad.
+  question: Sobre el siguiente grafico calcular la componente para el despegue con viento a 15° de 18
+    Kt de intensidad.
   options:
     a: 20 Kt de viento de frente y 15 Kt de cruzado.
-    b: a)17 Kt de viento de frente y 3 Kt de cruzado.
-    c: a) 27 Kt de viento de frente y 15 Kt de cruzado.
+    b: 17 Kt de viento de frente y 3 Kt de cruzado.
+    c: 27 Kt de viento de frente y 15 Kt de cruzado.
   answer: b
   images:
   - ppa-key-x344.jpg
@@ -476,8 +476,8 @@
 - id: k349
   source:
     key_item: 349
-  question: NAV:Sobre el siguiente grafico calcular la componente para el despegue con viento a 25° de
-    18 Kt de intensidad.
+  question: Sobre el siguiente grafico calcular la componente para el despegue con viento a 25° de 18
+    Kt de intensidad.
   options:
     a: 16 kt de viento cruzado y 9 Kt de viento de frente
     b: 9 Kt de viento cruzado y 16 Kt de viento de frente.
@@ -493,8 +493,8 @@
 - id: k362
   source:
     key_item: 362
-  question: 'PERMF: Se informa que el viento se encuentra a 085° a 30 nudos y Ud. planea aterrizar en
-    la Pista 11. ¿Cuáles serán los componentes de viento de frente y viento cruzado?'
+  question: Se informa que el viento se encuentra a 085° a 30 nudos y Ud. planea aterrizar en la Pista
+    11. ¿Cuáles serán los componentes de viento de frente y viento cruzado?
   options:
     a: 13 Kt de frente / 25 Kt cruzado
     b: 13 Kt de frente / 27kt cruzado

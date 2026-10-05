@@ -712,12 +712,12 @@
 - id: k354
   source:
     key_item: 354
-  question: 'MET: Según el movimiento y la temperatura de las masas de aire podemos clasificar los frentes
+  question: 'Según el movimiento y la temperatura de las masas de aire podemos clasificar los frentes
     en:'
   options:
     a: Fríos-Calientes-Locales- Ocluidos
     b: Fríos-Calientes- Estacionarios- Ocluidos
-    c: -Calientes-Fríos-
+    c: Calientes-Fríos
   answer: b
   explanation: Según el movimiento y la temperatura de las masas de aire, los frentes se clasifican en
     fríos, calientes, estacionarios y ocluidos. No existen frentes locales en esta clasificación, y la

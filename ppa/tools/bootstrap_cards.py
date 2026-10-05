@@ -36,8 +36,17 @@ CHAPTERS = {
     8: "navegacion", 9: "factores-humanos",
 }
 LETTERS = "abc"
-Q_PREFIX = re.compile(r"^(PPA(Mot)?:?\s*|\d{2}-\d{2}-\d{2}\s+|\d{1,3}\s*\.?-\s*\.?\s*)")
-OPT_PREFIX = re.compile(r"^[a-cA-C]\s*[\).]\s*")
+# numbering ("19.-", "001-", "24-10-13", "10-13-") and source category codes ("MOT:", "Instru V:")
+Q_PREFIX = re.compile(r"^(-\s*|PPA(Mot)?:?\s*|(MOT|NAV|MET|PERFM|PERMF|CRM)\s*[:.]\s*|Instru[.:]?\s*[Vv]\s*[:.]\s*"
+                      r"|\d{2}-\d{2}-(\d{2})?\s*|\d{1,3}\s*\.?-\s*\.?\s*)")
+# subsection headings of the chapter PDF that the text extraction glued onto the preceding option
+HEADINGS = [
+    "Procedimientos y operaciones de aeropuertos", "Señales del Aeropuerto",
+    "Indicador Visual de Pendiente de Aproximación (VASI)", "OPERACIONES EN TIERRA",
+    "Aptitud para el vuelo", "Toma de decisiones aeronáuticas", "Evitar colisiones",
+    "Gráfico de Componentes de Viento de Frente y Viento Cruzado",
+]
+OPT_PREFIX = re.compile(r"^([a-cA-C]\s*[\).]\s*|-\s*|\)\s*)")  # "b) a)17 Kt", "a)) ..." and "-comunicarse" occur
 FIG_REF = re.compile(r"Figura (\d+)(?!-)", re.I)
 
 # --- manual curation -------------------------------------------------------
@@ -102,11 +111,20 @@ def curate(c, spanish):
 
 
 def clean_q(s):
-    return Q_PREFIX.sub("", s.strip()).strip()
+    s = s.strip()
+    while (stripped := Q_PREFIX.sub("", s, count=1).strip()) != s:  # prefixes nest: "PPA MET: ..."
+        s = stripped
+    return s
 
 
 def clean_opt(s):
-    return OPT_PREFIX.sub("", (s or "").strip()).strip()
+    s = (s or "").strip()
+    while (stripped := OPT_PREFIX.sub("", s, count=1).strip()) != s:
+        s = stripped
+    s = s.rstrip("-").strip()
+    for h in HEADINGS:
+        s = s.removesuffix(h).strip()
+    return s
 
 
 def figures_for(text):

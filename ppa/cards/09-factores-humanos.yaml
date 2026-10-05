@@ -62,11 +62,11 @@
 - id: k297
   source:
     key_item: 297
-  question: 'CRM . En un mensaje, la retroalimentación, le permite al emisor:'
+  question: 'En un mensaje, la retroalimentación, le permite al emisor:'
   options:
     a: verificar la correcta recepcion del mensaje
-    b: -comunicarse con el receptor
-    c: '- no es relevante'
+    b: comunicarse con el receptor
+    c: no es relevante
   answer: a
   explanation: La retroalimentación (feedback) es la respuesta del receptor que le permite al emisor <b>verificar
     que el mensaje fue recibido y comprendido correctamente</b>. Por eso es un elemento clave en CRM,
@@ -77,7 +77,7 @@
     key_item: 298
   question: 'CRM 2.Para que la comunicación sea eficiente, el lenguaje utilizado debe ser:'
   options:
-    a: '- Comun al emisor y receptor'
+    a: Comun al emisor y receptor
     b: El utilizado de forma adecuada solo por el emisor
     c: No es relevante siempre que la la fluidez de la conversación sea sobre el tema.
   answer: a
@@ -90,7 +90,7 @@
     key_item: 299
   question: CRM Un buen lider, para ser efectivo debera reunir condiciones de
   options:
-    a: -Autoritario, tenaz, rigido
+    a: Autoritario, tenaz, rigido
     b: Democratico-servicial-amable-proactivo
     c: Asertivo-democratico-proactivo-flexible
   answer: c
@@ -101,9 +101,9 @@
 - id: k300
   source:
     key_item: 300
-  question: 'CRM: La gestión de riesgo es la parte del proceso de toma de decisiones que depende de:'
+  question: 'La gestión de riesgo es la parte del proceso de toma de decisiones que depende de:'
   options:
-    a: De la intuicion y buen juicio-
+    a: De la intuicion y buen juicio
     b: La consciencia situacional, el reconocimiento del problema y buen juicio para reducir los riesgos
       relacionados con cada vuelo.
     c: De lo sistemático del análisis.

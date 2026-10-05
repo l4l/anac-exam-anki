@@ -667,7 +667,7 @@
 - id: k328
   source:
     key_item: 328
-  question: 'Instru V: La lectura del instrumento indica'
+  question: La lectura del instrumento indica
   options:
     a: Presion y Temperatura dentro del parametro normal.
     b: Temperatura dentro de rango normal y baja presión
@@ -682,7 +682,7 @@
 - id: k329
   source:
     key_item: 329
-  question: Instru V. A la cual de las siguientes figuras corresponde un viraje no coordinado.
+  question: A la cual de las siguientes figuras corresponde un viraje no coordinado.
   options:
     a: Figura 1 y 3
     b: Figura 2 y 3
@@ -697,7 +697,7 @@
 - id: k330
   source:
     key_item: 330
-  question: 'Instru. v: En vuelo la Lectura del instrumento esta indicando que:'
+  question: 'En vuelo la Lectura del instrumento esta indicando que:'
   options:
     a: Baja presion de aceite lo cual indicaria una posible falla en la planta motriz
     b: Baja presion de temperatura y alta temperatura de aceite en relacion. lo cual indica una falla

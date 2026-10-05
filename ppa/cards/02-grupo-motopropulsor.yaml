@@ -1025,8 +1025,7 @@
 - id: k357
   source:
     key_item: 357
-  question: 'MOT: Cual de las siguientes afirmaciones es la correcta respecto al uso del aire caliente
-    al carburador.'
+  question: Cual de las siguientes afirmaciones es la correcta respecto al uso del aire caliente al carburador.
   options:
     a: La primera indicación de hielo en el carburador debería ser una disminución en RPM ya que el suministro
       de aire aumenta con la disminución de la temperatura. La aplicación de calor del carburador disminuirá
@@ -1048,7 +1047,7 @@
 - id: k358
   source:
     key_item: 358
-  question: 'MOT: La posibilidad de formación de hielo debería ser considerada cuando se opera en condiciones
+  question: 'La posibilidad de formación de hielo debería ser considerada cuando se opera en condiciones
     en las que la temperatura se encuentra entre:'
   options:
     a: 0° y 21° (7° F y 70° F) y humedad de 60% o mas.
@@ -1062,8 +1061,8 @@
 - id: k360
   source:
     key_item: 360
-  question: 'MOT: Si la temperatura se encuentra entre -7° C (20° F) y 21° C (70° C) con humedad visible
-    o alta humedad, el piloto debería estar en constante alerta a que se forme hielo en el carburador.'
+  question: Si la temperatura se encuentra entre -7° C (20° F) y 21° C (70° C) con humedad visible o alta
+    humedad, el piloto debería estar en constante alerta a que se forme hielo en el carburador.
   options:
     a: Verdadero
     b: Falso

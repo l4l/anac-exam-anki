@@ -605,7 +605,7 @@
   options:
     a: Listas de chequeo.
     b: Consciencia situacional.
-    c: Volar fuera del envolvente. Evitar colisiones
+    c: Volar fuera del envolvente.
   answer: a
   explanation: Confiar en la memoria de corto y largo plazo para tareas repetitivas (rutas o aviones conocidos)
     lleva a descuidar la planificación, las inspecciones de prevuelo y, sobre todo, las listas de chequeo.
@@ -786,8 +786,8 @@
 - id: k361
   source:
     key_item: 361
-  question: 'NAV. En la aproximacion al aerodromo usted encuentra una de las pistas en uso clausurada,
-    esta sera la pista:'
+  question: 'En la aproximacion al aerodromo usted encuentra una de las pistas en uso clausurada, esta
+    sera la pista:'
   options:
     a: 18-36
     b: 22-04

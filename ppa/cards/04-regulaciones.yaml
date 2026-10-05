@@ -562,9 +562,9 @@
   question: 'CUANDO SE CAMBIE DE VUELO VFR A VFR CONTROLADO, SE OBTENDRA EL PERMISO DE TRANSITO DE LA
     DEPENDENCIA DE CONTROL DE TRANSITO QUE CORRESPONDA:'
   options:
-    a: ) Únicamente en el momento de presentación del Plan de Vuelo.
-    b: ) En el momento de ingresar al espacio aéreo controlado IFR/VFR.
-    c: ) Antes de ingresar al espacio aéreo controlado
+    a: Únicamente en el momento de presentación del Plan de Vuelo.
+    b: En el momento de ingresar al espacio aéreo controlado IFR/VFR.
+    c: Antes de ingresar al espacio aéreo controlado
   answer: c
   explanation: Al cambiar de VFR a VFR controlado, el permiso de tránsito de la dependencia de control
     correspondiente debe obtenerse <b>antes de ingresar al espacio aéreo controlado</b>. Pedirlo en el
@@ -600,7 +600,7 @@
 - id: k143
   source:
     key_item: 143
-  question: '10-13-Evitar colisiones con otras aeronaves es responsabilidad del piloto al mando:'
+  question: 'Evitar colisiones con otras aeronaves es responsabilidad del piloto al mando:'
   options:
     a: Siempre
     b: En VMC

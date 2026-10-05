@@ -802,8 +802,8 @@
 - id: k356
   source:
     key_item: 356
-  question: 'PERFM: La velocidad de pérdida se incrementa en proporción al cuadrado del factor de carga.
-    Así es que, con un factor de carga de 4:'
+  question: 'La velocidad de pérdida se incrementa en proporción al cuadrado del factor de carga. Así
+    es que, con un factor de carga de 4:'
   options:
     a: La velocidad de pérdida será cuatro veces de la normal
     b: La velocidad de pérdida será el doble de la normal
