@@ -940,7 +940,7 @@
     "teoria": null
   },
   "k030": {
-    "explicacion": "Al partir de un aeródromo no controlado se debe cumplir el circuito de tránsito establecido (publicado) para ese aeródromo. Los virajes por la izquierda son solo la regla por defecto cuando no hay un circuito publicado, por lo que la opción b) no es la regla general. Partir en cualquier dirección (a) ignora el circuito y es incorrecto.",
+    "explicacion": "Al partir de un aeródromo no controlado se debe cumplir el circuito de tránsito establecido para ese aeródromo; los virajes por la izquierda (b) son solo la regla por defecto cuando no hay otro procedimiento establecido. Partir en cualquier dirección (a) ignora el circuito.",
     "teoria": null
   },
   "k108": {

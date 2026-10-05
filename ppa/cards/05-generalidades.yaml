@@ -8,13 +8,18 @@
     a: Partir en cualquier dirección, considerando la seguridad luego de cruzar los límites del aeropuerto.
     b: Realizar todos los virajes hacia la izquierda.
     c: Cumplir cualquier patrón de tráfico establecido con respecto a cualquier aeropuerto.
-  answer: c
-  status: key_error
+  answer: b
+  status: ambiguous
   official_key: b
-  explanation: Al partir de un aeródromo no controlado se debe cumplir el circuito de tránsito establecido
-    (publicado) para ese aeródromo. Los virajes por la izquierda son solo la regla por defecto cuando
-    no hay un circuito publicado, por lo que la opción b) no es la regla general. Partir en cualquier
-    dirección (a) ignora el circuito y es incorrecto.
+  explanation: 'Según la RAAC 91.128, después del despegue todos los virajes se hacen hacia la izquierda,
+    salvo que se indique otra cosa o haya procedimientos aprobados distintos. Partir en cualquier dirección
+    (a) es incorrecto. La opción c también es defendible: si el aeródromo tiene un circuito de tránsito
+    publicado, éste tiene prioridad sobre la regla general.'
+  note: 'RAAC 91.128 (b)(3): «Hacer todos los virajes hacia la izquierda al aproximarse para aterrizar
+    y después del despegue a menos que se les indique o esté establecido en procedimientos aprobados que
+    lo hagan de otra manera.» (d)(2): «En los lugares en que se hayan establecido circuitos de tránsito
+    distintos del circuito tipo, las aeronaves deberán ajustar sus maniobras a los procedimientos locales
+    que se hayan publicado.»'
 - id: k108
   source:
     key_item: 108

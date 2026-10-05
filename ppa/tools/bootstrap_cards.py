@@ -88,6 +88,7 @@ STATUS = {  # status for cards whose answer stays as the official key
     "k003": "outdated", "k223": "outdated", "k284": "outdated",
 }
 NOTES = {
+    "k030": "RAAC 91.128 (b)(3): «Hacer todos los virajes hacia la izquierda al aproximarse para aterrizar y después del despegue a menos que se les indique o esté establecido en procedimientos aprobados que lo hagan de otra manera.» (d)(2): «En los lugares en que se hayan establecido circuitos de tránsito distintos del circuito tipo, las aeronaves deberán ajustar sus maniobras a los procedimientos locales que se hayan publicado.»",
     "k003": "Bajo la RAAC 61 vigente (2026) ya no existe la readaptación a los 30 días; la experiencia reciente (61.140) exige 3 despegues y aterrizajes en los últimos 90 días.",
     "k223": "Bajo la RAAC 61 vigente (2026) ya no existe la readaptación a los 30 días; la experiencia reciente (61.140) exige 3 despegues y aterrizajes en los últimos 90 días.",
     "k284": "La RAAC 61 vigente (61.160) exige actualizar el domicilio en el legajo pero ya no fija el plazo de 30 días.",
