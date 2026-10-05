@@ -13,7 +13,8 @@
     modernas, el aceite completo). La opción b omite el combustible no utilizable y el aceite no drenable;
     la opción c es incorrecta porque el combustible utilizable forma parte de la carga útil, no del peso
     vacío.
-  theory: El peso vacío incluye el combustible no utilizable y el aceite que no se puede drenar.
+  theory: …Incluye equipo opcional y especial, lastre fijo, fluido hidráulico, combustible no utilizable
+    (residual) y aceite que no se puede drenar (residual).
 - id: k109
   source:
     key_item: 109
@@ -29,7 +30,8 @@
   explanation: La densidad de la nafta de aviación (AVGAS) es aproximadamente 0,72 kg/L.<br>Combustible
     a drenar = 50 kg ÷ 0,72 kg/L = 69,44 L ≈ <b>69,5 L</b><br>50 litros pesarían solo 36 kg, y 16,2 galones
     son unos 61 L (≈ 44 kg), insuficientes para eliminar el exceso.
-  theory: 50 kg ÷ 0,720 kg/L = 69,44 L, redondeado a 69,50 L.
+  theory: Cuando “redondee” una respuesta, hágalo en el sentido que le proporcionará una mayor seguridad
+    operacional en vuelo. En este caso, redondee a 69,50.
 - id: k182
   source:
     key_item: 182
@@ -42,11 +44,9 @@
     b: 12 galones.
     c: 15 galones.
   answer: c
-  explanation: 'La nafta de aviación pesa aproximadamente 6 libras por galón.<br>Con el dato del enunciado:
-    110 lb ÷ 6 lb/gal ≈ 18,3 gal (ninguna opción coincide).<br>El texto de teoría resuelve el mismo problema
-    con 90 lb: 90 lb ÷ 6 lb/gal = <b>15 gal</b>.<br>Se toma 15 galones como respuesta, ya que es la única
-    opción que se acerca a eliminar el exceso; 10 y 12 galones (60 y 72 lb) quedan muy por debajo.'
-  theory: 'La teoría resuelve el problema con 90 libras: 90 ÷ 6 = 15 galones.'
+  explanation: La nafta de aviación pesa aproximadamente 6 libras por galón.<br>Galones a drenar = libras
+    de exceso ÷ 6 lb/gal<br>Se toma <b>15 galones</b> como respuesta, ya que es la única opción que se
+    acerca a eliminar el exceso; 10 y 12 galones (60 y 72 lb) quedan muy por debajo.
   note: 'Dato inconsistente: 110 lb ÷ 6 lb/gal = 18,3 gal, que no está entre las opciones. La teoría ANAC
     resuelve el problema con 90 lb (= 15 gal).'
 - id: k228
@@ -64,7 +64,6 @@
     la aeronave se comporta como si estuviera más alta: la <b>altitud de densidad es mayor que la altitud
     de presión</b>. Solo son iguales cuando la temperatura es exactamente la estándar (opción a), y es
     menor cuando el aire es más frío que el estándar (opción b).'
-  theory: Si la temperatura supera la estándar, la altitud de densidad es mayor que la altitud de presión.
 - id: k262
   source:
     key_item: 262
@@ -86,8 +85,6 @@
     subir hasta la línea de 5876 pies de altitud de presión y leer a la izquierda: altitud de densidad
     ≈ <b>8500 pies</b><br>Verificación: ISA a ~5900 pies ≈ 3° C → 24° C más cálido × 120 pies ≈ +2900
     pies<br>5877 pies es solo la altitud de presión, no la de densidad.'
-  theory: Altitud de presión 5876 pies; en el gráfico con +81° F se obtiene una altitud de densidad de
-    8500 pies.
 - id: k269
   source:
     key_item: 269
@@ -104,7 +101,6 @@
   explanation: 'En la tabla de la Figura 8: 29.92 = 0 y 30.0 = −73 pies.<br>Para 29.96 (a mitad de camino)
     el factor es ≈ −36,5 pies<br>AP = 3563 − 36,5 = 3526,5 ≈ <b>3527 pies</b><br>Con un ajuste mayor a
     29.92 la altitud de presión es menor que la elevación, por eso 3639 pies (mayor) es incorrecto.'
-  theory: 3563 − 36,5 = 3526,5 pies.
 - id: k276
   source:
     key_item: 276
@@ -125,7 +121,6 @@
     = 3894 − 394 = 3500 pies<br>2) Entrar con +25° F (≈ −4° C), subir hasta la línea de 3500 pies y leer:
     altitud de densidad ≈ <b>2000 pies</b><br>Verificación: ISA a 3500 pies ≈ +8° C → 12° C más frío ×
     120 pies ≈ −1400 pies<br>3500 pies es solo la altitud de presión, no la de densidad.'
-  theory: Altitud de presión 3500 pies; en el gráfico con 25° F la altitud de densidad es 2000 pies.
 - id: k280
   source:
     key_item: 280
@@ -139,7 +134,6 @@
   explanation: La atmósfera estándar (ISA) a nivel del mar tiene <b>15° C (59° F) y 29.92 pulgadas de
     mercurio</b> (1013,2 hPa/milibares). La opción b usa 59 en grados Celsius en lugar de Fahrenheit,
     y la opción c expresa 29.92 en milibares en lugar de pulgadas de mercurio.
-  theory: 'Valores estándar a nivel del mar: 29.92 pulgadas de mercurio y 15° C.'
 - id: k287
   source:
     key_item: 287
@@ -153,7 +147,8 @@
   explanation: Un <b>aumento de la temperatura</b> hace al aire menos denso y, por lo tanto, aumenta la
     altitud de densidad. Un aumento de la presión barométrica (a) hace al aire más denso y la disminuye,
     y una disminución de la humedad relativa (c) también reduce la altitud de densidad.
-  theory: Un día caluroso aumenta la altitud de densidad; las opciones a y c son incorrectas.
+  theory: En un día caluroso, el aire se torna “más fino” o “más liviano” y su densidad es equivalente
+    a una altitud mayor en la atmósfera estándar, de allí el término “altitud de alta densidad”.
 - id: k038
   source:
     key_item: 38
@@ -169,7 +164,6 @@
     aire menos denso: el motor entrega menos potencia, la hélice produce menos tracción y el ala genera
     menos sustentación, por lo que la performance de despegue y ascenso disminuye. Las opciones a y b
     incluyen baja altitud de densidad, que en realidad mejora la performance.'
-  theory: Un aumento de temperatura y humedad reduce la potencia del motor y la eficiencia de la hélice.
 - id: k046
   source:
     key_item: 46
@@ -184,8 +178,6 @@
     y el ala necesita mayor velocidad verdadera para generar la misma sustentación; por eso se <b>reduce
     la performance de ascenso</b>. Las opciones a y c son lo opuesto: la performance del motor y del despegue
     también empeoran.'
-  theory: Una mayor altitud de densidad reduce considerablemente la potencia entregada y la eficiencia
-    de la hélice.
 - id: k054
   source:
     key_item: 54
@@ -202,7 +194,6 @@
   explanation: 'En la Figura 8, sobre la línea de 5000 pies de altitud de presión:<br>A 25° F → altitud
     de densidad ≈ 3850 pies<br>A 50° F → altitud de densidad ≈ 5500 pies<br>5500 − 3850 = <b>aumento de
     1650 pies</b><br>Verificación: 25° F a 50° F ≈ 14° C × 120 pies ≈ 1670 pies.'
-  theory: 5500 − 3850 = aumento de 1650 pies.
 - id: k062
   source:
     key_item: 62
@@ -220,7 +211,6 @@
     0,1).<br>Factor para 28.22 ≈ 1630 − 0,2 × 97 = 1610,6 pies<br>AP = 1380 + 1611 = 2991 pies ≈ <b>2991
     pies</b><br>Con un ajuste muy inferior a 29.92 se suma el factor; 2913 y 3010 surgen de interpolar
     mal.'
-  theory: 1380 + 1610,6 = 2990,6 pies.
 - id: k066
   source:
     key_item: 66
@@ -238,7 +228,6 @@
     de densidad ≈ 1650 pies<br>A 50° F → altitud de densidad ≈ 2950 pies<br>2950 − 1650 = <b>aumento de
     1300 pies</b><br>Un aumento de temperatura nunca disminuye la altitud de densidad, por eso la opción
     b es incorrecta.
-  theory: 2950 − 1650 = aumento de 1300 pies.
 - id: k073
   source:
     key_item: 73
@@ -253,8 +242,8 @@
     densidad del aire. Esto aumenta la altitud de densidad y <b>disminuye la performance</b>: menos potencia
     del motor, menor eficiencia de la hélice y menos sustentación. Por lo tanto no puede aumentarla ni
     ser indiferente.'
-  theory: Un aumento de la humedad reduce considerablemente la potencia entregada y la eficiencia de la
-    hélice.
+  theory: La humedad relativa también afecta la altitud de densidad, pero no se toma en consideración
+    cuando se formulan las tablas de performance.
 - id: k079
   source:
     key_item: 79
@@ -271,7 +260,6 @@
     sobre la que actuar, por lo que <b>la hélice ejerce menos tracción y su eficiencia se reduce</b>.
     La opción a es incorrecta porque la menor fricción no compensa la pérdida de tracción, y la c es incorrecta
     porque la fuerza de la hélice disminuye, no aumenta.
-  theory: La eficiencia de la hélice se reduce en aire menos denso.
 - id: k085
   source:
     key_item: 85
@@ -289,8 +277,6 @@
     sen 40° = 30 × 0,643 ≈ 19,3 → <b>19 nudos</b><br>En la Figura 37: radial de 40° con el arco de 30
     nudos → 19 nudos sobre el eje horizontal.<br>23 nudos es la componente de viento de frente y 30 nudos
     es la velocidad total del viento.'
-  theory: Componente de viento cruzado de 19 nudos; 23 nudos es la componente de frente y 30 nudos la
-    velocidad del viento.
 - id: k092
   source:
     key_item: 92
@@ -307,7 +293,6 @@
   explanation: 'Ángulo entre viento y pista = 220° − 180° = 40°<br>Componente de viento de frente = 30
     × cos 40° = 30 × 0,766 ≈ <b>23 nudos</b><br>En la Figura 37: radial de 40° con el arco de 30 nudos
     → 23 nudos sobre el eje vertical.<br>19 nudos es la componente de viento cruzado.'
-  theory: Componente de viento de frente de 23 nudos.
 - id: k100
   source:
     key_item: 100
@@ -327,7 +312,6 @@
     cruzada ÷ sen(ángulo).<br>25 ÷ sen 45° = 25 ÷ 0,707 ≈ 35,4 → <b>35 nudos</b><br>En la Figura 37, el
     radial de 45° corta la vertical de 25 nudos de viento cruzado entre los arcos de 30 y 40 nudos.<br>25
     nudos solo sería correcto con viento a 90° de la pista.
-  theory: 'La intersección queda entre los arcos de 30 y 40 nudos: 35 nudos.'
 - id: k112
   source:
     key_item: 112
@@ -344,7 +328,6 @@
   explanation: Velocidad máxima = componente cruzada máxima ÷ sen(ángulo)<br>12 ÷ sen 30° = 12 ÷ 0,5 =
     <b>24 nudos</b><br>En la Figura 37, la vertical de 12 nudos de viento cruzado corta el radial de 30°
     sobre el arco de ~24 nudos.<br>16 y 20 nudos darían componentes cruzadas de solo 8 y 10 nudos.
-  theory: Aproximadamente 24 nudos.
 - id: k122
   source:
     key_item: 122
@@ -362,7 +345,9 @@
     → 20 × 0,643 ≈ 12,9 nudos (dentro de 13)<br>Pista 6 (060°): 60° → 20 × 0,866 ≈ 17,3 nudos<br>Pista
     29 (290°): 70° → 20 × 0,940 ≈ 18,8 nudos<br>Solo la <b>Pista 32</b> queda dentro del límite de 13
     nudos.'
-  theory: Solo la pista 32 queda dentro de los límites.
+  theory: …los componentes aceptables de viento cruzado resultarán en cualquier momento en que el ángulo
+    de viento relativo es igual o menor a aproximadamente 40° (la intersección de la línea vertical de
+    13 nudos y el arco de viento de 20 nudos).
 - id: k126
   source:
     key_item: 126
@@ -382,7 +367,9 @@
     → 20 × 0,985 ≈ 19,7 nudos<br>Pista 24 (240°): 60° → 20 × 0,866 ≈ 17,3 nudos<br>Pista 14 (140°): 40°
     → 20 × 0,643 ≈ 12,9 nudos<br>Solo la <b>Pista 14</b> queda dentro del límite de 13 nudos (la Figura
     37 da las mismas lecturas).'
-  theory: La pista 14 forma 40° con el viento (aceptable hasta ~43°); la 10 forma 80° y la 24, 60°.
+  theory: …los componentes aceptables de viento cruzado resultarán en cualquier momento en que el ángulo
+    de viento relativo es igual o menor a aproximadamente 43° (la intersección de la línea vertical de
+    13 nudos y el arco de viento de 20 nudos).
 - id: k315
   source:
     key_item: 315

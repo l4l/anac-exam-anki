@@ -14,7 +14,9 @@
     dirección del viento relativo (flecha horizontal): eso es el <b>ángulo de ataque</b>. La incidencia
     es el ángulo entre la cuerda y el eje longitudinal del avión, y el diedro es el ángulo de las alas
     respecto de la horizontal vistas de frente; ninguno de los dos aparece en la figura.'
-  theory: El ángulo A es el ángulo de ataque; las opciones a) incidencia y c) diedro son incorrectas.
+  theory: La cuerda del ala es la línea recta imaginaria que pasa a través de la sección desde el borde
+    de ataque hasta el borde de fuga (ver figura 1-2). Cambiando la forma del perfil del ala, (bajando
+    el flaps, por ejemplo) se cambia la cuerda del ala…
 - id: k107
   source:
     key_item: 107
@@ -29,7 +31,6 @@
     El ángulo entre el eje longitudinal del avión y la cuerda del ala (opción c) es el ángulo de incidencia,
     fijado en la construcción. El ángulo entre la trayectoria de ascenso y el horizonte (opción b) no
     es el ángulo de ataque.
-  theory: Las opciones b) y c) son incorrectas; la c) corresponde al ángulo de incidencia.
 - id: k176
   source:
     key_item: 176
@@ -43,7 +44,6 @@
   explanation: El ángulo entre la cuerda del ala y el viento relativo se denomina <b>ángulo de ataque</b>.
     La incidencia se mide entre la cuerda y el eje longitudinal del avión, no respecto del viento relativo.
     La sustentación es una fuerza, no un ángulo.
-  theory: Las opciones a) sustentación y c) incidencia son incorrectas.
 - id: k225
   source:
     key_item: 225
@@ -57,8 +57,6 @@
   explanation: El ángulo de ataque es el ángulo formado entre la cuerda del ala y la <b>dirección del
     viento relativo</b>. El ángulo entre la cuerda y el eje longitudinal del avión (opción b) es el ángulo
     de incidencia.
-  theory: El ángulo de ataque es el ángulo comprendido entre la cuerda del ala y la dirección del viento
-    relativo.
 - id: k259
   source:
     key_item: 259
@@ -76,8 +74,6 @@
     una caída de presión sobre ella, lo que contribuye a la sustentación. La opción a) es la tercera ley
     de Newton (acción y reacción), y la b) describe la deflexión del aire hacia abajo, también asociada
     a Newton.
-  theory: 'Según Bernoulli, la presión disminuye donde aumenta la velocidad: el aire que se acelera sobre
-    la curvatura del extradós genera una zona de baja presión.'
 - id: k271
   source:
     key_item: 271
@@ -92,7 +88,8 @@
     (empuje) y resistencia</b>. La sustentación se opone al peso y la tracción se opone a la resistencia.
     Gravedad y peso son lo mismo, por eso la opción b) repite una fuerza; potencia y fricción no son las
     fuerzas básicas del vuelo.
-  theory: Las cuatro fuerzas básicas son sustentación, peso, tracción y resistencia.
+  theory: 'Varios factores están involucrados en la creación de sustentación: ángulo de ataque, área y
+    forma del ala, velocidad del aire y densidad del aire.'
 - id: k273
   source:
     key_item: 273
@@ -107,8 +104,6 @@
   explanation: 'En vuelo recto y nivelado no acelerado, las fuerzas opuestas están en equilibrio: <b>sustentación
     = peso</b> y <b>tracción = resistencia</b>. Si el empuje fuera mayor que la resistencia, el avión
     aceleraría; si la sustentación fuera mayor que el peso, ascendería.'
-  theory: 'La suma de las fuerzas opuestas es cero: la sustentación iguala al peso y la tracción iguala
-    a la resistencia.'
 - id: k281
   source:
     key_item: 281
@@ -123,8 +118,6 @@
     constante</b> (rumbo, altitud y velocidad estables). Si el avión acelera, hay un desequilibrio entre
     tracción y resistencia. Detenido en tierra no actúan la sustentación ni la tracción, así que no se
     trata del equilibrio de las cuatro fuerzas del vuelo.
-  theory: En vuelo a velocidad constante las fuerzas se encuentran en equilibrio; las opciones b) y c)
-    son incorrectas.
 - id: k286
   source:
     key_item: 286
@@ -139,8 +132,6 @@
   explanation: El <b>centro de presión</b> es el punto donde la resultante aerodinámica (combinación de
     sustentación y resistencia) corta la cuerda del ala. La opción b) define el ángulo de ataque y la
     c) el ángulo de incidencia.
-  theory: El punto de intersección de la resultante aerodinámica con la cuerda es el centro de presión;
-    las opciones b) y c) son incorrectas.
 - id: k037
   source:
     key_item: 37
@@ -153,7 +144,6 @@
   answer: a
   explanation: El timón de dirección controla el movimiento de <b>guiñada</b> (yaw), es decir, la rotación
     alrededor del eje vertical. El rolido se controla con los alerones, no con el timón de dirección.
-  theory: El propósito del timón de dirección es controlar la guiñada.
 - id: k048
   source:
     key_item: 48
@@ -168,7 +158,8 @@
     perturbación, por lo que <b>requiere poco esfuerzo para controlarlo</b>. La estabilidad no significa
     que sea difícil entrar en pérdida ni que no pueda entrar en tirabuzón: un avión estable puede entrar
     en pérdida y en tirabuzón.'
-  theory: Las opciones a) y c) son incorrectas.
+  theory: La estabilidad dinámica positiva es la tendencia de la aeronave a oscilar (con estabilidad estática
+    positiva) para retornar a su posición original en un tiempo relativo…
 - id: k052
   source:
     key_item: 52
@@ -183,7 +174,8 @@
     CG respecto del centro de presión</b>. Con el CG adelante del centro de presión, el avión tiende a
     bajar la nariz y la cola compensa, lo que lo hace estable. El estabilizador horizontal contribuye,
     pero lo que determina la estabilidad es la posición relativa del CG.
-  theory: La ubicación del CG con respecto al centro de presión determina la estabilidad longitudinal.
+  theory: …El CG atrasado da como resultado un momento no deseado de nariz arriba. El CG adelantado dará
+    un momento de nariz abajo cuando la potencia es reducida.
 - id: k059
   source:
     key_item: 59
@@ -201,7 +193,6 @@
     de profundidad y genera una fuerza hacia abajo en la cola. Al reducir potencia, esa corriente disminuye
     y el timón de profundidad pierde efectividad: la cola baja menos y la nariz cae. El CG no se desplaza
     al cambiar la potencia (opción a).'
-  theory: Las opciones a) y c) son incorrectas.
 - id: k069
   source:
     key_item: 69
@@ -217,8 +208,8 @@
     pierde estabilidad longitudinal: es <b>menos estable en todas las velocidades</b>. Además puede ser
     difícil o imposible recuperar una pérdida o un tirabuzón. El efecto no depende de la velocidad, por
     eso b) y c) son incorrectas.'
-  theory: Un CG atrasado hace al avión menos estable en todas las velocidades; las opciones b) y c) son
-    incorrectas.
+  theory: …El estar pesado de cola también causa que el comando sea más liviano, posibilitando que inadvertidamente
+    el piloto pueda exceder los esfuerzos sobre el avión (overstress).
 - id: k072
   source:
     key_item: 72
@@ -232,8 +223,8 @@
   explanation: El centro de presión se desplaza al variar el ángulo de ataque, lo que modifica los momentos
     de cabeceo respecto del CG. Por eso sus cambios afectan el <b>balance aerodinámico y la controlabilidad</b>
     del avión. No determinan por sí mismos la relación sustentación-resistencia ni la capacidad de sustentación.
-  theory: El desplazamiento del centro de presión afecta el balance aerodinámico y la controlabilidad;
-    las opciones a) y b) son incorrectas.
+  theory: El centro de presión en un perfil alar asimétrico se desplaza hacia adelante a medida que el
+    ángulo de ataque se incrementa y se desplaza hacia atrás a medida que el ángulo de ataque disminuye.
 - id: k078
   source:
     key_item: 78
@@ -247,7 +238,6 @@
   explanation: El <b>factor de carga</b> es la relación entre la sustentación (carga total soportada por
     las alas) y el peso del avión, y se expresa en G. En vuelo recto y nivelado vale 1; en un viraje nivelado
     aumenta. No se relaciona con la velocidad ni con la potencia disponible.
-  theory: El factor de carga es la relación entre la sustentación y el peso total del avión.
 - id: k084
   source:
     key_item: 84
@@ -264,7 +254,6 @@
   explanation: 'En un viraje nivelado la estructura debe soportar el peso multiplicado por el factor de
     carga (n = 1/cos de la inclinación).<br>Figura 2: a 60° de inclinación, n = 2,0<br>1100 kg × 2,0 =
     2200 kg<br>1100 kg sería la carga en vuelo recto y nivelado (n = 1).'
-  theory: Factor de carga de 2 G a 60°; 1100 × 2 = 2200 kg.
 - id: k091
   source:
     key_item: 91
@@ -279,10 +268,8 @@
   images:
   - ppa-figura-02.jpg
   explanation: 'Carga = peso × factor de carga.<br>Figura 2: a 30° de inclinación, n = 1,154<br>1540 kg
-    × 1,154 ≈ 1777 kg<br>Ninguna opción coincide exactamente; la más cercana es 1848 kg (equivale a usar
-    n ≈ 1,2). 1294 kg es menor que el peso, lo cual es imposible en un viraje, y 1588 kg queda muy por
-    debajo del resultado.'
-  theory: Factor de carga aproximado de 1,2; 1540 × 1,2 = 1848 kg.
+    × 1,154 ≈ 1777 kg<br>La opción 1848 kg equivale a usar n ≈ 1,2. 1294 kg es menor que el peso, lo cual
+    es imposible en un viraje, y 1588 kg queda muy por debajo del resultado.'
   note: 'El enunciado parece tener un error: 1540 kg × 1,154 = 1777 kg, que no coincide con ninguna opción.
     La clave espera la más cercana (1848 kg).'
 - id: k099
@@ -318,8 +305,6 @@
     antes de sobrecargarse. A alta velocidad, en cambio, una maniobra brusca o una ráfaga pueden superar
     el factor de carga límite (de ahí el concepto de velocidad de maniobra, Va). La posición del CG no
     fija esa capacidad.
-  theory: A baja velocidad la sustentación máxima es solo un poco mayor que el peso; a alta velocidad
-    la carga puede superar los límites estructurales. Las opciones a) y c) son incorrectas.
 - id: k121
   source:
     key_item: 121
@@ -334,7 +319,8 @@
   explanation: En un <b>viraje</b> nivelado la sustentación debe aumentar para que su componente vertical
     siga equilibrando el peso, y el factor de carga crece (n = 1/cos de la inclinación). En un ascenso
     estabilizado el factor de carga es prácticamente 1, y en la pérdida no aumenta por sí misma.
-  theory: Las opciones a) y c) son incorrectas.
+  theory: …la carga se incrementa momentáneamente cuando cambia el ángulo de ataque. Una vez que la actitud
+    de ascenso ha sido establecida, el ala soporta la carga equivalente al peso del avión.
 - id: k125
   source:
     key_item: 125
@@ -349,7 +335,6 @@
     (que sostiene el peso) y una <b>componente horizontal</b>, que es la fuerza centrípeta que hace girar
     al avión. La componente vertical no produce el giro, y la fuerza centrífuga es la reacción inercial
     que se opone a él.
-  theory: Las opciones b) y c) son incorrectas.
 - id: k132
   source:
     key_item: 132
@@ -364,7 +349,6 @@
     eso, al aumentar el factor de carga (por ejemplo en un viraje), el avión <b>entra en pérdida a una
     velocidad mayor</b>, aunque el ángulo de ataque crítico es el mismo. No implica necesariamente una
     tendencia al tirabuzón.
-  theory: La velocidad de pérdida aumenta con el factor de carga; las opciones b) y c) son incorrectas.
 - id: k148
   source:
     key_item: 148
@@ -378,7 +362,6 @@
   explanation: Las cuatro maniobras fundamentales de vuelo son <b>vuelo recto y nivelado, virajes, ascensos
     y descensos</b>; toda otra maniobra es una combinación de ellas. Puesta en marcha, rodaje, despegue
     y aterrizaje son fases de la operación, no maniobras fundamentales.
-  theory: 'Las cuatro maniobras fundamentales son: vuelo recto y nivelado, virajes, ascensos y descensos.'
 - id: k151
   source:
     key_item: 151
@@ -397,7 +380,6 @@
     deriva, con la nariz hacia el viento. Al entrar al tramo contra el viento (punto 4) y al salir de
     él (punto 1), esa corrección hace que el cambio de rumbo sea <b>menor a 90°</b>. En los puntos 2 y
     3, que están del lado del viento de cola, los virajes son mayores a 90°.
-  theory: El viraje es menor a 90° en los puntos 1 y 4.
 - id: k156
   source:
     key_item: 156
@@ -419,8 +401,6 @@
     e irla aumentando gradualmente. Si la inclinación se <b>incrementa rápidamente al comienzo</b>, el
     semicírculo resulta más chico y el viraje no se completa antes de llegar a la línea de referencia.
     Un aumento lento al final (opción c) agrandaría el arco en lugar de achicarlo.
-  theory: En el viraje 4-5-6 se debe comenzar con poca inclinación e incrementarla progresivamente; el
-    error es aumentarla demasiado rápido al principio.
 - id: k164
   source:
     key_item: 164
@@ -439,8 +419,8 @@
     la <b>velocidad respecto del suelo (ground speed) es mayor</b>. Por eso la carrera de aterrizaje es
     más larga y hay tendencia a sobrepasar el punto de toque elegido. La opción a) es incorrecta porque
     la velocidad indicada no cambia; la c), porque la carrera no se acorta.
-  theory: 'Con viento de cola: mayor velocidad terrestre, carrera más larga y probabilidad de sobrepasar
-    el punto de toque; las opciones a) y c) son incorrectas.'
+  theory: …la velocidad indicada será la misma, y el control en la ruptura de planeo será menor, debido
+    a la mayor velocidad terrestre.
 - id: k167
   source:
     key_item: 167
@@ -455,8 +435,8 @@
     dinámica. Por eso la <b>velocidad indicada de pérdida se mantiene igual</b> a cualquier altitud, aunque
     la velocidad verdadera de pérdida aumente con la altitud. Las opciones a) y b) mezclan velocidad verdadera
     e indicada de forma incorrecta.
-  theory: La velocidad indicada de pérdida se mantiene igual independientemente de la altitud; las opciones
-    a) y b) son incorrectas.
+  theory: …se deberá mantener la misma velocidad indicada durante la aproximación para aterrizar, independientemente
+    de la elevación o la altitud de densidad del aeropuerto o pista utilizada para aterrizar.
 - id: k172
   source:
     key_item: 172
@@ -470,7 +450,6 @@
   explanation: 'Para entrar en tirabuzón el avión debe <b>estar en pérdida</b>; luego, la guiñada hace
     que un ala quede en pérdida más profunda que la otra y se inicie la autorrotación. Una espiral escarpada
     no es una pérdida: en ella el ala sigue volando con velocidad creciente.'
-  theory: El avión debe estar en pérdida para entrar en tirabuzón; las opciones a) y b) son incorrectas.
 - id: k185
   source:
     key_item: 185
@@ -484,7 +463,6 @@
   explanation: En un tirabuzón <b>ambas alas están en pérdida</b>. El ala interna (en este caso la izquierda)
     está en pérdida más profunda que la externa, y esa diferencia mantiene la autorrotación. Por eso no
     es correcto decir que solo el ala izquierda está en pérdida.
-  theory: Ambas alas están en pérdida, una con menor profundidad que la otra.
 - id: k187
   source:
     key_item: 187
@@ -498,8 +476,9 @@
   explanation: El avión siempre entra en pérdida al mismo <b>ángulo de ataque crítico</b>, cualquiera
     sea el peso. Lo que cambia con el peso es la velocidad de pérdida (mayor peso, mayor velocidad de
     pérdida), no el ángulo. La posición del CG tampoco modifica el ángulo de ataque crítico.
-  theory: El avión siempre entra en pérdida al mismo ángulo de ataque, independientemente del CG o del
-    peso.
+  theory: Cuando el ángulo de ataque se incrementa entre 18° y 20° (ángulo de ataque crítico) en la mayoría
+    de los perfiles aerodinámicos, la corriente de aire no puede seguir la curva superior del ala debido
+    al excesivo cambio de dirección.
 - id: k194
   source:
     key_item: 194
@@ -513,7 +492,7 @@
   explanation: Los flaps aumentan la sustentación y, sobre todo en sus posiciones mayores, la resistencia.
     Esto permite <b>aumentar el ángulo de descenso sin aumentar la velocidad</b>. También permiten tocar
     a menor velocidad (no mayor, como dice la b), y no disminuyen el ángulo de descenso (opción a).
-  theory: Las opciones a) y b) son incorrectas.
+  theory: La extensión del flaps incrementa la curvatura del ala y el ángulo de ataque de la misma.
 - id: k195
   source:
     key_item: 195
@@ -527,8 +506,6 @@
   explanation: Al extender los flaps aumenta la resistencia, lo que permite realizar <b>aproximaciones
     más pronunciadas</b> sin que aumente la velocidad. Aliviar la presión sobre los controles es la función
     del compensador (trim), y los flaps no disminuyen el área del ala.
-  theory: Los flaps aumentan la resistencia y permiten una aproximación más pronunciada; las opciones
-    b) y c) son incorrectas.
 - id: k197
   source:
     key_item: 197
@@ -544,7 +521,8 @@
     vuelve a aumentar y el avión puede no ser capaz de ascender o incluso volver a apoyarse. El efecto
     suelo no dificulta el despegue ni provoca toques abruptos: al contrario, tiende a hacer flotar al
     avión.'
-  theory: El avión puede salir al aire antes de la velocidad recomendada; las opciones a) y c) son incorrectas.
+  theory: El efecto suelo ocurre volando a una altura equivalente al largo o menor de la envergadura del
+    ala.
 - id: k200
   source:
     key_item: 200
@@ -562,7 +540,10 @@
     de circulación del aire</b> alrededor del avión: se reducen la corriente ascendente, la descendente
     y los vórtices de punta de ala. Esto disminuye la resistencia inducida; no la aumenta, como dice la
     opción b).'
-  theory: La definición correcta es la a); las opciones b) y c) son incorrectas.
+  theory: Cuando el ala está a una altura igual a su envergadura, la reducción de la resistencia inducida
+    es sólo del 1.4%. Ahora bien, cuando el ala se encuentra a una altura igual a un cuarto de la envergadura,
+    esta reducción es de un 23,5 % y cuando el ala se encuentra a una altura equivalente a una décima
+    parte de la envergadura, la reducción de la resistencia inducida llega al 47,6%.
 - id: k201
   source:
     key_item: 201
@@ -578,7 +559,8 @@
   explanation: En efecto suelo la <b>resistencia inducida disminuye</b>, por lo que cualquier exceso de
     velocidad en la aproximación hace que el avión flote durante el aterrizaje. Los vórtices de punta
     de ala se reducen, no aumentan (opción a).
-  theory: Las opciones a) y c) son incorrectas.
+  theory: …el aterrizaje en pérdida total requerirá mayor deflexión del timón de profundidad debido al
+    incremento de sustentación por el efecto suelo.
 - id: k208
   source:
     key_item: 208
@@ -596,8 +578,8 @@
     y dejan de producirse cuando esta toca la pista. Por eso hay que mantenerse <b>por encima de su pendiente
     de planeo</b> y tocar <b>más allá</b> del punto donde aterrizó. Volar por debajo de su senda (opciones
     b y c) significa atravesar la estela.
-  theory: Mantenerse por encima de la trayectoria de la aeronave precedente y tocar más allá de su punto
-    de toque.
+  theory: La fuerza máxima de los vórtices ocurre cuando la aeronave que los genera está pesada, limpia
+    y volando lentamente.
 - id: k213
   source:
     key_item: 213
@@ -613,7 +595,9 @@
   explanation: Los vórtices de punta de ala <b>descienden</b> por debajo de la trayectoria de la aeronave
     que los genera. Un avión que vuele por debajo de esa trayectoria puede ser empujado hacia abajo o
     perder el control. Los vórtices no ascienden (opciones a y b).
-  theory: Los vórtices tienden a descender por debajo de la trayectoria de la aeronave que los genera.
+  theory: Pruebas de vuelo muestran que estos vórtices descienden a un promedio de 400 a 500 pies por
+    minuto y tienden a estabilizarse a una distancia de 900 pies por debajo de la trayectoria de la aeronave
+    que los está generando…
 - id: k219
   source:
     key_item: 219
@@ -628,7 +612,8 @@
   explanation: Un viento <b>suave de cola cruzado (¾ de cola)</b> puede trasladar el vórtice hacia adelante,
     a la zona de toque, y mantenerlo allí. Por eso es la condición que requiere máxima precaución. Un
     viento fuerte disipa rápidamente los vórtices, y un viento de frente los aleja de la zona de toque.
-  theory: Un viento suave de cola cruzado requiere la máxima precaución; las opciones a) y c) son incorrectas.
+  theory: Cerca del suelo, estos vórtices tienden a desplazarse lateralmente. El viento cruzado hará que
+    el vórtice del lado del viento se mantenga sobre la pista…
 - id: k232
   source:
     key_item: 232
@@ -644,8 +629,7 @@
     rotó y mantenerse <b>por encima de su trayectoria</b> y <b>del lado de donde viene el viento</b>.
     Los vórtices descienden y el viento los desplaza hacia el lado opuesto (sotavento). Volar por debajo
     de su trayectoria (opciones a y c) es entrar en la estela.
-  theory: Rotar antes que la aeronave de gran porte, mantenerse por encima de su trayectoria y desviarse
-    hacia el lado del viento.
+  theory: …se requiere autorización del control para desviar la trayectoria enfrentando el viento.
 - id: k001
   source:
     key_item: 1
@@ -810,8 +794,7 @@
     c: La velocidad de pérdida será igual a de crucero.
   answer: b
   explanation: La velocidad de pérdida aumenta en proporción a la <b>raíz cuadrada</b> del factor de carga
-    (el enunciado dice «cuadrado», pero la relación correcta es Vs × √n).<br>√4 = 2<br>Velocidad de pérdida
-    = 2 × normal → el doble.<br>Cuatro veces la normal (opción a) sería aplicar el factor de carga directamente,
-    sin la raíz.
+    (Vs × √n).<br>√4 = 2<br>Velocidad de pérdida = 2 × normal → el doble.<br>Cuatro veces la normal (opción
+    a) sería aplicar el factor de carga directamente, sin la raíz.
   note: El enunciado dice «cuadrado», pero la velocidad de pérdida aumenta con la raíz cuadrada del factor
     de carga.

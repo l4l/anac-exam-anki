@@ -13,8 +13,6 @@
     el tiempo transcurrido y el efecto del viento sobre la trayectoria, partiendo de una posición conocida.
     Basarse en la observación del terreno es navegación observada, y las radioayudas por sí solas corresponden
     a la radionavegación.
-  theory: La navegación basada en la observación del terreno es la navegación observada; las ayudas radioeléctricas
-    por sí solas no constituyen navegación estimada.
 - id: k106
   source:
     key_item: 106
@@ -29,8 +27,8 @@
     el altímetro, el reloj (tiempo) y el indicador de temperatura exterior (para corregir la velocidad
     y la altitud). La opción a) no sirve porque el giro direccional debe ajustarse con el compás, y el
     VOR y el ADF son radioayudas, no instrumental de navegación estimada.
-  theory: El giro direccional necesita del compás magnético para ajustarse; las ayudas electrónicas (VOR,
-    ADF) solo complementan la navegación estimada.
+  theory: …el giro direccional requiere del compás magnético, para el ajuste periódico de los errores
+    de precesión.
 - id: k179
   source:
     key_item: 179
@@ -43,7 +41,7 @@
   answer: b
   explanation: La carta aeronáutica conforme de Lambert usada en navegación visual tiene escala 1:1.000.000.<br>1
     cm en la carta = 1.000.000 cm reales = 10 km.
-  theory: En la carta conforme de Lambert, 1 cm equivale a 10 km.
+  theory: La Argentina publica la serie cartográfica a esta escala denominada CAA (Carta Aeronáutica Argentina)…
 - id: k222
   source:
     key_item: 222
@@ -56,7 +54,8 @@
   answer: c
   explanation: La milla náutica equivale a un minuto de arco de meridiano terrestre, es decir 1852 m.
     1609 m (aprox. 1600 m) corresponde a la milla terrestre.
-  theory: 1 minuto de arco = 1852 m = 1 milla náutica (NM).
+  theory: 'En consecuencia ¼ de meridiano, o sea 90°, mide 10.000.000 de metros. Un arco de meridiano
+    que abarque 1° medirá: 10.000.000 m dividido 90° = 111.111 m. Luego 1° mide 111.111 metros.'
 - id: k258
   source:
     key_item: 258
@@ -69,7 +68,6 @@
   answer: b
   explanation: La milla terrestre (statute mile, SM) equivale a 1609 m. 1852 m es la milla náutica, y
     1000 m es un kilómetro.
-  theory: La milla terrestre (SM) equivale a 1609 m.
 - id: k272
   source:
     key_item: 272
@@ -82,7 +80,6 @@
     c: 4 hs.
   answer: c
   explanation: Tiempo = Distancia / Velocidad terrestre (GS).<br>T = 480 NM / 120 kt = 4 h.
-  theory: Tiempo = Distancia / Velocidad terrestre.
 - id: k278
   source:
     key_item: 278
@@ -96,7 +93,6 @@
   answer: c
   explanation: Tiempo = Distancia / GS.<br>T = 236 NM / 139 kt = 1,698 h<br>0,698 h × 60 = 42 min → 1
     h 42 min.
-  theory: Tiempo = Distancia / Velocidad terrestre.
 - id: k285
   source:
     key_item: 285
@@ -110,7 +106,6 @@
   answer: c
   explanation: Tiempo = Distancia / GS.<br>T = 320 NM / 142 kt = 2,254 h<br>0,254 h × 60 ≈ 15 min → 2
     h 15 min.
-  theory: Tiempo = Distancia / Velocidad terrestre.
 - id: k290
   source:
     key_item: 290
@@ -123,7 +118,6 @@
     c: 09 minutos.
   answer: c
   explanation: Tiempo = Distancia / GS.<br>T = 21 NM / 140 kt = 0,15 h<br>0,15 h × 60 = 9 min.
-  theory: Tiempo = Distancia / Velocidad terrestre.
 - id: k043
   source:
     key_item: 43
@@ -137,7 +131,6 @@
   answer: b
   explanation: A igual velocidad, el tiempo es proporcional a la distancia.<br>T = 123 NM / 205 NM × 46
     min<br>T = 0,6 × 46 = 27,6 min → la opción más cercana es 27 minutos.
-  theory: A velocidad constante, tiempo y distancia son proporcionales (regla de tres simple).
 - id: k049
   source:
     key_item: 49
@@ -150,7 +143,6 @@
   answer: b
   explanation: Distancia = GS × Tiempo.<br>1 h 30 min = 1,5 h<br>D = 130 kt × 1,5 h = 195 NM.<br>La opción
     c) está en km, pero al trabajar en nudos el resultado sale en millas náuticas.
-  theory: Distancia = Tiempo × Velocidad terrestre.
 - id: k056
   source:
     key_item: 56
@@ -163,7 +155,6 @@
   answer: b
   explanation: Distancia = GS × Tiempo.<br>1 h 45 min = 1,75 h<br>D = 83 kt × 1,75 h = 145,25 NM → 145
     millas náuticas.<br>Como la velocidad está en nudos, el resultado es en millas náuticas, no terrestres.
-  theory: Distancia = Tiempo × Velocidad terrestre.
 - id: k060
   source:
     key_item: 60
@@ -177,7 +168,6 @@
   answer: b
   explanation: Distancia = GS × Tiempo.<br>2 h 15 min = 2,25 h<br>D = 138 kt × 2,25 h = 310,5 NM → 310
     millas náuticas.
-  theory: Distancia = Tiempo × Velocidad terrestre.
 - id: c8-14
   source:
     chapter_question: '8.14'
@@ -188,7 +178,6 @@
     c: 266 KM.
   answer: a
   explanation: GS = Distancia / Tiempo.<br>40 min = 0,667 h<br>GS = 96 NM / 0,667 h = 144 kt.
-  theory: Velocidad terrestre = Distancia / Tiempo.
 - id: k076
   source:
     key_item: 76
@@ -202,7 +191,6 @@
   answer: c
   explanation: GS = Distancia / Tiempo.<br>7 NM en 4 min → 7 / 4 = 1,75 NM por minuto<br>1,75 × 60 = 105
     kt.
-  theory: Velocidad terrestre = Distancia / Tiempo.
 - id: c8-16
   source:
     chapter_question: '8.16'
@@ -214,7 +202,6 @@
   answer: c
   explanation: GS = Distancia / Tiempo.<br>45 s = 45 / 3600 h = 0,0125 h<br>GS = 6 NM / 0,0125 h = 480
     kt.
-  theory: Velocidad terrestre = Distancia / Tiempo.
 - id: k087
   source:
     key_item: 87
@@ -228,7 +215,6 @@
   answer: b
   explanation: Combustible = Consumo horario × Tiempo.<br>2 h 20 min = 2,333 h<br>23 L/h × 2,333 h = 53,7
     L → 54 litros.
-  theory: Combustible necesario = Consumo horario × Tiempo de vuelo.
 - id: k090
   source:
     key_item: 90
@@ -241,7 +227,8 @@
   answer: b
   explanation: Consumo horario = Combustible / Tiempo.<br>30 L / 111 min = 0,27 L/min<br>0,27 × 60 = 16,2
     litros por hora.
-  theory: Consumo horario = Combustible consumido / Tiempo de vuelo.
+  theory: El piloto debe conocer el consumo aproximado de acuerdo a los gráficos de rendimiento de crucero
+    del avión que está volando o de la experiencia obtenida en esa aeronave.
 - id: k102
   source:
     key_item: 102
@@ -255,7 +242,6 @@
   answer: b
   explanation: Primero se obtiene el consumo y luego la autonomía con el remanente.<br>Consumo = 40 L
     / 135 min = 0,296 L/min<br>Autonomía = 25 L / 0,296 L/min = 84,4 min<br>84 min = 1 h 24 min.
-  theory: Autonomía = Combustible remanente / Consumo.
 - id: k114
   source:
     key_item: 114
@@ -270,7 +256,6 @@
   explanation: Tiempo = 500 km / 160 km/h = 3,125 h<br>Combustible = 3,125 h × 22 L/h = 68,75 L → 69 litros<br>A
     ese valor siempre debe sumarse la reserva reglamentaria. La opción c) no sirve porque nunca se planifica
     un vuelo sin reserva.
-  theory: Combustible = Tiempo de vuelo × Consumo horario, más la reserva reglamentaria.
 - id: c8-21
   source:
     chapter_question: '8.21'
@@ -281,7 +266,6 @@
     c: 50 MPH.
   answer: b
   explanation: 1 nudo ≈ 1,15 MPH (1852 m / 1609 m).<br>45 kt × 1,15 = 51,8 MPH → 52 MPH.
-  theory: Para pasar de millas náuticas a millas terrestres se multiplica por 1,16 aproximadamente.
 - id: c8-22
   source:
     chapter_question: '8.22'
@@ -292,7 +276,6 @@
     c: 46 MPH
   answer: c
   explanation: 1 nudo ≈ 1,15 MPH (1852 m / 1609 m).<br>40 kt × 1,15 = 46 MPH.
-  theory: Para pasar de millas náuticas a millas terrestres se multiplica por 1,16 aproximadamente.
 - id: k129
   source:
     key_item: 129
@@ -304,7 +287,6 @@
     c: 70 nudos.
   answer: b
   explanation: 1 nudo = 1,852 km/h, por lo tanto se divide.<br>135 km/h / 1,852 = 72,9 kt → 73 nudos.
-  theory: Para pasar de km/h a nudos se divide por 1,85.
 - id: k144
   source:
     key_item: 144
@@ -316,7 +298,6 @@
     c: 1176 Km/h.
   answer: a
   explanation: 1 nudo = 1,852 km/h, por lo tanto se multiplica.<br>88 kt × 1,852 = 163 km/h.
-  theory: Para pasar de nudos a km/h se multiplica por 1,85.
 - id: k150
   source:
     key_item: 150
@@ -330,7 +311,6 @@
   explanation: Los meridianos van de polo a polo (norte-sur) y cortan al Ecuador en ángulo recto (90°).
     Los paralelos, no los meridianos, son los que corren paralelos al Ecuador, y por Greenwich pasa el
     meridiano de 0° de longitud, no de latitud (la latitud 0° es el Ecuador).
-  theory: Los meridianos cortan al Ecuador a 90°.
 - id: c8-26
   source:
     chapter_question: '8.26'
@@ -343,7 +323,8 @@
   explanation: Por su posición geográfica (aproximadamente entre 53° y 73° de longitud oeste), la Argentina
     está en el huso horario N° 4 oeste, centrado en el meridiano de 60° W. La hora oficial que se usa
     (UTC-3) corresponde al huso 3, pero la pregunta se refiere a la ubicación geográfica.
-  theory: La República Argentina se encuentra en el huso horario N° 4 al oeste de Greenwich.
+  theory: Hay establecidas 24 zonas de tiempo, cada una con un ancho de 15° de longitud, con la primera
+    zona centrada en el meridiano de Greenwich.
 - id: k163
   source:
     key_item: 163
@@ -357,7 +338,9 @@
   answer: c
   explanation: La declinación (variación) este se resta y la oeste se suma ("este se resta, oeste se suma").<br>Curso
     magnético = 041° − 5° E = 036°.
-  theory: La declinación este se resta al curso verdadero para obtener el curso magnético.
+  theory: Cuando la aguja de la brújula apunta hacia el Este del Norte verdadero se dice que la declinación
+    es Este; cuando apunta hacia el oeste del Norte verdadero se dice que la declinación es Oeste. Todas
+    las cartas aeronáuticas indican estos datos por medio de líneas punteadas llamadas isogónicas.
 - id: k166
   source:
     key_item: 166
@@ -371,8 +354,8 @@
   explanation: El desvío del compás es el error causado por los campos magnéticos propios de la aeronave
     (equipos eléctricos, radios, partes metálicas en la cabina). El error debido al magnetismo terrestre
     es la declinación, no el desvío.
-  theory: El error por el magnetismo terrestre es la declinación; el desvío lo producen los campos magnéticos
-    de la propia aeronave.
+  theory: Este desvío se encuentra disponible para información del piloto en una cartilla de corrección
+    colocada cerca del compás.
 - id: k174
   source:
     key_item: 174
@@ -387,7 +370,6 @@
   explanation: La dirección de intención del vuelo, medida en sentido horario desde el norte verdadero,
     es el curso verdadero (la línea trazada en la carta). El rumbo, en cambio, es hacia dónde apunta la
     nariz del avión, y ya incluye la corrección por viento.
-  theory: El curso trazado en la carta con referencia al norte verdadero es el curso verdadero (CV).
 - id: k184
   source:
     key_item: 184
@@ -400,8 +382,6 @@
   answer: b
   explanation: Curso verdadero ± declinación = curso magnético. El curso compás se obtiene recién al aplicar
     además el desvío del compás, y el rumbo compás incluye también la corrección por viento.
-  theory: El curso compás es el curso magnético corregido por desvío; el rumbo compás incluye además la
-    corrección por viento.
 - id: k190
   source:
     key_item: 190
@@ -415,7 +395,6 @@
   explanation: El viento se informa siempre desde la dirección de donde sopla. Una masa de aire que se
     desplaza de sur a norte viene del sur, por lo que se reporta 180/25. 360/25 sería un viento que viene
     del norte.
-  theory: El viento se informa según la dirección desde la cual sopla.
 - id: k192
   source:
     key_item: 192
@@ -491,7 +470,6 @@
     al sur de la línea 300°-120° que pasa por la estación. La aguja está deflectada totalmente a la izquierda,
     lo que indica que el avión está a la derecha (al este) del curso 030°, aproximadamente sobre los radiales
     120°-200°. Por eso se encuentra al sur de la estación; el norte queda descartado por la bandera TO.'
-  theory: Con OBS en 030° y bandera TO, el avión se encuentra al sur de la estación.
 - id: k206
   source:
     key_item: 206
@@ -508,7 +486,9 @@
   explanation: 'En la ilustración 8 el OBS está en 210°, la aguja centrada y la bandera indica TO. Con
     TO, el avión está sobre el radial recíproco del curso seleccionado: 210° − 180° = radial 030°. El
     210° sería el radial si la bandera indicara FROM.'
-  theory: 'OBS 210° con bandera TO y aguja centrada: avión sobre el radial 030°.'
+  theory: La indicación TO (hacia) muestra que el radial selectado está del otro lado del VOR, mientras
+    que la indicación FROM (desde) significa que tanto el radial como la aeronave se encuentran del mismo
+    lado.
 - id: k211
   source:
     key_item: 211
@@ -525,7 +505,9 @@
   explanation: 'En la ilustración 2 el OBS está en 030°, la aguja centrada y la bandera indica FROM. Con
     FROM, el avión está sobre el mismo radial seleccionado: radial 030°. El radial 210° correspondería
     a la bandera TO.'
-  theory: 'OBS 030° con bandera FROM y aguja centrada: avión sobre el radial 030°.'
+  theory: La indicación TO (hacia) muestra que el radial selectado está del otro lado del VOR, mientras
+    que la indicación FROM (desde) significa que tanto el radial como la aeronave se encuentran del mismo
+    lado.
 - id: k217
   source:
     key_item: 217
@@ -542,7 +524,9 @@
   explanation: 'En la ilustración 5 el OBS está en 030°, la aguja centrada y la bandera indica TO. Con
     TO, el avión está sobre el radial recíproco: 030° + 180° = radial 210°. El radial 030° correspondería
     a la bandera FROM.'
-  theory: 'OBS 030° con bandera TO y aguja centrada: avión sobre el radial 210°.'
+  theory: La indicación TO (hacia) muestra que el radial selectado está del otro lado del VOR, mientras
+    que la indicación FROM (desde) significa que tanto el radial como la aeronave se encuentran del mismo
+    lado.
 - id: k230
   source:
     key_item: 230
@@ -558,7 +542,9 @@
   explanation: 'En la ilustración 1 la rosa del ADF está ajustada al rumbo (aprox. 330° bajo el índice
     superior), así que la cabeza de la aguja indica directamente la marcación magnética a la estación:
     210°. El 030° es lo que indica la cola de la aguja (marcación desde la estación).'
-  theory: 'La cabeza de la aguja indica la marcación magnética a la estación: 210°.'
+  theory: La dirección que el avión debe volar para arribar a la estación selectada es la marcación magnética,
+    llamada también QDM (en el código Q). La marcación magnética o QDM puede ser leída directamente cuando
+    se utiliza un RMI.
 - id: k234
   source:
     key_item: 234
@@ -575,7 +561,6 @@
   explanation: 'En la ilustración 2 la rosa está ajustada al rumbo y la cabeza de la aguja señala aproximadamente
     190°: esa es la marcación magnética para volar hacia la estación. El 010° es la cola de la aguja,
     es decir la marcación desde la estación.'
-  theory: La marcación magnética a la estación es 190°.
 - id: k238
   source:
     key_item: 238
@@ -593,7 +578,9 @@
     la estación, al este del curso de acercamiento 180°.<br>Para interceptar con 40°: 180° + 40° = rumbo
     220°.<br>Un rumbo de 160° alejaría al avión del curso, y 040° lo llevaría en dirección opuesta a la
     estación.'
-  theory: Solo el rumbo 220° permite interceptar la marcación 180° hacia la estación.
+  theory: Observe si la estación queda a la derecha o a la izquierda de la nariz del avión y determine
+    la cantidad de grados de dicha deflexión. En este ejemplo, la aguja del ADF apunta 20° a la derecha
+    del avión. Duplicando este valor, 40°, se obtiene el ángulo de interceptación.
 - id: k240
   source:
     key_item: 240
@@ -609,7 +596,7 @@
   explanation: En la ilustración 3 el rumbo es 270° y la cabeza de la aguja indica aproximadamente 295°
     (marcación hacia la estación). La cola de la aguja indica el recíproco:<br>295° − 180° = 115°, la
     marcación magnética desde la estación.
-  theory: 'La cola de la aguja indica la marcación magnética desde la estación: 115°.'
+  theory: …la marcación desde la estación (115° en este caso), puede leerse en la cola de la aguja (QDR).
 - id: k243
   source:
     key_item: 243
@@ -628,7 +615,6 @@
     la ilustración 4 el rumbo es aprox. 210° y la aguja señala aprox. 190°-200°, a la izquierda del índice:
     avión en curso con corrección a la derecha. En las ilustraciones 1 y 2 la estación está muy lejos
     de la nariz.'
-  theory: En la ilustración 4 la estación aparece a la izquierda de la nariz.
 - id: k246
   source:
     key_item: 246
@@ -645,7 +631,6 @@
     relativa. En la ilustración 1 la cabeza apunta hacia arriba a la izquierda, sobre 315°, por lo que
     la marcación relativa es 315°. El 135° (aprox.) es la cola, y 045° sería si la estación estuviera
     a la derecha de la nariz.
-  theory: La marcación relativa a la estación es 315°.
 - id: k248
   source:
     key_item: 248
@@ -663,7 +648,6 @@
     relativa 225°.<br>Marcación magnética = Rumbo magnético + Marcación relativa<br>320° + 225° = 545°<br>545°
     − 360° = 185°.<br>El 005° es el recíproco (marcación desde la estación) y 225° es solo la marcación
     relativa.'
-  theory: 320° + 225° − 360° = 185°.
 - id: k250
   source:
     key_item: 250
@@ -680,7 +664,6 @@
   explanation: 'En la ilustración 6 la cabeza de la aguja apunta hacia arriba a la derecha: marcación
     relativa 045°.<br>Marcación magnética = Rumbo magnético + Marcación relativa<br>120° + 045° = 165°.<br>El
     045° es solo la marcación relativa, no la magnética.'
-  theory: 120° + 045° = 165°.
 - id: k252
   source:
     key_item: 252
@@ -693,7 +676,8 @@
   answer: c
   explanation: La constelación básica del GPS está formada por 24 satélites distribuidos en 6 planos orbitales,
     lo que garantiza cobertura en todo el planeta.
-  theory: El sistema GPS está compuesto por 24 satélites.
+  theory: Este sistema satelital permite utilizar una muy precisa información para la navegación y puede
+    ser utilizada simultáneamente por un ilimitado número de usuarios que tengan el equipamiento apropiado.
 - id: k257
   source:
     key_item: 257
@@ -707,7 +691,6 @@
   explanation: Gracias a la distribución de los 24 satélites, desde cualquier punto de la Tierra se observan
     como mínimo 5 satélites. Con 4 alcanza para obtener posición tridimensional, pero el mínimo visible
     garantizado es 5.
-  theory: En cualquier parte de la Tierra se observan como mínimo cinco satélites.
 - id: k265
   source:
     key_item: 265
@@ -722,7 +705,6 @@
   explanation: Para una posición tridimensional (latitud, longitud y altitud) más la corrección de tiempo
     hay cuatro incógnitas, por lo que se necesitan al menos 4 satélites. Con 3 solo se obtiene una posición
     bidimensional.
-  theory: Se requieren como mínimo 4 satélites.
 - id: k004
   source:
     key_item: 4

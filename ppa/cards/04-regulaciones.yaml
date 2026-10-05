@@ -11,8 +11,9 @@
   explanation: Se considera <b>noche</b> el tiempo comprendido entre el fin del crepúsculo civil vespertino
     y el comienzo del crepúsculo civil matutino. No se cuenta desde la puesta del sol (opción a), porque
     durante el crepúsculo civil todavía hay luz suficiente, ni existe una regla de 1,5 horas (opción b).
-  theory: 'Noche: tiempo comprendido entre el fin del crepúsculo civil vespertino y el comienzo del crepúsculo
-    civil matutino.'
+  theory: …o cualquier otro período entre la puesta y la salida del sol que especifique la autoridad correspondiente.
+    La respuesta a) es incorrecta porque se refiere al tiempo en que se requiere el uso de las luces de
+    posición reglamentarias.
 - id: k105
   source:
     key_item: 105
@@ -27,8 +28,9 @@
     en doble comando</b> antes de su primer vuelo solo. Las 30 horas corresponden al total de doble comando
     exigido para la licencia, y las 25 horas se relacionan con el transporte de pasajeros, no con el vuelo
     solo.
-  theory: El alumno debe acreditar no menos de 8 horas de vuelo en doble comando previo al primer vuelo
-    solo.
+  theory: Para la obtención de la licencia de Piloto Privado de Avión todo solicitante deberá haber completado
+    por lo menos 40 horas de vuelo en instrucción, que deberán incluir 10 horas de vuelo solo local, bajo
+    supervisión y control del Instructor de Vuelo…
 - id: k177
   source:
     key_item: 177
@@ -43,8 +45,8 @@
     piloto al mando</b> (más una evaluación con instructor) antes de poder transportar pasajeros. La opción
     b es la que corresponde a ese requisito; 40 horas es el mínimo total para obtener la licencia y 10
     horas solo no habilitan a llevar pasajeros.
-  theory: Para transportar pasajeros se requieren 25 horas como piloto al mando a partir de la obtención
-    de la licencia; las opciones a) y c) son incorrectas.
+  theory: …se haya sometido a una evaluación mínima de una hora de vuelo con 3 aterrizajes, por un Instructor
+    de Vuelo, quien dejará constancia en el Libro de Vuelo del piloto…
   note: El requisito es 25 h como piloto al mando desde la obtención de la licencia; la redacción de la
     opción es imprecisa.
 - id: k223
@@ -62,7 +64,6 @@
     de vuelo debe ser readaptado por un Instructor de Vuelo (vuelo de readaptación de aproximadamente
     1 hora y 5 aterrizajes). Por lo tanto, puede estar hasta 30 días sin volar sin necesitar readaptación;
     90 o 180 días exceden ese límite.
-  theory: Más de 30 días sin actividad de vuelo requiere readaptación por un Instructor de Vuelo.
   status: outdated
   official_key: a
   note: Bajo la RAAC 61 vigente (2026) ya no existe la readaptación a los 30 días; la experiencia reciente
@@ -81,7 +82,9 @@
   explanation: Según la RAAC 91.156, para operar VFR en un aeródromo controlado se requiere una <b>visibilidad
     en tierra de 5 km</b> y un techo de nubes de 1000 pies. Los 1500 m y 3000 m son valores inferiores
     al mínimo exigido.
-  theory: Visibilidad 5 km y techo de nubes 1000 pies.
+  theory: Excepto que la Autoridad Aeronáutica competente haya establecido mínimas más restrictivas para
+    un aeródromo determinado, las mínimas meteorológicas VFR de un aeródromo controlado y en la zona de
+    tránsito del aeródromo son…
 - id: k268
   source:
     key_item: 268
@@ -99,7 +102,6 @@
     de control</b> los mínimos VFR son <b>2500 m de visibilidad y 1000 pies de techo</b>. Los 5 km y 1000
     pies corresponden a aeródromos controlados o dentro de una zona de control, y los 8 km a vuelo VFR
     en ruta.
-  theory: Visibilidad 2500 m y techo de nubes 1000 pies; las opciones a) y b) son incorrectas.
 - id: c4-07
   source:
     chapter_question: '4.7'
@@ -114,7 +116,6 @@
     correspondiente para vuelo VFR en espacio aéreo controlado</b>, además de llevar el equipamiento requerido
     y notificarse en la oficina ARO. La comunicación con la torre o la presentación del plan de vuelo
     son requisitos operativos, pero no reemplazan la habilitación exigida al piloto.
-  theory: El piloto debe poseer la habilitación correspondiente para vuelo VFR en espacio aéreo controlado.
 - id: k284
   source:
     key_item: 284
@@ -127,7 +128,8 @@
   answer: c
   explanation: Todo cambio de domicilio respecto al declarado debe informarse a la Autoridad Aeronáutica
     <b>dentro de los 30 días</b> de producido. No es optativo, y el plazo no es de 60 días.
-  theory: El cambio de domicilio debe informarse dentro de los 30 días de producido.
+  theory: …tiene la obligación de informar personalmente o por correo, dentro de los 30 días de producido
+    este hecho, a la Dirección Nacional de Seguridad Operacional.
   status: outdated
   official_key: c
   note: La RAAC 61 vigente (61.160) exige actualizar el domicilio en el legajo pero ya no fija el plazo
@@ -144,7 +146,6 @@
   explanation: El <b>piloto al mando (Comandante)</b> es la autoridad final en todo lo relacionado con
     la operación de la aeronave mientras está a su cargo. La ANAC dicta las normas y el fabricante define
     las limitaciones, pero la decisión final durante la operación es del piloto al mando.
-  theory: El Comandante tendrá autoridad en todo lo relacionado con la aeronave.
 - id: k042
   source:
     key_item: 42
@@ -164,8 +165,8 @@
     El informe escrito solo se presenta <b>si lo requiere la Autoridad Aeronáutica</b>, por lo que la
     opción a, con un informe obligatorio dentro de las 24 h, es incorrecta. Tampoco hace falta autorización
     previa (opción c).
-  theory: El piloto al mando podrá apartarse de las normas por razones de seguridad que exijan medidas
-    inmediatas; el informe escrito se presenta solo si lo requiere la Autoridad Aeronáutica.
+  theory: El Comandante al mando, manipule o no los comandos, será responsable de que la operación de
+    ésta se realice de acuerdo con las presentes Regulaciones…
 - id: c4-11
   source:
     chapter_question: '4.11'
@@ -179,7 +180,8 @@
   explanation: Según la RAAC 91.3 b), el piloto que se apartó de la Parte 91 durante una emergencia debe
     presentar un informe escrito <b>cuando lo requiera la Autoridad Aeronáutica</b>. No hay un plazo fijo
     de 7 o 10 días.
-  theory: Presentar informe escrito si así lo requiere la Autoridad Aeronáutica.
+  theory: Cuando se utiliza este privilegio de emergencia, se debe notificar lo antes posible a la dependencia
+    de los servicios de tránsito aéreo correspondiente…
 - id: k061
   source:
     key_item: 61
@@ -197,8 +199,9 @@
     certificado de aptitud psicofisiológica, documento de identidad, libro de vuelo actualizado y autorización
     del propietario o explotador</b> para actuar como comandante. La opción c pide el certificado de propiedad
     en lugar de la autorización, y la opción a una certificación de horas que no se exige.'
-  theory: 'La norma enumera cinco documentos: licencia, habilitación psicofisiológica, documento de identidad,
-    libro de vuelo actualizado y autorización del propietario; las opciones a) y c) son incorrectas.'
+  theory: La respuesta a) es incorrecta porque las horas de vuelo deben constar en el correspondiente
+    libro de vuelo actualizado. La respuesta c) es incorrecta porque la pregunta se refiere a la documentación
+    del tripulante.
 - id: k065
   source:
     key_item: 65
@@ -214,8 +217,10 @@
     disponible</b> concerniente al vuelo (meteorología, combustible, alternativas, longitudes de pista,
     performance, etc.). Revisar historiales o procedimientos de estela turbulenta pueden formar parte
     de esa preparación, pero no es la acción específicamente requerida por la norma.
-  theory: Antes de iniciar un vuelo, el piloto al mando deberá familiarizarse con toda la información
-    disponible concerniente al mismo.
+  theory: 'Dicha información puede obtenerse concurriendo a las oficinas ARO-AIS de los aeródromos. Las
+    medidas previas para aquellos vuelos que no se limiten a las inmediaciones de un aeródromo y para
+    todos los vuelos IFR, incluirán entre otras cosas: el estudio minucioso de los informes y pronósticos
+    meteorológicos de actualidad que se dispongan…'
 - id: k071
   source:
     key_item: 71
@@ -233,8 +238,9 @@
     al punto de aterrizaje previsto y luego volar un <b>30% adicional del tiempo de vuelo, nunca inferior
     a 45 minutos</b>. Por eso la opción c es correcta; los 30 minutos de la opción b corresponden a la
     norma diurna de la FAA, no a la RAAC.
-  theory: Combustible para volar al destino y prolongar el vuelo un 30% del tiempo previsto, nunca inferior
-    a 45 minutos.
+  theory: Si se han establecido aeródromos alternativos, se deberá llevar combustible y lubricante suficientes
+    para volar hasta el aeródromo de aterrizaje propuesto y desde allí, al alternativo más lejano con
+    45 minutos más de autonomía a la velocidad de crucero.
 - id: k080
   source:
     key_item: 80
@@ -252,8 +258,9 @@
     seguridad y el arnés de hombro durante el despegue y el aterrizaje</b>. En ruta solo se exige el cinturón
     de seguridad mientras se está en el puesto; el arnés no es obligatorio durante toda la operación.
     Como la pregunta se refiere a ambos elementos juntos, la respuesta es despegues y aterrizajes.
-  theory: Cinturón colocado durante despegue, aterrizaje y en ruta; arnés de hombro durante despegue y
-    aterrizaje. El requisito combinado corresponde a despegue y aterrizaje.
+  theory: 'Este párrafo no se aplica si: (1) el asiento asignado del tripulante no está equipado con un
+    arnés de hombro o: (2) el miembro de la tripulación no sería capaz de desarrollar las obligaciones
+    requeridas con el arnés de hombro abrochado y ajustado.'
 - id: k086
   source:
     key_item: 86
@@ -272,8 +279,6 @@
     y desabrochar el cinturón</b> y notificado de que debe usarlo durante el <b>rodaje, el despegue y
     el aterrizaje</b>. No existe obligación de llevarlo colocado permanentemente (opción a), y el piloto
     sí tiene responsabilidad al respecto (opción c).
-  theory: Cada pasajero debe ser instruido sobre cómo abrochar y desabrochar el cinturón, cuyo uso es
-    requerido durante el movimiento en superficie, el despegue y el aterrizaje.
 - id: k093
   source:
     key_item: 93
@@ -290,7 +295,10 @@
   explanation: Según la RAAC 91.106, los pasajeros deben tener el cinturón abrochado durante el <b>movimiento
     en superficie (rodaje), el despegue y el aterrizaje</b>. La norma no exige usarlo durante todo el
     vuelo; en turbulencia es una recomendación prudente, pero no es una de las fases que define la regla.
-  theory: Uso del cinturón requerido durante el movimiento en superficie, el despegue y el aterrizaje.
+  theory: Ningún piloto puede iniciar el movimiento en la superficie, el despegue o el aterrizaje de una
+    aeronave civil matriculada en la República Argentina (a excepción de un globo libre que posea una
+    canasta o góndola o un dirigible que haya obtenido su Certificado Tipo original antes del 02 de noviembre
+    de 1987)…
 - id: k098
   source:
     key_item: 98
@@ -305,7 +313,8 @@
   explanation: Cuando dos aeronaves de la misma categoría convergen a niveles aproximadamente iguales,
     <b>la que tiene a la otra a su derecha cede el paso</b>. La velocidad no otorga prioridad, y el viraje
     de ambas por su derecha corresponde al encuentro de frente, no al de rumbos convergentes.
-  theory: La aeronave que tenga a la otra a su derecha cederá el paso.
+  theory: '…con las siguientes excepciones: (1) Los aerodinos propulsados mecánicamente, cederán el paso
+    a los dirigibles, planeadores, aerodeslizadores y globos.'
 - id: k110
   source:
     key_item: 110
@@ -320,7 +329,7 @@
   explanation: Según la RAAC 91.113, cuando dos aeronaves se aproximan de frente o casi de frente, <b>ambas
     alteran su rumbo hacia la derecha</b>. Girar a la izquierda aumentaría el riesgo de colisión, y la
     regla no se basa en ascender o descender según niveles.
-  theory: Ambas aeronaves alterarán su rumbo hacia su derecha.
+  theory: …ambas aeronaves alterarán su rumbo hacia su derecha, dejando entre ambas por lo menos 150 metros.
 - id: k119
   source:
     key_item: 119
@@ -334,8 +343,10 @@
   explanation: La aeronave que alcanza a otra debe mantenerse apartada <b>virando hacia su derecha</b>,
     ya sea que esté ascendiendo, descendiendo o en vuelo nivelado. Las opciones a y b son incorrectas
     porque la regla no indica pasar por arriba o por abajo a 150 metros.
-  theory: La aeronave que alcanza siempre se aparta virando hacia su derecha; las opciones a) y b) son
-    incorrectas.
+  theory: Se denomina aeronave que alcanza la que se aproxima a otra por detrás, siguiendo una línea que
+    forme un ángulo menor de 70° con el plano de simetría de la que va adelante, es decir, que está en
+    tal posición con respecto a la otra aeronave que de noche, no podría ver ninguna de sus luces delanteras
+    de navegación.
 - id: k123
   source:
     key_item: 123
@@ -352,8 +363,10 @@
     deben ceder el paso a las que <b>van remolcando otras aeronaves u objetos</b>. El dirigible tiene
     prioridad sobre el giroplano, pero la aeronave que remolca un planeador tiene prioridad sobre ambos,
     por lo que la correcta es la c.
-  theory: Las aeronaves propulsadas mecánicamente cederán el paso a las que vayan remolcando a otras aeronaves
-    u objetos.
+  theory: (1) Los aerodinos propulsados mecánicamente, cederán el paso a los dirigibles, planeadores,
+    aerodeslizadores y globos. (2) Los dirigibles cederán el paso a los planeadores, aerodeslizadores
+    y globos. (3) Los planeadores cederán el paso a los aerodeslizadores y globos. (4) Los aerodeslizadores
+    cederán el paso a los globos.
 - id: k131
   source:
     key_item: 131
@@ -368,7 +381,7 @@
   explanation: 'En una aproximación de frente rige la regla general: <b>ambas aeronaves alteran su rumbo
     hacia la derecha</b>, sin importar que una sea planeador. La prioridad del planeador aplica a rumbos
     convergentes, no a un encuentro de frente, y girar a la izquierda es incorrecto.'
-  theory: 'Aproximación de frente: ambas aeronaves alterarán su rumbo hacia la derecha.'
+  theory: …ambas aeronaves alterarán su rumbo hacia su derecha, dejando entre ambas por lo menos 150 metros.
 - id: c4-24
   source:
     chapter_question: '4.24'
@@ -385,8 +398,10 @@
     de motor que obligue a un aterrizaje de emergencia</b>, permita aterrizar sin riesgo indebido para
     personas o bienes en la superficie. Los valores de 500 pies o 300 m son mínimos específicos para áreas
     no congestionadas o congestionadas, no la regla general.
-  theory: Altura que permita, en caso de emergencia, aterrizar sin peligro para personas o bienes en la
-    superficie.
+  theory: Las aeronaves no volarán sobre aglomeraciones de edificios en ciudades, pueblos o lugares habitados
+    o sobre una reunión de personas al aire libre, a menos que sea imprescindible; excepto cuando sea
+    necesario para despegar o aterrizar o cuando se cuente con una autorización especial de la Autoridad
+    Aeronáutica competente.
 - id: k153
   source:
     key_item: 153
@@ -402,7 +417,6 @@
     personas al aire libre) se debe volar a <b>300 m (1000 pies) sobre el obstáculo más alto dentro de
     un radio horizontal de 600 m</b>. La opción a omite la referencia al obstáculo más alto y al radio,
     y los 500 pies de la opción b son el mínimo fuera de áreas congestionadas.
-  theory: 1000 pies (300 m) sobre el obstáculo más alto dentro de un radio horizontal de 600 m.
 - id: k157
   source:
     key_item: 157
@@ -418,7 +432,6 @@
   explanation: Según la RAAC 91.119 c), fuera de las áreas congestionadas la altitud mínima es de <b>500
     pies sobre la superficie de tierra o agua</b>. La opción a es la regla general que se aplica en cualquier
     lugar, no la específica para áreas no congestionadas.
-  theory: Altitud no menor de 500 pies sobre la superficie de tierra o agua.
 - id: k161
   source:
     key_item: 161
@@ -433,7 +446,9 @@
   explanation: Cuando no se puede evitar volar sobre áreas sensibles al ruido, se debe mantener <b>3000
     pies sobre el obstáculo más alto dentro de un radio de 2 NM</b> de la aeronave, a lo largo de la trayectoria
     prevista. Reducir la potencia al mínimo no es la regla, y 1000 pies en una milla es insuficiente.
-  theory: Mantener 3000 pies sobre el obstáculo más alto dentro de un radio de 2 NM desde la aeronave.
+  theory: Asimismo, durante las salidas o arribos desde/hacia un aeródromo cercano a un área sensible
+    al ruido, deberá evitarse en lo posible un prolongado vuelo a baja altitud. (d) Al efecto, se consideran
+    “áreas sensibles al ruido” a los parques, monumentos y reservas naturales especificados en la AIP.
 - id: c4-28
   source:
     chapter_question: '4.28'
@@ -447,7 +462,8 @@
   explanation: Por encima de 3000 pies AGL, la regla semicircular VFR se basa en el <b>curso magnético</b>:<br>Curso
     0° a 179° → niveles impares + 500 pies<br>Curso 180° a 359° → niveles pares + 500 pies<br>135° está
     entre 0° y 179° → <b>impares + 500 pies</b> (ej. 3500, 5500).
-  theory: 'Curso magnético de 0° a 179°: nivel impar más 500 pies.'
+  theory: 'NOTA: Los vuelos VFR realizados a menos de 3000 pies no requieren el mantenimiento obligatorio
+    de niveles de crucero determinados, aunque tal medida es recomendable.'
   note: La Figura 4-5 no está en el anexo de figuras; se responde con la regla semicircular de niveles
     de crucero VFR.
 - id: c4-29
@@ -463,7 +479,9 @@
   explanation: Por encima de 3000 pies AGL, con curso magnético de 180° a 359° corresponden <b>niveles
     pares + 500 pies</b>:<br>185° está entre 180° y 359° → pares + 500<br>4000 + 500 = <b>4500 pies</b><br>4000
     y 5000 son niveles redondos, reservados para IFR.
-  theory: 'Curso magnético de 180° a 359°: nivel par más 500 pies (ej. 4500).'
+  theory: …los vuelos VFR a 3000 pies de altura o más de la superficie terrestre deberán obligatoriamente
+    mantener niveles de crucero de acuerdo con la tabla de niveles correspondiente que figura en la AIP
+    Parte ENR 1.7, columnas 2 y 4.
   note: La Figura 4-5 no está en el anexo de figuras; se responde con la regla semicircular de niveles
     de crucero VFR.
 - id: c4-30
@@ -479,7 +497,9 @@
   explanation: La regla semicircular VFR se basa en el <b>curso magnético</b> (la trayectoria sobre el
     terreno referida al norte magnético), no en el rumbo (hacia dónde apunta la nariz) ni en el curso
     geográfico. Con curso magnético de 0° a 179° se vuela a niveles impares + 500 pies.
-  theory: Con un curso magnético de 0° a 179°, nivel impar más 500 pies.
+  theory: A más de 3000 pies de altura es una obligación, pero ello no implica que deban especificarse
+    niveles de crucero en los planes de vuelo VFR, ni que deba solicitarse aprobación respecto a los que
+    se utilicen o cuando se cambien a otro nivel apropiado al derrotero de la aeronave.
 - id: k002
   source:
     key_item: 2
@@ -631,9 +651,9 @@
     b: Elevaciones.
     c: Niveles de vuelo.
   answer: a
-  explanation: Al descender a través de la capa de transición, la posición vertical se expresa en <b>altitudes</b>
-    (con QNH), mientras que en ascenso se expresa en niveles de vuelo. Como la opción altitud no figura,
-    la respuesta esperada es <b>altura</b>; los niveles de vuelo corresponden al ascenso.
+  explanation: Al descender a través de la capa de transición, la posición vertical deja de expresarse
+    en niveles de vuelo (1013,2 hPa) y pasa a referirse al QNH. Entre las opciones dadas, la respuesta
+    esperada es <b>altura</b>; los niveles de vuelo corresponden al ascenso.
   note: El término OACI correcto en descenso es «altitud»; la opción marcada es solo la más cercana.
 - id: k321
   source:

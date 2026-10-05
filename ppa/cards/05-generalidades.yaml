@@ -15,8 +15,6 @@
     (publicado) para ese aeródromo. Los virajes por la izquierda son solo la regla por defecto cuando
     no hay un circuito publicado, por lo que la opción b) no es la regla general. Partir en cualquier
     dirección (a) ignora el circuito y es incorrecto.
-  theory: Cumplir con el circuito de tránsito publicado y, en caso de no estarlo, efectuar los virajes
-    por la izquierda.
 - id: k108
   source:
     key_item: 108
@@ -32,7 +30,9 @@
     a favor del viento (tramo inicial o "downwind"), ya establecido a la altitud del circuito. Entrar
     al tramo básico por debajo de la altitud del circuito o cruzar sobre el aeródromo para entrar en final
     no es el procedimiento estándar y aumenta el riesgo de conflicto con otro tránsito.
-  theory: Entrar a 45° al punto medio del tramo a favor del viento, a la altitud del circuito.
+  theory: Al aproximarse a tierra en un aeropuerto sin torre de control o si la misma no se encuentra
+    operativa, el piloto debería observar el indicador de viento para determinar la aproximación final
+    a la pista que se utilizará.
 - id: k180
   source:
     key_item: 180
@@ -46,7 +46,8 @@
   explanation: El número de pista es el rumbo magnético de la pista dividido por 10 y redondeado. Pista
     09 ≈ 090° magnético y pista 27 ≈ 270° magnético. No se refiere al rumbo verdadero, y 009°/027° sería
     no multiplicar por 10.
-  theory: El número de pista es el rumbo magnético de la pista (dividido por 10).
+  theory: …Por ejemplo, un azimut de 183° resultaría en el número de pista 18; un azimut magnético de
+    086° resultaría en el número de pista 09.
 - id: k224
   source:
     key_item: 224
@@ -63,8 +64,8 @@
     hasta que sea necesaria una altitud menor para aterrizar, garantizando el franqueamiento de obstáculos.
     No es obligatorio capturar la senda a una distancia determinada, y el VASI no indica que haya que
     aterrizar "entre las barras": el punto de toma de contacto está más allá de las barras.'
-  theory: Mantener una altitud igual o superior a la senda de planeo hasta que sea necesaria una altitud
-    menor para aterrizar.
+  theory: …Las luces están visibles por hasta 5 millas durante el día. La senda de planeo del VASI asegura
+    salvar los obstáculos en la aproximación final.
 - id: k264
   source:
     key_item: 264
@@ -82,7 +83,6 @@
     blancas y 1 roja = levemente alto<br>2 blancas y 2 rojas = en la senda<br>1 blanca y 3 rojas = levemente
     bajo<br>4 rojas = bajo.<br>Por eso, levemente alto corresponde a tres blancas y una roja; dos y dos
     es la senda correcta.
-  theory: Tres luces blancas y una luz roja indican que la aeronave se encuentra levemente alta.
 - id: k266
   source:
     key_item: 266
@@ -115,7 +115,6 @@
     indica que la aeronave está por encima de la senda de planeo. Rojo sobre blanco sería en la senda
     y ambas rojas, debajo. El VASI no da información de desvío lateral, por lo que "fuera de curso a la
     izquierda" no aplica.
-  theory: Ambas barras blancas indican que la aeronave se encuentra por encima de la senda de planeo.
 - id: k283
   source:
     key_item: 283
@@ -133,7 +132,8 @@
   explanation: 'En un VASI estándar de dos barras: rojo sobre blanco = en la senda; blanco sobre blanco
     = encima; rojo sobre rojo = debajo. La ilustración que corresponde a esta pregunta es la de rojo sobre
     blanco (barra lejana roja y cercana blanca), por lo que la aeronave está en la senda de planeo.'
-  theory: Luces rojas sobre luces blancas indican que la aeronave se encuentra en la senda de planeo.
+  theory: Al mantener la altitud, el piloto observará que la barra cercana cambiará a rosa y luego a blanco,
+    mientras que la barra lejana permanecerá roja, lo cual indica que la senda de planeo está siendo interceptada.
 - id: k289
   source:
     key_item: 289
@@ -149,8 +149,6 @@
     donde sopla al entrar por detrás. Para contrarrestarlo se coloca el alerón de ese lado hacia abajo
     (mando hacia el lado opuesto al viento), además del elevador abajo. Poner el alerón abajo en el lado
     a favor del viento haría lo contrario.
-  theory: Con viento de cola, el alerón del lado desde donde sopla el viento debe estar hacia abajo para
-    evitar que el ala se eleve.
 - id: k040
   source:
     key_item: 40
@@ -166,7 +164,6 @@
     del lado desde donde sopla el viento queda hacia arriba y así el viento empuja esa ala hacia abajo,
     evitando que se levante. El alerón abajo de ese lado aumentaría la sustentación y favorecería que
     el ala se eleve.'
-  theory: Con viento de frente, el alerón del lado desde donde sopla el viento debe estar hacia arriba.
 - id: k045
   source:
     key_item: 45
@@ -182,7 +179,6 @@
     condición más crítica para el rodaje: el viento entra por detrás y por debajo del ala y del empenaje,
     pudiendo levantar el ala del lado del viento y la cola y hacer volcar la aeronave. El viento de frente
     o el cruzado directo son más fáciles de controlar.'
-  theory: Rodar con viento de cola parcialmente cruzado produce las condiciones más peligrosas.
 - id: k050
   source:
     key_item: 50
@@ -200,8 +196,6 @@
     mando girado hacia el viento → alerón izquierdo arriba.<br>Elevador: neutro, porque en el triciclo
     no hace falta cargar la rueda de nariz ni la cola.<br>Alerón izquierdo abajo levantaría el ala del
     lado del viento.'
-  theory: Con viento de frente, el elevador en posición neutra y el alerón del lado desde donde sopla
-    el viento hacia arriba.
 - id: k063
   source:
     key_item: 63
@@ -219,7 +213,6 @@
     girado hacia el viento → alerón derecho arriba.<br>Elevador: arriba (mando atrás) para mantener la
     cola apoyada en el suelo.<br>El elevador neutro o abajo descargaría la rueda de cola y reduciría el
     control direccional.'
-  theory: 'Rueda de cola con viento de frente: alerón del lado del viento arriba y elevador arriba.'
 - id: k067
   source:
     key_item: 67
@@ -237,7 +230,6 @@
     hacia el lado opuesto al viento → alerón izquierdo abajo.<br>Elevador: abajo (mando adelante), para
     que el viento de cola no levante la cola.<br>Con el elevador neutro el viento podría levantar la cola
     por debajo del estabilizador.'
-  theory: 'Rueda de cola con viento de cola: alerón del lado del viento abajo y elevador también abajo.'
 - id: k074
   source:
     key_item: 74
@@ -256,7 +248,6 @@
     el lado opuesto al viento → alerón izquierdo abajo.<br>Elevador: abajo (mando adelante), para que
     el viento no levante la cola.<br>Con viento de cola la técnica es la misma para triciclo y rueda de
     cola; alerón arriba solo se usa con viento de frente.'
-  theory: 'Con viento de cola: elevador hacia abajo y alerón del lado del viento hacia abajo.'
 - id: k081
   source:
     key_item: 81
@@ -273,7 +264,6 @@
     del avión debe estar alineado con la dirección en que realmente se mueve. Que la trayectoria sea paralela
     a la pista no basta si el avión toca con ángulo de deriva (cangrejo). Bajar el ala del lado del viento
     es la técnica para corregir la deriva, pero no es la definición de lo que hay que mantener.
-  theory: El eje longitudinal debe mantenerse paralelo a la dirección en la cual se mueve el avión.
 - id: c5-17
   source:
     chapter_question: '5.17'
@@ -289,8 +279,6 @@
     pies inclusive, la tripulación mínima debe usar oxígeno suplementario durante la parte del vuelo a
     esas altitudes que exceda los 30 minutos. Por encima de 13000 pies se debe usar todo el tiempo, por
     eso la opción a) no corresponde a este rango.
-  theory: Usar oxígeno suplementario durante la parte del vuelo en esas altitudes que dure más de 30 minutos
-    (RAAC 91).
 - id: k094
   source:
     key_item: 94
@@ -304,7 +292,8 @@
   explanation: El monóxido de carbono se une a la hemoglobina e impide el transporte de oxígeno; grandes
     acumulaciones producen pérdida de fuerza muscular, además de dolor de cabeza y mareos. No produce
     sensación de bienestar (eso se asocia más a la hipoxia) ni rigidez en la frente como síntoma principal.
-  theory: Una gran acumulación de monóxido de carbono en el cuerpo causa pérdida de fuerza muscular.
+  theory: Una gran acumulación de monóxido de carbono en el cuerpo causa pérdida de fuerza muscular, vómitos,
+    convulsiones y coma.
 - id: k096
   source:
     key_item: 96
@@ -318,7 +307,9 @@
   explanation: La hipoxia es un estado de deficiencia de oxígeno en el cuerpo, suficiente para afectar
     funciones como el cerebro. El aumento anormal del volumen de aire respirado es la hiperventilación,
     y las burbujas de gas en articulaciones corresponden a la enfermedad descompresiva.
-  theory: La hipoxia es una deficiencia de oxígeno en el cuerpo.
+  theory: Dolor de cabeza, somnolencia, mareos y euforia son todos síntomas de la hipoxia. Para una protección
+    óptima, los pilotos deberían evitar el vuelo por encima de los 10.000 pies MSL por períodos prolongados
+    sin utilizar oxígeno suplementario.
 - id: k113
   source:
     key_item: 113
@@ -333,7 +324,6 @@
   explanation: Un aumento anormal de la frecuencia y el volumen de la respiración, típico ante el estrés,
     se llama hiperventilación y elimina demasiado dióxido de carbono. La aerosinusitis y la aerotitis
     son afecciones de senos y oído por cambios de presión.
-  theory: Un aumento anormal del volumen de aire inspirado y exhalado causa hiperventilación.
 - id: k118
   source:
     key_item: 118
@@ -347,7 +337,6 @@
   explanation: La hiperventilación se produce con mayor probabilidad por tensión emocional, ansiedad o
     miedo, que llevan a respirar más rápido y profundo. Un ritmo de respiración lento es justamente lo
     contrario, y el alcohol no es la causa típica.
-  theory: La hiperventilación es más probable durante periodos de estrés o ansiedad.
 - id: k128
   source:
     key_item: 128
@@ -362,7 +351,10 @@
   explanation: 'Para revertir la hiperventilación hay que restaurar el nivel de dióxido de carbono: reducir
     conscientemente la frecuencia respiratoria, respirar dentro de una bolsa de papel o hablar en voz
     alta. Aumentar la respiración empeora el cuadro.'
-  theory: Controlar la frecuencia respiratoria, respirar en una bolsa de papel o hablar en voz alta.
+  theory: Los síntomas de hiperventilación comienzan a desaparecer a los pocos minutos de controlar en
+    forma consciente el índice y la profundidad de la respiración. La acumulación de dióxido de carbono
+    en el cuerpo puede acelerarse con la respiración controlada dentro de una bolsa de papel sostenida
+    sobre la nariz y la boca.
 - id: k133
   source:
     key_item: 133
@@ -376,7 +368,8 @@
   explanation: La susceptibilidad al envenenamiento por monóxido de carbono aumenta con la altitud, porque
     la presión parcial de oxígeno es menor y el organismo ya dispone de menos oxígeno. Al disminuir la
     altitud o aumentar la presión del aire, la vulnerabilidad baja.
-  theory: La susceptibilidad al envenenamiento por monóxido de carbono aumenta con la altitud.
+  theory: El piloto que detecta síntomas de envenenamiento por monóxido de carbono debería cerrar la calefacción
+    y abrir la ventilación inmediatamente.
 - id: k147
   source:
     key_item: 147
@@ -391,8 +384,8 @@
   explanation: En condiciones visuales pobres, los sentidos del cuerpo (oído interno, músculos) dan información
     engañosa; hay que confiar en los instrumentos y no en las sensaciones. Alternar la vista entre afuera
     y el panel, o inclinar el cuerpo, puede empeorar la desorientación.
-  theory: Confíe en las indicaciones de los instrumentos; mover los ojos con rapidez o inclinarse empeoran
-    el problema.
+  theory: Aún si el horizonte natural o la referencia de superficie se encuentra claramente visible, confíe
+    en las indicaciones de los instrumentos para superar los efectos de la desorientación espacial.
 - id: k152
   source:
     key_item: 152
@@ -407,7 +400,6 @@
   explanation: La desorientación espacial es el estado de confusión temporal causado por información engañosa
     que los órganos sensoriales (vista, oído interno, músculos) envían al cerebro. La hiperventilación
     y la hipoxia son problemas respiratorios y de oxigenación, no de percepción.
-  theory: La desorientación espacial es un estado de confusión espacial temporaria.
 - id: k159
   source:
     key_item: 159
@@ -422,8 +414,9 @@
   explanation: El piloto es más susceptible a la desorientación espacial cuando pierde las referencias
     visuales y se guía solo por las sensaciones del cuerpo, que son engañosas. Ignorar esas sensaciones
     y verificar los instrumentos es precisamente lo que la previene.
-  theory: Durante baja visibilidad, al perder referencias visuales, el piloto es vulnerable a la desorientación
-    espacial.
+  theory: La vista, apoyada por otros sentidos, permite al piloto mantener la orientación. Sin embargo,
+    durante periodos de baja visibilidad, los sentidos que apoyan la vista a menudo entran en conflicto
+    con lo que se ve.
 - id: k165
   source:
     key_item: 165
@@ -439,7 +432,9 @@
   explanation: La mejor manera de superar la desorientación espacial es confiar en los instrumentos de
     vuelo e ignorar las sensaciones de guiñada, cabeceo y alabeo. Controlar la respiración es el remedio
     para la hiperventilación, no para la desorientación.
-  theory: Confíe en las indicaciones de los instrumentos.
+  theory: Aún si el horizonte natural o la referencia de superficie se encuentra claramente visible, confíe
+    en las indicaciones de los instrumentos para superar los efectos de la desorientación espacial. Mover
+    los ojos con rapidez desde afuera hacia adentro e inclinarse sólo empeorarán el problema.
 - id: c5-28
   source:
     chapter_question: '5.28'
@@ -452,7 +447,8 @@
   explanation: La actitud antiautoridad se resume en "no me digan qué hacer". Su antídoto es "seguir las
     normas, normalmente son correctas". Las opciones a) y b) expresan el pensamiento peligroso, no el
     antídoto.
-  theory: 'El antídoto para la actitud antiautoridad es: sigue las reglas.'
+  theory: '…Sin embargo, siempre es el derecho de uno cuestionar la autoridad si se siente que es un error.
+    El antídoto para esta actitud es: sigue las reglas. Usualmente son correctas.'
 - id: k171
   source:
     key_item: 171
@@ -466,7 +462,6 @@
   explanation: La impulsividad es la necesidad de hacer algo rápido sin pensar ("hazlo rápido"). Su antídoto
     es "no tan rápido, piensa primero". La opción b) es el pensamiento peligroso y "me podría suceder
     a mí" es el antídoto de la invulnerabilidad.
-  theory: 'El antídoto para la impulsividad es: no tan rápido, piensa primero.'
 - id: c5-30
   source:
     chapter_question: '5.30'
@@ -480,8 +475,8 @@
   explanation: Las cinco actitudes peligrosas son antiautoridad, impulsividad, invulnerabilidad, machismo
     y resignación. Las otras opciones mencionan fallas en la gestión de riesgo o la toma de decisiones,
     pero no son las actitudes peligrosas definidas.
-  theory: 'Las cinco actitudes peligrosas son: antiautoridad, impulsividad, invulnerabilidad, machismo
-    y resignación.'
+  theory: …Antiautoridad (¡no me ordenes!), Impulsividad (¡Haz algo rápido!), Invulnerabilidad (¡no me
+    sucederá a mí!), Macho (¡puedo hacerlo!), Resignación (¿para qué?).
 - id: k188
   source:
     key_item: 188
@@ -496,7 +491,6 @@
   explanation: El primer paso para neutralizar una actitud peligrosa es reconocer los pensamientos peligrosos;
     luego se los rotula y se aplica el antídoto correspondiente. No se puede aplicar un criterio racional
     sin antes reconocer el problema, y "reconocer la invulnerabilidad" es justamente una actitud peligrosa.
-  theory: El reconocimiento de los pensamientos peligrosos es el primer paso para neutralizarlos.
 - id: k193
   source:
     key_item: 193
@@ -513,8 +507,6 @@
     situacional, el reconocimiento del problema y el buen criterio para reducir los riesgos de cada vuelo.
     La opción c) describe el proceso de toma de decisiones en general, no las características de las que
     depende la gestión de riesgo.
-  theory: La gestión de riesgo depende de la consciencia situacional, el reconocimiento del problema y
-    el buen juicio.
 - id: c5-33
   source:
     chapter_question: '5.33'
@@ -527,7 +519,9 @@
   explanation: La invulnerabilidad se expresa como "no me sucederá a mí". Su antídoto es "podría sucederme
     a mí". La opción a) es el pensamiento peligroso y la b) es una forma de minimizar el riesgo, no un
     antídoto.
-  theory: 'El antídoto para la invulnerabilidad es: podría sucederme a mí.'
+  theory: Muchas personas sienten que los accidentes les suceden a otras personas, pero nunca a ellas.
+    Saben que los accidentes ocurren y también que cualquier persona puede verse afectada, pero nunca
+    sienten o creen realmente que se encontrarán involucrados personalmente.
 - id: c5-34
   source:
     chapter_question: '5.34'
@@ -539,7 +533,7 @@
   answer: b
   explanation: El machismo se expresa como "puedo hacerlo", tomando riesgos para impresionar. Su antídoto
     es "tomar riesgos es tonto". La opción a) es el pensamiento peligroso en sí mismo.
-  theory: 'El antídoto para el machismo es: tomar riesgos es tonto.'
+  theory: Aunque se crea que este patrón es una característica masculina, las mujeres son igualmente susceptibles.
 - id: c5-35
   source:
     chapter_question: '5.35'
@@ -552,7 +546,8 @@
   explanation: La resignación se expresa como "¿para qué?, es inútil". Su antídoto es "no estoy indefenso,
     puedo hacer la diferencia". "Es inútil" es el pensamiento peligroso y culpar a otro tampoco es un
     antídoto.
-  theory: 'El antídoto para la resignación es: no estoy indefenso, puedo hacer la diferencia.'
+  theory: …El piloto dejará la acción para otros, para bien o para mal. Algunas veces, esos pilotos accederán
+    a solicitudes irrazonables sólo para ser un "buen tipo".
 - id: k202
   source:
     key_item: 202
@@ -567,7 +562,6 @@
   explanation: Aunque tenga el certificado psicofísico vigente, el piloto es el responsable de determinar
     antes de cada vuelo si está apto (enfermedad, medicación, estrés, alcohol, fatiga). La ANAC y el médico
     evalúan la aptitud general, no el estado en cada vuelo particular.
-  theory: El piloto es responsable de determinar si se encuentra apto para cada vuelo.
 - id: k205
   source:
     key_item: 205
@@ -580,7 +574,6 @@
   answer: c
   explanation: 'La mayoría de los accidentes prevenibles tienen un factor común: el error humano. Las
     fallas estructurales o mecánicas son causas mucho menos frecuentes.'
-  theory: 'La mayoría de los accidentes prevenibles tienen un factor común: el error humano.'
 - id: k210
   source:
     key_item: 210
@@ -595,8 +588,6 @@
   explanation: Continuar un vuelo VFR hacia condiciones instrumentales sin entrenamiento ni preparación
     es una causa frecuente de desorientación espacial y de colisión con el terreno u obstáculos. Ignorar
     las sensaciones del cuerpo y confiar en los instrumentos, en cambio, es lo correcto.
-  theory: Continuar un vuelo VFR en condiciones instrumentales suele causar desorientación espacial o
-    colisión con el suelo u obstáculos.
 - id: c5-39
   source:
     chapter_question: '5.39'
@@ -610,8 +601,6 @@
   explanation: Confiar en la memoria de corto y largo plazo para tareas repetitivas (rutas o aviones conocidos)
     lleva a descuidar la planificación, las inspecciones de prevuelo y, sobre todo, las listas de chequeo.
     La consciencia situacional no es una tarea repetitiva que se "saltee".
-  theory: La confianza injustificada en la memoria causa negligencia en la planificación del vuelo, las
-    inspecciones de prevuelo y las listas de chequeo.
 - id: k233
   source:
     key_item: 233
@@ -625,8 +614,8 @@
   explanation: La mayoría de las colisiones en el aire ocurren en días claros, con buena visibilidad y
     en condiciones VFR, cuando hay más tránsito y los pilotos relajan la vigilancia. En neblina o de noche
     nublada hay menos tránsito VFR.
-  theory: La gran mayoría de las colisiones en vuelo (81 %) ocurren con cielo despejado y visibilidad
-    ilimitada.
+  theory: El Informe de Colisión Cercana en el Aire (Near Mid-Air Collision Report) de la FAA indica que
+    el 81% de los incidentes ocurren en cielo despejado y en condiciones de visibilidad ilimitadas.
 - id: k236
   source:
     key_item: 236
@@ -640,7 +629,8 @@
   explanation: Antes de iniciar cada maniobra, el piloto debe observar el área completa (virajes de despeje)
     para evitar colisiones. Verificar instrumentos es útil pero no reemplaza la vigilancia exterior, y
     no es necesario avisar a un control de tránsito aéreo (CTA).
-  theory: La observación del cielo es un factor clave para evitar colisiones antes de cada maniobra.
+  theory: Cuando se asciende o desciende con VFR en una ruta aérea, realice inclinaciones suaves, a la
+    derecha e izquierda, para obtener un escaneo visual del espacio aéreo.
 - id: k237
   source:
     key_item: 237
@@ -655,7 +645,6 @@
   explanation: La neblina reduce el contraste y crea la ilusión de que el tránsito y el terreno están
     más lejos de lo que realmente están, lo que es peligroso para evitar colisiones. El enfoque al infinito
     ocurre en un cielo vacío y sin rasgos, no por la neblina.
-  theory: La neblina puede crear la ilusión de que los objetos están a mayor distancia de la real.
 - id: k242
   source:
     key_item: 242
@@ -671,8 +660,6 @@
   explanation: La técnica de vigilancia diurna más eficaz es una serie de movimientos oculares cortos
     y regularmente espaciados, observando cada sector de unos 10° durante al menos un segundo. Mirar solo
     las posiciones de las 3, 9 y 12 deja sectores sin cubrir, y la visión periférica sirve más de noche.
-  theory: Usar una serie de movimientos oculares cortos y regularmente espaciados; cada movimiento no
-    debería exceder los 10°.
 - id: c5-44
   source:
     chapter_question: '5.44'
@@ -686,8 +673,8 @@
   explanation: Se debe explorar el cielo de forma sistemática, concentrándose en distintos segmentos por
     intervalos cortos, para que cada área pase por la visión central, que es la que detecta mejor. Un
     barrido continuo no permite que el ojo enfoque, y la visión periférica sola no basta de día.
-  theory: Serie de movimientos oculares cortos y regularmente espaciados que lleven áreas sucesivas del
-    cielo al campo visual central.
+  theory: …Cada movimiento no debería exceder 10° y cada aérea debe ser observada por al menos un segundo
+    para permitir la detección.
 - id: k245
   source:
     key_item: 245
@@ -701,7 +688,8 @@
   explanation: 'Una aeronave en curso de colisión no presenta movimiento relativo aparente: permanece
     fija en el mismo punto del parabrisas y solo aumenta de tamaño, a menudo lentamente al principio.
     Por eso no hay que esperar que crezca rápido para reconocer el peligro.'
-  theory: Una aeronave sin movimiento relativo aparente se encuentra en curso de colisión.
+  theory: …Si un objetivo no muestra movimientos laterales ni verticales, pero aumenta en tamaño, tome
+    acciones evasivas.
 - id: k137
   source:
     key_item: 137
