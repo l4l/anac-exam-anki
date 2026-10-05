@@ -22,14 +22,14 @@ reviewers, one of whom argued for the official key.
 
 | status | count | meaning |
 |--------|------:|---------|
-| `key_error` | 17 | the official key marks a wrong option; the card teaches the correct one and shows what the key says |
+| `key_error` | 16 | the official key marks a wrong option; the card teaches the correct one and shows what the key says |
 | `no_key` | 1 | the key marks no option (k327) |
-| `ambiguous` | 2 | defective question; the card keeps the key's answer (k256, k136) |
+| `ambiguous` | 3 | defective question; the card keeps the key's answer (k030, k136, k256) |
 | `outdated` | 3 | correct in 2014, changed in RAAC 61 (2026) (k003, k223, k284) |
 
 Smaller typos in the official questions (stem data that doesn't match any
 option, duplicated options, misprints) are explained in a yellow **Nota** on
-the card. The list is in `NOTES` in `tools/bootstrap_cards.py`.
+the card (`note:` in the YAML).
 
 ## Images
 
@@ -48,19 +48,3 @@ Not every annex figure is used. The weight-and-balance and landing charts
 
 Edit `cards/*.yaml` directly, then `uv run build.py ppa --check`. The YAML is
 the source of truth.
-
-`tools/` holds the one-time bootstrap that produced the YAML. It is kept for
-provenance:
-
-- `extract_figures.py --annex <annex.pdf> --key <key.pdf>` regenerates
-  `media/` and `tools/key_images.json`.
-- `bootstrap_cards.py` regenerates `cards/*.yaml` from `tools/data/`. **This
-  overwrites manual edits.** Data files:
-  - `analysis.db`: parsed PDFs, independent answers, verifications
-  - `explicaciones_es.json`: Spanish explanations
-  - curation tables at the top of the script
-
-`analysis.db` tables: `questions` (key items, `ref_answer` = official key,
-`my_answer`, `verified_answer`), `chapter_questions` (chapter PDF, mapping
-to key, theory-implied answer), `verifications` (per-reviewer verdicts), and
-the view `key_errors`.

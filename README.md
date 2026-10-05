@@ -32,7 +32,6 @@ ppa/
   model/                 Anki card templates: front.html, back.html, style.css
   cards/NN-*.yaml        one file per chapter (NN selects the subdeck)
   media/                 figures (annex + images embedded in the answer key)
-  tools/                 one-time bootstrap from the ANAC PDFs (see ppa/README.md)
 ```
 
 ## Card format
