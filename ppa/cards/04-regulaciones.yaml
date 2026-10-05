@@ -533,8 +533,8 @@
 - id: k135
   source:
     key_item: 135
-  question: 'LA ANTICIPACIÓN MINIMA DE PRESENTACIÓN EN VUELO PARA LOS VUELOS CONTROLADOS CON TRANSMISIÓN
-    QUE EXIGIERA RETRANSMISIÓN, RESPECTO AL MOMENTO EN QUE SE CALCULA SE INICIARA LA OPERACIÓN, ES DE:'
+  question: 'La anticipación mínima de presentación en vuelo para los vuelos controlados con transmisión
+    que exigiera retransmisión, respecto al momento en que se calcula se iniciará la operación, es de:'
   options:
     a: 10 minutos.
     b: 20 minutos.
@@ -546,8 +546,8 @@
 - id: k136
   source:
     key_item: 136
-  question: 'AL ATRAVESAR LA “CAPA DE TRANSICIÓN” DURANTE EL ASCENSO, LA POSICIÓN VERTICAL DE LAS AERONAVES,
-    A EXCEPCION, SE EXPRESARA EN:'
+  question: 'Al atravesar la «capa de transición» durante el ascenso, la posición vertical de las aeronaves,
+    a excepción, se expresará en:'
   options:
     a: Altura.
     b: Altitudes.
@@ -564,8 +564,8 @@
 - id: k138
   source:
     key_item: 138
-  question: 'CUANDO POR DETERIORO DE LAS CONDICIONES VMC DEBE SALIR DE ESPACIO AEREO CONTROLADO O ATERRIZAR
-    EN EL AERÓDROMO APROPIADO MAS PRÓXIMO, LO HARA:'
+  question: 'Cuando por deterioro de las condiciones VMC debe salir de espacio aéreo controlado o aterrizar
+    en el aeródromo apropiado más próximo, lo hará:'
   options:
     a: Notificando a la dependencia de control de jurisdicción de la medida que adopta, al tener que suspender
       la operación por no poder continuar en VMC.
@@ -579,8 +579,8 @@
 - id: k139
   source:
     key_item: 139
-  question: 'CUANDO SE CAMBIE DE VUELO VFR A VFR CONTROLADO, SE OBTENDRA EL PERMISO DE TRANSITO DE LA
-    DEPENDENCIA DE CONTROL DE TRANSITO QUE CORRESPONDA:'
+  question: 'Cuando se cambie de vuelo VFR a VFR controlado, se obtendrá el permiso de tránsito de la
+    dependencia de control de tránsito que corresponda:'
   options:
     a: Únicamente en el momento de presentación del Plan de Vuelo.
     b: En el momento de ingresar al espacio aéreo controlado IFR/VFR.
@@ -607,8 +607,8 @@
 - id: k141
   source:
     key_item: 141
-  question: 'PARA LOS VUELOS PROYECTADOS COMO CONTROLADOS DESDE SU COMIENZO, EL PLAN DE VUELO DEBERÁ PRESENTARSE
-    ANTES DE LA PARTIDA, CON UNA ANTICIPACIÓN DE POR LO MENOS:'
+  question: 'Para los vuelos proyectados como controlados desde su comienzo, el plan de vuelo deberá presentarse
+    antes de la partida, con una anticipación de por lo menos:'
   options:
     a: 60 minutos.
     b: 40 minutos.
@@ -644,8 +644,8 @@
 - id: k293
   source:
     key_item: 293
-  question: 'AL ATRAVESAR LA “CAPA DE TRANSICIÓN” DURANTE EL DESCENSO, LA POSICIÓN VERTICAL DE LAS AERONAVES,
-    A EXCEPCIÓN DE LO QUE SE DISPONGA EN LOS PROCEDIMIENTOS DE APLICACIÓN, SE EXPRESARA EN:'
+  question: 'Al atravesar la «capa de transición» durante el descenso, la posición vertical de las aeronaves,
+    a excepción de lo que se disponga en los procedimientos de aplicación, se expresará en:'
   options:
     a: Altura.
     b: Elevaciones.
@@ -722,11 +722,11 @@
 - id: k351
   source:
     key_item: 351
-  question: 'PARA LOS VUELOS VFR CONTROLADOS, LAS MINIMAS DE VISIBILIDAD EN VUELO EN ZONA DE CONTROL SON:'
+  question: 'Para los vuelos VFR controlados, las mínimas de visibilidad en vuelo en zona de control son:'
   options:
-    a: 3 KM.
-    b: 6 KM.
-    c: 5 KM.
+    a: 3 km.
+    b: 6 km.
+    c: 5 km.
   answer: c
   explanation: Para vuelos VFR controlados en zona de control, la visibilidad mínima en vuelo es de <b>5
     km</b>, igual que el mínimo de visibilidad para operar VFR en un aeródromo controlado. 3 km es inferior

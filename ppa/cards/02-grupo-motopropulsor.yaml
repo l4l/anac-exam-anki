@@ -937,15 +937,15 @@
 - id: k305
   source:
     key_item: 305
-  question: 'CUANDO UN MOTOR RECIPROCO FUNCIONA EN TIERRA, LA DETONACION SE DIFERENCIA DEL AUTO-ENCENDIDO
-    PORQUE:'
+  question: 'Cuando un motor recíproco funciona en tierra, la detonación se diferencia del autoencendido
+    porque:'
   options:
-    a: CORTANDO MAGNETOS SI HAY DETONACION, EL MOTOR SIGUE GIRANDO PERO EN SENTIDO CONTRARIO CON VIBRACIONES
-      EN AUMENTO.
-    b: CORTANDO COMBUSTIBLE, EL MOTOR SE ACELERA CON VIBRACIONES EXCESIVAS, MIENTRAS QUE CON AUTOENCENDIDO
-      NO EXISTEN VIBRACIONES EXCESIVAS HASTA SU DETENCION.
-    c: CORTANDO MAGNETOS, SI HUBO DETONACIÓN, EL MOTOR SE DETIENE, MIENTRAS QUE CON AUTO-ENCENDIDO SIGUE
-      GIRANDO.
+    a: Cortando magnetos, si hay detonación, el motor sigue girando pero en sentido contrario con vibraciones
+      en aumento.
+    b: Cortando combustible, el motor se acelera con vibraciones excesivas, mientras que con autoencendido
+      no existen vibraciones excesivas hasta su detención.
+    c: Cortando magnetos, si hubo detonación, el motor se detiene, mientras que con autoencendido sigue
+      girando.
   answer: c
   explanation: La detonación necesita el encendido normal por chispa, por lo que al <b>cortar los magnetos
     el motor se detiene</b>. En el autoencendido, puntos calientes en la cámara siguen encendiendo la
@@ -954,12 +954,12 @@
 - id: k308
   source:
     key_item: 308
-  question: 'DURANTE LA COMPROBACIÓN DEL FUNCIONAMIENTO DE LOS MAGNETOS, SEGÚN EL TIPO DE MOTOR, LA CAÍDA
-    MÁXIMA DE RPM, ESTARÁ COMPRENDIDA ENTRE:'
+  question: 'Durante la comprobación del funcionamiento de los magnetos, según el tipo de motor, la caída
+    máxima de RPM estará comprendida entre:'
   options:
-    a: 50 Y 175 RPM.
-    b: 100 A 250 RPM.
-    c: 500 Y 700 RPM.
+    a: 50 y 175 RPM.
+    b: 100 a 250 RPM.
+    c: 500 y 700 RPM.
   answer: a
   explanation: En la comprobación de magnetos, la caída de RPM al operar con un solo magneto está normalmente
     <b>entre 50 y 175 RPM</b>, según el motor, con una diferencia máxima entre magnetos de unos 50 RPM.
@@ -1070,11 +1070,11 @@
 - id: k371
   source:
     key_item: 371
-  question: 'SI LA MEZCLA NAFTA/AIRE QUE ENTREGA EL CARBURADOR ES DEMASIADO POBRE, SE PRODUCIRA:'
+  question: 'Si la mezcla nafta/aire que entrega el carburador es demasiado pobre, se producirá:'
   options:
-    a: UN AUMENTO DE POTENCIA.
-    b: HUMO NEGRO Y LLAMAS ROJAS EN EL ESCAPE.
-    c: DETONACIONES.
+    a: Un aumento de potencia.
+    b: Humo negro y llamas rojas en el escape.
+    c: Detonaciones.
   answer: c
   status: key_error
   official_key: b

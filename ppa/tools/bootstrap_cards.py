@@ -63,6 +63,26 @@ OPTIONS = {
                    "persona, nave, vehículo o estructuras.",
               "c": "300 m sobre la superficie terrestre."},
 }
+# key items printed in ALL CAPS, rewritten in sentence case (accents restored, acronyms kept)
+CASE = {
+    "k305": {"question": "Cuando un motor recíproco funciona en tierra, la detonación se diferencia del autoencendido porque:",
+             "options": {"a": "Cortando magnetos, si hay detonación, el motor sigue girando pero en sentido contrario con vibraciones en aumento.",
+                         "b": "Cortando combustible, el motor se acelera con vibraciones excesivas, mientras que con autoencendido no existen vibraciones excesivas hasta su detención.",
+                         "c": "Cortando magnetos, si hubo detonación, el motor se detiene, mientras que con autoencendido sigue girando."}},
+    "k308": {"question": "Durante la comprobación del funcionamiento de los magnetos, según el tipo de motor, la caída máxima de RPM estará comprendida entre:",
+             "options": {"a": "50 y 175 RPM.", "b": "100 a 250 RPM.", "c": "500 y 700 RPM."}},
+    "k371": {"question": "Si la mezcla nafta/aire que entrega el carburador es demasiado pobre, se producirá:",
+             "options": {"a": "Un aumento de potencia.", "b": "Humo negro y llamas rojas en el escape.", "c": "Detonaciones."}},
+    "k135": {"question": "La anticipación mínima de presentación en vuelo para los vuelos controlados con transmisión que exigiera retransmisión, respecto al momento en que se calcula se iniciará la operación, es de:"},
+    "k136": {"question": "Al atravesar la «capa de transición» durante el ascenso, la posición vertical de las aeronaves, a excepción, se expresará en:"},
+    "k137": {"question": "Antes que la aeronave entre en el circuito de tránsito, se le facilitarán las siguientes informaciones, excepto aquellas que se sepa que ya ha recibido:"},
+    "k138": {"question": "Cuando por deterioro de las condiciones VMC debe salir de espacio aéreo controlado o aterrizar en el aeródromo apropiado más próximo, lo hará:"},
+    "k139": {"question": "Cuando se cambie de vuelo VFR a VFR controlado, se obtendrá el permiso de tránsito de la dependencia de control de tránsito que corresponda:"},
+    "k141": {"question": "Para los vuelos proyectados como controlados desde su comienzo, el plan de vuelo deberá presentarse antes de la partida, con una anticipación de por lo menos:"},
+    "k293": {"question": "Al atravesar la «capa de transición» durante el descenso, la posición vertical de las aeronaves, a excepción de lo que se disponga en los procedimientos de aplicación, se expresará en:"},
+    "k351": {"question": "Para los vuelos VFR controlados, las mínimas de visibilidad en vuelo en zona de control son:",
+             "options": {"a": "3 km.", "b": "6 km.", "c": "5 km."}},
+}
 STATUS = {  # status for cards whose answer stays as the official key
     "k136": "ambiguous",
     "k003": "outdated", "k223": "outdated", "k284": "outdated",
@@ -103,6 +123,9 @@ def curate(c, spanish):
         c["images"] = IMAGES[c["id"]]
     if c["id"] in OPTIONS:
         c["options"].update(OPTIONS[c["id"]])
+    if c["id"] in CASE:
+        c["question"] = CASE[c["id"]]["question"]
+        c["options"].update(CASE[c["id"]].get("options", {}))
     if c["id"] in STATUS:
         c["status"], c["official_key"] = STATUS[c["id"]], c["answer"]
     if c["id"] in NOTES:

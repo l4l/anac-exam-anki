@@ -693,8 +693,8 @@
 - id: k137
   source:
     key_item: 137
-  question: 'ANTES QUE LA AERONAVE ENTRE EN EL CIRCUITO DE TRANSITO, SE LE FACILITARAN LAS SIGUIENTES
-    INFORMACIONES, EXCEPTO AQUELLAS QUE SE SEPA QUE YA HA RECIBIDO:'
+  question: 'Antes que la aeronave entre en el circuito de tránsito, se le facilitarán las siguientes
+    informaciones, excepto aquellas que se sepa que ya ha recibido:'
   options:
     a: Identificación alfanumérica del aeródromo, número y ancho de pistas.
     b: Identificación Morse del faro de aeródromo, elevación inclinación y pendiente de pistas.
