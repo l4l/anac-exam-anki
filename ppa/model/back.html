@@ -1,0 +1,12 @@
+{{FrontSide}}
+<hr id="answer">
+<div class="respuesta">Respuesta correcta: <b>{{Respuesta}})</b> {{RespuestaTexto}}</div>
+{{#Aviso}}<div class="aviso">⚠ {{Aviso}}</div>{{/Aviso}}
+<div class="explicacion">{{Explicacion}}</div>
+{{#Nota}}<div class="nota"><span class="rotulo">Nota:</span> {{Nota}}</div>{{/Nota}}
+{{#Teoria}}<div class="teoria"><span class="rotulo">Teoría ANAC:</span> {{Teoria}}</div>{{/Teoria}}
+<div class="fuente">{{Fuente}}</div>
+<script>
+  document.querySelectorAll('.opciones li[data-letra="{{Respuesta}}"]')
+    .forEach(function (li) { li.classList.add('correcta'); });
+</script>

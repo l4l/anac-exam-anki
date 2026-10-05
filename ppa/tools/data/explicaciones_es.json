@@ -1,0 +1,1830 @@
+{
+  "k033": {
+    "explicacion": "En la figura, el ángulo A está formado entre la cuerda del perfil (línea punteada) y la dirección del viento relativo (flecha horizontal): eso es el <b>ángulo de ataque</b>. La incidencia es el ángulo entre la cuerda y el eje longitudinal del avión, y el diedro es el ángulo de las alas respecto de la horizontal vistas de frente; ninguno de los dos aparece en la figura.",
+    "teoria": "El ángulo A es el ángulo de ataque; las opciones a) incidencia y c) diedro son incorrectas."
+  },
+  "k107": {
+    "explicacion": "El <b>ángulo de ataque</b> es el ángulo formado entre la cuerda del ala y el viento relativo. El ángulo entre el eje longitudinal del avión y la cuerda del ala (opción c) es el ángulo de incidencia, fijado en la construcción. El ángulo entre la trayectoria de ascenso y el horizonte (opción b) no es el ángulo de ataque.",
+    "teoria": "Las opciones b) y c) son incorrectas; la c) corresponde al ángulo de incidencia."
+  },
+  "k176": {
+    "explicacion": "El ángulo entre la cuerda del ala y el viento relativo se denomina <b>ángulo de ataque</b>. La incidencia se mide entre la cuerda y el eje longitudinal del avión, no respecto del viento relativo. La sustentación es una fuerza, no un ángulo.",
+    "teoria": "Las opciones a) sustentación y c) incidencia son incorrectas."
+  },
+  "k225": {
+    "explicacion": "El ángulo de ataque es el ángulo formado entre la cuerda del ala y la <b>dirección del viento relativo</b>. El ángulo entre la cuerda y el eje longitudinal del avión (opción b) es el ángulo de incidencia.",
+    "teoria": "El ángulo de ataque es el ángulo comprendido entre la cuerda del ala y la dirección del viento relativo."
+  },
+  "k259": {
+    "explicacion": "El principio de Bernoulli establece que, cuando aumenta la velocidad de un fluido, disminuye su presión. El aire que circula más rápido sobre el extradós (superficie superior curvada) provoca una caída de presión sobre ella, lo que contribuye a la sustentación. La opción a) es la tercera ley de Newton (acción y reacción), y la b) describe la deflexión del aire hacia abajo, también asociada a Newton.",
+    "teoria": "Según Bernoulli, la presión disminuye donde aumenta la velocidad: el aire que se acelera sobre la curvatura del extradós genera una zona de baja presión."
+  },
+  "k271": {
+    "explicacion": "Las cuatro fuerzas que actúan sobre un avión en vuelo son <b>sustentación, peso, tracción (empuje) y resistencia</b>. La sustentación se opone al peso y la tracción se opone a la resistencia. Gravedad y peso son lo mismo, por eso la opción b) repite una fuerza; potencia y fricción no son las fuerzas básicas del vuelo.",
+    "teoria": "Las cuatro fuerzas básicas son sustentación, peso, tracción y resistencia."
+  },
+  "k273": {
+    "explicacion": "En vuelo recto y nivelado no acelerado, las fuerzas opuestas están en equilibrio: <b>sustentación = peso</b> y <b>tracción = resistencia</b>. Si el empuje fuera mayor que la resistencia, el avión aceleraría; si la sustentación fuera mayor que el peso, ascendería.",
+    "teoria": "La suma de las fuerzas opuestas es cero: la sustentación iguala al peso y la tracción iguala a la resistencia."
+  },
+  "k281": {
+    "explicacion": "Las cuatro fuerzas están en equilibrio en vuelo no acelerado, es decir, a <b>velocidad constante</b> (rumbo, altitud y velocidad estables). Si el avión acelera, hay un desequilibrio entre tracción y resistencia. Detenido en tierra no actúan la sustentación ni la tracción, así que no se trata del equilibrio de las cuatro fuerzas del vuelo.",
+    "teoria": "En vuelo a velocidad constante las fuerzas se encuentran en equilibrio; las opciones b) y c) son incorrectas."
+  },
+  "k286": {
+    "explicacion": "El <b>centro de presión</b> es el punto donde la resultante aerodinámica (combinación de sustentación y resistencia) corta la cuerda del ala. La opción b) define el ángulo de ataque y la c) el ángulo de incidencia.",
+    "teoria": "El punto de intersección de la resultante aerodinámica con la cuerda es el centro de presión; las opciones b) y c) son incorrectas."
+  },
+  "k037": {
+    "explicacion": "El timón de dirección controla el movimiento de <b>guiñada</b> (yaw), es decir, la rotación alrededor del eje vertical. El rolido se controla con los alerones, no con el timón de dirección.",
+    "teoria": "El propósito del timón de dirección es controlar la guiñada."
+  },
+  "k048": {
+    "explicacion": "Un avión estable tiende a volver por sí solo a su condición de equilibrio después de una perturbación, por lo que <b>requiere poco esfuerzo para controlarlo</b>. La estabilidad no significa que sea difícil entrar en pérdida ni que no pueda entrar en tirabuzón: un avión estable puede entrar en pérdida y en tirabuzón.",
+    "teoria": "Las opciones a) y c) son incorrectas."
+  },
+  "k052": {
+    "explicacion": "La estabilidad longitudinal (alrededor del eje lateral) depende de la <b>ubicación del CG respecto del centro de presión</b>. Con el CG adelante del centro de presión, el avión tiende a bajar la nariz y la cola compensa, lo que lo hace estable. El estabilizador horizontal contribuye, pero lo que determina la estabilidad es la posición relativa del CG.",
+    "teoria": "La ubicación del CG con respecto al centro de presión determina la estabilidad longitudinal."
+  },
+  "k059": {
+    "explicacion": "La corriente de la hélice (slipstream) incide sobre el estabilizador horizontal y el timón de profundidad y genera una fuerza hacia abajo en la cola. Al reducir potencia, esa corriente disminuye y el timón de profundidad pierde efectividad: la cola baja menos y la nariz cae. El CG no se desplaza al cambiar la potencia (opción a).",
+    "teoria": "Las opciones a) y c) son incorrectas."
+  },
+  "k069": {
+    "explicacion": "Con el CG detrás del límite trasero, el brazo de palanca de la cola se reduce y el avión pierde estabilidad longitudinal: es <b>menos estable en todas las velocidades</b>. Además puede ser difícil o imposible recuperar una pérdida o un tirabuzón. El efecto no depende de la velocidad, por eso b) y c) son incorrectas.",
+    "teoria": "Un CG atrasado hace al avión menos estable en todas las velocidades; las opciones b) y c) son incorrectas."
+  },
+  "k072": {
+    "explicacion": "El centro de presión se desplaza al variar el ángulo de ataque, lo que modifica los momentos de cabeceo respecto del CG. Por eso sus cambios afectan el <b>balance aerodinámico y la controlabilidad</b> del avión. No determinan por sí mismos la relación sustentación-resistencia ni la capacidad de sustentación.",
+    "teoria": "El desplazamiento del centro de presión afecta el balance aerodinámico y la controlabilidad; las opciones a) y b) son incorrectas."
+  },
+  "k078": {
+    "explicacion": "El <b>factor de carga</b> es la relación entre la sustentación (carga total soportada por las alas) y el peso del avión, y se expresa en G. En vuelo recto y nivelado vale 1; en un viraje nivelado aumenta. No se relaciona con la velocidad ni con la potencia disponible.",
+    "teoria": "El factor de carga es la relación entre la sustentación y el peso total del avión."
+  },
+  "k084": {
+    "explicacion": "En un viraje nivelado la estructura debe soportar el peso multiplicado por el factor de carga (n = 1/cos de la inclinación).<br>Figura 2: a 60° de inclinación, n = 2,0<br>1100 kg × 2,0 = 2200 kg<br>1100 kg sería la carga en vuelo recto y nivelado (n = 1).",
+    "teoria": "Factor de carga de 2 G a 60°; 1100 × 2 = 2200 kg."
+  },
+  "k091": {
+    "explicacion": "Carga = peso × factor de carga.<br>Figura 2: a 30° de inclinación, n = 1,154<br>1540 kg × 1,154 ≈ 1777 kg<br>Ninguna opción coincide exactamente; la más cercana es 1848 kg (equivale a usar n ≈ 1,2). 1294 kg es menor que el peso, lo cual es imposible en un viraje, y 1588 kg queda muy por debajo del resultado.",
+    "teoria": "Factor de carga aproximado de 1,2; 1540 × 1,2 = 1848 kg."
+  },
+  "k099": {
+    "explicacion": "En un viraje nivelado, n = 1/cos de la inclinación.<br>Figura 2: a 45°, n = 1/0,707 = 1,414<br>2200 kg × 1,414 ≈ 3111 kg → 3100 kg<br>3300 kg correspondería a n = 1,5, que no es el factor de carga a 45°.",
+    "teoria": null
+  },
+  "k115": {
+    "explicacion": "La carga adicional que se puede imponer a las alas depende de la <b>velocidad</b>. A baja velocidad, la sustentación máxima disponible es apenas mayor que el peso, y el ala entra en pérdida antes de sobrecargarse. A alta velocidad, en cambio, una maniobra brusca o una ráfaga pueden superar el factor de carga límite (de ahí el concepto de velocidad de maniobra, Va). La posición del CG no fija esa capacidad.",
+    "teoria": "A baja velocidad la sustentación máxima es solo un poco mayor que el peso; a alta velocidad la carga puede superar los límites estructurales. Las opciones a) y c) son incorrectas."
+  },
+  "k121": {
+    "explicacion": "En un <b>viraje</b> nivelado la sustentación debe aumentar para que su componente vertical siga equilibrando el peso, y el factor de carga crece (n = 1/cos de la inclinación). En un ascenso estabilizado el factor de carga es prácticamente 1, y en la pérdida no aumenta por sí misma.",
+    "teoria": "Las opciones a) y c) son incorrectas."
+  },
+  "k125": {
+    "explicacion": "Al inclinar las alas, la sustentación se inclina y se divide en una componente vertical (que sostiene el peso) y una <b>componente horizontal</b>, que es la fuerza centrípeta que hace girar al avión. La componente vertical no produce el giro, y la fuerza centrífuga es la reacción inercial que se opone a él.",
+    "teoria": "Las opciones b) y c) son incorrectas."
+  },
+  "k132": {
+    "explicacion": "La velocidad de pérdida aumenta con la raíz cuadrada del factor de carga (Vs × √n). Por eso, al aumentar el factor de carga (por ejemplo en un viraje), el avión <b>entra en pérdida a una velocidad mayor</b>, aunque el ángulo de ataque crítico es el mismo. No implica necesariamente una tendencia al tirabuzón.",
+    "teoria": "La velocidad de pérdida aumenta con el factor de carga; las opciones b) y c) son incorrectas."
+  },
+  "k148": {
+    "explicacion": "Las cuatro maniobras fundamentales de vuelo son <b>vuelo recto y nivelado, virajes, ascensos y descensos</b>; toda otra maniobra es una combinación de ellas. Puesta en marcha, rodaje, despegue y aterrizaje son fases de la operación, no maniobras fundamentales.",
+    "teoria": "Las cuatro maniobras fundamentales son: vuelo recto y nivelado, virajes, ascensos y descensos."
+  },
+  "k151": {
+    "explicacion": "En la figura el viento sopla de arriba hacia abajo y el tramo derecho (4 → 1) se vuela contra el viento. En los tramos de viento cruzado (arriba y abajo) el avión vuela con corrección de deriva, con la nariz hacia el viento. Al entrar al tramo contra el viento (punto 4) y al salir de él (punto 1), esa corrección hace que el cambio de rumbo sea <b>menor a 90°</b>. En los puntos 2 y 3, que están del lado del viento de cola, los virajes son mayores a 90°.",
+    "teoria": "El viraje es menor a 90° en los puntos 1 y 4."
+  },
+  "k156": {
+    "explicacion": "En la Figura 67 el viento sopla hacia arriba, de modo que el viraje 4-5-6 comienza con viento de frente, a baja velocidad respecto del suelo. Ese viraje debe iniciarse con poca inclinación e irla aumentando gradualmente. Si la inclinación se <b>incrementa rápidamente al comienzo</b>, el semicírculo resulta más chico y el viraje no se completa antes de llegar a la línea de referencia. Un aumento lento al final (opción c) agrandaría el arco en lugar de achicarlo.",
+    "teoria": "En el viraje 4-5-6 se debe comenzar con poca inclinación e incrementarla progresivamente; el error es aumentarla demasiado rápido al principio."
+  },
+  "k164": {
+    "explicacion": "Con viento de cola, la velocidad indicada de aproximación y de toque es la misma, pero la <b>velocidad respecto del suelo (ground speed) es mayor</b>. Por eso la carrera de aterrizaje es más larga y hay tendencia a sobrepasar el punto de toque elegido. La opción a) es incorrecta porque la velocidad indicada no cambia; la c), porque la carrera no se acorta.",
+    "teoria": "Con viento de cola: mayor velocidad terrestre, carrera más larga y probabilidad de sobrepasar el punto de toque; las opciones a) y c) son incorrectas."
+  },
+  "k167": {
+    "explicacion": "La pérdida ocurre a una presión dinámica determinada, y el anemómetro mide justamente presión dinámica. Por eso la <b>velocidad indicada de pérdida se mantiene igual</b> a cualquier altitud, aunque la velocidad verdadera de pérdida aumente con la altitud. Las opciones a) y b) mezclan velocidad verdadera e indicada de forma incorrecta.",
+    "teoria": "La velocidad indicada de pérdida se mantiene igual independientemente de la altitud; las opciones a) y b) son incorrectas."
+  },
+  "k172": {
+    "explicacion": "Para entrar en tirabuzón el avión debe <b>estar en pérdida</b>; luego, la guiñada hace que un ala quede en pérdida más profunda que la otra y se inicie la autorrotación. Una espiral escarpada no es una pérdida: en ella el ala sigue volando con velocidad creciente.",
+    "teoria": "El avión debe estar en pérdida para entrar en tirabuzón; las opciones a) y b) son incorrectas."
+  },
+  "k185": {
+    "explicacion": "En un tirabuzón <b>ambas alas están en pérdida</b>. El ala interna (en este caso la izquierda) está en pérdida más profunda que la externa, y esa diferencia mantiene la autorrotación. Por eso no es correcto decir que solo el ala izquierda está en pérdida.",
+    "teoria": "Ambas alas están en pérdida, una con menor profundidad que la otra."
+  },
+  "k187": {
+    "explicacion": "El avión siempre entra en pérdida al mismo <b>ángulo de ataque crítico</b>, cualquiera sea el peso. Lo que cambia con el peso es la velocidad de pérdida (mayor peso, mayor velocidad de pérdida), no el ángulo. La posición del CG tampoco modifica el ángulo de ataque crítico.",
+    "teoria": "El avión siempre entra en pérdida al mismo ángulo de ataque, independientemente del CG o del peso."
+  },
+  "k194": {
+    "explicacion": "Los flaps aumentan la sustentación y, sobre todo en sus posiciones mayores, la resistencia. Esto permite <b>aumentar el ángulo de descenso sin aumentar la velocidad</b>. También permiten tocar a menor velocidad (no mayor, como dice la b), y no disminuyen el ángulo de descenso (opción a).",
+    "teoria": "Las opciones a) y b) son incorrectas."
+  },
+  "k195": {
+    "explicacion": "Al extender los flaps aumenta la resistencia, lo que permite realizar <b>aproximaciones más pronunciadas</b> sin que aumente la velocidad. Aliviar la presión sobre los controles es la función del compensador (trim), y los flaps no disminuyen el área del ala.",
+    "teoria": "Los flaps aumentan la resistencia y permiten una aproximación más pronunciada; las opciones b) y c) son incorrectas."
+  },
+  "k197": {
+    "explicacion": "En efecto suelo disminuye la resistencia inducida, así que el avión puede <b>despegar antes de alcanzar la velocidad recomendada</b>. Al salir del efecto suelo la resistencia inducida vuelve a aumentar y el avión puede no ser capaz de ascender o incluso volver a apoyarse. El efecto suelo no dificulta el despegue ni provoca toques abruptos: al contrario, tiende a hacer flotar al avión.",
+    "teoria": "El avión puede salir al aire antes de la velocidad recomendada; las opciones a) y c) son incorrectas."
+  },
+  "k200": {
+    "explicacion": "El efecto suelo es el resultado de la <b>interferencia de la superficie con el patrón de circulación del aire</b> alrededor del avión: se reducen la corriente ascendente, la descendente y los vórtices de punta de ala. Esto disminuye la resistencia inducida; no la aumenta, como dice la opción b).",
+    "teoria": "La definición correcta es la a); las opciones b) y c) son incorrectas."
+  },
+  "k201": {
+    "explicacion": "En efecto suelo la <b>resistencia inducida disminuye</b>, por lo que cualquier exceso de velocidad en la aproximación hace que el avión flote durante el aterrizaje. Los vórtices de punta de ala se reducen, no aumentan (opción a).",
+    "teoria": "Las opciones a) y c) son incorrectas."
+  },
+  "k208": {
+    "explicacion": "Los vórtices de estela descienden por debajo de la trayectoria de la aeronave que los genera y dejan de producirse cuando esta toca la pista. Por eso hay que mantenerse <b>por encima de su pendiente de planeo</b> y tocar <b>más allá</b> del punto donde aterrizó. Volar por debajo de su senda (opciones b y c) significa atravesar la estela.",
+    "teoria": "Mantenerse por encima de la trayectoria de la aeronave precedente y tocar más allá de su punto de toque."
+  },
+  "k213": {
+    "explicacion": "Los vórtices de punta de ala <b>descienden</b> por debajo de la trayectoria de la aeronave que los genera. Un avión que vuele por debajo de esa trayectoria puede ser empujado hacia abajo o perder el control. Los vórtices no ascienden (opciones a y b).",
+    "teoria": "Los vórtices tienden a descender por debajo de la trayectoria de la aeronave que los genera."
+  },
+  "k219": {
+    "explicacion": "Un viento <b>suave de cola cruzado (¾ de cola)</b> puede trasladar el vórtice hacia adelante, a la zona de toque, y mantenerlo allí. Por eso es la condición que requiere máxima precaución. Un viento fuerte disipa rápidamente los vórtices, y un viento de frente los aleja de la zona de toque.",
+    "teoria": "Un viento suave de cola cruzado requiere la máxima precaución; las opciones a) y c) son incorrectas."
+  },
+  "k232": {
+    "explicacion": "Al despegar detrás de una aeronave de gran porte, hay que rotar antes del punto donde ella rotó y mantenerse <b>por encima de su trayectoria</b> y <b>del lado de donde viene el viento</b>. Los vórtices descienden y el viento los desplaza hacia el lado opuesto (sotavento). Volar por debajo de su trayectoria (opciones a y c) es entrar en la estela.",
+    "teoria": "Rotar antes que la aeronave de gran porte, mantenerse por encima de su trayectoria y desviarse hacia el lado del viento."
+  },
+  "k001": {
+    "explicacion": "Los controles primarios de vuelo son el <b>timón de profundidad (elevador), los alerones y el timón de dirección</b>, que controlan el cabeceo, el rolido y la guiñada. Los flaps y las aletas compensadoras son controles secundarios.",
+    "teoria": null
+  },
+  "k301": {
+    "explicacion": "La velocidad indicada de pérdida varía con el peso y el factor de carga, pero el avión siempre entra en pérdida al mismo <b>ángulo de ataque crítico</b>. Por lo tanto, el ángulo de ataque <b>será el mismo</b>. La opción b) es incorrecta porque el ángulo crítico no cambia.",
+    "teoria": null
+  },
+  "k306": {
+    "explicacion": "El ángulo de ataque es el ángulo entre la cuerda del ala y el viento relativo (flecha). En la <b>imagen inferior</b> el ángulo marcado entre la línea de la cuerda y la dirección del viento relativo es claramente el mayor. En las imágenes superior y central ese ángulo es pequeño.",
+    "teoria": null
+  },
+  "k309": {
+    "explicacion": "El eje lateral es la línea imaginaria que va en sentido <b>transversal</b>, de punta a punta del ala. El movimiento alrededor de este eje es el <b>cabeceo</b> (pitch) y lo produce el timón de profundidad (elevador) en el empenaje horizontal. La opción a) llama al cabeceo «alabeo», y la b) dice «longitudinal» y atribuye el movimiento al ala.",
+    "teoria": null
+  },
+  "k310": {
+    "explicacion": "El eje longitudinal es la línea imaginaria que atraviesa el <b>fuselaje</b> de la nariz a la cola. El movimiento alrededor de él es el <b>rolido</b> (roll) y lo producen los <b>alerones</b>, ubicados en el borde de fuga cerca de las puntas de ala. La opción a) atribuye el rolido a los flaps, y la c) habla del eje vertical.",
+    "teoria": null
+  },
+  "k311": {
+    "explicacion": "Al reducirse la resistencia inducida en efecto suelo, el avión puede <b>salir al aire antes de la velocidad recomendada</b> en el despegue, o <b>flotar más</b> durante la aproximación y el aterrizaje. La opción b) es incorrecta porque la flotación aumenta, no se reduce.",
+    "teoria": null
+  },
+  "k314": {
+    "explicacion": "El peso es la fuerza con que la gravedad <b>atrae</b> a los cuerpos <b>verticalmente</b> hacia el centro de la Tierra. La gravedad no repele ni actúa en sentido horizontal ni longitudinal.",
+    "teoria": null
+  },
+  "k322": {
+    "explicacion": "En la posición 1 (superior), el borde de fuga del timón de profundidad está deflectado hacia arriba. Esto genera una fuerza hacia abajo en la cola, que baja, y la nariz sube: <b>posición de nariz arriba</b>.",
+    "teoria": null
+  },
+  "k323": {
+    "explicacion": "En la posición 2 (central), el timón de profundidad está alineado con el estabilizador horizontal, sin deflexión. No genera momento de cabeceo: es la <b>posición neutral</b>.",
+    "teoria": null
+  },
+  "k324": {
+    "explicacion": "En la posición 2 (central), el timón de dirección está alineado con el estabilizador vertical, sin deflexión. No genera guiñada, por lo que corresponde a <b>vuelo recto</b>.",
+    "teoria": null
+  },
+  "k356": {
+    "explicacion": "La velocidad de pérdida aumenta en proporción a la <b>raíz cuadrada</b> del factor de carga (el enunciado dice «cuadrado», pero la relación correcta es Vs × √n).<br>√4 = 2<br>Velocidad de pérdida = 2 × normal → el doble.<br>Cuatro veces la normal (opción a) sería aplicar el factor de carga directamente, sin la raíz.",
+    "teoria": null
+  },
+  "k355": {
+    "explicacion": "Al arrancar un motor a mano (girando la hélice), lo fundamental es que un piloto competente esté <b>en los controles de la cabina</b>, para poder actuar sobre frenos, acelerador, mezcla y magnetos si el motor arranca. Confirmar \"en contacto\" o colacionar las órdenes son buenas prácticas de comunicación, pero no reemplazan tener a alguien controlando el avión.",
+    "teoria": "Un piloto competente debe encontrarse en los controles de la cabina; a) y c) son incorrectas."
+  },
+  "c2-02": {
+    "explicacion": "Inmediatamente después de la puesta en marcha se ajustan las RPM de calentamiento y se verifican los instrumentos de motor, en especial la <b>presión de aceite</b>. La verificación de puesta a masa de los magnetos se hace al detener el motor, y la prueba de frenos al comenzar el rodaje.",
+    "teoria": "Ajuste las RPM de calentamiento y verifique la presión de aceite; b) se realiza al final del vuelo; c) al comenzar a rodar."
+  },
+  "c2-03": {
+    "explicacion": "Los aviones de instrucción y livianos usan motores alternativos porque son <b>relativamente simples y económicos de operar</b>. Las otras opciones no describen un motivo para elegir este tipo de motor.",
+    "teoria": "Se utilizan motores alternativos porque son relativamente económicos y sencillos de operar."
+  },
+  "c2-04": {
+    "explicacion": "El encendido dual (dos magnetos y dos bujías por cilindro) brinda <b>redundancia</b> y <b>mejor rendimiento del motor</b>, ya que dos frentes de llama queman la mezcla de forma más completa y rápida. No tiene relación con la distribución del calor ni con la compresión en el cilindro.",
+    "teoria": "Redundancia y mejora en el rendimiento del motor; b) y c) son incorrectas."
+  },
+  "c2-05": {
+    "explicacion": "Los magnetos generan su propia corriente y son independientes del sistema eléctrico, y la bomba de combustible principal es mecánica, accionada por el motor. Por eso, al perder batería y alternador, el motor sigue funcionando y solo falla el <b>equipamiento eléctrico, como la aviónica</b>. Las opciones b) y c) suponen erróneamente que el encendido o el motor dependen del sistema eléctrico.",
+    "teoria": "Falla en el equipo de aviónica; b) es incorrecta porque los magnetos son independientes; c) es incorrecta porque la bomba de combustible del motor es mecánica."
+  },
+  "c2-06": {
+    "explicacion": "El motor se detiene con el interruptor en OFF porque este pone a masa el primario del magneto a través de ese cable. Si el cable a tierra se desconecta, el magneto queda \"vivo\" y el motor <b>no se puede parar</b> con el interruptor en OFF; además, mover la hélice puede hacerlo arrancar. El motor sí arranca y funciona normalmente con el interruptor en ON.",
+    "teoria": "No se puede detener el motor al colocar el interruptor en APAGADO (OFF)."
+  },
+  "c2-07": {
+    "explicacion": "El carburador de flotante funciona por la <b>diferencia de presión</b> entre la garganta del venturi (baja presión) y la entrada de aire, que hace fluir el combustible hacia el venturi. La opción c) es incorrecta: al aumentar la velocidad del aire en el venturi, la presión <b>disminuye</b>, no aumenta.",
+    "teoria": "Diferencia de presión entre el área de baja presión del venturi y el aire exterior; a) y c) son incorrectas."
+  },
+  "k014": {
+    "explicacion": "Al ganar altitud el aire es menos denso, pero el carburador sigue entregando la misma cantidad de combustible, por lo que la mezcla se enriquece. Se empobrece la mezcla para <b>reducir el flujo de combustible</b> y compensar la menor densidad del aire. La opción b) es errónea porque en altura la densidad es menor, no mayor, y c) haría la mezcla aún más rica.",
+    "teoria": "Disminuir el caudal de combustible para compensar la disminución de la densidad del aire; b) y c) son incorrectas."
+  },
+  "c2-09": {
+    "explicacion": "La mezcla quedó empobrecida para la densidad de 9500 pies. Al descender a 4500 pies el aire es más denso: entra más aire con el mismo caudal de combustible, por lo que la mezcla podría quedar <b>excesivamente pobre</b>. Las opciones b) y c) describen una mezcla rica, que es lo contrario de lo que ocurre.",
+    "teoria": "En el descenso aumenta la densidad del aire y el combustible no varía, por lo que la mezcla se empobrece; b) y c) son incorrectas."
+  },
+  "c2-10": {
+    "explicacion": "En un aeródromo de gran elevación el aire es poco denso y, sin empobrecer, la mezcla queda demasiado rica. El calor al carburador reduce aún más la densidad y enriquece la mezcla, por eso la brusquedad empeora. Lo lógico es <b>empobrecer la mezcla</b> y repetir la verificación; volver a mantenimiento corresponde solo si no mejora, y con mezcla rica no hay detonación.",
+    "teoria": "Mezcla demasiado rica por la altitud: empobrecer; b) solo si no mejora; c) con mezcla rica no hay detonación."
+  },
+  "c2-11": {
+    "explicacion": "Con hélice de paso fijo, el hielo en el carburador restringe el paso de aire y lo primero que se nota es una <b>pérdida de RPM</b>. La brusquedad del motor aparece después, cuando el hielo ya es importante, y la caída de temperaturas no es la indicación inicial típica.",
+    "teoria": "La primera indicación es la pérdida de RPM; a) y b) se desarrollan después."
+  },
+  "c2-12": {
+    "explicacion": "Al aplicar aire caliente, el aire menos denso enriquece la mezcla y las RPM <b>disminuyen</b>. Si había hielo, a medida que se derrite las RPM <b>aumentan gradualmente</b>. Una caída de RPM que luego se mantiene constante (opción b) indica que no había hielo.",
+    "teoria": "Las RPM disminuyen y luego aumentan si había hielo; b) correspondería a la ausencia de hielo."
+  },
+  "c2-13": {
+    "explicacion": "El hielo en el carburador se forma por el enfriamiento del venturi y la vaporización del combustible, que pueden bajar la temperatura más de 20 °C. Por eso es más probable entre <b>-7 °C y 21 °C con alta humedad</b>. Con baja humedad hay poco vapor de agua que congelar, por lo que a) y b) no son las condiciones más favorables.",
+    "teoria": "Entre -7 °C y 21 °C con humedad visible o alta; a) y b) son incorrectas."
+  },
+  "c2-14": {
+    "explicacion": "Debido al gran enfriamiento dentro del carburador, puede formarse hielo con temperaturas exteriores de <b>hasta 21 °C</b> si la humedad relativa es alta. Por encima de 21 °C (32 °C) o por debajo de -7 °C (-15 °C) la formación es mucho menos probable.",
+    "teoria": "b) es menos probable por encima de 21 °C; c) es menos probable por debajo de -7 °C."
+  },
+  "c2-15": {
+    "explicacion": "El rango de riesgo de hielo en el carburador es de -7 °C a 21 °C con alta humedad. <b>20 °C con humedad relativa alta</b> está dentro de ese rango. 100 °F (≈38 °C) es demasiado caliente, y 75 °F (≈24 °C) con humedad baja hace muy improbable la formación de hielo.",
+    "teoria": "Entre -7 °C y 21 °C con alta humedad; 20 °C con humedad alta está dentro del rango."
+  },
+  "c2-16": {
+    "explicacion": "El aire caliente es <b>menos denso</b>; el carburador entrega la misma cantidad de combustible para una menor masa de aire, por lo que la mezcla se <b>enriquece</b>. No hace pasar más aire (en masa) por el carburador, y sí afecta la mezcla.",
+    "teoria": "La mezcla de combustible y aire se enriquece; a) y c) son incorrectas."
+  },
+  "c2-17": {
+    "explicacion": "Al aplicar calor al carburador entra aire más caliente y menos denso con el mismo caudal de combustible, por lo que la mezcla se <b>enriquece</b>. Por eso las RPM bajan, pero no por empobrecimiento como sugieren a) y c).",
+    "teoria": "Las respuestas a) y c) son incorrectas porque la mezcla se enriquece."
+  },
+  "c2-18": {
+    "explicacion": "El aire caliente es menos denso y enriquece la mezcla, por lo que el motor entrega <b>menos potencia</b>; además aumenta la temperatura de funcionamiento. Por eso no se recomienda usarlo cuando se necesita toda la potencia, por ejemplo en el despegue.",
+    "teoria": "Tiende a reducir el rendimiento del motor y a aumentar su temperatura."
+  },
+  "c2-19": {
+    "explicacion": "El carburador de flotante tiene venturi y vaporiza el combustible en el conducto de admisión, lo que provoca un fuerte enfriamiento. Por eso es <b>más susceptible</b> a la formación de hielo que la inyección. Tampoco hace falta humedad visible: alcanza con humedad relativa alta.",
+    "teoria": "La inyección de combustible es menos susceptible a la formación de hielo; b) y c) son incorrectas."
+  },
+  "c2-20": {
+    "explicacion": "La bomba eléctrica es <b>auxiliar</b>: se usa como respaldo en caso de falla de la bomba mecánica del motor y, según el manual de vuelo, en el arranque, el despegue y el aterrizaje. No funciona permanentemente durante todo el vuelo.",
+    "teoria": "La bomba eléctrica es auxiliar y se utiliza en caso de que falle la bomba principal."
+  },
+  "c2-21": {
+    "explicacion": "Un combustible de grado (octanaje) menor al especificado tiene menor <b>poder antidetonante</b>, por lo que lo más probable es que cause <b>detonación</b>. Esto aumenta la temperatura de la cabeza de cilindro, no la disminuye.",
+    "teoria": "Un combustible de menor octanaje causa detonación; a) y b) son incorrectas."
+  },
+  "c2-22": {
+    "explicacion": "La detonación es la combustión <b>instantánea y explosiva</b> de la mezcla en lugar de quemarse en forma pareja y progresiva. La opción c) describe el preencendido, y b) es incorrecta porque la detonación se asocia a mezcla pobre, no rica.",
+    "teoria": "Explosión repentina en lugar de un quemado suave; b) es incorrecta; c) describe el preencendido."
+  },
+  "c2-23": {
+    "explicacion": "En la detonación, la mezcla sin quemar en el cilindro <b>explota</b> en lugar de quemarse normalmente. La opción b) (puntos calientes que encienden la mezcla antes de la chispa) es el preencendido, y a) es una falla del sistema de encendido.",
+    "teoria": "a) no tiene relación con el cableado; b) describe el preencendido."
+  },
+  "k019": {
+    "explicacion": "El encendido no controlado de la mezcla <b>antes</b> de la chispa normal se llama <b>preencendido (pre-ignición)</b>, y suele deberse a puntos calientes como depósitos de carbón incandescentes. La detonación, en cambio, es la explosión de la mezcla después del encendido normal.",
+    "teoria": "El preencendido se define como el encendido de la mezcla antes del encendido normal."
+  },
+  "c2-25": {
+    "explicacion": "Si no se dispone del octanaje especificado, se puede usar el <b>próximo octanaje mayor</b> de combustible de aviación. Un octanaje menor puede provocar detonación, y el combustible automotor solo se puede usar si la aeronave está certificada para ello.",
+    "teoria": "Utilizar el próximo octanaje mayor; b) y c) son incorrectas."
+  },
+  "c2-26": {
+    "explicacion": "Al llenar los tanques se elimina el espacio de aire, donde durante la noche la humedad se <b>condensa</b> en las paredes y agrega agua al combustible. El agua es más pesada que el combustible y se deposita en el fondo, no en el tope, por lo que a) es incorrecta.",
+    "teoria": "Prevendrá la condensación de humedad; a) y b) son incorrectas."
+  },
+  "c2-27": {
+    "explicacion": "Para eliminar el agua por completo hay que drenar el <b>filtro de combustible</b> (drenaje rápido) <b>y los sumideros de todos los tanques</b>, ya que el agua puede acumularse en cada uno de esos puntos bajos. Drenar solo el filtro o un único punto no garantiza purgar todo el sistema.",
+    "teoria": "Se deben drenar el filtro de combustible y los sumideros de todos los tanques."
+  },
+  "c2-28": {
+    "explicacion": "Ante una sospecha de detonación en el ascenso, lo primero es <b>bajar levemente la nariz</b> para aumentar la velocidad y el flujo de aire de refrigeración. Empobrecer la mezcla aumenta la temperatura y el calor al carburador calienta el aire de admisión, empeorando la detonación.",
+    "teoria": "Bajar la nariz para ganar velocidad; a) y c) son incorrectas."
+  },
+  "c2-29": {
+    "explicacion": "Las temperaturas excesivas del motor provocan <b>pérdida de potencia, consumo excesivo y posible daño interno permanente</b>. La opción b) es la que describe estos efectos (la teoría habla de consumo excesivo de aceite). Afirmar que no afecta al motor (c) es claramente falso.",
+    "teoria": "Pérdida de potencia, consumo excesivo de aceite y posible daño interno; a) y c) son incorrectas."
+  },
+  "c2-30": {
+    "explicacion": "Tanto en vuelo como en tierra, las temperaturas excesivas del motor causan <b>pérdida de potencia, consumo excesivo de aceite y posible daño interno permanente</b>. No aumentan la potencia, como sugiere a); al contrario, favorecen la detonación.",
+    "teoria": "Pérdida de potencia, consumo excesivo de aceite, detonación y daño grave al motor."
+  },
+  "c2-31": {
+    "explicacion": "Temperaturas de aceite y de cabeza de cilindro por encima del rango normal indican que se operó con <b>demasiada potencia y mezcla muy pobre</b>. Una mezcla rica enfría el motor gracias al exceso de combustible, y una presión de aceite alta no eleva la temperatura.",
+    "teoria": "Causadas por demasiada potencia con mezcla demasiado pobre; a) y b) son incorrectas."
+  },
+  "c2-32": {
+    "explicacion": "Usar combustible de <b>octanaje menor al especificado</b> puede provocar detonación y temperaturas excesivas de la cabeza de cilindro y del aceite. Un octanaje mayor no causa sobrecalentamiento, y una presión de aceite alta tampoco.",
+    "teoria": "Combustible de octanaje demasiado bajo; b) y c) son incorrectas."
+  },
+  "c2-33": {
+    "explicacion": "En los motores alternativos enfriados por aire, el enfriamiento de las partes internas depende en gran medida de la <b>circulación del aceite lubricante</b>, que absorbe calor y lo disipa. Estos motores no tienen termostato como un sistema de refrigeración líquida, y el flujo de aire sobre el escape no enfría el interior.",
+    "teoria": "El aceite enfría las partes internas del motor a medida que circula; a) y b) son incorrectas."
+  },
+  "c2-34": {
+    "explicacion": "Con un <b>nivel de aceite demasiado bajo</b> hay menos aceite para absorber y transportar el calor, por lo que su temperatura sube en forma anormal. Una mezcla excesivamente rica, en cambio, tiende a enfriar el motor.",
+    "teoria": "Si el nivel de aceite es demasiado bajo, la temperatura del aceite aumenta; b) y c) son incorrectas."
+  },
+  "c2-35": {
+    "explicacion": "Para refrigerar el motor en el ascenso se <b>reduce el régimen de ascenso y se aumenta la velocidad</b>, lo que incrementa el flujo de aire de refrigeración. Aumentar las RPM genera más calor, por lo que b) y c) empeoran el sobrecalentamiento.",
+    "teoria": "Ascenso con menor pendiente, aumentando la velocidad; b) y c) son incorrectas."
+  },
+  "c2-36": {
+    "explicacion": "<b>Enriquecer la mezcla</b> ayuda a refrigerar el motor porque el combustible excedente absorbe calor. Aumentar las RPM genera más calor y reducir la velocidad disminuye el flujo de aire de refrigeración.",
+    "teoria": "Enriquecer la mezcla; b) aumenta el calor; c) reduce el flujo de aire."
+  },
+  "k359": {
+    "explicacion": "Ante una falla de potencia en vuelo, lo primero es <b>establecer de inmediato la actitud y la velocidad de planeo</b> adecuadas, para conservar el control y la mayor distancia de planeo posible. Verificar el combustible o determinar el viento son pasos importantes, pero vienen después.",
+    "teoria": "Mantener la velocidad de planeo adecuada es la regla más importante."
+  },
+  "c2-38": {
+    "explicacion": "Con hélice de velocidad constante, el <b>acelerador controla la potencia</b>, indicada en el manómetro de presión de admisión (manifold), y el <b>control de paso de la hélice regula las RPM</b>, indicadas en el tacómetro. El ángulo de pala varía automáticamente para mantener las RPM, no es constante (b), y la mezcla no regula la potencia (c).",
+    "teoria": "El acelerador controla la potencia (presión de admisión) y el control de la hélice determina las RPM."
+  },
+  "c2-39": {
+    "explicacion": "La ventaja de la hélice de velocidad constante es que el piloto puede seleccionar, mediante las RPM, el <b>ángulo de pala más eficiente</b> para cada condición de vuelo (despegue, ascenso, crucero). No sirve para fijar la velocidad de crucero ni elimina las vibraciones.",
+    "teoria": "Permite elegir el ángulo de pala más eficiente; a) y c) son incorrectas."
+  },
+  "c2-40": {
+    "explicacion": "Se debe evitar operar con <b>presión de admisión alta y RPM bajas</b>, porque somete a los cilindros y componentes internos a esfuerzos excesivos. Por eso, para reducir potencia se baja primero la presión de admisión y luego las RPM, y para aumentarla se suben primero las RPM y luego la presión de admisión.",
+    "teoria": "Evitar presión de admisión alta con RPM bajas; a) y c) son incorrectas."
+  },
+  "k025": {
+    "explicacion": "Los efectos del torque y del factor P de la hélice son máximos con <b>poca velocidad, alta potencia y gran ángulo de ataque</b>, como en el despegue y el ascenso. A alta velocidad o con poca potencia, estos efectos son reducidos.",
+    "teoria": "Potencia alta, velocidad baja y gran ángulo de ataque; a) y c) son incorrectas."
+  },
+  "c2-42": {
+    "explicacion": "Con gran ángulo de ataque, la <b>pala descendente (lado derecho)</b> tiene mayor ángulo de ataque y produce <b>más tracción</b> que la pala ascendente (lado izquierdo), lo que hace guiñar el avión a la izquierda: eso es el efecto P. La opción a) describe la reacción del torque y c) la precesión giroscópica.",
+    "teoria": "La pala descendente derecha tiene mayor ángulo de ataque y tracción; a) es el torque; c) es la precesión giroscópica."
+  },
+  "c2-43": {
+    "explicacion": "El efecto P hace guiñar el avión a la izquierda en <b>grandes ángulos de ataque</b> con potencia alta, porque la pala descendente produce más tracción que la ascendente. Con ángulos de ataque reducidos o a alta velocidad, el efecto es mínimo.",
+    "teoria": "Ocurre con grandes ángulos de ataque y alta potencia; a) y c) son incorrectas."
+  },
+  "k053": {
+    "explicacion": "Según las RAAC, el <b>piloto al mando</b> es responsable de determinar si la aeronave está en condiciones seguras para el vuelo antes de cada vuelo. El mecánico certifica el mantenimiento y el propietario u operador mantiene la aeronavegabilidad, pero la decisión de volar es del piloto al mando.",
+    "teoria": "El piloto al mando es responsable (RAAC 91.7 a) y b))."
+  },
+  "c2-45": {
+    "explicacion": "La inspección prevuelo del primer vuelo del día debe ser <b>exhaustiva y sistemática</b>, siguiendo la lista recomendada por el fabricante en el Manual de Vuelo. Una revisión rápida o una secuencia improvisada por el piloto puede pasar por alto defectos.",
+    "teoria": "Mediante un procedimiento exhaustivo y sistemático según el Manual de Vuelo."
+  },
+  "c2-46": {
+    "explicacion": "El <b>propietario u operador</b> es el responsable principal de mantener la aeronave en condición aeronavegable, haciendo cumplir las inspecciones y el mantenimiento requeridos. El piloto al mando determina si la aeronave está en condiciones antes de cada vuelo, y el mecánico ejecuta el mantenimiento.",
+    "teoria": "El dueño u operador es responsable de mantener la aeronave en condición aeronavegable."
+  },
+  "k005": {
+    "explicacion": "En el ciclo Otto ideal, la combustión se produce casi instantáneamente con el pistón en el punto muerto superior, es decir, a <b>volumen constante</b>. La combustión a presión constante corresponde al ciclo Diesel.",
+    "teoria": null
+  },
+  "k006": {
+    "explicacion": "Para detectar una falla en el corte (puesta a masa) de los magnetos, con el motor <b>en ralentí</b> se lleva momentáneamente el interruptor de encendido a OFF: el motor debe comenzar a detenerse, y se vuelve enseguida a BOTH. Hacerlo a máxima potencia es peligroso y puede dañar el motor.",
+    "teoria": null
+  },
+  "k007": {
+    "explicacion": "Si se desconecta el cable a masa entre el magneto y el interruptor, el magneto no puede ponerse a masa y queda \"vivo\". Por eso, el motor <b>podría ponerse en marcha accidentalmente</b> si se mueve la hélice habiendo combustible en el cilindro. El motor sí arranca y funciona con el interruptor en BOTH.",
+    "teoria": null
+  },
+  "k008": {
+    "explicacion": "El número de octanos indica la <b>calidad antidetonante</b> del combustible, es decir, su resistencia a la detonación. Un octanaje mayor soporta mayores presiones y temperaturas sin detonar.",
+    "teoria": null
+  },
+  "k009": {
+    "explicacion": "Si la aeronave asciende sin empobrecer la mezcla, el aire es cada vez menos denso y la mezcla se vuelve <b>excesivamente rica</b>. El combustible que no se quema deja depósitos de carbón en las bujías y las <b>empasta</b>. Al descender sin ajustar, la mezcla se empobrece, no se enriquece.",
+    "teoria": null
+  },
+  "k010": {
+    "explicacion": "La relación aire/combustible se controla con el <b>control de la mezcla</b>. El acelerador regula la cantidad de mezcla que entra al motor (potencia), y la presión de admisión es solo una indicación de esa potencia.",
+    "teoria": null
+  },
+  "k011": {
+    "explicacion": "Al ganar altitud la densidad del aire disminuye mientras el combustible se mantiene, por lo que la mezcla se enriquece. Ajustar (empobrecer) el control de la mezcla <b>impide que la mezcla se enriquezca demasiado</b> en altura. No regula el flujo de aire por el venturi, y en el ascenso la mezcla tiende a enriquecerse, no a empobrecerse.",
+    "teoria": null
+  },
+  "k012": {
+    "explicacion": "Si no se empobrece al ascender, la <b>densidad del aire disminuye</b> mientras la <b>cantidad de combustible permanece constante</b>, por lo que la mezcla se enriquece. El combustible no aumenta (b) ni disminuye (a) por sí solo.",
+    "teoria": null
+  },
+  "k013": {
+    "explicacion": "El carburador mide el combustible según el volumen de aire, que no cambia con la altitud; lo que disminuye es la <b>densidad</b> del aire. Con la misma cantidad de combustible y aire menos denso, la mezcla se enriquece. Por eso la respuesta habla de densidad y no de volumen.",
+    "teoria": null
+  },
+  "k015": {
+    "explicacion": "El aire caliente al carburador es menos denso y enriquece la mezcla, por lo que el motor entrega menos potencia. Con menos potencia, la aeronave acelera más lento y <b>aumenta la carrera de despegue</b>. No empobrece la mezcla ni reduce la distancia de despegue.",
+    "teoria": null
+  },
+  "k016": {
+    "explicacion": "El aire caliente es menos denso y el carburador entrega la misma cantidad de combustible, por lo que la mezcla aire/combustible se <b>enriquece</b>. No la empobrece y sí tiene efecto sobre ella.",
+    "teoria": null
+  },
+  "k017": {
+    "explicacion": "Al aplicar aire caliente al carburador entra aire menos denso con el mismo caudal de combustible, por lo que la mezcla se <b>enriquece</b>. Las opciones que dicen que no la afecta o que la empobrece son incorrectas.",
+    "teoria": null
+  },
+  "k018": {
+    "explicacion": "La detonación puede producirse por usar <b>combustible de menor grado (octanaje)</b> que el recomendado, que tiene menor poder antidetonante. También la favorecen la mezcla pobre y las temperaturas altas del motor; una mezcla rica y temperaturas bajas, en cambio, la reducen.",
+    "teoria": null
+  },
+  "k020": {
+    "explicacion": "En los motores recíprocos enfriados por aire, el enfriamiento interno depende en gran medida de la <b>circulación del aceite lubricante</b>, que absorbe el calor de las piezas internas. Los cowl flaps ayudan al enfriamiento externo, y el sistema freón/compresor no tiene relación con el motor.",
+    "teoria": null
+  },
+  "k021": {
+    "explicacion": "Con un <b>nivel de aceite demasiado bajo</b> hay menos aceite para absorber y disipar el calor, por lo que su temperatura sube anormalmente. Una mezcla excesivamente rica tiende a enfriar el motor.",
+    "teoria": null
+  },
+  "k022": {
+    "explicacion": "La eficiencia de la hélice es la relación entre la <b>potencia de tracción (empuje) y la potencia al freno</b> que entrega el motor. La distancia que avanza la hélice en una revolución es el paso efectivo, no la eficiencia.",
+    "teoria": null
+  },
+  "k023": {
+    "explicacion": "Los vapores del interior del cárter contienen humedad que, en clima frío, se <b>condensa y se congela</b> en las líneas del respiradero y puede obstruirlas. Una obstrucción puede aumentar la presión en el cárter y provocar pérdidas de aceite. No se trata de aceite congelado ni de humedad del aire exterior.",
+    "teoria": null
+  },
+  "k024": {
+    "explicacion": "En operaciones con clima frío se deben <b>precalentar tanto el motor como la cabina</b>, ya que el frío afecta también a los instrumentos y equipos de cabina. No se debe inyectar aire caliente directamente por la toma de admisión.",
+    "teoria": null
+  },
+  "k026": {
+    "explicacion": "En un motor de aspiración normal, durante el tiempo de admisión el pistón <b>baja</b> y crea una baja presión en el cilindro, que <b>aspira (succiona)</b> la mezcla. Cuando el pistón sube se produce la compresión, no la admisión.",
+    "teoria": null
+  },
+  "k027": {
+    "explicacion": "Durante la compresión el pistón sube y reduce el espacio: el <b>volumen disminuye</b> mientras la <b>presión y la temperatura aumentan</b>. Por eso las opciones b) y c) son incorrectas.",
+    "teoria": null
+  },
+  "k028": {
+    "explicacion": "La presión máxima dentro del cilindro se alcanza inmediatamente después de la <b>combustión</b>, cerca del punto muerto superior, cuando los gases se calientan y se expanden. Durante la expansión esa presión va disminuyendo a medida que el pistón baja.",
+    "teoria": null
+  },
+  "k029": {
+    "explicacion": "Durante la expansión (tiempo de potencia), los gases empujan el pistón hacia abajo y el ciclo entrega <b>trabajo</b> útil al cigüeñal. Es el único tiempo del ciclo que produce trabajo.",
+    "teoria": null
+  },
+  "k305": {
+    "explicacion": "La detonación necesita el encendido normal por chispa, por lo que al <b>cortar los magnetos el motor se detiene</b>. En el autoencendido, puntos calientes en la cámara siguen encendiendo la mezcla, por lo que el motor <b>sigue girando</b> aunque se corten los magnetos. Las opciones a) y b) no describen comportamientos reales.",
+    "teoria": null
+  },
+  "k308": {
+    "explicacion": "En la comprobación de magnetos, la caída de RPM al operar con un solo magneto está normalmente <b>entre 50 y 175 RPM</b>, según el motor, con una diferencia máxima entre magnetos de unos 50 RPM. Una caída de 500 a 700 RPM indicaría una falla grave.",
+    "teoria": null
+  },
+  "k318": {
+    "explicacion": "<b>Verdadero.</b> El preencendido es el encendido prematuro de la mezcla aire/combustible antes de la chispa normal, causado por un punto caliente como un depósito de carbón o de plomo incandescente que actúa como fuente de ignición.",
+    "teoria": null
+  },
+  "k336": {
+    "explicacion": "La mayoría de los motores alternativos de aeronaves pequeñas tienen <b>dos sistemas de ignición independientes</b>: dos magnetos y dos bujías por cilindro. Esto brinda redundancia y mejor combustión.",
+    "teoria": null
+  },
+  "k345": {
+    "explicacion": "<b>Verdadero.</b> Los sistemas de inyección no tienen venturi, por lo que no sufren la caída de temperatura que produce el venturi del carburador. Por eso son menos susceptibles a la formación de hielo en la admisión que los carburadores.",
+    "teoria": null
+  },
+  "k357": {
+    "explicacion": "Con hélice de paso fijo, el hielo reduce el suministro de aire y lo primero que se nota es una <b>disminución de RPM</b>. Al aplicar calor, el aire menos denso hace que las RPM <b>bajen aún más</b>; luego, a medida que el hielo se derrite, las RPM <b>aumentan gradualmente</b>. La opción a) invierte la secuencia y c) dice que las RPM se mantienen, lo cual es incorrecto.",
+    "teoria": null
+  },
+  "k358": {
+    "explicacion": "El riesgo de hielo en el carburador se debe considerar entre <b>-7 °C y 21 °C (20 °F y 70 °F) con humedad relativa alta</b>. La opción b) coincide con esos valores en °F; el \"7°\" debe leerse como -7 °C. Las opciones a) y c) tienen límites inferiores incorrectos.",
+    "teoria": null
+  },
+  "k360": {
+    "explicacion": "<b>Verdadero.</b> Con temperaturas entre -7 °C (20 °F) y 21 °C (70 °F) y humedad visible o alta, el piloto debe estar constantemente alerta a la formación de hielo en el carburador. El \"70° C\" del enunciado corresponde a 70 °F.",
+    "teoria": null
+  },
+  "k368": {
+    "explicacion": "Al <b>llenar completamente los tanques</b> antes de estacionar durante la noche se elimina el espacio de aire donde la humedad se condensa y forma gotas de agua. Vaciar los tanques dejaría más espacio para la condensación.",
+    "teoria": null
+  },
+  "k371": {
+    "explicacion": "Una mezcla demasiado pobre se quema más caliente y en forma irregular, eleva la temperatura de los cilindros y puede producir <b>detonación</b>. El humo negro y las llamas rojas en el escape son señales de mezcla demasiado <b>rica</b>. Una mezcla excesivamente pobre tampoco aumenta la potencia.",
+    "teoria": null
+  },
+  "k378": {
+    "explicacion": "En operaciones con bajas temperaturas se debe controlar la temperatura del carburador <b>antes del despegue</b> y, si está cerca de <b>0 °C</b>, usar el calefactor para evitar o eliminar el hielo. Durante el despegue no se usa calor al carburador porque reduce la potencia (b), y -10 °C no es el valor de referencia (c).",
+    "teoria": null
+  },
+  "k032": {
+    "explicacion": "El tubo pitot capta la presión de impacto (presión dinámica + estática), que alimenta únicamente al <b>velocímetro</b>. Si se bloquea, el velocímetro deja de indicar correctamente. El altímetro y el variómetro funcionan sólo con la presión estática, por lo que no se ven afectados por un pitot bloqueado.",
+    "teoria": "La presión de impacto registrada por el tubo pitot alimenta solamente al velocímetro."
+  },
+  "k103": {
+    "explicacion": "Los tres instrumentos del sistema pitot-estático usan la presión estática: el <b>altímetro</b>, el <b>velocímetro</b> (que compara presión de impacto con estática) y el <b>variómetro</b>. Por eso, si se bloquean las tomas estáticas, los tres quedan afectados. Las opciones que nombran un solo instrumento son incompletas.",
+    "teoria": "Velocímetro, altímetro y variómetro reciben información de las tomas estáticas."
+  },
+  "k181": {
+    "explicacion": "Los instrumentos que dependen del sistema pitot-estático son el <b>altímetro, el velocímetro y el variómetro</b>. El indicador de viraje y ladeo y el horizonte artificial son instrumentos giroscópicos (accionados por vacío o eléctricamente), así que no dependen del pitot ni de las tomas estáticas.",
+    "teoria": "El indicador de viraje y ladeo y el horizonte artificial son instrumentos giroscópicos, por lo que no se ven afectados."
+  },
+  "k226": {
+    "explicacion": "La presión de impacto (o presión total) del tubo pitot sólo se envía al <b>velocímetro</b>, que la compara con la presión estática para indicar la velocidad. El altímetro y el variómetro trabajan exclusivamente con presión estática.",
+    "teoria": "El tubo pitot provee presión de impacto solamente al velocímetro."
+  },
+  "k260": {
+    "explicacion": "<b>VA</b> es la velocidad de maniobra de diseño: a esa velocidad o menos, una deflexión completa y brusca de los comandos no supera el factor de carga límite de la estructura. VLO es la velocidad máxima de operación del tren de aterrizaje y VNE es la velocidad de nunca exceder.",
+    "teoria": "VA es la velocidad de maniobra."
+  },
+  "k267": {
+    "explicacion": "La línea radial roja del velocímetro marca la <b>VNE</b>, la velocidad de nunca exceder, por encima de la cual existe riesgo de daño estructural o flameo. La velocidad de maniobra (VA) no está marcada con colores en el velocímetro.",
+    "teoria": "La línea roja indica la velocidad que nunca se debe exceder (VNE)."
+  },
+  "k274": {
+    "explicacion": "La VNE se identifica con la <b>línea radial roja</b> (en la Figura 4, en 208 MPH, al final del arco amarillo). El límite inferior del arco amarillo es VNO (máxima estructural de crucero) y el límite superior del arco blanco es VFE (máxima con flaps extendidos).",
+    "teoria": "La línea roja indica la VNE."
+  },
+  "k279": {
+    "explicacion": "El <b>límite inferior del arco verde</b> es VS1: la velocidad de pérdida sin potencia en una configuración determinada (normalmente limpia, flaps y tren arriba). El límite superior del arco verde es VNO y el límite superior del arco blanco es VFE. La pérdida en configuración de aterrizaje (VSO) es el límite inferior del arco blanco.",
+    "teoria": "El límite inferior del arco verde (VS1) es la velocidad de pérdida para una configuración determinada."
+  },
+  "k288": {
+    "explicacion": "<b>VX</b> es la velocidad de mejor ángulo de ascenso: da la mayor ganancia de altura en la menor distancia horizontal (útil para franquear obstáculos). VY es la de mejor régimen de ascenso (mayor altura en el menor tiempo) y VA es la de maniobra.",
+    "teoria": "VX es la velocidad de mejor ángulo de ascenso; VY es la de mejor régimen y VA la de maniobra."
+  },
+  "k041": {
+    "explicacion": "<b>VY</b>, velocidad de mejor régimen de ascenso, da el mayor incremento de altitud por unidad de tiempo. VX, en cambio, da la mayor altura en la menor distancia (mejor ángulo), y VA es la velocidad de maniobra, que no tiene relación con la performance de ascenso.",
+    "teoria": "VY (mejor régimen de ascenso) obtiene el mayor incremento de altitud por unidad de tiempo."
+  },
+  "k044": {
+    "explicacion": "El rango de operación con flaps extendidos es el <b>arco blanco</b>, que va de VSO a VFE. En la Figura 4:<br>Límite inferior del arco blanco (VSO) = 60 MPH<br>Límite superior del arco blanco (VFE) = 100 MPH<br>Rango con flaps = 60 a 100 MPH.<br>60 a 208 MPH abarca todo el rango del velocímetro hasta la VNE, no sólo el de flaps.",
+    "teoria": "El arco blanco va de VSO a VFE y marca el rango de operación con flaps extendidos."
+  },
+  "k051": {
+    "explicacion": "La velocidad máxima que nunca debe superarse, aun en aire calmo, es la <b>VNE</b>, marcada con la línea roja. En la Figura 4:<br>Arco amarillo (precaución, sólo en aire calmo) = 165 a 208 MPH<br>Línea roja (VNE) = 208 MPH.<br>165 MPH es VNO (fin del arco verde) y 100 MPH es VFE.",
+    "teoria": "La velocidad máxima del rango de precaución, que sólo se usa en aire calmo, es 208 MPH (VNE)."
+  },
+  "k057": {
+    "explicacion": "La velocidad máxima con flaps extendidos (VFE) es el <b>límite superior del arco blanco</b>. En la Figura 4:<br>Límite superior del arco blanco = 100 MPH → VFE = 100 MPH.<br>165 MPH es VNO (límite superior del arco verde) y no tiene relación con los flaps.",
+    "teoria": "VFE es el límite superior del arco blanco, 100 MPH en este avión."
+  },
+  "k064": {
+    "explicacion": "El rango normal de operación con flaps está marcado con el <b>arco blanco</b>, que va de VSO (límite inferior) a VFE (límite superior). El arco verde corresponde al rango normal de operación sin flaps, de VS1 a VNO.",
+    "teoria": "El rango de operación con flaps está marcado con el arco blanco."
+  },
+  "k070": {
+    "explicacion": "La velocidad de pérdida sin potencia en configuración de aterrizaje (flaps y tren extendidos) es <b>VSO</b>, que corresponde al <b>límite inferior del arco blanco</b> (60 MPH en la Figura 4). El límite superior del arco verde es VNO y el límite superior del arco blanco es VFE.",
+    "teoria": "El límite inferior del arco blanco es VSO; el límite superior del arco verde es VNO y el del arco blanco es VFE."
+  },
+  "k077": {
+    "explicacion": "La velocidad máxima estructural de crucero es <b>VNO</b>, que corresponde al límite superior del arco verde. En la Figura 4:<br>Límite superior del arco verde = 165 MPH → VNO = 165 MPH.<br>100 MPH es VFE (fin del arco blanco) y 208 MPH es VNE (línea roja).",
+    "teoria": "El límite superior del arco verde es VNO; 100 MPH es VFE y 208 MPH es VNE."
+  },
+  "k083": {
+    "explicacion": "La <b>velocidad de maniobra (VA)</b> no está marcada con colores en el velocímetro porque varía con el peso del avión (disminuye al bajar el peso). Hay que buscarla en el manual de vuelo o en un placard. La VNE (línea roja) y la VNO (fin del arco verde) sí están marcadas.",
+    "teoria": "La velocidad de maniobra (VA) no está indicada en el velocímetro."
+  },
+  "k089": {
+    "explicacion": "<b>VFE</b> es la velocidad máxima con flaps extendidos y corresponde al límite superior del arco blanco. VLOF es la velocidad de despegue (cuando el avión deja el suelo) y VFC no es la sigla de la velocidad máxima de flaps.",
+    "teoria": "VFE es la mayor velocidad permitida con flaps extendidos."
+  },
+  "k097": {
+    "explicacion": "<b>VLE</b> es la velocidad máxima con el tren de aterrizaje extendido. VLO es la velocidad máxima para operar el tren, es decir, para extenderlo o retraerlo. VFE es la velocidad máxima con flaps extendidos.",
+    "teoria": "VLE es la máxima velocidad con el tren de aterrizaje extendido."
+  },
+  "k116": {
+    "explicacion": "<b>VNO</b> es la velocidad máxima estructural de crucero y está marcada en el límite superior del arco verde. Por encima de ella (arco amarillo) sólo se debe volar en aire calmo. La velocidad de nunca exceder es VNE, y el rango normal de operación es todo el arco verde.",
+    "teoria": "VNO es la máxima velocidad estructural de crucero."
+  },
+  "k117": {
+    "explicacion": "El rango de precaución es el <b>arco amarillo</b>, que va de VNO a VNE. En la Figura 4:<br>Inicio del arco amarillo (VNO) = 165 MPH<br>Fin del arco amarillo / línea roja (VNE) = 208 MPH<br>Rango de precaución = 165 a 208 MPH.<br>100 a 165 MPH es parte del rango normal de operación (arco verde).",
+    "teoria": "El rango de precaución (arco amarillo) va de 165 a 208 MPH."
+  },
+  "k127": {
+    "explicacion": "Antes del despegue se ajusta el altímetro al <b>QNH del aeródromo</b>. Así indica la elevación del aeródromo en tierra y la altitud sobre el nivel medio del mar en vuelo. Si no se dispone del QNH, se ajusta el altímetro hasta que indique la elevación del aeródromo. La altitud de densidad y la altitud de presión no son reglajes del altímetro para el despegue.",
+    "teoria": "Antes del despegue, el altímetro debe ajustarse de modo que indique la elevación del aeródromo de partida."
+  },
+  "k130": {
+    "explicacion": "En Argentina, el cambio a 1013,2 hPa (29,92 pulgadas) al ascender se hace al pasar la <b>altitud de transición</b>, que se establece para cada aeródromo y figura en sus cartas. No existe un valor fijo único como los 18.000 pies de EE.UU., así que 4500 u 8000 pies MSL no son correctos de forma general.",
+    "teoria": "Se ajusta 1013,2 hPa (29,92 pulgadas) al alcanzar la altitud de transición indicada en la carta de cada aeródromo."
+  },
+  "k145": {
+    "explicacion": "La <b>altitud absoluta</b> es la distancia vertical entre el avión y el terreno que tiene debajo (altura AGL). La altitud sobre el nivel medio del mar es la altitud verdadera, y la que se lee directamente en el altímetro es la altitud indicada.",
+    "teoria": "La altitud absoluta es la altura sobre la superficie del terreno."
+  },
+  "k149": {
+    "explicacion": "La <b>altitud de presión</b> es la que indica el altímetro con 29,92 pulgadas (1013,25 hPa) ajustado en la ventanilla de Kollsman, es decir, la altura sobre el plano de presión estándar. La altitud indicada corregida por temperatura y presión se acerca más a la altitud verdadera o de densidad, y la corrección por instalación da la altitud calibrada.",
+    "teoria": "La altitud de presión es la que indica el altímetro con 29,92 pulgadas (1013,25 hPa) ajustado en la ventanilla de Kollsman."
+  },
+  "k155": {
+    "explicacion": "La altitud indicada coincide con la verdadera sólo cuando existen <b>condiciones atmosféricas estándar</b> (ISA: 1013,25 hPa y 15 °C a nivel del mar, con el gradiente estándar). Con presión o temperatura no estándar aparecen errores, aunque el altímetro no tenga ningún defecto mecánico.",
+    "teoria": "En un día estándar a nivel del mar, la altitud indicada y la verdadera son iguales."
+  },
+  "k160": {
+    "explicacion": "La altitud de presión es igual a la verdadera sólo en <b>condiciones atmosféricas estándar</b>. Que la presión sea 29,92 pulgadas no alcanza, porque la temperatura también debe ser estándar. Que la altitud indicada sea igual a la de presión sólo significa que el altímetro está ajustado en 29,92.",
+    "teoria": "La altitud de presión es igual a la verdadera cuando las condiciones atmosféricas son estándar."
+  },
+  "k169": {
+    "explicacion": "Al volar de baja a alta presión sin reajustar, el altímetro queda con un reglaje menor que la presión real. Por eso indica <b>menos</b> que la altitud real: el avión está más alto de lo que muestra el instrumento. El caso inverso, de alta a baja presión, hace que el altímetro indique más que la altitud real; es el caso peligroso, en el que el avión está más bajo de lo que cree el piloto.",
+    "teoria": "De baja a alta presión, la altitud real de la aeronave será mayor que la que indica el altímetro."
+  },
+  "k175": {
+    "explicacion": "Al volar de alta a baja presión sin reajustar, el altímetro queda con un reglaje mayor que la presión real. Por eso indica una altitud <b>mayor</b> que la real: el avión está más bajo de lo que muestra el instrumento. Es la situación peligrosa por la cercanía al terreno; de ahí la regla «de alta a baja, cuidado abajo».",
+    "teoria": "La altitud real será menor que la indicada en el altímetro, que indica más."
+  },
+  "k183": {
+    "explicacion": "Con una <b>temperatura mayor que la estándar</b>, el aire es menos denso y los niveles de presión quedan más altos. El avión está entonces más alto de lo que indica el altímetro, que marca una altitud menor que la verdadera. Una temperatura menor que la estándar o una presión menor producen el efecto contrario: el altímetro indica más que la altitud verdadera.",
+    "teoria": "El altímetro indicará una altitud menor que la verdadera si la temperatura es mayor que la estándar."
+  },
+  "c3-31": {
+    "explicacion": "Se suman las tres agujas del altímetro 1:<br>Aguja corta (10.000 pies): pasando el 1 → 10.000 pies<br>Aguja mediana (1000 pies): entre 0 y 1 → 0 pies<br>Aguja larga (100 pies): en 5 → 500 pies<br>Total = 10.000 + 0 + 500 = <b>10.500 pies</b>.",
+    "teoria": "La aguja corta pasa los 10.000, la mediana está entre 0 y 1000 y la larga en 500: total 10.500 pies."
+  },
+  "c3-32": {
+    "explicacion": "Se suman las tres agujas del altímetro 2:<br>Aguja corta (10.000 pies): entre 1 y 2 → 10.000 pies<br>Aguja mediana (1000 pies): entre 4 y 5 → 4000 pies<br>Aguja larga (100 pies): en 5 → 500 pies<br>Total = 10.000 + 4000 + 500 = <b>14.500 pies</b>.",
+    "teoria": "La aguja corta está entre 10.000 y 20.000, la mediana entre 4000 y 5000 y la larga en 500: total 14.500 pies."
+  },
+  "c3-33": {
+    "explicacion": "Se suman las tres agujas del altímetro 3:<br>Aguja corta (10.000 pies): justo antes del 1 → 0 pies (todavía no llega a 10.000)<br>Aguja mediana (1000 pies): entre 9 y 0 → 9000 pies<br>Aguja larga (100 pies): en 5 → 500 pies<br>Total = 0 + 9000 + 500 = <b>9500 pies</b>.",
+    "teoria": "La aguja corta está casi en 10.000, la mediana entre 9000 y 10.000 y la larga en 500: total 9500 pies."
+  },
+  "c3-34": {
+    "explicacion": "Lecturas de la Figura 3:<br>Altímetro 1 = 10.500 pies → más de 10.000<br>Altímetro 2 = 14.500 pies → más de 10.000<br>Altímetro 3 = 9500 pies → menos de 10.000<br>Por lo tanto, sólo <b>1 y 2</b>.",
+    "teoria": "Los altímetros 1 y 2 indican más de 10.000 pies; el 3 indica menos."
+  },
+  "c3-35": {
+    "explicacion": "La dirección del alabeo se determina por la <b>relación entre el avión miniatura (C) y la barra del horizonte (B)</b>. El ala del avión miniatura que queda por debajo de la barra del horizonte indica hacia qué lado está inclinado el avión. La inclinación de la barra sola puede confundir, porque la barra se mueve en sentido contrario al alabeo.",
+    "teoria": "El alabeo se determina por la relación entre el avión miniatura (C) y la barra del horizonte (B)."
+  },
+  "c3-36": {
+    "explicacion": "En vuelo recto y nivelado se ajusta el <b>símbolo del avión miniatura</b> con la perilla hasta alinearlo con la barra del horizonte. La barra del horizonte está estabilizada por el giróscopo y no se puede ajustar; sólo se mueve la figura del avión.",
+    "teoria": "Sólo se puede ajustar la figura del avión miniatura."
+  },
+  "c3-37": {
+    "explicacion": "El indicador de rumbo (giróscopo direccional) sufre <b>precesión</b> por fricción y por la rotación de la Tierra. Por eso hay que realinearlo periódicamente con el compás magnético, en vuelo recto, nivelado y no acelerado (aproximadamente cada 15 minutos). Ajustarlo sólo antes del vuelo no alcanza, porque la deriva se acumula durante el vuelo.",
+    "teoria": "Debe verificarse frecuentemente con el compás magnético."
+  },
+  "c3-38": {
+    "explicacion": "El <b>desvío</b> del compás es causado por los campos magnéticos dentro del propio avión: partes metálicas, equipos eléctricos y radios. Se corrige con compensadores y una tarjeta de desvíos. La diferencia entre el norte geográfico y el norte magnético es la variación magnética (declinación), no el desvío.",
+    "teoria": "Las perturbaciones magnéticas producidas por metales o accesorios eléctricos del avión causan el desvío del compás."
+  },
+  "c3-39": {
+    "explicacion": "La diferencia angular entre el norte verdadero (geográfico) y el norte magnético se llama <b>variación magnética o declinación</b>, y depende del lugar de la Tierra. El desvío es el error causado por los campos magnéticos del propio avión, y el error de aceleración aparece al acelerar o desacelerar en rumbos este u oeste.",
+    "teoria": "Se denomina declinación o variación magnética."
+  },
+  "c3-40": {
+    "explicacion": "El compás magnético sólo es preciso en <b>vuelo recto y nivelado con velocidad constante</b>. En los virajes aparece el error de viraje (inclinación magnética) y con los cambios de velocidad aparece el error de aceleración. Mantener sólo la velocidad constante no alcanza si el avión vira o cambia de actitud.",
+    "teoria": "El compás debe leerse sólo en vuelo recto y nivelado y a velocidad constante."
+  },
+  "k294": {
+    "explicacion": "La <b>altitud</b> es la distancia <b>vertical</b> entre un nivel, punto u objeto y el nivel medio del mar (MSL). Según la referencia que se use, existen distintos términos (altura, elevación, etc.). La opción b habla de distancia horizontal, lo cual es incorrecto, y la c inventa una referencia inexistente (MVSL).",
+    "teoria": null
+  },
+  "k295": {
+    "explicacion": "La velocidad que se lee directamente en el velocímetro, sin corregir por errores del sistema pitot-estático, es la <b>velocidad indicada (IAS)</b>. La velocidad calibrada (CAS) es la IAS corregida por error de instrumento y de posición o instalación.",
+    "teoria": null
+  },
+  "k320": {
+    "explicacion": "En el coordinador de viraje (instrumento 4), el avión miniatura está levemente inclinado hacia la derecha (R), sin llegar a la marca de viraje estándar, y la bola está centrada. Eso indica un <b>viraje suave coordinado por derecha</b>. No es vuelo recto y nivelado porque las alas del símbolo no están niveladas.",
+    "teoria": null
+  },
+  "k328": {
+    "explicacion": "Lectura del indicador combinado de aceite:<br>Temperatura: aguja en aproximadamente 155-160 °C → dentro del arco verde (normal)<br>Presión: aguja en aproximadamente 25-30 PSI → por debajo del arco verde (aprox. 60-100), cerca de la marca roja inferior → baja<br>Resultado: <b>temperatura normal y baja presión</b>.",
+    "teoria": null
+  },
+  "k329": {
+    "explicacion": "Un viraje es <b>no coordinado</b> cuando la bola del inclinómetro está desplazada del centro. En la figura 1 la bola está hacia afuera del viraje (derrape) y en la figura 2 está hacia adentro (resbale). En la figura 3 la bola está centrada, es decir, el viraje está coordinado. Por lo tanto, la respuesta es <b>1 y 2</b>.",
+    "teoria": null
+  },
+  "k330": {
+    "explicacion": "El instrumento muestra la temperatura de aceite dentro del arco verde (normal) y la presión de aceite por debajo del arco verde, cerca de la línea roja. Una <b>baja presión de aceite</b> en vuelo puede indicar una falla en la planta motriz (pérdida de aceite o falla de la bomba). Por eso no es correcto decir que ambos parámetros son normales.",
+    "teoria": null
+  },
+  "k342": {
+    "explicacion": "La <b>velocidad calibrada (CAS)</b> es la velocidad indicada (IAS) corregida por error de posición (instalación) y por error de instrumento. La opción a omite el error de posición, y la b habla de velocidad absoluta, lo cual es incorrecto.",
+    "teoria": null
+  },
+  "k363": {
+    "explicacion": "Antes del despegue se ajusta el altímetro con el <b>QNH del aeródromo</b>. Si no está disponible, se ajusta hasta que indique la elevación del lugar de despegue (aeródromo o cabecera en uso). La opción a usa QFE como reglaje principal y la elevación del último lugar de despegue, lo cual es incorrecto. La c habla de un «ajuste milimétrico», que no existe.",
+    "teoria": null
+  },
+  "k370": {
+    "explicacion": "Lectura de los instrumentos:<br>Instrumento 1 (velocímetro, en nudos): aproximadamente 80 kt<br>Instrumento 6 (variómetro, escala ×100 pies/min): aguja en 10 del lado UP → +1000 pies/min<br>Instrumento 3 (altímetro): en ascenso<br>Resultado: <b>80 kt con ascenso de 1000 pies por minuto</b>. La opción c es incorrecta porque el velocímetro está en nudos (no millas) y 10 en la escala equivale a 1000 pies/min, no a 100.",
+    "teoria": null
+  },
+  "k373": {
+    "explicacion": "<b>Verdadero.</b> De alta a baja presión sin reajustar, el altímetro indica más que la altitud real, así que el avión está más bajo de lo que se cree («de alta a baja, cuidado abajo»). De baja a alta presión ocurre lo contrario: el altímetro indica menos y la altitud real es mayor que la indicada.",
+    "teoria": null
+  },
+  "k381": {
+    "explicacion": "La <b>CAS</b> es la velocidad indicada corregida por error de posición y de instrumento. En la atmósfera estándar a nivel del mar, la CAS es igual a la velocidad verdadera (TAS). La opción a afirma que son diferentes a nivel del mar, y la b habla de velocidad de crucero y de un instrumento que mide altura, lo cual es incorrecto.",
+    "teoria": null
+  },
+  "k382": {
+    "explicacion": "La <b>velocidad verdadera (TAS)</b> es la velocidad calibrada (CAS) corregida por temperatura y presión no estándar, es decir, por la densidad del aire según la altitud. Es la velocidad real del avión respecto de la masa de aire. Las opciones b y c no la definen a partir de la CAS y son imprecisas.",
+    "teoria": null
+  },
+  "k034": {
+    "explicacion": "Se considera <b>noche</b> el tiempo comprendido entre el fin del crepúsculo civil vespertino y el comienzo del crepúsculo civil matutino. No se cuenta desde la puesta del sol (opción a), porque durante el crepúsculo civil todavía hay luz suficiente, ni existe una regla de 1,5 horas (opción b).",
+    "teoria": "Noche: tiempo comprendido entre el fin del crepúsculo civil vespertino y el comienzo del crepúsculo civil matutino."
+  },
+  "k105": {
+    "explicacion": "Según la RAAC 61, el alumno piloto debe completar <b>no menos de 8 horas de instrucción en doble comando</b> antes de su primer vuelo solo. Las 30 horas corresponden al total de doble comando exigido para la licencia, y las 25 horas se relacionan con el transporte de pasajeros, no con el vuelo solo.",
+    "teoria": "El alumno debe acreditar no menos de 8 horas de vuelo en doble comando previo al primer vuelo solo."
+  },
+  "k177": {
+    "explicacion": "Una vez obtenida la licencia, el Piloto Privado debe acumular <b>25 horas de vuelo como piloto al mando</b> (más una evaluación con instructor) antes de poder transportar pasajeros. La opción b es la que corresponde a ese requisito; 40 horas es el mínimo total para obtener la licencia y 10 horas solo no habilitan a llevar pasajeros.",
+    "teoria": "Para transportar pasajeros se requieren 25 horas como piloto al mando a partir de la obtención de la licencia; las opciones a) y c) son incorrectas."
+  },
+  "k223": {
+    "explicacion": "Según la RAAC 61, el Piloto Privado que permanezca <b>más de 30 días</b> sin actividad de vuelo debe ser readaptado por un Instructor de Vuelo (vuelo de readaptación de aproximadamente 1 hora y 5 aterrizajes). Por lo tanto, puede estar hasta 30 días sin volar sin necesitar readaptación; 90 o 180 días exceden ese límite.",
+    "teoria": "Más de 30 días sin actividad de vuelo requiere readaptación por un Instructor de Vuelo."
+  },
+  "k261": {
+    "explicacion": "Según la RAAC 91.156, para operar VFR en un aeródromo controlado se requiere una <b>visibilidad en tierra de 5 km</b> y un techo de nubes de 1000 pies. Los 1500 m y 3000 m son valores inferiores al mínimo exigido.",
+    "teoria": "Visibilidad 5 km y techo de nubes 1000 pies."
+  },
+  "k268": {
+    "explicacion": "Según la RAAC 91.156, en la zona de tránsito de un aeródromo ubicado <b>fuera de una zona de control</b> los mínimos VFR son <b>2500 m de visibilidad y 1000 pies de techo</b>. Los 5 km y 1000 pies corresponden a aeródromos controlados o dentro de una zona de control, y los 8 km a vuelo VFR en ruta.",
+    "teoria": "Visibilidad 2500 m y techo de nubes 1000 pies; las opciones a) y b) son incorrectas."
+  },
+  "c4-07": {
+    "explicacion": "Según la RAAC 91.152, para realizar vuelo VFR controlado el piloto debe <b>poseer la habilitación correspondiente para vuelo VFR en espacio aéreo controlado</b>, además de llevar el equipamiento requerido y notificarse en la oficina ARO. La comunicación con la torre o la presentación del plan de vuelo son requisitos operativos, pero no reemplazan la habilitación exigida al piloto.",
+    "teoria": "El piloto debe poseer la habilitación correspondiente para vuelo VFR en espacio aéreo controlado."
+  },
+  "k284": {
+    "explicacion": "Todo cambio de domicilio respecto al declarado debe informarse a la Autoridad Aeronáutica <b>dentro de los 30 días</b> de producido. No es optativo, y el plazo no es de 60 días.",
+    "teoria": "El cambio de domicilio debe informarse dentro de los 30 días de producido."
+  },
+  "c4-09": {
+    "explicacion": "El <b>piloto al mando (Comandante)</b> es la autoridad final en todo lo relacionado con la operación de la aeronave mientras está a su cargo. La ANAC dicta las normas y el fabricante define las limitaciones, pero la decisión final durante la operación es del piloto al mando.",
+    "teoria": "El Comandante tendrá autoridad en todo lo relacionado con la aeronave."
+  },
+  "k042": {
+    "explicacion": "Según la RAAC 91.3, ante una emergencia que exija una acción inmediata, el piloto al mando puede <b>apartarse de la Parte 91 en la medida y durante el tiempo necesarios</b> para resolverla. El informe escrito solo se presenta <b>si lo requiere la Autoridad Aeronáutica</b>, por lo que la opción a, con un informe obligatorio dentro de las 24 h, es incorrecta. Tampoco hace falta autorización previa (opción c).",
+    "teoria": "El piloto al mando podrá apartarse de las normas por razones de seguridad que exijan medidas inmediatas; el informe escrito se presenta solo si lo requiere la Autoridad Aeronáutica."
+  },
+  "c4-11": {
+    "explicacion": "Según la RAAC 91.3 b), el piloto que se apartó de la Parte 91 durante una emergencia debe presentar un informe escrito <b>cuando lo requiera la Autoridad Aeronáutica</b>. No hay un plazo fijo de 7 o 10 días.",
+    "teoria": "Presentar informe escrito si así lo requiere la Autoridad Aeronáutica."
+  },
+  "k061": {
+    "explicacion": "Al actuar como piloto al mando se debe llevar o tener accesible: <b>licencia de piloto, certificado de aptitud psicofisiológica, documento de identidad, libro de vuelo actualizado y autorización del propietario o explotador</b> para actuar como comandante. La opción c pide el certificado de propiedad en lugar de la autorización, y la opción a una certificación de horas que no se exige.",
+    "teoria": "La norma enumera cinco documentos: licencia, habilitación psicofisiológica, documento de identidad, libro de vuelo actualizado y autorización del propietario; las opciones a) y c) son incorrectas."
+  },
+  "k065": {
+    "explicacion": "Antes de cada vuelo, el piloto al mando debe <b>familiarizarse con toda la información disponible</b> concerniente al vuelo (meteorología, combustible, alternativas, longitudes de pista, performance, etc.). Revisar historiales o procedimientos de estela turbulenta pueden formar parte de esa preparación, pero no es la acción específicamente requerida por la norma.",
+    "teoria": "Antes de iniciar un vuelo, el piloto al mando deberá familiarizarse con toda la información disponible concerniente al mismo."
+  },
+  "k071": {
+    "explicacion": "Según la RAAC 91.151, para un vuelo VFR sin alternativa se requiere combustible para llegar al punto de aterrizaje previsto y luego volar un <b>30% adicional del tiempo de vuelo, nunca inferior a 45 minutos</b>. Por eso la opción c es correcta; los 30 minutos de la opción b corresponden a la norma diurna de la FAA, no a la RAAC.",
+    "teoria": "Combustible para volar al destino y prolongar el vuelo un 30% del tiempo previsto, nunca inferior a 45 minutos."
+  },
+  "k080": {
+    "explicacion": "Según la RAAC 91.105, cada tripulante en su puesto debe tener colocado el <b>cinturón de seguridad y el arnés de hombro durante el despegue y el aterrizaje</b>. En ruta solo se exige el cinturón de seguridad mientras se está en el puesto; el arnés no es obligatorio durante toda la operación. Como la pregunta se refiere a ambos elementos juntos, la respuesta es despegues y aterrizajes.",
+    "teoria": "Cinturón colocado durante despegue, aterrizaje y en ruta; arnés de hombro durante despegue y aterrizaje. El requisito combinado corresponde a despegue y aterrizaje."
+  },
+  "k086": {
+    "explicacion": "El piloto al mando debe asegurarse de que cada pasajero sea <b>instruido sobre cómo abrochar y desabrochar el cinturón</b> y notificado de que debe usarlo durante el <b>rodaje, el despegue y el aterrizaje</b>. No existe obligación de llevarlo colocado permanentemente (opción a), y el piloto sí tiene responsabilidad al respecto (opción c).",
+    "teoria": "Cada pasajero debe ser instruido sobre cómo abrochar y desabrochar el cinturón, cuyo uso es requerido durante el movimiento en superficie, el despegue y el aterrizaje."
+  },
+  "k093": {
+    "explicacion": "Según la RAAC 91.106, los pasajeros deben tener el cinturón abrochado durante el <b>movimiento en superficie (rodaje), el despegue y el aterrizaje</b>. La norma no exige usarlo durante todo el vuelo; en turbulencia es una recomendación prudente, pero no es una de las fases que define la regla.",
+    "teoria": "Uso del cinturón requerido durante el movimiento en superficie, el despegue y el aterrizaje."
+  },
+  "k098": {
+    "explicacion": "Cuando dos aeronaves de la misma categoría convergen a niveles aproximadamente iguales, <b>la que tiene a la otra a su derecha cede el paso</b>. La velocidad no otorga prioridad, y el viraje de ambas por su derecha corresponde al encuentro de frente, no al de rumbos convergentes.",
+    "teoria": "La aeronave que tenga a la otra a su derecha cederá el paso."
+  },
+  "k110": {
+    "explicacion": "Según la RAAC 91.113, cuando dos aeronaves se aproximan de frente o casi de frente, <b>ambas alteran su rumbo hacia la derecha</b>. Girar a la izquierda aumentaría el riesgo de colisión, y la regla no se basa en ascender o descender según niveles.",
+    "teoria": "Ambas aeronaves alterarán su rumbo hacia su derecha."
+  },
+  "k119": {
+    "explicacion": "La aeronave que alcanza a otra debe mantenerse apartada <b>virando hacia su derecha</b>, ya sea que esté ascendiendo, descendiendo o en vuelo nivelado. Las opciones a y b son incorrectas porque la regla no indica pasar por arriba o por abajo a 150 metros.",
+    "teoria": "La aeronave que alcanza siempre se aparta virando hacia su derecha; las opciones a) y b) son incorrectas."
+  },
+  "k123": {
+    "explicacion": "Según las reglas de derecho de paso (RAAC 91.113), las aeronaves propulsadas mecánicamente deben ceder el paso a las que <b>van remolcando otras aeronaves u objetos</b>. El dirigible tiene prioridad sobre el giroplano, pero la aeronave que remolca un planeador tiene prioridad sobre ambos, por lo que la correcta es la c.",
+    "teoria": "Las aeronaves propulsadas mecánicamente cederán el paso a las que vayan remolcando a otras aeronaves u objetos."
+  },
+  "k131": {
+    "explicacion": "En una aproximación de frente rige la regla general: <b>ambas aeronaves alteran su rumbo hacia la derecha</b>, sin importar que una sea planeador. La prioridad del planeador aplica a rumbos convergentes, no a un encuentro de frente, y girar a la izquierda es incorrecto.",
+    "teoria": "Aproximación de frente: ambas aeronaves alterarán su rumbo hacia la derecha."
+  },
+  "c4-24": {
+    "explicacion": "Según la RAAC 91.119 a), en cualquier lugar se debe volar a una altura que, ante una <b>falla de motor que obligue a un aterrizaje de emergencia</b>, permita aterrizar sin riesgo indebido para personas o bienes en la superficie. Los valores de 500 pies o 300 m son mínimos específicos para áreas no congestionadas o congestionadas, no la regla general.",
+    "teoria": "Altura que permita, en caso de emergencia, aterrizar sin peligro para personas o bienes en la superficie."
+  },
+  "k153": {
+    "explicacion": "Según la RAAC 91.119, sobre áreas congestionadas (ciudades, poblaciones o reuniones de personas al aire libre) se debe volar a <b>300 m (1000 pies) sobre el obstáculo más alto dentro de un radio horizontal de 600 m</b>. La opción a omite la referencia al obstáculo más alto y al radio, y los 500 pies de la opción b son el mínimo fuera de áreas congestionadas.",
+    "teoria": "1000 pies (300 m) sobre el obstáculo más alto dentro de un radio horizontal de 600 m."
+  },
+  "k157": {
+    "explicacion": "Según la RAAC 91.119 c), fuera de las áreas congestionadas la altitud mínima es de <b>500 pies sobre la superficie de tierra o agua</b>. La opción a es la regla general que se aplica en cualquier lugar, no la específica para áreas no congestionadas.",
+    "teoria": "Altitud no menor de 500 pies sobre la superficie de tierra o agua."
+  },
+  "k161": {
+    "explicacion": "Cuando no se puede evitar volar sobre áreas sensibles al ruido, se debe mantener <b>3000 pies sobre el obstáculo más alto dentro de un radio de 2 NM</b> de la aeronave, a lo largo de la trayectoria prevista. Reducir la potencia al mínimo no es la regla, y 1000 pies en una milla es insuficiente.",
+    "teoria": "Mantener 3000 pies sobre el obstáculo más alto dentro de un radio de 2 NM desde la aeronave."
+  },
+  "c4-28": {
+    "explicacion": "Por encima de 3000 pies AGL, la regla semicircular VFR se basa en el <b>curso magnético</b>:<br>Curso 0° a 179° → niveles impares + 500 pies<br>Curso 180° a 359° → niveles pares + 500 pies<br>135° está entre 0° y 179° → <b>impares + 500 pies</b> (ej. 3500, 5500).",
+    "teoria": "Curso magnético de 0° a 179°: nivel impar más 500 pies."
+  },
+  "c4-29": {
+    "explicacion": "Por encima de 3000 pies AGL, con curso magnético de 180° a 359° corresponden <b>niveles pares + 500 pies</b>:<br>185° está entre 180° y 359° → pares + 500<br>4000 + 500 = <b>4500 pies</b><br>4000 y 5000 son niveles redondos, reservados para IFR.",
+    "teoria": "Curso magnético de 180° a 359°: nivel par más 500 pies (ej. 4500)."
+  },
+  "c4-30": {
+    "explicacion": "La regla semicircular VFR se basa en el <b>curso magnético</b> (la trayectoria sobre el terreno referida al norte magnético), no en el rumbo (hacia dónde apunta la nariz) ni en el curso geográfico. Con curso magnético de 0° a 179° se vuela a niveles impares + 500 pies.",
+    "teoria": "Con un curso magnético de 0° a 179°, nivel impar más 500 pies."
+  },
+  "k002": {
+    "explicacion": "Según la RAAC 61, el Piloto Privado de Avión debe acumular <b>25 horas como piloto al mando</b> a partir de la obtención de su licencia, más una evaluación con instructor (1 hora y 3 aterrizajes), para poder transportar pasajeros. 15 y 20 horas son inferiores al mínimo exigido.",
+    "teoria": null
+  },
+  "k003": {
+    "explicacion": "Según la RAAC 61, el Piloto Privado de Avión que permanezca <b>más de 30 días</b> sin actividad de vuelo debe ser readaptado por un Instructor (aproximadamente 1 hora de vuelo y 5 aterrizajes). 45 y 60 días superan ese límite.",
+    "teoria": null
+  },
+  "k135": {
+    "explicacion": "Un plan de vuelo presentado en vuelo para un vuelo controlado debe enviarse con una anticipación mínima de <b>10 minutos</b> respecto al ingreso al espacio aéreo controlado. Cuando la transmisión exige <b>retransmisión</b> por otra dependencia, la anticipación mínima aumenta a <b>20 minutos</b>.",
+    "teoria": null
+  },
+  "k136": {
+    "explicacion": "Al atravesar la capa de transición, la referencia vertical cambia entre <b>altitudes</b> (con QNH) y <b>niveles de vuelo</b> (con 1013,2 hPa). Entre las opciones dadas, la respuesta esperada es <b>altitudes</b>; altura y elevación son referencias sobre el terreno y no se usan para esto.",
+    "teoria": null
+  },
+  "k138": {
+    "explicacion": "Si por deterioro de las condiciones VMC el piloto debe salir del espacio aéreo controlado o aterrizar en el aeródromo apropiado más próximo, debe <b>notificar a la dependencia de control</b> con jurisdicción la medida adoptada. Hacerlo sin notificar (opción b) dejaría al control sin conocer la posición e intenciones de la aeronave.",
+    "teoria": null
+  },
+  "k139": {
+    "explicacion": "Al cambiar de VFR a VFR controlado, el permiso de tránsito de la dependencia de control correspondiente debe obtenerse <b>antes de ingresar al espacio aéreo controlado</b>. Pedirlo en el momento de ingresar es tarde, y no se limita a la presentación del plan de vuelo.",
+    "teoria": null
+  },
+  "k140": {
+    "explicacion": "En VMC el piloto puede volar según reglas VFR o, si lo desea, según reglas <b>IFR</b>. Aun volando IFR con autorización del control, en VMC el piloto sigue siendo directamente <b>responsable de evitar colisiones</b> con otras aeronaves. No es cierto que deba volar siempre VFR (opción b), y el VFR especial se usa por debajo de los mínimos VMC (opción a).",
+    "teoria": null
+  },
+  "k141": {
+    "explicacion": "Para los vuelos proyectados como controlados desde su comienzo, la RAAC 91 exige presentar el plan de vuelo con una anticipación de <b>por lo menos 45 minutos</b> antes de la hora estimada de partida. 60 minutos es el valor OACI general y no la cifra de la norma en la que se basa la pregunta.",
+    "teoria": null
+  },
+  "k143": {
+    "explicacion": "Evitar colisiones con otras aeronaves es responsabilidad del piloto al mando <b>siempre</b>, tanto en VMC como volando IFR con autorización del control. No depende de las condiciones meteorológicas ni de un requerimiento del explotador.",
+    "teoria": null
+  },
+  "k292": {
+    "explicacion": "Según el Código Aeronáutico argentino, la Aeronáutica Civil es el conjunto de actividades vinculadas con el empleo de aeronaves <b>públicas y privadas, excluidas las militares</b>. Las aeronaves militares quedan fuera del ámbito civil.",
+    "teoria": null
+  },
+  "k293": {
+    "explicacion": "Al descender a través de la capa de transición, la posición vertical se expresa en <b>altitudes</b> (con QNH), mientras que en ascenso se expresa en niveles de vuelo. Como la opción altitud no figura, la respuesta esperada es <b>altura</b>; los niveles de vuelo corresponden al ascenso.",
+    "teoria": null
+  },
+  "k321": {
+    "explicacion": "En la época en que se redactó la pregunta, el organismo encargado de investigar los accidentes de aviación civil era la <b>Junta de Investigación de Accidentes de Aviación Civil (JIAAC)</b>. Desde 2020 esa función la cumple la Junta de Seguridad en el Transporte (JST).",
+    "teoria": null
+  },
+  "k339": {
+    "explicacion": "Según la RAAC 91.7, el <b>piloto al mando (Comandante)</b> es responsable de determinar si la aeronave está en condiciones para el vuelo seguro antes de la partida. El explotador tiene la responsabilidad general del mantenimiento, pero la verificación previa a la partida es obligación del Comandante.",
+    "teoria": null
+  },
+  "k343": {
+    "explicacion": "Según el Anexo 13 de la OACI, los accidentes se investigan para <b>determinar sus causas y establecer medidas para evitar su repetición</b>. El objetivo no es asignar culpas ni responsabilidades, ni solo obtener estadísticas.",
+    "teoria": null
+  },
+  "k344": {
+    "explicacion": "Los bultos de materiales radiactivos <b>no pueden llevarse en la cabina de pasajeros</b> y deben separarse de personas mediante distancias mínimas (según el índice de transporte). Entre las opciones, la correcta es estibarlos lo más lejos posible de pasajeros y tripulación; la opción b es incorrecta porque sí se exige distancia mínima.",
+    "teoria": null
+  },
+  "k350": {
+    "explicacion": "En las marcas de embalaje ONU, las letras indican el grupo de embalaje:<br>X = Grupo I (alto riesgo)<br>Y = Grupo II (riesgo mediano)<br>Z = Grupo III (bajo riesgo)<br>La opción b invierte el orden y la opción a usa letras que no corresponden.",
+    "teoria": null
+  },
+  "k351": {
+    "explicacion": "Para vuelos VFR controlados en zona de control, la visibilidad mínima en vuelo es de <b>5 km</b>, igual que el mínimo de visibilidad para operar VFR en un aeródromo controlado. 3 km es inferior al mínimo y 6 km no es un valor de la norma.",
+    "teoria": null
+  },
+  "k364": {
+    "explicacion": "Según la RAAC 61.1, esta Parte establece los requisitos mínimos y procedimientos para el otorgamiento de <b>licencias de piloto, certificados de competencia y habilitaciones</b>, las condiciones en que son necesarios y sus atribuciones y limitaciones. Las opciones a y c están incompletas porque mencionan solo certificados o solo habilitaciones.",
+    "teoria": null
+  },
+  "k365": {
+    "explicacion": "<b>Verdadero.</b> El enunciado reproduce la RAAC 91.7: la aeronave debe estar en condiciones de aeronavegabilidad, el piloto al mando es responsable de determinar si está en condiciones para el vuelo seguro, y no debe iniciar (o debe interrumpir) el vuelo ante una condición de no aeronavegabilidad estructural, mecánica o eléctrica.",
+    "teoria": null
+  },
+  "k367": {
+    "explicacion": "Las mercancías peligrosas son <b>incompatibles</b> si al mezclarse pueden reaccionar peligrosamente, desprendiendo <b>calor o gases</b> o produciendo <b>sustancias corrosivas</b>. La opción b es la más completa; la a omite las sustancias corrosivas y la c habla de sustancias en general.",
+    "teoria": null
+  },
+  "k372": {
+    "explicacion": "<b>Falso.</b> Cuando se cargan mercancías peligrosas dentro de elementos unitarios de carga (ULD), estos siguen necesitando etiquetas o rótulos de riesgo y de manipulación que identifiquen su contenido. El etiquetado no se suprime por estar dentro de un ULD.",
+    "teoria": null
+  },
+  "k376": {
+    "explicacion": "<b>Falso.</b> Los agentes del <b>grupo de riesgo 4</b> (por ejemplo, Ébola) representan un <b>alto riesgo</b> tanto para el individuo como para la comunidad. Afirmar que no representan alto riesgo es incorrecto.",
+    "teoria": null
+  },
+  "k377": {
+    "explicacion": "En Argentina la noche comienza al <b>finalizar el crepúsculo civil vespertino</b>. Por lo tanto, una aeronave sin el equipamiento mínimo para vuelo nocturno debe terminar el vuelo diurno <b>antes de la finalización del crepúsculo</b>. Los 30 minutos antes o 25 minutos después no son la referencia de la norma.",
+    "teoria": null
+  },
+  "k383": {
+    "explicacion": "Según el Anexo 11 de la OACI, el servicio de control de tránsito aéreo se suministra a <b>todos los vuelos controlados</b>, sean IFR o VFR controlados. No se limita a vuelos IFR, y los vuelos no controlados no reciben servicio de control.",
+    "teoria": null
+  },
+  "k030": {
+    "explicacion": "Al partir de un aeródromo no controlado se debe cumplir el circuito de tránsito establecido (publicado) para ese aeródromo. Los virajes por la izquierda son solo la regla por defecto cuando no hay un circuito publicado, por lo que la opción b) no es la regla general. Partir en cualquier dirección (a) ignora el circuito y es incorrecto.",
+    "teoria": "Cumplir con el circuito de tránsito publicado y, en caso de no estarlo, efectuar los virajes por la izquierda."
+  },
+  "k108": {
+    "explicacion": "La entrada recomendada al circuito es con un ángulo de 45° hacia el punto medio del tramo a favor del viento (tramo inicial o \"downwind\"), ya establecido a la altitud del circuito. Entrar al tramo básico por debajo de la altitud del circuito o cruzar sobre el aeródromo para entrar en final no es el procedimiento estándar y aumenta el riesgo de conflicto con otro tránsito.",
+    "teoria": "Entrar a 45° al punto medio del tramo a favor del viento, a la altitud del circuito."
+  },
+  "k180": {
+    "explicacion": "El número de pista es el rumbo magnético de la pista dividido por 10 y redondeado. Pista 09 ≈ 090° magnético y pista 27 ≈ 270° magnético. No se refiere al rumbo verdadero, y 009°/027° sería no multiplicar por 10.",
+    "teoria": "El número de pista es el rumbo magnético de la pista (dividido por 10)."
+  },
+  "k224": {
+    "explicacion": "Con un VASI, el piloto debe mantener una altitud igual o superior a la senda de planeo hasta que sea necesaria una altitud menor para aterrizar, garantizando el franqueamiento de obstáculos. No es obligatorio capturar la senda a una distancia determinada, y el VASI no indica que haya que aterrizar \"entre las barras\": el punto de toma de contacto está más allá de las barras.",
+    "teoria": "Mantener una altitud igual o superior a la senda de planeo hasta que sea necesaria una altitud menor para aterrizar."
+  },
+  "k264": {
+    "explicacion": "En el PAPI, cuantas más luces blancas, más alto está el avión:<br>4 blancas = alto<br>3 blancas y 1 roja = levemente alto<br>2 blancas y 2 rojas = en la senda<br>1 blanca y 3 rojas = levemente bajo<br>4 rojas = bajo.<br>Por eso, levemente alto corresponde a tres blancas y una roja; dos y dos es la senda correcta.",
+    "teoria": "Tres luces blancas y una luz roja indican que la aeronave se encuentra levemente alta."
+  },
+  "k266": {
+    "explicacion": "En un VASI de dos barras, rojo sobre blanco (barra lejana roja, barra cercana blanca) indica que la aeronave está en la senda de planeo. En la ilustración A la barra superior (lejana) es oscura/roja y la inferior (cercana) es blanca, es decir, rojo sobre blanco. Ambas rojas indicarían debajo de la senda y ambas blancas, encima.",
+    "teoria": null
+  },
+  "k275": {
+    "explicacion": "En el VASI, la ilustración C muestra ambas barras blancas (blanco sobre blanco), lo que indica que la aeronave está por encima de la senda de planeo. Rojo sobre blanco sería en la senda y ambas rojas, debajo. El VASI no da información de desvío lateral, por lo que \"fuera de curso a la izquierda\" no aplica.",
+    "teoria": "Ambas barras blancas indican que la aeronave se encuentra por encima de la senda de planeo."
+  },
+  "k283": {
+    "explicacion": "En un VASI estándar de dos barras: rojo sobre blanco = en la senda; blanco sobre blanco = encima; rojo sobre rojo = debajo. La ilustración que corresponde a esta pregunta es la de rojo sobre blanco (barra lejana roja y cercana blanca), por lo que la aeronave está en la senda de planeo.",
+    "teoria": "Luces rojas sobre luces blancas indican que la aeronave se encuentra en la senda de planeo."
+  },
+  "k289": {
+    "explicacion": "Con viento de cola parcialmente cruzado, el viento tiende a levantar el ala del lado desde donde sopla al entrar por detrás. Para contrarrestarlo se coloca el alerón de ese lado hacia abajo (mando hacia el lado opuesto al viento), además del elevador abajo. Poner el alerón abajo en el lado a favor del viento haría lo contrario.",
+    "teoria": "Con viento de cola, el alerón del lado desde donde sopla el viento debe estar hacia abajo para evitar que el ala se eleve."
+  },
+  "k040": {
+    "explicacion": "Con viento de frente parcialmente cruzado, se gira el mando hacia el viento: el alerón del lado desde donde sopla el viento queda hacia arriba y así el viento empuja esa ala hacia abajo, evitando que se levante. El alerón abajo de ese lado aumentaría la sustentación y favorecería que el ala se eleve.",
+    "teoria": "Con viento de frente, el alerón del lado desde donde sopla el viento debe estar hacia arriba."
+  },
+  "k045": {
+    "explicacion": "En un avión de ala alta y rueda de nariz, el viento de cola parcialmente cruzado es la condición más crítica para el rodaje: el viento entra por detrás y por debajo del ala y del empenaje, pudiendo levantar el ala del lado del viento y la cola y hacer volcar la aeronave. El viento de frente o el cruzado directo son más fáciles de controlar.",
+    "teoria": "Rodar con viento de cola parcialmente cruzado produce las condiciones más peligrosas."
+  },
+  "k050": {
+    "explicacion": "Viento de frente desde la izquierda (área A de la figura) en un avión triciclo:<br>Alerón: mando girado hacia el viento → alerón izquierdo arriba.<br>Elevador: neutro, porque en el triciclo no hace falta cargar la rueda de nariz ni la cola.<br>Alerón izquierdo abajo levantaría el ala del lado del viento.",
+    "teoria": "Con viento de frente, el elevador en posición neutra y el alerón del lado desde donde sopla el viento hacia arriba."
+  },
+  "k063": {
+    "explicacion": "Viento de frente desde la derecha (área B) en un avión con rueda de cola:<br>Alerón: mando girado hacia el viento → alerón derecho arriba.<br>Elevador: arriba (mando atrás) para mantener la cola apoyada en el suelo.<br>El elevador neutro o abajo descargaría la rueda de cola y reduciría el control direccional.",
+    "teoria": "Rueda de cola con viento de frente: alerón del lado del viento arriba y elevador arriba."
+  },
+  "k067": {
+    "explicacion": "Viento de cola desde la izquierda (área C) en un avión con rueda de cola:<br>Alerón: mando hacia el lado opuesto al viento → alerón izquierdo abajo.<br>Elevador: abajo (mando adelante), para que el viento de cola no levante la cola.<br>Con el elevador neutro el viento podría levantar la cola por debajo del estabilizador.",
+    "teoria": "Rueda de cola con viento de cola: alerón del lado del viento abajo y elevador también abajo."
+  },
+  "k074": {
+    "explicacion": "Viento de cola desde la izquierda (área C) en un avión triciclo:<br>Alerón: mando hacia el lado opuesto al viento → alerón izquierdo abajo.<br>Elevador: abajo (mando adelante), para que el viento no levante la cola.<br>Con viento de cola la técnica es la misma para triciclo y rueda de cola; alerón arriba solo se usa con viento de frente.",
+    "teoria": "Con viento de cola: elevador hacia abajo y alerón del lado del viento hacia abajo."
+  },
+  "k081": {
+    "explicacion": "Para evitar cargas laterales sobre el tren, en la toma de contacto el eje longitudinal del avión debe estar alineado con la dirección en que realmente se mueve. Que la trayectoria sea paralela a la pista no basta si el avión toca con ángulo de deriva (cangrejo). Bajar el ala del lado del viento es la técnica para corregir la deriva, pero no es la definición de lo que hay que mantener.",
+    "teoria": "El eje longitudinal debe mantenerse paralelo a la dirección en la cual se mueve el avión."
+  },
+  "c5-17": {
+    "explicacion": "Según el RAAC 91, a altitudes de presión de cabina por encima de 10000 pies y hasta 13000 pies inclusive, la tripulación mínima debe usar oxígeno suplementario durante la parte del vuelo a esas altitudes que exceda los 30 minutos. Por encima de 13000 pies se debe usar todo el tiempo, por eso la opción a) no corresponde a este rango.",
+    "teoria": "Usar oxígeno suplementario durante la parte del vuelo en esas altitudes que dure más de 30 minutos (RAAC 91)."
+  },
+  "k094": {
+    "explicacion": "El monóxido de carbono se une a la hemoglobina e impide el transporte de oxígeno; grandes acumulaciones producen pérdida de fuerza muscular, además de dolor de cabeza y mareos. No produce sensación de bienestar (eso se asocia más a la hipoxia) ni rigidez en la frente como síntoma principal.",
+    "teoria": "Una gran acumulación de monóxido de carbono en el cuerpo causa pérdida de fuerza muscular."
+  },
+  "k096": {
+    "explicacion": "La hipoxia es un estado de deficiencia de oxígeno en el cuerpo, suficiente para afectar funciones como el cerebro. El aumento anormal del volumen de aire respirado es la hiperventilación, y las burbujas de gas en articulaciones corresponden a la enfermedad descompresiva.",
+    "teoria": "La hipoxia es una deficiencia de oxígeno en el cuerpo."
+  },
+  "k113": {
+    "explicacion": "Un aumento anormal de la frecuencia y el volumen de la respiración, típico ante el estrés, se llama hiperventilación y elimina demasiado dióxido de carbono. La aerosinusitis y la aerotitis son afecciones de senos y oído por cambios de presión.",
+    "teoria": "Un aumento anormal del volumen de aire inspirado y exhalado causa hiperventilación."
+  },
+  "k118": {
+    "explicacion": "La hiperventilación se produce con mayor probabilidad por tensión emocional, ansiedad o miedo, que llevan a respirar más rápido y profundo. Un ritmo de respiración lento es justamente lo contrario, y el alcohol no es la causa típica.",
+    "teoria": "La hiperventilación es más probable durante periodos de estrés o ansiedad."
+  },
+  "k128": {
+    "explicacion": "Para revertir la hiperventilación hay que restaurar el nivel de dióxido de carbono: reducir conscientemente la frecuencia respiratoria, respirar dentro de una bolsa de papel o hablar en voz alta. Aumentar la respiración empeora el cuadro.",
+    "teoria": "Controlar la frecuencia respiratoria, respirar en una bolsa de papel o hablar en voz alta."
+  },
+  "k133": {
+    "explicacion": "La susceptibilidad al envenenamiento por monóxido de carbono aumenta con la altitud, porque la presión parcial de oxígeno es menor y el organismo ya dispone de menos oxígeno. Al disminuir la altitud o aumentar la presión del aire, la vulnerabilidad baja.",
+    "teoria": "La susceptibilidad al envenenamiento por monóxido de carbono aumenta con la altitud."
+  },
+  "k147": {
+    "explicacion": "En condiciones visuales pobres, los sentidos del cuerpo (oído interno, músculos) dan información engañosa; hay que confiar en los instrumentos y no en las sensaciones. Alternar la vista entre afuera y el panel, o inclinar el cuerpo, puede empeorar la desorientación.",
+    "teoria": "Confíe en las indicaciones de los instrumentos; mover los ojos con rapidez o inclinarse empeoran el problema."
+  },
+  "k152": {
+    "explicacion": "La desorientación espacial es el estado de confusión temporal causado por información engañosa que los órganos sensoriales (vista, oído interno, músculos) envían al cerebro. La hiperventilación y la hipoxia son problemas respiratorios y de oxigenación, no de percepción.",
+    "teoria": "La desorientación espacial es un estado de confusión espacial temporaria."
+  },
+  "k159": {
+    "explicacion": "El piloto es más susceptible a la desorientación espacial cuando pierde las referencias visuales y se guía solo por las sensaciones del cuerpo, que son engañosas. Ignorar esas sensaciones y verificar los instrumentos es precisamente lo que la previene.",
+    "teoria": "Durante baja visibilidad, al perder referencias visuales, el piloto es vulnerable a la desorientación espacial."
+  },
+  "k165": {
+    "explicacion": "La mejor manera de superar la desorientación espacial es confiar en los instrumentos de vuelo e ignorar las sensaciones de guiñada, cabeceo y alabeo. Controlar la respiración es el remedio para la hiperventilación, no para la desorientación.",
+    "teoria": "Confíe en las indicaciones de los instrumentos."
+  },
+  "c5-28": {
+    "explicacion": "La actitud antiautoridad se resume en \"no me digan qué hacer\". Su antídoto es \"seguir las normas, normalmente son correctas\". Las opciones a) y b) expresan el pensamiento peligroso, no el antídoto.",
+    "teoria": "El antídoto para la actitud antiautoridad es: sigue las reglas."
+  },
+  "k171": {
+    "explicacion": "La impulsividad es la necesidad de hacer algo rápido sin pensar (\"hazlo rápido\"). Su antídoto es \"no tan rápido, piensa primero\". La opción b) es el pensamiento peligroso y \"me podría suceder a mí\" es el antídoto de la invulnerabilidad.",
+    "teoria": "El antídoto para la impulsividad es: no tan rápido, piensa primero."
+  },
+  "c5-30": {
+    "explicacion": "Las cinco actitudes peligrosas son antiautoridad, impulsividad, invulnerabilidad, machismo y resignación. Las otras opciones mencionan fallas en la gestión de riesgo o la toma de decisiones, pero no son las actitudes peligrosas definidas.",
+    "teoria": "Las cinco actitudes peligrosas son: antiautoridad, impulsividad, invulnerabilidad, machismo y resignación."
+  },
+  "k188": {
+    "explicacion": "El primer paso para neutralizar una actitud peligrosa es reconocer los pensamientos peligrosos; luego se los rotula y se aplica el antídoto correspondiente. No se puede aplicar un criterio racional sin antes reconocer el problema, y \"reconocer la invulnerabilidad\" es justamente una actitud peligrosa.",
+    "teoria": "El reconocimiento de los pensamientos peligrosos es el primer paso para neutralizarlos."
+  },
+  "k193": {
+    "explicacion": "La gestión de riesgo, dentro de la toma de decisiones aeronáuticas, depende de la consciencia situacional, el reconocimiento del problema y el buen criterio para reducir los riesgos de cada vuelo. La opción c) describe el proceso de toma de decisiones en general, no las características de las que depende la gestión de riesgo.",
+    "teoria": "La gestión de riesgo depende de la consciencia situacional, el reconocimiento del problema y el buen juicio."
+  },
+  "c5-33": {
+    "explicacion": "La invulnerabilidad se expresa como \"no me sucederá a mí\". Su antídoto es \"podría sucederme a mí\". La opción a) es el pensamiento peligroso y la b) es una forma de minimizar el riesgo, no un antídoto.",
+    "teoria": "El antídoto para la invulnerabilidad es: podría sucederme a mí."
+  },
+  "c5-34": {
+    "explicacion": "El machismo se expresa como \"puedo hacerlo\", tomando riesgos para impresionar. Su antídoto es \"tomar riesgos es tonto\". La opción a) es el pensamiento peligroso en sí mismo.",
+    "teoria": "El antídoto para el machismo es: tomar riesgos es tonto."
+  },
+  "c5-35": {
+    "explicacion": "La resignación se expresa como \"¿para qué?, es inútil\". Su antídoto es \"no estoy indefenso, puedo hacer la diferencia\". \"Es inútil\" es el pensamiento peligroso y culpar a otro tampoco es un antídoto.",
+    "teoria": "El antídoto para la resignación es: no estoy indefenso, puedo hacer la diferencia."
+  },
+  "k202": {
+    "explicacion": "Aunque tenga el certificado psicofísico vigente, el piloto es el responsable de determinar antes de cada vuelo si está apto (enfermedad, medicación, estrés, alcohol, fatiga). La ANAC y el médico evalúan la aptitud general, no el estado en cada vuelo particular.",
+    "teoria": "El piloto es responsable de determinar si se encuentra apto para cada vuelo."
+  },
+  "k205": {
+    "explicacion": "La mayoría de los accidentes prevenibles tienen un factor común: el error humano. Las fallas estructurales o mecánicas son causas mucho menos frecuentes.",
+    "teoria": "La mayoría de los accidentes prevenibles tienen un factor común: el error humano."
+  },
+  "k210": {
+    "explicacion": "Continuar un vuelo VFR hacia condiciones instrumentales sin entrenamiento ni preparación es una causa frecuente de desorientación espacial y de colisión con el terreno u obstáculos. Ignorar las sensaciones del cuerpo y confiar en los instrumentos, en cambio, es lo correcto.",
+    "teoria": "Continuar un vuelo VFR en condiciones instrumentales suele causar desorientación espacial o colisión con el suelo u obstáculos."
+  },
+  "c5-39": {
+    "explicacion": "Confiar en la memoria de corto y largo plazo para tareas repetitivas (rutas o aviones conocidos) lleva a descuidar la planificación, las inspecciones de prevuelo y, sobre todo, las listas de chequeo. La consciencia situacional no es una tarea repetitiva que se \"saltee\".",
+    "teoria": "La confianza injustificada en la memoria causa negligencia en la planificación del vuelo, las inspecciones de prevuelo y las listas de chequeo."
+  },
+  "k233": {
+    "explicacion": "La mayoría de las colisiones en el aire ocurren en días claros, con buena visibilidad y en condiciones VFR, cuando hay más tránsito y los pilotos relajan la vigilancia. En neblina o de noche nublada hay menos tránsito VFR.",
+    "teoria": "La gran mayoría de las colisiones en vuelo (81 %) ocurren con cielo despejado y visibilidad ilimitada."
+  },
+  "k236": {
+    "explicacion": "Antes de iniciar cada maniobra, el piloto debe observar el área completa (virajes de despeje) para evitar colisiones. Verificar instrumentos es útil pero no reemplaza la vigilancia exterior, y no es necesario avisar a un control de tránsito aéreo (CTA).",
+    "teoria": "La observación del cielo es un factor clave para evitar colisiones antes de cada maniobra."
+  },
+  "k237": {
+    "explicacion": "La neblina reduce el contraste y crea la ilusión de que el tránsito y el terreno están más lejos de lo que realmente están, lo que es peligroso para evitar colisiones. El enfoque al infinito ocurre en un cielo vacío y sin rasgos, no por la neblina.",
+    "teoria": "La neblina puede crear la ilusión de que los objetos están a mayor distancia de la real."
+  },
+  "k242": {
+    "explicacion": "La técnica de vigilancia diurna más eficaz es una serie de movimientos oculares cortos y regularmente espaciados, observando cada sector de unos 10° durante al menos un segundo. Mirar solo las posiciones de las 3, 9 y 12 deja sectores sin cubrir, y la visión periférica sirve más de noche.",
+    "teoria": "Usar una serie de movimientos oculares cortos y regularmente espaciados; cada movimiento no debería exceder los 10°."
+  },
+  "c5-44": {
+    "explicacion": "Se debe explorar el cielo de forma sistemática, concentrándose en distintos segmentos por intervalos cortos, para que cada área pase por la visión central, que es la que detecta mejor. Un barrido continuo no permite que el ojo enfoque, y la visión periférica sola no basta de día.",
+    "teoria": "Serie de movimientos oculares cortos y regularmente espaciados que lleven áreas sucesivas del cielo al campo visual central."
+  },
+  "k245": {
+    "explicacion": "Una aeronave en curso de colisión no presenta movimiento relativo aparente: permanece fija en el mismo punto del parabrisas y solo aumenta de tamaño, a menudo lentamente al principio. Por eso no hay que esperar que crezca rápido para reconocer el peligro.",
+    "teoria": "Una aeronave sin movimiento relativo aparente se encuentra en curso de colisión."
+  },
+  "k137": {
+    "explicacion": "Antes de entrar en el circuito de tránsito, se le proporciona a la aeronave la pista en uso y la información meteorológica pertinente disponible (viento, QNH, etc.) y de tránsito, salvo la que se sepa que ya recibió. Los datos fijos del aeródromo, como identificación, elevación o pendiente de pistas, se obtienen de las publicaciones, no en ese momento.",
+    "teoria": null
+  },
+  "k142": {
+    "explicacion": "En un descenso de emergencia se selecciona en el transpondedor el código de emergencia 7700. El 7600 indica falla de comunicaciones y el 7500, interferencia ilícita.",
+    "teoria": null
+  },
+  "k170": {
+    "explicacion": "Ante una falla total de motor después del despegue, la acción inmediata y vital es mantener una velocidad segura: bajar la nariz y establecer la velocidad de planeo para evitar la pérdida y la barrena. Intentar regresar al campo a baja altura es muy peligroso y la dirección de aterrizaje se elige luego, generalmente hacia adelante.",
+    "teoria": null
+  },
+  "k319": {
+    "explicacion": "Viento 040°/10 kt: la pista 04 sería la ideal, pero la figura muestra la pista 04-22 clausurada (X en ambas cabeceras).<br>Pista 18: viento de cola, no sirve.<br>Pista 36: diferencia de 40° con el viento.<br>Viento de frente = 10 × cos 40° ≈ 7,7 kt<br>Componente de viento cruzado = 10 × sen 40° ≈ 6,4 kt<br>Por lo tanto, la pista en uso será la 36.",
+    "teoria": null
+  },
+  "k327": {
+    "explicacion": "Para una protección óptima contra la hipoxia, se recomienda evitar volar por encima de 10.000 pies MSL por períodos prolongados sin oxígeno suplementario. 10.000 metros (unos 33.000 pies) es demasiado alto y 1000 metros es demasiado bajo para que la hipoxia sea un problema.",
+    "teoria": null
+  },
+  "k333": {
+    "explicacion": "La afirmación es falsa: la falta de entrenamiento físico y la obesidad reducen la tolerancia a la hipoxia, igual que el tabaco, el alcohol y la fatiga.",
+    "teoria": null
+  },
+  "k361": {
+    "explicacion": "En la figura se ven marcas en X en ambas cabeceras de la pista 04-22, que indican pista clausurada. La pista 18-36 no tiene X; sus flechas indican umbral desplazado, no clausura.",
+    "teoria": null
+  },
+  "k379": {
+    "explicacion": "Antes del despegue se debe eliminar toda la escarcha de la aeronave, porque altera el perfil del ala, reduce la sustentación y aumenta la resistencia. No se debe usar agua caliente, ya que puede volver a congelarse en otras partes (bisagras, superficies de control) o causar daños. Quitarla \"en el despegue\" no es posible.",
+    "teoria": null
+  },
+  "k384": {
+    "explicacion": "En el VASI de dos barras, la ilustración A muestra ambas barras oscuras (rojas), es decir, rojo sobre rojo, lo que indica que la aeronave está por debajo de la senda de planeo. Rojo sobre blanco sería en la senda y blanco sobre blanco, encima.",
+    "teoria": null
+  },
+  "k385": {
+    "explicacion": "En la ilustración B la barra lejana (superior) es roja y la cercana (inferior) es blanca: rojo sobre blanco, que indica que la aeronave está en la senda de planeo. Ambas blancas indicarían encima y ambas rojas, debajo.",
+    "teoria": null
+  },
+  "k035": {
+    "explicacion": "El Sol es la fuente principal de los cambios atmosféricos: su calentamiento desigual de la superficie terrestre genera diferencias de temperatura y de presión, que a su vez producen viento, nubes y precipitación. El calentamiento de la tierra no es la fuente en sí, sino una consecuencia de la radiación solar. Las mareas no influyen en el tiempo atmosférico.",
+    "teoria": "La fuente principal generadora de los cambios atmosféricos es el Sol."
+  },
+  "k104": {
+    "explicacion": "Todo proceso físico del tiempo atmosférico (evaporación, condensación, convección, formación de viento) va acompañado de un intercambio de calor o es resultado de él. El movimiento de aire y las diferencias de presión son consecuencias de ese calentamiento desigual, no su causa.",
+    "teoria": "Cada proceso físico de la atmósfera es acompañado o es el resultado de un intercambio de calor, originado en el calentamiento desigual de la superficie terrestre."
+  },
+  "k178": {
+    "explicacion": "El viento es el movimiento del aire desde las zonas de alta presión hacia las de baja presión, impulsado por la diferencia de presión. La fuerza de Coriolis solo desvía la trayectoria del viento (hacia la izquierda en el hemisferio sur), pero no lo genera.",
+    "teoria": "El viento se origina por el desplazamiento del aire desde las áreas de alta presión hacia las de baja presión."
+  },
+  "k227": {
+    "explicacion": "Los centros de baja presión se denominan ciclones o depresiones (en las cartas se marcan con la letra B o L). La letra A identifica a los anticiclones (alta presión), y la subsidencia (descenso de aire) es propia de las altas presiones, no de las bajas.",
+    "teoria": "Los centros de baja presión se denominan ciclónicos o depresiones."
+  },
+  "k263": {
+    "explicacion": "En una baja presión el aire converge en superficie y asciende; al ascender se enfría, se condensa y forma abundante nubosidad en capas bajas y medias, con mal tiempo. El cielo claro y el tiempo bueno y estable están asociados a las altas presiones (anticiclones).",
+    "teoria": "Los centros de baja presión están asociados a abundante nubosidad en capas bajas y medias."
+  },
+  "k270": {
+    "explicacion": "En la atmósfera estándar la temperatura desciende aproximadamente 2 °C cada 1000 pies (unos 300 m), es decir, 6,5 °C cada 1000 m. La opción c (2 °C cada 1000 m) subestima mucho el gradiente, y 2,5 °F por 1000 pies tampoco corresponde (serían unos 3,5 °F).",
+    "teoria": "El descenso promedio de temperatura con la altura es de 2 °C cada 300 m (1000 pies)."
+  },
+  "k277": {
+    "explicacion": "La atmósfera estándar (ISA) fija a nivel del mar una temperatura de 15 °C (59 °F) y una presión de 1013,25 hPa (29,92 pulgadas de mercurio). 15 °F sería bajo cero en Celsius, y 13 °C no es el valor estándar.",
+    "teoria": "La temperatura estándar a nivel del mar es de 15 °C."
+  },
+  "k282": {
+    "explicacion": "Una inversión de temperatura es una capa en la que la temperatura aumenta con la altitud, en lugar de disminuir como es normal. Las inversiones indican aire estable, por lo que no se asocian a nubes de gran desarrollo vertical; además, la mala visibilidad (bruma, humo) suele quedar atrapada debajo de la inversión, no por encima.",
+    "teoria": "Una inversión de temperatura es un incremento de la temperatura a medida que aumenta la altitud; las demás opciones son incorrectas."
+  },
+  "k291": {
+    "explicacion": "La humedad relativa es la relación entre el vapor de agua presente y el máximo que el aire puede contener a esa temperatura. Por eso aumenta si baja la temperatura (disminuye la capacidad del aire) o si se agrega humedad. La presión y el viento no son los factores que la determinan.",
+    "teoria": "La humedad relativa puede incrementarse por una baja de la temperatura ambiente o por un incremento de la cantidad de humedad en el aire."
+  },
+  "k039": {
+    "explicacion": "El punto de rocío es la temperatura a la que debe enfriarse el aire, manteniendo constante su contenido de humedad (y la presión), para que se sature. El rocío no siempre se forma a esa temperatura: depende de que la superficie se enfríe hasta ese valor.",
+    "teoria": "Punto de rocío: temperatura a la cual debe enfriarse el aire, manteniendo constante la humedad, para que se sature."
+  },
+  "k047": {
+    "explicacion": "La cantidad máxima de vapor de agua que el aire puede contener depende de su temperatura: cuanto más caliente, más vapor admite. El punto de rocío indica cuánta humedad hay realmente, no cuánta puede contener.",
+    "teoria": "La cantidad de vapor de agua que el aire puede contener depende principalmente de su temperatura."
+  },
+  "k055": {
+    "explicacion": "Las nubes, la niebla y el rocío se forman siempre que el vapor de agua se condensa (en gotas visibles o sobre superficies). La sola presencia de vapor no alcanza, y llegar al 100% de humedad relativa no garantiza por sí solo la formación: hace falta que ocurra la condensación.",
+    "teoria": "Las nubes, la niebla y el rocío requieren la condensación del vapor de agua; las otras opciones son incorrectas."
+  },
+  "k058": {
+    "explicacion": "La humedad se incorpora al aire no saturado por evaporación (de agua líquida a vapor) y por sublimación (de hielo directamente a vapor). La condensación es el proceso inverso: quita vapor del aire.",
+    "teoria": "La humedad se incorpora al aire por evaporación (líquido a vapor) y sublimación (sólido a vapor)."
+  },
+  "k068": {
+    "explicacion": "Cuando una masa de aire se desplaza, va adquiriendo las propiedades de temperatura y humedad de la superficie sobre la que transita (por ejemplo, se calienta y se humedece sobre un mar cálido). No permanece en su estado original; desarrolla propiedades convectivas solo si la superficie la calienta desde abajo.",
+    "teoria": "Al trasladarse, la masa de aire toma las propiedades de la nueva superficie por donde transita."
+  },
+  "k075": {
+    "explicacion": "El aire frío es más denso que el caliente, por eso, cuando se encuentran, el aire frío se ubica por debajo, formando una cuña que levanta al aire caliente. Las opciones a y b describen lo contrario.",
+    "teoria": "Cuando se encuentran, el aire frío se posiciona por debajo del aire caliente."
+  },
+  "k082": {
+    "explicacion": "Al cruzar un frente siempre se produce un cambio en la dirección del viento, porque cambia el campo de presión entre ambas masas de aire. El tipo de precipitación o la estabilidad pueden variar, pero no ocurre siempre.",
+    "teoria": "Al cruzar un frente siempre cambia la dirección del viento."
+  },
+  "k088": {
+    "explicacion": "Uno de los cambios más fáciles de reconocer al cruzar un frente es el cambio de temperatura, ya que el frente separa masas de aire de distinta temperatura. El aumento de nubosidad o de humedad relativa no se da necesariamente en todos los frentes.",
+    "teoria": "El cambio de temperatura es el más fácilmente reconocible al cruzar un frente."
+  },
+  "k095": {
+    "explicacion": "Según el movimiento y la temperatura de las masas de aire, los frentes se clasifican en fríos, calientes, estacionarios y ocluidos. La opción a está incompleta, y las masas de aire no son un tipo de frente.",
+    "teoria": "Los frentes se clasifican en fríos, calientes, estacionarios y ocluidos."
+  },
+  "k101": {
+    "explicacion": "La estabilidad se determina comparando la temperatura de una porción de aire desplazada con la del aire que la rodea. Si la porción queda más caliente que el entorno, sigue subiendo (aire inestable); si queda más fría, vuelve a descender (aire estable). La turbulencia es solo una manifestación de la inestabilidad, no la forma de determinarla, y la diferencia de presión no define la estabilidad.",
+    "teoria": "La estabilidad se determina por la diferencia de temperatura entre una porción de aire y el aire circundante."
+  },
+  "k111": {
+    "explicacion": "El aire estable no favorece los movimientos verticales: el vuelo es suave, pero la bruma, el humo y las nubes estratiformes quedan atrapados en capas bajas, y la visibilidad es regular a mala. La buena visibilidad con turbulencia corresponde al aire inestable.",
+    "teoria": "Características del aire estable: aire suave y visibilidad regular a mala."
+  },
+  "k120": {
+    "explicacion": "En el aire inestable el aire ascendente se sigue elevando, lo que genera nubes cumuliformes y turbulencia (con buena visibilidad fuera de las precipitaciones). Las nubes estratiformes, la niebla y el aire suave son propios del aire estable.",
+    "teoria": "Características del aire inestable: nubes cumuliformes y aire turbulento."
+  },
+  "k124": {
+    "explicacion": "Las nubes cumuliformes (cúmulos, cumulonimbus) se forman por corrientes ascendentes en aire inestable y tienen un importante desarrollo vertical. Las estratiformes y los estratocúmulos se extienden en capas horizontales, con poco desarrollo vertical.",
+    "teoria": "Las nubes cumuliformes son las de importante desarrollo vertical."
+  },
+  "k134": {
+    "explicacion": "Cuando se enfría una capa de aire estable, la condensación se produce en capas horizontales y se forman estratos (nubes estratiformes). Los cúmulos requieren aire inestable con corrientes ascendentes.",
+    "teoria": "Las nubes formadas por enfriamiento de una capa estable son los estratos."
+  },
+  "k146": {
+    "explicacion": "El aire estable y húmedo que es forzado a subir por una pendiente se enfría y condensa en capas, formando nubes estratificadas (o niebla orográfica). Los chaparrones, las tormentas y la turbulencia convectiva son propios del aire inestable.",
+    "teoria": "El aire estable forzado a ascender forma nubes planas, estratificadas."
+  },
+  "k154": {
+    "explicacion": "Si una masa de aire inestable es forzada a ascender, continúa subiendo por sí misma y forma nubes cumuliformes con considerable desarrollo vertical y turbulencia. Las nubes estratiformes de poco desarrollo corresponden al aire estable.",
+    "teoria": "El aire inestable forzado a ascender produce nubes de extenso desarrollo vertical."
+  },
+  "k158": {
+    "explicacion": "La precipitación continua y constante delante de un frente (típica del frente caliente) indica aire estable, con nubes estratiformes y poca o ninguna turbulencia. Las nubes cumuliformes producen chaparrones intermitentes y turbulencia.",
+    "teoria": "La precipitación de nubes estratiformes es continua, con poca o ninguna turbulencia."
+  },
+  "k162": {
+    "explicacion": "Para que se forme un cumulonimbus (nube de tormenta) se necesitan tres condiciones: un mecanismo de ascenso (corrientes ascendentes), aire inestable y alto contenido de humedad. El aire estable no desarrolla tormentas, y un exceso de núcleos de condensación no es la condición clave.",
+    "teoria": "Para la formación de tormentas se requiere suficiente vapor de agua y un gradiente de temperatura inestable."
+  },
+  "k168": {
+    "explicacion": "Según el método del banco de preguntas, la altura de la base se obtiene dividiendo la diferencia entre temperatura y punto de rocío por 6,5 y multiplicando por 1000 m:<br>Diferencia = 19,5 °C − 15 °C = 4,5 °C<br>4,5 ÷ 6,5 = 0,692<br>0,692 × 1000 m ≈ 692 m<br>Las opciones a y c son errores de coma o de dígitos invertidos.",
+    "teoria": "Resultado: 692 m."
+  },
+  "k173": {
+    "explicacion": "Usando el método del banco de preguntas (diferencia temperatura − punto de rocío dividida por 6,5, por 1000 m):<br>Diferencia = 10 °C − 8 °C = 2 °C<br>2 ÷ 6,5 = 0,3077<br>0,3077 × 1000 m = 307,69 m",
+    "teoria": "Resultado: 307,69 m."
+  },
+  "k186": {
+    "explicacion": "La intensidad de la turbulencia se clasifica en una escala de leve, moderada, fuerte o severa (en la terminología OACI: leve, moderada, severa y extrema). Inestable y estable describen el estado de la atmósfera, no la intensidad de la turbulencia.",
+    "teoria": "La turbulencia se clasifica como leve, moderada, fuerte y severa."
+  },
+  "k189": {
+    "explicacion": "En turbulencia severa el piloto debe mantener una actitud de vuelo nivelado, a la velocidad de maniobra o por debajo de ella, y aceptar las variaciones de altitud y velocidad. Intentar mantener altitud y velocidad constantes obliga a corregir bruscamente con los mandos, lo que aumenta el factor de carga y las tensiones estructurales.",
+    "teoria": "Ante turbulencia severa se debe volar por actitud; las opciones a y b son incorrectas."
+  },
+  "k191": {
+    "explicacion": "La etapa de cúmulo de una tormenta se caracteriza por corrientes ascendentes continuas, que hacen crecer la nube. Los relámpagos frecuentes y las corrientes descendentes aparecen en la etapa de madurez.",
+    "teoria": "La etapa de cúmulo se caracteriza por corrientes ascendentes constantes."
+  },
+  "k196": {
+    "explicacion": "En la etapa de disipación predominan las corrientes descendentes, que cortan el aporte de aire húmedo y hacen que la tormenta se debilite. En la madurez coexisten corrientes ascendentes y descendentes, y en la etapa de cúmulo dominan las ascendentes.",
+    "teoria": "La etapa de disipación se caracteriza por corrientes descendentes."
+  },
+  "k198": {
+    "explicacion": "Las tormentas producen corrientes descendentes intensas (microrráfagas) y frentes de ráfagas que se extienden lejos de la celda, generando cortante de viento (wind shear) a baja altura, el principal peligro durante la aproximación. La lluvia continua es propia de nubes estratiformes, no de tormentas.",
+    "teoria": "El fenómeno riesgoso esperable es la cortante de viento (wind shear)."
+  },
+  "k199": {
+    "explicacion": "Si el viento de frente pasa a calma, la velocidad indicada cae bruscamente y con ella la sustentación. El avión tiende a bajar la nariz y descender por debajo de la senda, perdiendo altitud. La opción b describe el caso contrario (aumento del viento de frente) y la c es contradictoria.",
+    "teoria": "Con cortante de viento de frente a calma: pérdida de velocidad, la nariz baja y la altitud disminuye."
+  },
+  "k204": {
+    "explicacion": "Se llama engelamiento a la formación de hielo sobre el avión o alguna de sus partes (alas, hélice, parabrisas, toma de aire, carburador). Es peligroso porque aumenta el peso y la resistencia y reduce la sustentación.",
+    "teoria": "Engelamiento es la formación de hielo sobre un avión o parte de él."
+  },
+  "k209": {
+    "explicacion": "Para que se forme hielo en vuelo hacen falta dos condiciones: agua en estado líquido (gotas sobreenfriadas de nube o precipitación) y temperatura del aire en 0 °C (isoterma de 0 °C) o inferior. El tipo de nube o su desarrollo vertical no es la condición necesaria.",
+    "teoria": "Se requiere agua líquida y temperatura en 0 °C o por debajo; las opciones b y c son incorrectas."
+  },
+  "k214": {
+    "explicacion": "La niebla de radiación se disipa por calentamiento o por aumento del viento: cuando el viento alcanza unos 15 nudos o más, la mezcla turbulenta levanta la niebla y la transforma en estratos bajos. Con vientos débiles (5 a 7 nudos) la niebla puede persistir o incluso hacerse más espesa.",
+    "teoria": "Si el viento aumenta a 15 nudos, la niebla se levanta y se transforma en estratos bajos."
+  },
+  "k220": {
+    "explicacion": "La niebla se forma cuando la temperatura del aire desciende hasta igualar el punto de rocío (o el punto de rocío sube hasta la temperatura), saturando el aire cerca de la superficie. Un descenso de temperatura que no llega al punto de rocío no alcanza, y la temperatura no aumenta hacia el punto de rocío porque este nunca es mayor que ella.",
+    "teoria": "Se forma niebla cuando la temperatura desciende hasta igualar el punto de rocío."
+  },
+  "k229": {
+    "explicacion": "La niebla de radiación se forma en noches despejadas, con poco o nada de viento y humedad en capas bajas: el suelo pierde calor por radiación y enfría el aire en contacto hasta el punto de rocío. Las opciones b y c describen nieblas de advección y de vapor (aire que se mueve sobre agua).",
+    "teoria": "La niebla de radiación se favorece con cielos despejados, poco o nada de viento y alta humedad."
+  },
+  "k296": {
+    "explicacion": "Cuando el viento de frente pasa a calma, cae la velocidad indicada y con ella la sustentación; el avión baja la nariz y desciende por debajo de la senda de planeo, perdiendo altitud. La opción a describe el caso contrario (aumento del viento de frente) y la c se contradice (menos sustentación con más velocidad).",
+    "teoria": null
+  },
+  "k302": {
+    "explicacion": "Un aumento repentino del viento de cola (o una disminución del viento de frente) reduce la velocidad indicada y por lo tanto la sustentación. El avión tiende a bajar la nariz y a descender. Un aumento de velocidad indicada solo ocurre en el caso inverso (más viento de frente).",
+    "teoria": null
+  },
+  "k303": {
+    "explicacion": "Cuando una masa de aire se desplaza y adquiere las propiedades de temperatura y humedad de la nueva superficie, ese proceso se llama modificación de la masa de aire. Un frente es el límite entre dos masas de aire distintas, no el cambio de una de ellas.",
+    "teoria": null
+  },
+  "k304": {
+    "explicacion": "Cuando una masa de aire permanece en reposo o se mueve lentamente sobre una región extensa y homogénea (región fuente), adquiere propiedades de temperatura y humedad bastante uniformes. Así se forman las masas de aire.",
+    "teoria": null
+  },
+  "k317": {
+    "explicacion": "Se puede esperar cortante de viento en la zona de una inversión de temperatura cuando hay vientos de 25 nudos o más entre los 2000 y 4000 pies. El aire calmo bajo la inversión contrasta con el viento fuerte por encima, generando el cizallamiento, especialmente peligroso en despegues y aterrizajes.",
+    "teoria": null
+  },
+  "k332": {
+    "explicacion": "La cortante de viento puede ocurrir a cualquier nivel y el piloto la detecta principalmente como un cambio súbito en la velocidad indicada, acompañado de variaciones de altitud y actitud. Un cambio de temperatura no la identifica, y la indicación del variómetro es solo una consecuencia secundaria.",
+    "teoria": null
+  },
+  "k335": {
+    "explicacion": "La humedad relativa expresa la cantidad de vapor de agua presente en el aire en relación con el máximo que podría contener a esa temperatura. El rocío es agua ya condensada sobre superficies, no humedad en el aire.",
+    "teoria": null
+  },
+  "k352": {
+    "explicacion": "Para que se forme hielo sobre el avión se necesitan agua líquida (gotas sobreenfriadas de nube o precipitación) y temperatura del aire bajo cero (isoterma de 0 °C o por debajo). El agua sólida (nieve, cristales de hielo) no se adhiere de la misma forma, y por encima de 0 °C el agua no se congela.",
+    "teoria": null
+  },
+  "k353": {
+    "explicacion": "La tropósfera, la capa más baja de la atmósfera, contiene casi todo el vapor de agua y los núcleos de condensación, por eso allí se producen las nubes y el tiempo meteorológico. En ella la temperatura disminuye con la altura; la temperatura constante es característica de la tropopausa y la parte baja de la estratósfera.",
+    "teoria": null
+  },
+  "k354": {
+    "explicacion": "Según el movimiento y la temperatura de las masas de aire, los frentes se clasifican en fríos, calientes, estacionarios y ocluidos. No existen frentes locales en esta clasificación, y la opción c está incompleta.",
+    "teoria": null
+  },
+  "k366": {
+    "explicacion": "Superficie frontal es la zona de separación entre dos masas de aire de diferentes características (temperatura, humedad, densidad). Si las masas fueran iguales no habría frente, y no se trata de una unión sino de un límite entre ellas.",
+    "teoria": null
+  },
+  "k369": {
+    "explicacion": "Verdadero. La cortante de viento a baja altitud se puede esperar con inversiones de temperatura fuertes y alrededor de las tormentas, en todos sus lados y directamente debajo de la celda, por las corrientes descendentes y los frentes de ráfagas.",
+    "teoria": null
+  },
+  "k031": {
+    "explicacion": "El peso vacío incluye la célula, la planta de poder, el equipo instalado en forma fija, el <b>combustible no utilizable</b> y el <b>aceite que no se puede drenar</b> (en definiciones más modernas, el aceite completo). La opción b omite el combustible no utilizable y el aceite no drenable; la opción c es incorrecta porque el combustible utilizable forma parte de la carga útil, no del peso vacío.",
+    "teoria": "El peso vacío incluye el combustible no utilizable y el aceite que no se puede drenar."
+  },
+  "k109": {
+    "explicacion": "La densidad de la nafta de aviación (AVGAS) es aproximadamente 0,72 kg/L.<br>Combustible a drenar = 50 kg ÷ 0,72 kg/L = 69,44 L ≈ <b>69,5 L</b><br>50 litros pesarían solo 36 kg, y 16,2 galones son unos 61 L (≈ 44 kg), insuficientes para eliminar el exceso.",
+    "teoria": "50 kg ÷ 0,720 kg/L = 69,44 L, redondeado a 69,50 L."
+  },
+  "k182": {
+    "explicacion": "La nafta de aviación pesa aproximadamente 6 libras por galón.<br>Con el dato del enunciado: 110 lb ÷ 6 lb/gal ≈ 18,3 gal (ninguna opción coincide).<br>El texto de teoría resuelve el mismo problema con 90 lb: 90 lb ÷ 6 lb/gal = <b>15 gal</b>.<br>Se toma 15 galones como respuesta, ya que es la única opción que se acerca a eliminar el exceso; 10 y 12 galones (60 y 72 lb) quedan muy por debajo.",
+    "teoria": "La teoría resuelve el problema con 90 libras: 90 ÷ 6 = 15 galones."
+  },
+  "k228": {
+    "explicacion": "Cuando la temperatura es más cálida que la estándar, el aire es menos denso, por lo que la aeronave se comporta como si estuviera más alta: la <b>altitud de densidad es mayor que la altitud de presión</b>. Solo son iguales cuando la temperatura es exactamente la estándar (opción a), y es menor cuando el aire es más frío que el estándar (opción b).",
+    "teoria": "Si la temperatura supera la estándar, la altitud de densidad es mayor que la altitud de presión."
+  },
+  "k262": {
+    "explicacion": "1) Altitud de presión: en la tabla de la Figura 8, 29.2 = 673 pies y 29.3 = 579 pies → para 29.25 ≈ 626 pies<br>AP = 5250 + 626 = 5876 pies<br>2) Entrar al gráfico con +81° F (≈ 27° C), subir hasta la línea de 5876 pies de altitud de presión y leer a la izquierda: altitud de densidad ≈ <b>8500 pies</b><br>Verificación: ISA a ~5900 pies ≈ 3° C → 24° C más cálido × 120 pies ≈ +2900 pies<br>5877 pies es solo la altitud de presión, no la de densidad.",
+    "teoria": "Altitud de presión 5876 pies; en el gráfico con +81° F se obtiene una altitud de densidad de 8500 pies."
+  },
+  "k269": {
+    "explicacion": "En la tabla de la Figura 8: 29.92 = 0 y 30.0 = −73 pies.<br>Para 29.96 (a mitad de camino) el factor es ≈ −36,5 pies<br>AP = 3563 − 36,5 = 3526,5 ≈ <b>3527 pies</b><br>Con un ajuste mayor a 29.92 la altitud de presión es menor que la elevación, por eso 3639 pies (mayor) es incorrecto.",
+    "teoria": "3563 − 36,5 = 3526,5 pies."
+  },
+  "k276": {
+    "explicacion": "1) Altitud de presión: en la Figura 8, 30.3 = −348 y 30.4 = −440 → para 30.35 ≈ −394 pies<br>AP = 3894 − 394 = 3500 pies<br>2) Entrar con +25° F (≈ −4° C), subir hasta la línea de 3500 pies y leer: altitud de densidad ≈ <b>2000 pies</b><br>Verificación: ISA a 3500 pies ≈ +8° C → 12° C más frío × 120 pies ≈ −1400 pies<br>3500 pies es solo la altitud de presión, no la de densidad.",
+    "teoria": "Altitud de presión 3500 pies; en el gráfico con 25° F la altitud de densidad es 2000 pies."
+  },
+  "k280": {
+    "explicacion": "La atmósfera estándar (ISA) a nivel del mar tiene <b>15° C (59° F) y 29.92 pulgadas de mercurio</b> (1013,2 hPa/milibares). La opción b usa 59 en grados Celsius en lugar de Fahrenheit, y la opción c expresa 29.92 en milibares en lugar de pulgadas de mercurio.",
+    "teoria": "Valores estándar a nivel del mar: 29.92 pulgadas de mercurio y 15° C."
+  },
+  "k287": {
+    "explicacion": "Un <b>aumento de la temperatura</b> hace al aire menos denso y, por lo tanto, aumenta la altitud de densidad. Un aumento de la presión barométrica (a) hace al aire más denso y la disminuye, y una disminución de la humedad relativa (c) también reduce la altitud de densidad.",
+    "teoria": "Un día caluroso aumenta la altitud de densidad; las opciones a y c son incorrectas."
+  },
+  "k038": {
+    "explicacion": "La alta temperatura, la alta humedad relativa y la alta altitud de densidad significan aire menos denso: el motor entrega menos potencia, la hélice produce menos tracción y el ala genera menos sustentación, por lo que la performance de despegue y ascenso disminuye. Las opciones a y b incluyen baja altitud de densidad, que en realidad mejora la performance.",
+    "teoria": "Un aumento de temperatura y humedad reduce la potencia del motor y la eficiencia de la hélice."
+  },
+  "k046": {
+    "explicacion": "Con menor densidad del aire el motor entrega menos potencia, la hélice es menos eficiente y el ala necesita mayor velocidad verdadera para generar la misma sustentación; por eso se <b>reduce la performance de ascenso</b>. Las opciones a y c son lo opuesto: la performance del motor y del despegue también empeoran.",
+    "teoria": "Una mayor altitud de densidad reduce considerablemente la potencia entregada y la eficiencia de la hélice."
+  },
+  "k054": {
+    "explicacion": "En la Figura 8, sobre la línea de 5000 pies de altitud de presión:<br>A 25° F → altitud de densidad ≈ 3850 pies<br>A 50° F → altitud de densidad ≈ 5500 pies<br>5500 − 3850 = <b>aumento de 1650 pies</b><br>Verificación: 25° F a 50° F ≈ 14° C × 120 pies ≈ 1670 pies.",
+    "teoria": "5500 − 3850 = aumento de 1650 pies."
+  },
+  "k062": {
+    "explicacion": "En la tabla de la Figura 8: 28.2 = 1630 pies y 28.3 = 1533 pies (diferencia 97 pies por 0,1).<br>Factor para 28.22 ≈ 1630 − 0,2 × 97 = 1610,6 pies<br>AP = 1380 + 1611 = 2991 pies ≈ <b>2991 pies</b><br>Con un ajuste muy inferior a 29.92 se suma el factor; 2913 y 3010 surgen de interpolar mal.",
+    "teoria": "1380 + 1610,6 = 2990,6 pies."
+  },
+  "k066": {
+    "explicacion": "En la Figura 8, sobre la línea de 3000 pies de altitud de presión:<br>A 30° F → altitud de densidad ≈ 1650 pies<br>A 50° F → altitud de densidad ≈ 2950 pies<br>2950 − 1650 = <b>aumento de 1300 pies</b><br>Un aumento de temperatura nunca disminuye la altitud de densidad, por eso la opción b es incorrecta.",
+    "teoria": "2950 − 1650 = aumento de 1300 pies."
+  },
+  "k073": {
+    "explicacion": "El vapor de agua es más liviano que el aire seco, por lo que la alta humedad reduce la densidad del aire. Esto aumenta la altitud de densidad y <b>disminuye la performance</b>: menos potencia del motor, menor eficiencia de la hélice y menos sustentación. Por lo tanto no puede aumentarla ni ser indiferente.",
+    "teoria": "Un aumento de la humedad reduce considerablemente la potencia entregada y la eficiencia de la hélice."
+  },
+  "k079": {
+    "explicacion": "La hélice genera tracción acelerando una masa de aire; en aire menos denso hay menos masa sobre la que actuar, por lo que <b>la hélice ejerce menos tracción y su eficiencia se reduce</b>. La opción a es incorrecta porque la menor fricción no compensa la pérdida de tracción, y la c es incorrecta porque la fuerza de la hélice disminuye, no aumenta.",
+    "teoria": "La eficiencia de la hélice se reduce en aire menos denso."
+  },
+  "k085": {
+    "explicacion": "Ángulo entre viento y pista = 220° − 180° = 40°<br>Componente de viento cruzado = 30 × sen 40° = 30 × 0,643 ≈ 19,3 → <b>19 nudos</b><br>En la Figura 37: radial de 40° con el arco de 30 nudos → 19 nudos sobre el eje horizontal.<br>23 nudos es la componente de viento de frente y 30 nudos es la velocidad total del viento.",
+    "teoria": "Componente de viento cruzado de 19 nudos; 23 nudos es la componente de frente y 30 nudos la velocidad del viento."
+  },
+  "k092": {
+    "explicacion": "Ángulo entre viento y pista = 220° − 180° = 40°<br>Componente de viento de frente = 30 × cos 40° = 30 × 0,766 ≈ <b>23 nudos</b><br>En la Figura 37: radial de 40° con el arco de 30 nudos → 23 nudos sobre el eje vertical.<br>19 nudos es la componente de viento cruzado.",
+    "teoria": "Componente de viento de frente de 23 nudos."
+  },
+  "k100": {
+    "explicacion": "Componente cruzada = velocidad del viento × sen(ángulo), entonces velocidad máxima = componente cruzada ÷ sen(ángulo).<br>25 ÷ sen 45° = 25 ÷ 0,707 ≈ 35,4 → <b>35 nudos</b><br>En la Figura 37, el radial de 45° corta la vertical de 25 nudos de viento cruzado entre los arcos de 30 y 40 nudos.<br>25 nudos solo sería correcto con viento a 90° de la pista.",
+    "teoria": "La intersección queda entre los arcos de 30 y 40 nudos: 35 nudos."
+  },
+  "k112": {
+    "explicacion": "Velocidad máxima = componente cruzada máxima ÷ sen(ángulo)<br>12 ÷ sen 30° = 12 ÷ 0,5 = <b>24 nudos</b><br>En la Figura 37, la vertical de 12 nudos de viento cruzado corta el radial de 30° sobre el arco de ~24 nudos.<br>16 y 20 nudos darían componentes cruzadas de solo 8 y 10 nudos.",
+    "teoria": "Aproximadamente 24 nudos."
+  },
+  "k122": {
+    "explicacion": "Viento 360° a 20 nudos; componente cruzada = 20 × sen(ángulo):<br>Pista 32 (320°): 40° → 20 × 0,643 ≈ 12,9 nudos (dentro de 13)<br>Pista 6 (060°): 60° → 20 × 0,866 ≈ 17,3 nudos<br>Pista 29 (290°): 70° → 20 × 0,940 ≈ 18,8 nudos<br>Solo la <b>Pista 32</b> queda dentro del límite de 13 nudos.",
+    "teoria": "Solo la pista 32 queda dentro de los límites."
+  },
+  "k126": {
+    "explicacion": "Viento 180° a 20 nudos; componente cruzada = 20 × sen(ángulo):<br>Pista 10 (100°): 80° → 20 × 0,985 ≈ 19,7 nudos<br>Pista 24 (240°): 60° → 20 × 0,866 ≈ 17,3 nudos<br>Pista 14 (140°): 40° → 20 × 0,643 ≈ 12,9 nudos<br>Solo la <b>Pista 14</b> queda dentro del límite de 13 nudos (la Figura 37 da las mismas lecturas).",
+    "teoria": "La pista 14 forma 40° con el viento (aceptable hasta ~43°); la 10 forma 80° y la 24, 60°."
+  },
+  "k315": {
+    "explicacion": "El peso de despegue es el <b>peso vacío más la carga útil</b> (tripulación, pasajeros, equipaje y combustible utilizable). La opción a describe solo el combustible consumido, y la opción c (peso de despegue menos el combustible utilizado) corresponde al peso de aterrizaje.",
+    "teoria": null
+  },
+  "k316": {
+    "explicacion": "El peso vacío comprende la <b>célula, los motores y todo el equipamiento operacional con ubicación fija instalado en forma permanente</b> en el avión (además del combustible no utilizable y el aceite no drenable). La opción b omite el equipamiento fijo, y la c es incorrecta porque el combustible utilizable forma parte de la carga útil.",
+    "teoria": null
+  },
+  "k326": {
+    "explicacion": "La gran altitud, la alta temperatura y la alta humedad aumentan la altitud de densidad y reducen la performance de despegue y ascenso. Por eso son <b>factores adicionales que pueden requerir limitar la carga</b> a un peso menor que el máximo permitido, para mantener distancias de despegue y régimen de ascenso aceptables. Las opciones a y b niegan este efecto.",
+    "teoria": null
+  },
+  "k346": {
+    "explicacion": "1) Altitud de presión: en la tabla, 30.3 = −348 y 30.4 = −440 → para 30.35 ≈ −394 pies<br>AP = 3894 − 394 = 3500 pies<br>2) +25° F ≈ −4° C; ISA a 3500 pies ≈ +8° C → 12° C más frío que el estándar<br>DA ≈ 3500 − 12 × 120 ≈ 2060 pies; en el gráfico se lee ≈ <b>2000 pies</b><br>3500 pies es solo la altitud de presión.",
+    "teoria": null
+  },
+  "k347": {
+    "explicacion": "Viento de 18 nudos a 60° de la pista:<br>Componente de frente = 18 × cos 60° = 18 × 0,5 = 9 nudos<br>Componente cruzada = 18 × sen 60° = 18 × 0,866 ≈ 15,6 nudos<br>La opción más cercana es <b>16 nudos de viento cruzado y 10 de frente</b>. La opción b invierte las componentes: a 60° la componente cruzada es mayor que la de frente.",
+    "teoria": null
+  },
+  "k348": {
+    "explicacion": "Viento de 18 nudos a 15° de la pista:<br>Componente de frente = 18 × cos 15° = 18 × 0,966 ≈ 17,4 nudos<br>Componente cruzada = 18 × sen 15° = 18 × 0,259 ≈ 4,7 nudos<br>La opción más cercana es <b>17 nudos de frente y 3 de cruzado</b>. Las opciones a y c tienen componentes mayores que el propio viento de 18 nudos, lo cual es imposible.",
+    "teoria": null
+  },
+  "k349": {
+    "explicacion": "Viento de 18 nudos a 25° de la pista:<br>Componente de frente = 18 × cos 25° = 18 × 0,906 ≈ 16,3 nudos<br>Componente cruzada = 18 × sen 25° = 18 × 0,423 ≈ 7,6 nudos<br>La opción más cercana es <b>9 nudos de cruzado y 16 de frente</b>. La opción a invierte las componentes y la c da un cruzado de 19 nudos, mayor que el propio viento.",
+    "teoria": null
+  },
+  "k362": {
+    "explicacion": "Pista 11 = rumbo 110°; viento 085° a 30 nudos.<br>Ángulo = 110° − 085° = 25°<br>Componente de frente = 30 × cos 25° = 30 × 0,906 ≈ 27 nudos<br>Componente cruzada = 30 × sen 25° = 30 × 0,423 ≈ 12,7 → 13 nudos<br>Resultado: <b>13 nudos cruzado / 27 nudos de frente</b>. Las opciones a y b asignan la componente mayor al viento cruzado, lo que solo ocurriría con un ángulo mayor a 45°.",
+    "teoria": null
+  },
+  "k375": {
+    "explicacion": "Mayor temperatura, mayor humedad o menor presión elevan la altitud de densidad: el aire es más tenue. El motor aspira menos masa de aire y su <b>potencia disminuye</b>, y la hélice actúa sobre menos aire, por lo que su <b>eficiencia también disminuye</b>. La opción b es incorrecta porque no solo cae la eficiencia de la hélice, sino también la potencia entregada por el motor.",
+    "teoria": null
+  },
+  "k036": {
+    "explicacion": "La navegación estimada calcula la posición a partir del rumbo magnético, la velocidad, el tiempo transcurrido y el efecto del viento sobre la trayectoria, partiendo de una posición conocida. Basarse en la observación del terreno es navegación observada, y las radioayudas por sí solas corresponden a la radionavegación.",
+    "teoria": "La navegación basada en la observación del terreno es la navegación observada; las ayudas radioeléctricas por sí solas no constituyen navegación estimada."
+  },
+  "k106": {
+    "explicacion": "La navegación estimada se apoya en el compás magnético (rumbo), el velocímetro (velocidad), el altímetro, el reloj (tiempo) y el indicador de temperatura exterior (para corregir la velocidad y la altitud). La opción a) no sirve porque el giro direccional debe ajustarse con el compás, y el VOR y el ADF son radioayudas, no instrumental de navegación estimada.",
+    "teoria": "El giro direccional necesita del compás magnético para ajustarse; las ayudas electrónicas (VOR, ADF) solo complementan la navegación estimada."
+  },
+  "k179": {
+    "explicacion": "La carta aeronáutica conforme de Lambert usada en navegación visual tiene escala 1:1.000.000.<br>1 cm en la carta = 1.000.000 cm reales = 10 km.",
+    "teoria": "En la carta conforme de Lambert, 1 cm equivale a 10 km."
+  },
+  "k222": {
+    "explicacion": "La milla náutica equivale a un minuto de arco de meridiano terrestre, es decir 1852 m. 1609 m (aprox. 1600 m) corresponde a la milla terrestre.",
+    "teoria": "1 minuto de arco = 1852 m = 1 milla náutica (NM)."
+  },
+  "k258": {
+    "explicacion": "La milla terrestre (statute mile, SM) equivale a 1609 m. 1852 m es la milla náutica, y 1000 m es un kilómetro.",
+    "teoria": "La milla terrestre (SM) equivale a 1609 m."
+  },
+  "k272": {
+    "explicacion": "Tiempo = Distancia / Velocidad terrestre (GS).<br>T = 480 NM / 120 kt = 4 h.",
+    "teoria": "Tiempo = Distancia / Velocidad terrestre."
+  },
+  "k278": {
+    "explicacion": "Tiempo = Distancia / GS.<br>T = 236 NM / 139 kt = 1,698 h<br>0,698 h × 60 = 42 min → 1 h 42 min.",
+    "teoria": "Tiempo = Distancia / Velocidad terrestre."
+  },
+  "k285": {
+    "explicacion": "Tiempo = Distancia / GS.<br>T = 320 NM / 142 kt = 2,254 h<br>0,254 h × 60 ≈ 15 min → 2 h 15 min.",
+    "teoria": "Tiempo = Distancia / Velocidad terrestre."
+  },
+  "k290": {
+    "explicacion": "Tiempo = Distancia / GS.<br>T = 21 NM / 140 kt = 0,15 h<br>0,15 h × 60 = 9 min.",
+    "teoria": "Tiempo = Distancia / Velocidad terrestre."
+  },
+  "k043": {
+    "explicacion": "A igual velocidad, el tiempo es proporcional a la distancia.<br>T = 123 NM / 205 NM × 46 min<br>T = 0,6 × 46 = 27,6 min → la opción más cercana es 27 minutos.",
+    "teoria": "A velocidad constante, tiempo y distancia son proporcionales (regla de tres simple)."
+  },
+  "k049": {
+    "explicacion": "Distancia = GS × Tiempo.<br>1 h 30 min = 1,5 h<br>D = 130 kt × 1,5 h = 195 NM.<br>La opción c) está en km, pero al trabajar en nudos el resultado sale en millas náuticas.",
+    "teoria": "Distancia = Tiempo × Velocidad terrestre."
+  },
+  "k056": {
+    "explicacion": "Distancia = GS × Tiempo.<br>1 h 45 min = 1,75 h<br>D = 83 kt × 1,75 h = 145,25 NM → 145 millas náuticas.<br>Como la velocidad está en nudos, el resultado es en millas náuticas, no terrestres.",
+    "teoria": "Distancia = Tiempo × Velocidad terrestre."
+  },
+  "k060": {
+    "explicacion": "Distancia = GS × Tiempo.<br>2 h 15 min = 2,25 h<br>D = 138 kt × 2,25 h = 310,5 NM → 310 millas náuticas.",
+    "teoria": "Distancia = Tiempo × Velocidad terrestre."
+  },
+  "c8-14": {
+    "explicacion": "GS = Distancia / Tiempo.<br>40 min = 0,667 h<br>GS = 96 NM / 0,667 h = 144 kt.",
+    "teoria": "Velocidad terrestre = Distancia / Tiempo."
+  },
+  "k076": {
+    "explicacion": "GS = Distancia / Tiempo.<br>7 NM en 4 min → 7 / 4 = 1,75 NM por minuto<br>1,75 × 60 = 105 kt.",
+    "teoria": "Velocidad terrestre = Distancia / Tiempo."
+  },
+  "c8-16": {
+    "explicacion": "GS = Distancia / Tiempo.<br>45 s = 45 / 3600 h = 0,0125 h<br>GS = 6 NM / 0,0125 h = 480 kt.",
+    "teoria": "Velocidad terrestre = Distancia / Tiempo."
+  },
+  "k087": {
+    "explicacion": "Combustible = Consumo horario × Tiempo.<br>2 h 20 min = 2,333 h<br>23 L/h × 2,333 h = 53,7 L → 54 litros.",
+    "teoria": "Combustible necesario = Consumo horario × Tiempo de vuelo."
+  },
+  "k090": {
+    "explicacion": "Consumo horario = Combustible / Tiempo.<br>30 L / 111 min = 0,27 L/min<br>0,27 × 60 = 16,2 litros por hora.",
+    "teoria": "Consumo horario = Combustible consumido / Tiempo de vuelo."
+  },
+  "k102": {
+    "explicacion": "Primero se obtiene el consumo y luego la autonomía con el remanente.<br>Consumo = 40 L / 135 min = 0,296 L/min<br>Autonomía = 25 L / 0,296 L/min = 84,4 min<br>84 min = 1 h 24 min.",
+    "teoria": "Autonomía = Combustible remanente / Consumo."
+  },
+  "k114": {
+    "explicacion": "Tiempo = 500 km / 160 km/h = 3,125 h<br>Combustible = 3,125 h × 22 L/h = 68,75 L → 69 litros<br>A ese valor siempre debe sumarse la reserva reglamentaria. La opción c) no sirve porque nunca se planifica un vuelo sin reserva.",
+    "teoria": "Combustible = Tiempo de vuelo × Consumo horario, más la reserva reglamentaria."
+  },
+  "c8-21": {
+    "explicacion": "1 nudo ≈ 1,15 MPH (1852 m / 1609 m).<br>45 kt × 1,15 = 51,8 MPH → 52 MPH.",
+    "teoria": "Para pasar de millas náuticas a millas terrestres se multiplica por 1,16 aproximadamente."
+  },
+  "c8-22": {
+    "explicacion": "1 nudo ≈ 1,15 MPH (1852 m / 1609 m).<br>40 kt × 1,15 = 46 MPH.",
+    "teoria": "Para pasar de millas náuticas a millas terrestres se multiplica por 1,16 aproximadamente."
+  },
+  "k129": {
+    "explicacion": "1 nudo = 1,852 km/h, por lo tanto se divide.<br>135 km/h / 1,852 = 72,9 kt → 73 nudos.",
+    "teoria": "Para pasar de km/h a nudos se divide por 1,85."
+  },
+  "k144": {
+    "explicacion": "1 nudo = 1,852 km/h, por lo tanto se multiplica.<br>88 kt × 1,852 = 163 km/h.",
+    "teoria": "Para pasar de nudos a km/h se multiplica por 1,85."
+  },
+  "k150": {
+    "explicacion": "Los meridianos van de polo a polo (norte-sur) y cortan al Ecuador en ángulo recto (90°). Los paralelos, no los meridianos, son los que corren paralelos al Ecuador, y por Greenwich pasa el meridiano de 0° de longitud, no de latitud (la latitud 0° es el Ecuador).",
+    "teoria": "Los meridianos cortan al Ecuador a 90°."
+  },
+  "c8-26": {
+    "explicacion": "Por su posición geográfica (aproximadamente entre 53° y 73° de longitud oeste), la Argentina está en el huso horario N° 4 oeste, centrado en el meridiano de 60° W. La hora oficial que se usa (UTC-3) corresponde al huso 3, pero la pregunta se refiere a la ubicación geográfica.",
+    "teoria": "La República Argentina se encuentra en el huso horario N° 4 al oeste de Greenwich."
+  },
+  "k163": {
+    "explicacion": "La declinación (variación) este se resta y la oeste se suma (\"este se resta, oeste se suma\").<br>Curso magnético = 041° − 5° E = 036°.",
+    "teoria": "La declinación este se resta al curso verdadero para obtener el curso magnético."
+  },
+  "k166": {
+    "explicacion": "El desvío del compás es el error causado por los campos magnéticos propios de la aeronave (equipos eléctricos, radios, partes metálicas en la cabina). El error debido al magnetismo terrestre es la declinación, no el desvío.",
+    "teoria": "El error por el magnetismo terrestre es la declinación; el desvío lo producen los campos magnéticos de la propia aeronave."
+  },
+  "k174": {
+    "explicacion": "La dirección de intención del vuelo, medida en sentido horario desde el norte verdadero, es el curso verdadero (la línea trazada en la carta). El rumbo, en cambio, es hacia dónde apunta la nariz del avión, y ya incluye la corrección por viento.",
+    "teoria": "El curso trazado en la carta con referencia al norte verdadero es el curso verdadero (CV)."
+  },
+  "k184": {
+    "explicacion": "Curso verdadero ± declinación = curso magnético. El curso compás se obtiene recién al aplicar además el desvío del compás, y el rumbo compás incluye también la corrección por viento.",
+    "teoria": "El curso compás es el curso magnético corregido por desvío; el rumbo compás incluye además la corrección por viento."
+  },
+  "k190": {
+    "explicacion": "El viento se informa siempre desde la dirección de donde sopla. Una masa de aire que se desplaza de sur a norte viene del sur, por lo que se reporta 180/25. 360/25 sería un viento que viene del norte.",
+    "teoria": "El viento se informa según la dirección desde la cual sopla."
+  },
+  "k192": {
+    "explicacion": "Se toma la velocidad indicada como verdadera (120 kt).<br>Ángulo del viento respecto del curso = 200° − 130° = 70° desde la derecha<br>Viento cruzado = 40 × sen 70° = 37,6 kt<br>ACV = arcsen (37,6 / 120) ≈ 18° a la derecha<br>Rumbo verdadero = 130° + 18° = 148°<br>GS = 120 × cos 18° − 40 × cos 70° = 114 − 13,7 ≈ 100 kt<br>El viento viene de la derecha, por eso la corrección es a la derecha y el rumbo aumenta (no 111°).",
+    "teoria": null
+  },
+  "c8-33": {
+    "explicacion": "Ángulo del viento respecto del curso = 290° − 260° = 30° desde la izquierda<br>Viento cruzado = 40 × sen 30° = 20 kt<br>ACV = arcsen (20 / 235) ≈ 5° a la izquierda<br>Rumbo = 290° − 5° = 285°<br>GS = 235 × cos 5° − 40 × cos 30° = 234,1 − 34,6 ≈ 200 kt<br>Con viento de la izquierda el rumbo disminuye, pero solo 5°, no 10° (280°).",
+    "teoria": null
+  },
+  "c8-34": {
+    "explicacion": "Ángulo del viento respecto del curso = 210° − 145° = 65° desde la derecha<br>Viento cruzado = 20 × sen 65° = 18,1 kt<br>ACV = arcsen (18,1 / 250) ≈ 4° a la derecha<br>Rumbo verdadero = 145° + 4° = 149°<br>Rumbo magnético = 149° − 10° E = 139°<br>GS = 250 × cos 4° − 20 × cos 65° = 249,3 − 8,5 ≈ 241 kt<br>La opción c) (135°) olvida que la corrección por viento es hacia la derecha.",
+    "teoria": null
+  },
+  "c8-35": {
+    "explicacion": "Ángulo del viento respecto del curso = 260° − 220° = 40° desde la izquierda<br>Viento cruzado = 30 × sen 40° = 19,3 kt<br>ACV = arcsen (19,3 / 150) ≈ 7° a la izquierda<br>Rumbo verdadero = 260° − 7° = 253°<br>GS = 150 × cos 7° − 30 × cos 40° = 148,8 − 23 ≈ 126 kt<br>Con corrección a la izquierda el rumbo debe ser menor que el curso, por eso 268° es incorrecto.",
+    "teoria": null
+  },
+  "k203": {
+    "explicacion": "En la ilustración 1 el OBS está en 030° con bandera TO: el avión está del lado opuesto, al sur de la línea 300°-120° que pasa por la estación. La aguja está deflectada totalmente a la izquierda, lo que indica que el avión está a la derecha (al este) del curso 030°, aproximadamente sobre los radiales 120°-200°. Por eso se encuentra al sur de la estación; el norte queda descartado por la bandera TO.",
+    "teoria": "Con OBS en 030° y bandera TO, el avión se encuentra al sur de la estación."
+  },
+  "k206": {
+    "explicacion": "En la ilustración 8 el OBS está en 210°, la aguja centrada y la bandera indica TO. Con TO, el avión está sobre el radial recíproco del curso seleccionado: 210° − 180° = radial 030°. El 210° sería el radial si la bandera indicara FROM.",
+    "teoria": "OBS 210° con bandera TO y aguja centrada: avión sobre el radial 030°."
+  },
+  "k211": {
+    "explicacion": "En la ilustración 2 el OBS está en 030°, la aguja centrada y la bandera indica FROM. Con FROM, el avión está sobre el mismo radial seleccionado: radial 030°. El radial 210° correspondería a la bandera TO.",
+    "teoria": "OBS 030° con bandera FROM y aguja centrada: avión sobre el radial 030°."
+  },
+  "k217": {
+    "explicacion": "En la ilustración 5 el OBS está en 030°, la aguja centrada y la bandera indica TO. Con TO, el avión está sobre el radial recíproco: 030° + 180° = radial 210°. El radial 030° correspondería a la bandera FROM.",
+    "teoria": "OBS 030° con bandera TO y aguja centrada: avión sobre el radial 210°."
+  },
+  "k230": {
+    "explicacion": "En la ilustración 1 la rosa del ADF está ajustada al rumbo (aprox. 330° bajo el índice superior), así que la cabeza de la aguja indica directamente la marcación magnética a la estación: 210°. El 030° es lo que indica la cola de la aguja (marcación desde la estación).",
+    "teoria": "La cabeza de la aguja indica la marcación magnética a la estación: 210°."
+  },
+  "k234": {
+    "explicacion": "En la ilustración 2 la rosa está ajustada al rumbo y la cabeza de la aguja señala aproximadamente 190°: esa es la marcación magnética para volar hacia la estación. El 010° es la cola de la aguja, es decir la marcación desde la estación.",
+    "teoria": "La marcación magnética a la estación es 190°."
+  },
+  "k238": {
+    "explicacion": "La marcación a la estación es 190°, por lo que el avión está sobre la marcación 010° desde la estación, al este del curso de acercamiento 180°.<br>Para interceptar con 40°: 180° + 40° = rumbo 220°.<br>Un rumbo de 160° alejaría al avión del curso, y 040° lo llevaría en dirección opuesta a la estación.",
+    "teoria": "Solo el rumbo 220° permite interceptar la marcación 180° hacia la estación."
+  },
+  "k240": {
+    "explicacion": "En la ilustración 3 el rumbo es 270° y la cabeza de la aguja indica aproximadamente 295° (marcación hacia la estación). La cola de la aguja indica el recíproco:<br>295° − 180° = 115°, la marcación magnética desde la estación.",
+    "teoria": "La cola de la aguja indica la marcación magnética desde la estación: 115°."
+  },
+  "k243": {
+    "explicacion": "Volando hacia la estación con viento cruzado de la derecha, el piloto corrige con la nariz hacia la derecha del curso, de modo que la estación queda levemente a la izquierda de la nariz. En la ilustración 4 el rumbo es aprox. 210° y la aguja señala aprox. 190°-200°, a la izquierda del índice: avión en curso con corrección a la derecha. En las ilustraciones 1 y 2 la estación está muy lejos de la nariz.",
+    "teoria": "En la ilustración 4 la estación aparece a la izquierda de la nariz."
+  },
+  "k246": {
+    "explicacion": "En el ADF de rosa fija la nariz del avión es 0° y la cabeza de la aguja indica la marcación relativa. En la ilustración 1 la cabeza apunta hacia arriba a la izquierda, sobre 315°, por lo que la marcación relativa es 315°. El 135° (aprox.) es la cola, y 045° sería si la estación estuviera a la derecha de la nariz.",
+    "teoria": "La marcación relativa a la estación es 315°."
+  },
+  "k248": {
+    "explicacion": "En la ilustración 4 la cabeza de la aguja apunta hacia abajo a la izquierda: marcación relativa 225°.<br>Marcación magnética = Rumbo magnético + Marcación relativa<br>320° + 225° = 545°<br>545° − 360° = 185°.<br>El 005° es el recíproco (marcación desde la estación) y 225° es solo la marcación relativa.",
+    "teoria": "320° + 225° − 360° = 185°."
+  },
+  "k250": {
+    "explicacion": "En la ilustración 6 la cabeza de la aguja apunta hacia arriba a la derecha: marcación relativa 045°.<br>Marcación magnética = Rumbo magnético + Marcación relativa<br>120° + 045° = 165°.<br>El 045° es solo la marcación relativa, no la magnética.",
+    "teoria": "120° + 045° = 165°."
+  },
+  "k252": {
+    "explicacion": "La constelación básica del GPS está formada por 24 satélites distribuidos en 6 planos orbitales, lo que garantiza cobertura en todo el planeta.",
+    "teoria": "El sistema GPS está compuesto por 24 satélites."
+  },
+  "k257": {
+    "explicacion": "Gracias a la distribución de los 24 satélites, desde cualquier punto de la Tierra se observan como mínimo 5 satélites. Con 4 alcanza para obtener posición tridimensional, pero el mínimo visible garantizado es 5.",
+    "teoria": "En cualquier parte de la Tierra se observan como mínimo cinco satélites."
+  },
+  "k265": {
+    "explicacion": "Para una posición tridimensional (latitud, longitud y altitud) más la corrección de tiempo hay cuatro incógnitas, por lo que se necesitan al menos 4 satélites. Con 3 solo se obtiene una posición bidimensional.",
+    "teoria": "Se requieren como mínimo 4 satélites."
+  },
+  "k004": {
+    "explicacion": "En la ilustración 1 el OBS está en 030° con bandera TO: el avión está del lado opuesto, al sur de la línea 300°-120° que pasa por la estación. La aguja está deflectada totalmente a la izquierda, lo que indica que el avión está a la derecha (al este) del curso 030°, aproximadamente sobre los radiales 120°-200°. Por eso se encuentra al sur de la estación; el norte queda descartado por la bandera TO.",
+    "teoria": null
+  },
+  "k207": {
+    "explicacion": "En la ilustración 8 el OBS está en 210°, la aguja centrada y la bandera indica TO. Con TO, el avión está sobre el radial recíproco del curso seleccionado: 210° − 180° = radial 030°. El 210° sería el radial si la bandera indicara FROM.",
+    "teoria": null
+  },
+  "k212": {
+    "explicacion": "En la ilustración 2 el OBS está en 030°, la aguja centrada y la bandera indica FROM. Con FROM, el avión está sobre el mismo radial seleccionado: radial 030°. El radial 210° correspondería a la bandera TO.",
+    "teoria": null
+  },
+  "k215": {
+    "explicacion": "La Figura 21 muestra el método del triángulo isósceles: el avión vira 10° (de 270° a 260°) y vuela hasta que la marcación cambia 10°. Como el ángulo del viraje es igual al cambio de marcación, los dos lados del triángulo son iguales, así que la distancia (y el tiempo) a la estación es igual a la recorrida entre las posiciones 2 y 3: 13 minutos.",
+    "teoria": null
+  },
+  "k216": {
+    "explicacion": "Tiempo a la estación = (Tiempo entre radiales × 60) / Grados de cambio<br>Tiempo entre radiales = 12:44 − 12:37 = 7 min<br>T = 7 × 60 / 10° = 42 min<br>Distancia = 120 kt × 42/60 h = 84 NM.",
+    "teoria": null
+  },
+  "k218": {
+    "explicacion": "En la ilustración 5 el OBS está en 030°, la aguja centrada y la bandera indica TO. Con TO, el avión está sobre el radial recíproco: 030° + 180° = radial 210°. El radial 030° correspondería a la bandera FROM.",
+    "teoria": null
+  },
+  "k221": {
+    "explicacion": "Es el método del triángulo isósceles: el piloto vira 5° y selecciona un radial 5° distinto. Como el ángulo del viraje es igual al cambio de radial, el tiempo hasta la estación es igual al tiempo que tarda en centrarse el CDI: 10 minutos. Los 20 minutos corresponderían a otro método (tiempo × 60 / grados) que aquí no aplica.",
+    "teoria": null
+  },
+  "k231": {
+    "explicacion": "En la ilustración 1 la rosa del ADF está ajustada al rumbo (aprox. 330° bajo el índice superior), así que la cabeza de la aguja indica directamente la marcación magnética a la estación: 210°. El 030° es lo que indica la cola de la aguja (marcación desde la estación).",
+    "teoria": null
+  },
+  "k235": {
+    "explicacion": "En la ilustración 2 la rosa está ajustada al rumbo y la cabeza de la aguja señala aproximadamente 190°: esa es la marcación magnética para volar hacia la estación. El 010° es la cola de la aguja, es decir la marcación desde la estación.",
+    "teoria": null
+  },
+  "k239": {
+    "explicacion": "La marcación a la estación es 190°, por lo que el avión está sobre la marcación 010° desde la estación, al este del curso de acercamiento 180°.<br>Para interceptar con 40°: 180° + 40° = rumbo 220°.<br>Un rumbo de 160° alejaría al avión del curso, y 040° lo llevaría en dirección opuesta a la estación.",
+    "teoria": null
+  },
+  "k241": {
+    "explicacion": "En la ilustración 3 el rumbo es 270° y la cabeza de la aguja indica aproximadamente 295° (marcación hacia la estación). La cola de la aguja indica el recíproco:<br>295° − 180° = 115°, la marcación magnética desde la estación.",
+    "teoria": null
+  },
+  "k244": {
+    "explicacion": "Volando hacia la estación con viento cruzado de la derecha, el piloto corrige con la nariz hacia la derecha del curso, de modo que la estación queda levemente a la izquierda de la nariz. En la ilustración 4 el rumbo es aprox. 210° y la aguja señala aprox. 190°-200°, a la izquierda del índice: avión en curso con corrección a la derecha. En las ilustraciones 1 y 2 la estación está muy lejos de la nariz.",
+    "teoria": null
+  },
+  "k247": {
+    "explicacion": "En el ADF de rosa fija la nariz del avión es 0° y la cabeza de la aguja indica la marcación relativa. En la ilustración 1 la cabeza apunta hacia arriba a la izquierda, sobre 315°, por lo que la marcación relativa es 315°. El 135° (aprox.) es la cola, y 045° sería si la estación estuviera a la derecha de la nariz.",
+    "teoria": null
+  },
+  "k249": {
+    "explicacion": "En la ilustración 4 la cabeza de la aguja apunta hacia abajo a la izquierda: marcación relativa 225°.<br>Marcación magnética = Rumbo magnético + Marcación relativa<br>320° + 225° = 545°<br>545° − 360° = 185°.<br>El 005° es el recíproco (marcación desde la estación) y 225° es solo la marcación relativa.",
+    "teoria": null
+  },
+  "k251": {
+    "explicacion": "En la ilustración 6 la cabeza de la aguja apunta hacia arriba a la derecha: marcación relativa 045°.<br>Marcación magnética = Rumbo magnético + Marcación relativa<br>120° + 045° = 165°.<br>El 045° es solo la marcación relativa, no la magnética.",
+    "teoria": null
+  },
+  "k337": {
+    "explicacion": "La navegación estimada determina la posición a partir de una posición conocida, usando el indicador de rumbo y cálculos de velocidad, tiempo transcurrido y efecto del viento. No se basa en el altímetro ni en la temperatura (opción a), y depender únicamente del GPS no es navegación estimada.",
+    "teoria": null
+  },
+  "k338": {
+    "explicacion": "La navegación observada se realiza comparando la carta con referencias visibles del terreno, como ciudades, pueblos, vías de ferrocarril, lagos y rutas. El VOR y el ADF son radioayudas, no referencias del terreno, y las rutas y caminos son solo una parte de las referencias posibles.",
+    "teoria": null
+  },
+  "k253": {
+    "explicacion": "<b>Verdadero.</b> El modelo de James Reason (conocido como modelo del \"queso suizo\") representa el accidente como el resultado de una cadena de errores. En él intervienen las <b>fallas latentes</b> (condiciones de la organización que permanecen ocultas), las <b>fallas activas</b> (actos inseguros de quienes operan) y las <b>defensas</b>, que son las barreras que deben interponerse para cortar esa cadena. El accidente ocurre cuando los \"agujeros\" de todas las defensas se alinean.",
+    "teoria": null
+  },
+  "k254": {
+    "explicacion": "Según la definición de la OACI, la Seguridad Operacional es el estado en que el riesgo de lesiones a personas o daños a los bienes <b>se reduce y se mantiene en un nivel aceptable</b> o por debajo de él, mediante un proceso continuo de identificación de peligros y gestión de riesgos. La opción a) es incorrecta porque el riesgo nunca puede eliminarse por completo: siempre existe un riesgo residual que se gestiona.",
+    "teoria": null
+  },
+  "k255": {
+    "explicacion": "El <b>error humano</b> es el factor predominante en los accidentes considerados evitables: aproximadamente el 70-80% de los accidentes tienen al factor humano como causa principal o contribuyente. Las fallas estructurales y mecánicas representan una proporción mucho menor de los accidentes.",
+    "teoria": null
+  },
+  "k256": {
+    "explicacion": "En el modelo de toma de decisiones aeronáuticas DECIDE, el primer paso es <b>Detectar</b>: darse cuenta de que ocurrió un cambio que requiere atención. Recién después se estima la necesidad de reaccionar, se eligen alternativas, se identifican acciones, se actúa y se evalúa el resultado. \"Identificar\" y \"evaluar\" son pasos posteriores; no se puede gestionar un riesgo que todavía no se detectó.",
+    "teoria": null
+  },
+  "k297": {
+    "explicacion": "La retroalimentación (feedback) es la respuesta del receptor que le permite al emisor <b>verificar que el mensaje fue recibido y comprendido correctamente</b>. Por eso es un elemento clave en CRM, como en la colación de autorizaciones (read-back). La comunicación con el receptor existe aun sin retroalimentación; lo que esta aporta es la confirmación.",
+    "teoria": null
+  },
+  "k298": {
+    "explicacion": "Para que la comunicación sea eficiente, emisor y receptor deben compartir un <b>código o lenguaje común</b>; de lo contrario el mensaje no se decodifica correctamente. Un lenguaje que solo maneja bien el emisor (opción b) genera malentendidos, y la fluidez de la conversación no garantiza la comprensión (opción c).",
+    "teoria": null
+  },
+  "k299": {
+    "explicacion": "En CRM, un líder efectivo es <b>asertivo, democrático (participativo), proactivo y flexible</b>: expresa con claridad sus decisiones, escucha a la tripulación, se anticipa a los problemas y se adapta a la situación. La opción a) describe un estilo autoritario y rígido, que inhibe la comunicación; la b) omite la asertividad, imprescindible para tomar decisiones firmes.",
+    "teoria": null
+  },
+  "k300": {
+    "explicacion": "La gestión de riesgo dentro de la toma de decisiones aeronáuticas se apoya en la <b>conciencia situacional</b>, el <b>reconocimiento del problema</b> y el <b>buen juicio</b> para reducir los riesgos de cada vuelo. La intuición sola (opción a) no es suficiente, y el análisis sistemático (opción c) es solo una parte del proceso.",
+    "teoria": null
+  },
+  "k312": {
+    "explicacion": "El fundamento (premisa básica) de la prevención de accidentes es que <b>todo accidente puede ser evitado</b>. La idea de la cadena de errores (opción a) explica cómo se produce un accidente, pero no es el fundamento de la prevención; investigar las causas (opción b) es una herramienta, no la base filosófica.",
+    "teoria": null
+  },
+  "k313": {
+    "explicacion": "El objetivo de la prevención de accidentes es <b>evitar o minimizar los riesgos</b>. Detectar acciones o peligros es un medio para lograrlo, y maximizar la seguridad es una consecuencia de reducir los riesgos, no el objetivo formulado en sí.",
+    "teoria": null
+  },
+  "k325": {
+    "explicacion": "En toda investigación de accidentes se analiza la relación entre <b>hombre – máquina – medio ambiente</b>: el factor humano (piloto, tripulación), la aeronave y el entorno (meteorología, aeródromo, etc.). Las otras opciones mezclan elementos que no forman esa tríada clásica.",
+    "teoria": null
+  },
+  "k331": {
+    "explicacion": "<b>Verdadero.</b> La acción fundamental de la prevención de accidentes es detectar e identificar los peligros potenciales antes de que se materialicen en un accidente. Solo una vez detectado un peligro se puede eliminar o reducir el riesgo asociado.",
+    "teoria": null
+  },
+  "k334": {
+    "explicacion": "La filosofía de la prevención abarca <b>ambos aspectos</b>: el <b>moral</b>, ya que se busca preservar la vida y la integridad de las personas, y el <b>material</b>, porque los accidentes provocan pérdidas económicas (aeronaves, bienes, costos operativos). Por eso la opción c) es la correcta.",
+    "teoria": null
+  },
+  "k340": {
+    "explicacion": "La prevención de accidentes en el trabajo aéreo debe aplicarse <b>en la totalidad de sus actividades</b>: operación, mantenimiento, instrucción y administración. Aplicarla en forma selectiva o solo en algunas actividades deja peligros sin detectar en el resto del sistema.",
+    "teoria": null
+  },
+  "k341": {
+    "explicacion": "<b>Verdadero.</b> La seguridad aérea consiste en reducir los riesgos a un mínimo mediante las medidas necesarias para identificar falencias en los procesos administrativos, de mantenimiento y de entrenamiento que pudieran afectar la operación de las aeronaves. Es decir, no se limita a la cabina: abarca toda la organización.",
+    "teoria": null
+  },
+  "k374": {
+    "explicacion": "<b>Verdadero.</b> Es un principio básico de la prevención: si un factor demostró ser capaz de producir un accidente y no se lo elimina o modifica, el accidente tenderá a repetirse. Por eso la investigación de accidentes busca identificar los factores causales para corregirlos.",
+    "teoria": null
+  },
+  "k380": {
+    "explicacion": "En factores humanos y CRM, la <b>comunicación</b> es uno de los elementos más importantes para cortar la cadena de errores: permite que cualquier miembro de la tripulación (o el control de tránsito aéreo) advierta un error y lo comunique antes de que se transforme en un accidente. Una decisión acertada depende, a su vez, de contar con información bien comunicada.",
+    "teoria": null
+  }
+}

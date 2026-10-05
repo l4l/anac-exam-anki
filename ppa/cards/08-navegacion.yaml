@@ -1,0 +1,981 @@
+- id: k036
+  source:
+    key_item: 36
+    chapter_question: '8.1'
+  question: 'La navegación estimada es la que:'
+  options:
+    a: Se basa en la observación del terreno sobrevolado.
+    b: Se basa únicamente de las ayudas radioeléctricas.
+    c: Se basa en el análisis del rumbo magnético, la velocidad, el tiempo transcurrido y el efecto del
+      viento sobre la trayectoria.
+  answer: c
+  explanation: La navegación estimada calcula la posición a partir del rumbo magnético, la velocidad,
+    el tiempo transcurrido y el efecto del viento sobre la trayectoria, partiendo de una posición conocida.
+    Basarse en la observación del terreno es navegación observada, y las radioayudas por sí solas corresponden
+    a la radionavegación.
+  theory: La navegación basada en la observación del terreno es la navegación observada; las ayudas radioeléctricas
+    por sí solas no constituyen navegación estimada.
+- id: k106
+  source:
+    key_item: 106
+    chapter_question: '8.2'
+  question: 'El instrumental utilizado en la navegación estimada consiste en:'
+  options:
+    a: Giro direccional, velocímetro y altímetro.
+    b: VOR y ADF.
+    c: Compas magnético, velocímetro, altímetro, reloj e indicador de temperatura exterior.
+  answer: c
+  explanation: La navegación estimada se apoya en el compás magnético (rumbo), el velocímetro (velocidad),
+    el altímetro, el reloj (tiempo) y el indicador de temperatura exterior (para corregir la velocidad
+    y la altitud). La opción a) no sirve porque el giro direccional debe ajustarse con el compás, y el
+    VOR y el ADF son radioayudas, no instrumental de navegación estimada.
+  theory: El giro direccional necesita del compás magnético para ajustarse; las ayudas electrónicas (VOR,
+    ADF) solo complementan la navegación estimada.
+- id: k179
+  source:
+    key_item: 179
+    chapter_question: '8.3'
+  question: 'En la carta aeronáutica conforme de Lambert, 1 cm medido sobre la misma equivale a:'
+  options:
+    a: 1 km.
+    b: 10 km.
+    c: 100 km.
+  answer: b
+  explanation: La carta aeronáutica conforme de Lambert usada en navegación visual tiene escala 1:1.000.000.<br>1
+    cm en la carta = 1.000.000 cm reales = 10 km.
+  theory: En la carta conforme de Lambert, 1 cm equivale a 10 km.
+- id: k222
+  source:
+    key_item: 222
+    chapter_question: '8.4'
+  question: ¿A cuántos metros equivale una milla náutica (NM)?
+  options:
+    a: 1600 m.
+    b: 1690 m.
+    c: 1852 m.
+  answer: c
+  explanation: La milla náutica equivale a un minuto de arco de meridiano terrestre, es decir 1852 m.
+    1609 m (aprox. 1600 m) corresponde a la milla terrestre.
+  theory: 1 minuto de arco = 1852 m = 1 milla náutica (NM).
+- id: k258
+  source:
+    key_item: 258
+    chapter_question: '8.5'
+  question: ¿A cuántos metros equivale una milla terrestre (SM)?
+  options:
+    a: 1852 m.
+    b: 1609 m.
+    c: 1000 m.
+  answer: b
+  explanation: La milla terrestre (statute mile, SM) equivale a 1609 m. 1852 m es la milla náutica, y
+    1000 m es un kilómetro.
+  theory: La milla terrestre (SM) equivale a 1609 m.
+- id: k272
+  source:
+    key_item: 272
+    chapter_question: '8.6'
+  question: Si se mantiene una velocidad terrestre de 120 nudos, ¿cuánto tiempo será necesario para volar
+    una distancia de 480 NM?
+  options:
+    a: 5 hs.
+    b: 4 hs 20 m.
+    c: 4 hs.
+  answer: c
+  explanation: Tiempo = Distancia / Velocidad terrestre (GS).<br>T = 480 NM / 120 kt = 4 h.
+  theory: Tiempo = Distancia / Velocidad terrestre.
+- id: k278
+  source:
+    key_item: 278
+    chapter_question: '8.7'
+  question: Si se mantiene una velocidad terrestre de 139 nudos, ¿cuánto tiempo será necesario para volar
+    una distancia de 236 millas náuticas?
+  options:
+    a: 1 h y 38 m.
+    b: 1 h y 18 m.
+    c: 1 h y 42 m.
+  answer: c
+  explanation: Tiempo = Distancia / GS.<br>T = 236 NM / 139 kt = 1,698 h<br>0,698 h × 60 = 42 min → 1
+    h 42 min.
+  theory: Tiempo = Distancia / Velocidad terrestre.
+- id: k285
+  source:
+    key_item: 285
+    chapter_question: '8.8'
+  question: Si se mantiene una velocidad terrestre de 142 nudos, ¿cuánto tiempo será necesario para volar
+    una distancia de 320 millas náuticas?
+  options:
+    a: 2 hs y 36 m.
+    b: 2 hs y 26 m.
+    c: 2 hs y 15 m.
+  answer: c
+  explanation: Tiempo = Distancia / GS.<br>T = 320 NM / 142 kt = 2,254 h<br>0,254 h × 60 ≈ 15 min → 2
+    h 15 min.
+  theory: Tiempo = Distancia / Velocidad terrestre.
+- id: k290
+  source:
+    key_item: 290
+    chapter_question: '8.9'
+  question: 'Dados los siguientes datos: velocidad terrestre 140 nudos; distancia 21 millas náuticas.
+    Determinar el tiempo para recorrer esa distancia:'
+  options:
+    a: 15 minutos.
+    b: 05 minutos.
+    c: 09 minutos.
+  answer: c
+  explanation: Tiempo = Distancia / GS.<br>T = 21 NM / 140 kt = 0,15 h<br>0,15 h × 60 = 9 min.
+  theory: Tiempo = Distancia / Velocidad terrestre.
+- id: k043
+  source:
+    key_item: 43
+    chapter_question: '8.10'
+  question: Si se han volado 205 millas náuticas en 46 minutos, ¿cuántos minutos tomará volar 123 millas
+    náuticas a la misma velocidad?
+  options:
+    a: 25 minutos.
+    b: 27 minutos.
+    c: 31 minutos.
+  answer: b
+  explanation: A igual velocidad, el tiempo es proporcional a la distancia.<br>T = 123 NM / 205 NM × 46
+    min<br>T = 0,6 × 46 = 27,6 min → la opción más cercana es 27 minutos.
+  theory: A velocidad constante, tiempo y distancia son proporcionales (regla de tres simple).
+- id: k049
+  source:
+    key_item: 49
+    chapter_question: '8.11'
+  question: Si se mantiene una GS de 130 nudos, ¿qué distancia se recorre en 1 h 30 min?
+  options:
+    a: 206 millas náuticas.
+    b: 195 millas náuticas.
+    c: 195 KM.
+  answer: b
+  explanation: Distancia = GS × Tiempo.<br>1 h 30 min = 1,5 h<br>D = 130 kt × 1,5 h = 195 NM.<br>La opción
+    c) está en km, pero al trabajar en nudos el resultado sale en millas náuticas.
+  theory: Distancia = Tiempo × Velocidad terrestre.
+- id: k056
+  source:
+    key_item: 56
+    chapter_question: '8.12'
+  question: Si la GS se mantiene en 83 nudos, ¿qué distancia se recorrerá en 1 h 45 min de vuelo?
+  options:
+    a: 152 millas náuticas.
+    b: 145 millas náuticas.
+    c: 145 millas terrestres.
+  answer: b
+  explanation: Distancia = GS × Tiempo.<br>1 h 45 min = 1,75 h<br>D = 83 kt × 1,75 h = 145,25 NM → 145
+    millas náuticas.<br>Como la velocidad está en nudos, el resultado es en millas náuticas, no terrestres.
+  theory: Distancia = Tiempo × Velocidad terrestre.
+- id: k060
+  source:
+    key_item: 60
+    chapter_question: '8.13'
+  question: ¿Qué distancia recorrerá una aeronave en 2 hs 15 min de vuelo manteniendo una velocidad terrestre
+    de 138 nudos?
+  options:
+    a: 320 millas náuticas.
+    b: 310 millas náuticas.
+    c: 313 millas náuticas.
+  answer: b
+  explanation: Distancia = GS × Tiempo.<br>2 h 15 min = 2,25 h<br>D = 138 kt × 2,25 h = 310,5 NM → 310
+    millas náuticas.
+  theory: Distancia = Tiempo × Velocidad terrestre.
+- id: c8-14
+  source:
+    chapter_question: '8.14'
+  question: ¿Cuál es la GS si 96 millas náuticas se recorren en 40 minutos?
+  options:
+    a: 144 KT.
+    b: 140 millas terrestres.
+    c: 266 KM.
+  answer: a
+  explanation: GS = Distancia / Tiempo.<br>40 min = 0,667 h<br>GS = 96 NM / 0,667 h = 144 kt.
+  theory: Velocidad terrestre = Distancia / Tiempo.
+- id: k076
+  source:
+    key_item: 76
+    chapter_question: '8.15'
+  question: 'Dados los siguientes datos: distancia 7 millas náuticas; tiempo 4 minutos. Determinar la
+    velocidad terrestre:'
+  options:
+    a: 10.5 KT.
+    b: 530 KT.
+    c: 105 KT.
+  answer: c
+  explanation: GS = Distancia / Tiempo.<br>7 NM en 4 min → 7 / 4 = 1,75 NM por minuto<br>1,75 × 60 = 105
+    kt.
+  theory: Velocidad terrestre = Distancia / Tiempo.
+- id: c8-16
+  source:
+    chapter_question: '8.16'
+  question: Si se ha recorrido 6 millas náuticas en 45 segundos, ¿Cuál es su velocidad terrestre?
+  options:
+    a: 408 KT.
+    b: 402 KT.
+    c: 480 KT.
+  answer: c
+  explanation: GS = Distancia / Tiempo.<br>45 s = 45 / 3600 h = 0,0125 h<br>GS = 6 NM / 0,0125 h = 480
+    kt.
+  theory: Velocidad terrestre = Distancia / Tiempo.
+- id: k087
+  source:
+    key_item: 87
+    chapter_question: '8.17'
+  question: Si 23 litros de combustible son consumidos en una hora, ¿Cuánto combustible se consumirá en
+    2 hs 20 minutos?
+  options:
+    a: 63 litros.
+    b: 54 litros.
+    c: 51 litros.
+  answer: b
+  explanation: Combustible = Consumo horario × Tiempo.<br>2 h 20 min = 2,333 h<br>23 L/h × 2,333 h = 53,7
+    L → 54 litros.
+  theory: Combustible necesario = Consumo horario × Tiempo de vuelo.
+- id: k090
+  source:
+    key_item: 90
+    chapter_question: '8.18'
+  question: ¿Cuál es el consumo de una aeronave si en 111 minutos de vuelo consume 30 litros de combustible?
+  options:
+    a: 19 litros.
+    b: 16,2 litros.
+    c: 15,4 litros.
+  answer: b
+  explanation: Consumo horario = Combustible / Tiempo.<br>30 L / 111 min = 0,27 L/min<br>0,27 × 60 = 16,2
+    litros por hora.
+  theory: Consumo horario = Combustible consumido / Tiempo de vuelo.
+- id: k102
+  source:
+    key_item: 102
+    chapter_question: '8.19'
+  question: Si 40 litros de combustible se consumen en 135 minutos de vuelo. ¿Cuánto tiempo más puede
+    continuar volando si el combustible remanente es de 25 litros?
+  options:
+    a: 65 min.
+    b: 1 h 24 m.
+    c: 1 h 10 min.
+  answer: b
+  explanation: Primero se obtiene el consumo y luego la autonomía con el remanente.<br>Consumo = 40 L
+    / 135 min = 0,296 L/min<br>Autonomía = 25 L / 0,296 L/min = 84,4 min<br>84 min = 1 h 24 min.
+  theory: Autonomía = Combustible remanente / Consumo.
+- id: k114
+  source:
+    key_item: 114
+    chapter_question: '8.20'
+  question: 'Dados los siguientes datos: Velocidad 160 km/h; consumo 22 litros/hora; capacidad total de
+    combustible 110 litros. ¿Cuánto combustible debería tener a bordo para volar 500 km?'
+  options:
+    a: 70 litros más la reserva.
+    b: 69 litros más la reserva.
+    c: 90 litros sin reserva.
+  answer: b
+  explanation: Tiempo = 500 km / 160 km/h = 3,125 h<br>Combustible = 3,125 h × 22 L/h = 68,75 L → 69 litros<br>A
+    ese valor siempre debe sumarse la reserva reglamentaria. La opción c) no sirve porque nunca se planifica
+    un vuelo sin reserva.
+  theory: Combustible = Tiempo de vuelo × Consumo horario, más la reserva reglamentaria.
+- id: c8-21
+  source:
+    chapter_question: '8.21'
+  question: ¿A cuántas millas terrestres equivalen 45 nudos?
+  options:
+    a: 55 MPH.
+    b: 52 MPH.
+    c: 50 MPH.
+  answer: b
+  explanation: 1 nudo ≈ 1,15 MPH (1852 m / 1609 m).<br>45 kt × 1,15 = 51,8 MPH → 52 MPH.
+  theory: Para pasar de millas náuticas a millas terrestres se multiplica por 1,16 aproximadamente.
+- id: c8-22
+  source:
+    chapter_question: '8.22'
+  question: 'Encontrar la velocidad en millas terrestres de 40 nudos:'
+  options:
+    a: 48 MPH.
+    b: 52 MPH.
+    c: 46 MPH
+  answer: c
+  explanation: 1 nudo ≈ 1,15 MPH (1852 m / 1609 m).<br>40 kt × 1,15 = 46 MPH.
+  theory: Para pasar de millas náuticas a millas terrestres se multiplica por 1,16 aproximadamente.
+- id: k129
+  source:
+    key_item: 129
+    chapter_question: '8.23'
+  question: ¿A cuántos nudos equivalen 135 kilómetros por hora?
+  options:
+    a: 91 nudos.
+    b: 73 nudos.
+    c: 70 nudos.
+  answer: b
+  explanation: 1 nudo = 1,852 km/h, por lo tanto se divide.<br>135 km/h / 1,852 = 72,9 kt → 73 nudos.
+  theory: Para pasar de km/h a nudos se divide por 1,85.
+- id: k144
+  source:
+    key_item: 144
+    chapter_question: '8.24'
+  question: ¿A cuántos km/h equivalen 88 nudos?
+  options:
+    a: 163 Km/h.
+    b: 103 Km/h.
+    c: 1176 Km/h.
+  answer: a
+  explanation: 1 nudo = 1,852 km/h, por lo tanto se multiplica.<br>88 kt × 1,852 = 163 km/h.
+  theory: Para pasar de nudos a km/h se multiplica por 1,85.
+- id: k150
+  source:
+    key_item: 150
+    chapter_question: '8.25'
+  question: ¿Cuál afirmación respecto de longitud y latitud es verdadera?
+  options:
+    a: Los meridianos son paralelos al Ecuador.
+    b: Los meridianos cortan la línea Ecuatorial a 90°.
+    c: La línea de 0° de latitud pasa a través de Greenwich, Inglaterra.
+  answer: b
+  explanation: Los meridianos van de polo a polo (norte-sur) y cortan al Ecuador en ángulo recto (90°).
+    Los paralelos, no los meridianos, son los que corren paralelos al Ecuador, y por Greenwich pasa el
+    meridiano de 0° de longitud, no de latitud (la latitud 0° es el Ecuador).
+  theory: Los meridianos cortan al Ecuador a 90°.
+- id: c8-26
+  source:
+    chapter_question: '8.26'
+  question: ¿Dentro de que huso horario se encuentra ubicada la República Argentina?
+  options:
+    a: El huso N° 4 oeste.
+    b: El huso N° 4 este.
+    c: El huso N° 3 oeste.
+  answer: a
+  explanation: Por su posición geográfica (aproximadamente entre 53° y 73° de longitud oeste), la Argentina
+    está en el huso horario N° 4 oeste, centrado en el meridiano de 60° W. La hora oficial que se usa
+    (UTC-3) corresponde al huso 3, pero la pregunta se refiere a la ubicación geográfica.
+  theory: La República Argentina se encuentra en el huso horario N° 4 al oeste de Greenwich.
+- id: k163
+  source:
+    key_item: 163
+    chapter_question: '8.27'
+  question: 'Si en una carta aeronáutica se traza un curso de 041° y la línea isogónica del lugar muestra
+    5° E, el curso magnético será:'
+  options:
+    a: 041°.
+    b: 046°.
+    c: 036°.
+  answer: c
+  explanation: La declinación (variación) este se resta y la oeste se suma ("este se resta, oeste se suma").<br>Curso
+    magnético = 041° − 5° E = 036°.
+  theory: La declinación este se resta al curso verdadero para obtener el curso magnético.
+- id: k166
+  source:
+    key_item: 166
+    chapter_question: '8.28'
+  question: ¿A que se denomina desvío compás?
+  options:
+    a: Al error provocado por efecto del magnetismo terrestre.
+    b: Al error provocado por efecto de campos magnéticos en la cabina.
+    c: Al error provocado por la altura y temperatura.
+  answer: b
+  explanation: El desvío del compás es el error causado por los campos magnéticos propios de la aeronave
+    (equipos eléctricos, radios, partes metálicas en la cabina). El error debido al magnetismo terrestre
+    es la declinación, no el desvío.
+  theory: El error por el magnetismo terrestre es la declinación; el desvío lo producen los campos magnéticos
+    de la propia aeronave.
+- id: k174
+  source:
+    key_item: 174
+    chapter_question: '8.29'
+  question: 'La dirección medida con referencia a un meridiano o norte verdadero es la dirección de intención
+    del vuelo, medida en grados en sentido horario y se denomina:'
+  options:
+    a: Curso verdadero.
+    b: Rumbo verdadero.
+    c: Rumbo magnético.
+  answer: a
+  explanation: La dirección de intención del vuelo, medida en sentido horario desde el norte verdadero,
+    es el curso verdadero (la línea trazada en la carta). El rumbo, en cambio, es hacia dónde apunta la
+    nariz del avión, y ya incluye la corrección por viento.
+  theory: El curso trazado en la carta con referencia al norte verdadero es el curso verdadero (CV).
+- id: k184
+  source:
+    key_item: 184
+    chapter_question: '8.30'
+  question: 'Al curso verdadero corregido por la declinación se lo denomina:'
+  options:
+    a: Curso compás.
+    b: Curso magnético.
+    c: Rumbo compás.
+  answer: b
+  explanation: Curso verdadero ± declinación = curso magnético. El curso compás se obtiene recién al aplicar
+    además el desvío del compás, y el rumbo compás incluye también la corrección por viento.
+  theory: El curso compás es el curso magnético corregido por desvío; el rumbo compás incluye además la
+    corrección por viento.
+- id: k190
+  source:
+    key_item: 190
+    chapter_question: '8.31'
+  question: 'Una masa de aire que se desplaza de sur a norte a razón de 25 nudos se reporta:'
+  options:
+    a: 360/25.
+    b: 000/25.
+    c: 180/25.
+  answer: c
+  explanation: El viento se informa siempre desde la dirección de donde sopla. Una masa de aire que se
+    desplaza de sur a norte viene del sur, por lo que se reporta 180/25. 360/25 sería un viento que viene
+    del norte.
+  theory: El viento se informa según la dirección desde la cual sopla.
+- id: k192
+  source:
+    key_item: 192
+    chapter_question: '8.32'
+  question: 'Dados los siguientes datos: Viento 200/40, curso verdadero 130°, velocidad indicada 120 nudos.
+    Determinar el ángulo de corrección de viento, el rumbo verdadero y la velocidad terrestre:'
+  options:
+    a: 18° a la derecha - 111° - 100 nudos.
+    b: 18° a la derecha - 148° - 100 nudos.
+    c: 18° a la izquierda - 148° - 90 nudos.
+  answer: b
+  explanation: Se toma la velocidad indicada como verdadera (120 kt).<br>Ángulo del viento respecto del
+    curso = 200° − 130° = 70° desde la derecha<br>Viento cruzado = 40 × sen 70° = 37,6 kt<br>ACV = arcsen
+    (37,6 / 120) ≈ 18° a la derecha<br>Rumbo verdadero = 130° + 18° = 148°<br>GS = 120 × cos 18° − 40
+    × cos 70° = 114 − 13,7 ≈ 100 kt<br>El viento viene de la derecha, por eso la corrección es a la derecha
+    y el rumbo aumenta (no 111°).
+- id: c8-33
+  source:
+    chapter_question: '8.33'
+  question: 'Dados los siguientes datos: viento 260/40, curso verdadero 290°, TAS: 235 nudos, declinación
+    0°. Determinar velocidad terrestre (GS) y rumbo:'
+  options:
+    a: 200 nudos – 280°.
+    b: 205 nudos – 280°.
+    c: 200 nudos – 285°.
+  answer: c
+  explanation: Ángulo del viento respecto del curso = 290° − 260° = 30° desde la izquierda<br>Viento cruzado
+    = 40 × sen 30° = 20 kt<br>ACV = arcsen (20 / 235) ≈ 5° a la izquierda<br>Rumbo = 290° − 5° = 285°<br>GS
+    = 235 × cos 5° − 40 × cos 30° = 234,1 − 34,6 ≈ 200 kt<br>Con viento de la izquierda el rumbo disminuye,
+    pero solo 5°, no 10° (280°).
+- id: c8-34
+  source:
+    chapter_question: '8.34'
+  question: 'Dados los siguientes datos: velocidad aérea verdadera (TAS) 250 nudos, curso verdadero 145°,
+    viento 210/20, declinación 10° E. Determinar el rumbo magnético y la velocidad terrestre (GS):'
+  options:
+    a: 139° - 241 nudos.
+    b: 145° - 245 nudos.
+    c: 135° - 241 nudos.
+  answer: a
+  explanation: Ángulo del viento respecto del curso = 210° − 145° = 65° desde la derecha<br>Viento cruzado
+    = 20 × sen 65° = 18,1 kt<br>ACV = arcsen (18,1 / 250) ≈ 4° a la derecha<br>Rumbo verdadero = 145°
+    + 4° = 149°<br>Rumbo magnético = 149° − 10° E = 139°<br>GS = 250 × cos 4° − 20 × cos 65° = 249,3 −
+    8,5 ≈ 241 kt<br>La opción c) (135°) olvida que la corrección por viento es hacia la derecha.
+- id: c8-35
+  source:
+    chapter_question: '8.35'
+  question: 'Dados los siguientes datos: viento 220/30, curso verdadero 260°, velocidad verdadera 150
+    nudos. Determinar el ángulo de corrección de viento, el rumbo verdadero y la GS:'
+  options:
+    a: 07° derecha – 268° - 120 nudos.
+    b: 07° izquierda - 268° - 127 nudos.
+    c: 07° izquierda - 253° - 126 nudos.
+  answer: c
+  explanation: Ángulo del viento respecto del curso = 260° − 220° = 40° desde la izquierda<br>Viento cruzado
+    = 30 × sen 40° = 19,3 kt<br>ACV = arcsen (19,3 / 150) ≈ 7° a la izquierda<br>Rumbo verdadero = 260°
+    − 7° = 253°<br>GS = 150 × cos 7° − 30 × cos 40° = 148,8 − 23 ≈ 126 kt<br>Con corrección a la izquierda
+    el rumbo debe ser menor que el curso, por eso 268° es incorrecto.
+- id: k203
+  source:
+    key_item: 203
+    chapter_question: '8.36'
+  question: (Referirse a Figura 29, ilustración 1) El receptor VOR tiene la indicación que se muestra.
+    ¿Cuál es la posición relativa del avión respecto a la estación transmisora?
+  options:
+    a: Norte.
+    b: Este.
+    c: Sur.
+  answer: c
+  images:
+  - ppa-figura-29.jpg
+  explanation: 'En la ilustración 1 el OBS está en 030° con bandera TO: el avión está del lado opuesto,
+    al sur de la línea 300°-120° que pasa por la estación. La aguja está deflectada totalmente a la izquierda,
+    lo que indica que el avión está a la derecha (al este) del curso 030°, aproximadamente sobre los radiales
+    120°-200°. Por eso se encuentra al sur de la estación; el norte queda descartado por la bandera TO.'
+  theory: Con OBS en 030° y bandera TO, el avión se encuentra al sur de la estación.
+- id: k206
+  source:
+    key_item: 206
+    chapter_question: '8.37'
+  question: (Referirse a Figura 29, ilustración 8) El receptor del VOR tiene la indicación mostrada. ¿La
+    aeronave se encuentra sobre cuál radial?
+  options:
+    a: 030°.
+    b: 210°.
+    c: 300°.
+  answer: a
+  images:
+  - ppa-figura-29.jpg
+  explanation: 'En la ilustración 8 el OBS está en 210°, la aguja centrada y la bandera indica TO. Con
+    TO, el avión está sobre el radial recíproco del curso seleccionado: 210° − 180° = radial 030°. El
+    210° sería el radial si la bandera indicara FROM.'
+  theory: 'OBS 210° con bandera TO y aguja centrada: avión sobre el radial 030°.'
+- id: k211
+  source:
+    key_item: 211
+    chapter_question: '8.38'
+  question: (Referirse a la Figura 29, ilustración 2) El receptor VOR tiene la indicación mostrada. ¿La
+    aeronave se encuentra sobre cuál radial?
+  options:
+    a: 210°.
+    b: 030°.
+    c: 300°.
+  answer: b
+  images:
+  - ppa-figura-29.jpg
+  explanation: 'En la ilustración 2 el OBS está en 030°, la aguja centrada y la bandera indica FROM. Con
+    FROM, el avión está sobre el mismo radial seleccionado: radial 030°. El radial 210° correspondería
+    a la bandera TO.'
+  theory: 'OBS 030° con bandera FROM y aguja centrada: avión sobre el radial 030°.'
+- id: k217
+  source:
+    key_item: 217
+    chapter_question: '8.39'
+  question: (Referirse a la Figura 29, ilustración 5) El receptor VOR tiene la indicación mostrada. ¿La
+    aeronave se encuentra sobre cuál radial?
+  options:
+    a: 210°.
+    b: 030°.
+    c: 300°.
+  answer: a
+  images:
+  - ppa-figura-29.jpg
+  explanation: 'En la ilustración 5 el OBS está en 030°, la aguja centrada y la bandera indica TO. Con
+    TO, el avión está sobre el radial recíproco: 030° + 180° = radial 210°. El radial 030° correspondería
+    a la bandera FROM.'
+  theory: 'OBS 030° con bandera TO y aguja centrada: avión sobre el radial 210°.'
+- id: k230
+  source:
+    key_item: 230
+    chapter_question: '8.40'
+  question: (Referirse a Figura 30, ilustración 1) Determinar la marcación magnética a la estación.
+  options:
+    a: 030°.
+    b: 180°.
+    c: 210°.
+  answer: c
+  images:
+  - ppa-figura-30.jpg
+  explanation: 'En la ilustración 1 la rosa del ADF está ajustada al rumbo (aprox. 330° bajo el índice
+    superior), así que la cabeza de la aguja indica directamente la marcación magnética a la estación:
+    210°. El 030° es lo que indica la cola de la aguja (marcación desde la estación).'
+  theory: 'La cabeza de la aguja indica la marcación magnética a la estación: 210°.'
+- id: k234
+  source:
+    key_item: 234
+    chapter_question: '8.41'
+  question: (Referirse a Figura 30, ilustración 2) ¿Qué marcación magnética debería usar el piloto para
+    volar hacia la estación?
+  options:
+    a: 010°.
+    b: 145°.
+    c: 190°.
+  answer: c
+  images:
+  - ppa-figura-30.jpg
+  explanation: 'En la ilustración 2 la rosa está ajustada al rumbo y la cabeza de la aguja señala aproximadamente
+    190°: esa es la marcación magnética para volar hacia la estación. El 010° es la cola de la aguja,
+    es decir la marcación desde la estación.'
+  theory: La marcación magnética a la estación es 190°.
+- id: k238
+  source:
+    key_item: 238
+    chapter_question: '8.42'
+  question: (Referirse a la Figura 30, ilustración 2) Determine el rumbo aproximado para interceptar la
+    marcación 180° hacia la estación.
+  options:
+    a: 040°.
+    b: 160°.
+    c: 220°.
+  answer: c
+  images:
+  - ppa-figura-30.jpg
+  explanation: 'La marcación a la estación es 190°, por lo que el avión está sobre la marcación 010° desde
+    la estación, al este del curso de acercamiento 180°.<br>Para interceptar con 40°: 180° + 40° = rumbo
+    220°.<br>Un rumbo de 160° alejaría al avión del curso, y 040° lo llevaría en dirección opuesta a la
+    estación.'
+  theory: Solo el rumbo 220° permite interceptar la marcación 180° hacia la estación.
+- id: k240
+  source:
+    key_item: 240
+    chapter_question: '8.43'
+  question: (Referirse a Figura 30, ilustración 3) ¿Cuál es la marcación magnética desde la estación?
+  options:
+    a: 025°.
+    b: 115°.
+    c: 295°.
+  answer: b
+  images:
+  - ppa-figura-30.jpg
+  explanation: En la ilustración 3 el rumbo es 270° y la cabeza de la aguja indica aproximadamente 295°
+    (marcación hacia la estación). La cola de la aguja indica el recíproco:<br>295° − 180° = 115°, la
+    marcación magnética desde la estación.
+  theory: 'La cola de la aguja indica la marcación magnética desde la estación: 115°.'
+- id: k243
+  source:
+    key_item: 243
+    chapter_question: '8.44'
+  question: (Referirse a Figura 30) ¿Cuál de las indicaciones representa a la aeronave en curso hacia
+    la estación con viento cruzado de la derecha?
+  options:
+    a: '1.'
+    b: '2.'
+    c: '4.'
+  answer: c
+  images:
+  - ppa-figura-30.jpg
+  explanation: 'Volando hacia la estación con viento cruzado de la derecha, el piloto corrige con la nariz
+    hacia la derecha del curso, de modo que la estación queda levemente a la izquierda de la nariz. En
+    la ilustración 4 el rumbo es aprox. 210° y la aguja señala aprox. 190°-200°, a la izquierda del índice:
+    avión en curso con corrección a la derecha. En las ilustraciones 1 y 2 la estación está muy lejos
+    de la nariz.'
+  theory: En la ilustración 4 la estación aparece a la izquierda de la nariz.
+- id: k246
+  source:
+    key_item: 246
+    chapter_question: '8.45'
+  question: '(Referirse a Figura 31, Ilustración 1) La marcación relativa a la estación es:'
+  options:
+    a: 045°.
+    b: 180°.
+    c: 315°.
+  answer: c
+  images:
+  - ppa-figura-31.jpg
+  explanation: En el ADF de rosa fija la nariz del avión es 0° y la cabeza de la aguja indica la marcación
+    relativa. En la ilustración 1 la cabeza apunta hacia arriba a la izquierda, sobre 315°, por lo que
+    la marcación relativa es 315°. El 135° (aprox.) es la cola, y 045° sería si la estación estuviera
+    a la derecha de la nariz.
+  theory: La marcación relativa a la estación es 315°.
+- id: k248
+  source:
+    key_item: 248
+    chapter_question: '8.46'
+  question: '(Referirse a Figura 31, ilustración 4) Con un rumbo magnético de 320°, la marcación magnética
+    hacia la estación (QDM) es:'
+  options:
+    a: 005°.
+    b: 185°.
+    c: 225°.
+  answer: b
+  images:
+  - ppa-figura-31.jpg
+  explanation: 'En la ilustración 4 la cabeza de la aguja apunta hacia abajo a la izquierda: marcación
+    relativa 225°.<br>Marcación magnética = Rumbo magnético + Marcación relativa<br>320° + 225° = 545°<br>545°
+    − 360° = 185°.<br>El 005° es el recíproco (marcación desde la estación) y 225° es solo la marcación
+    relativa.'
+  theory: 320° + 225° − 360° = 185°.
+- id: k250
+  source:
+    key_item: 250
+    chapter_question: '8.47'
+  question: '(Referirse a Figura 31, ilustración 6) Con un rumbo magnético de 120°, la marcación magnética
+    a la estación (QDM) es:'
+  options:
+    a: 045°.
+    b: 165°.
+    c: 270°.
+  answer: b
+  images:
+  - ppa-figura-31.jpg
+  explanation: 'En la ilustración 6 la cabeza de la aguja apunta hacia arriba a la derecha: marcación
+    relativa 045°.<br>Marcación magnética = Rumbo magnético + Marcación relativa<br>120° + 045° = 165°.<br>El
+    045° es solo la marcación relativa, no la magnética.'
+  theory: 120° + 045° = 165°.
+- id: k252
+  source:
+    key_item: 252
+    chapter_question: '8.48'
+  question: ¿De cuántos satélites está compuesto el sistema global de posición (GPS)?
+  options:
+    a: '25.'
+    b: '22.'
+    c: '24.'
+  answer: c
+  explanation: La constelación básica del GPS está formada por 24 satélites distribuidos en 6 planos orbitales,
+    lo que garantiza cobertura en todo el planeta.
+  theory: El sistema GPS está compuesto por 24 satélites.
+- id: k257
+  source:
+    key_item: 257
+    chapter_question: '8.49'
+  question: ¿Cuál es el mínimo número de satélites observables en cualquier parte de la tierra?
+  options:
+    a: '6.'
+    b: '5.'
+    c: '4.'
+  answer: b
+  explanation: Gracias a la distribución de los 24 satélites, desde cualquier punto de la Tierra se observan
+    como mínimo 5 satélites. Con 4 alcanza para obtener posición tridimensional, pero el mínimo visible
+    garantizado es 5.
+  theory: En cualquier parte de la Tierra se observan como mínimo cinco satélites.
+- id: k265
+  source:
+    key_item: 265
+    chapter_question: '8.50'
+  question: ¿Cuántos satélites se requieren para recibir información de posición en tres dimensiones (latitud,
+    longitud y altitud), y cálculos de tiempo?
+  options:
+    a: '5.'
+    b: '6.'
+    c: '4.'
+  answer: c
+  explanation: Para una posición tridimensional (latitud, longitud y altitud) más la corrección de tiempo
+    hay cuatro incógnitas, por lo que se necesitan al menos 4 satélites. Con 3 solo se obtiene una posición
+    bidimensional.
+  theory: Se requieren como mínimo 4 satélites.
+- id: k004
+  source:
+    key_item: 4
+  question: (Figura 29, ilustración 1) El receptor VOR tiene la indicación que se muestra. ¿Cuál es la
+    posición relativa del avión respecto a la estación transmisora?
+  options:
+    a: Norte.
+    b: Este.
+    c: Sur.
+  answer: c
+  images:
+  - ppa-figura-29.jpg
+  explanation: 'En la ilustración 1 el OBS está en 030° con bandera TO: el avión está del lado opuesto,
+    al sur de la línea 300°-120° que pasa por la estación. La aguja está deflectada totalmente a la izquierda,
+    lo que indica que el avión está a la derecha (al este) del curso 030°, aproximadamente sobre los radiales
+    120°-200°. Por eso se encuentra al sur de la estación; el norte queda descartado por la bandera TO.'
+- id: k207
+  source:
+    key_item: 207
+  question: (Referirse a Figura 29, ilustración 8) El receptor del VOR tiene la indicación mostrada. ¿La
+    aeronave se encuentra sobre cuál radial?
+  options:
+    a: 030°.
+    b: 210°.
+    c: 300°.
+  answer: a
+  images:
+  - ppa-figura-29.jpg
+  explanation: 'En la ilustración 8 el OBS está en 210°, la aguja centrada y la bandera indica TO. Con
+    TO, el avión está sobre el radial recíproco del curso seleccionado: 210° − 180° = radial 030°. El
+    210° sería el radial si la bandera indicara FROM.'
+- id: k212
+  source:
+    key_item: 212
+  question: (Referirse a la Figura 29, ilustración 2) El receptor VOR tiene la indicación mostrada. ¿La
+    aeronave se encuentra sobre cuál radial?
+  options:
+    a: 210°.
+    b: 030°.
+    c: 300°.
+  answer: b
+  images:
+  - ppa-figura-29.jpg
+  explanation: 'En la ilustración 2 el OBS está en 030°, la aguja centrada y la bandera indica FROM. Con
+    FROM, el avión está sobre el mismo radial seleccionado: radial 030°. El radial 210° correspondería
+    a la bandera TO.'
+- id: k215
+  source:
+    key_item: 215
+  question: (Ver Figura 21) ¿Si el tiempo volado entre las posiciones de aeronave 2 y 3 es de 13 minutos,
+    cual es el tiempo estimado faltante para llegar a la estacion?
+  options:
+    a: 13 minutos.
+    b: 17 minutos.
+    c: 26 minutos.
+  answer: a
+  images:
+  - ppa-key-x278.jpg
+  explanation: 'La Figura 21 muestra el método del triángulo isósceles: el avión vira 10° (de 270° a 260°)
+    y vuela hasta que la marcación cambia 10°. Como el ángulo del viraje es igual al cambio de marcación,
+    los dos lados del triángulo son iguales, así que la distancia (y el tiempo) a la estación es igual
+    a la recorrida entre las posiciones 2 y 3: 13 minutos.'
+- id: k216
+  source:
+    key_item: 216
+  question: 'Al mantener un rumbo magnetico de 270° y una velocidad aerea verdadera de 120 nudos, el radial
+    360 de un VOR se intercepta a 12:37 y el radial 350 a 12:44. El tiempo y la distancia aproximados
+    a dicha estacion son de:'
+  options:
+    a: 42 minutos y 84 MN.
+    b: 42 minutos y 91 MN.
+    c: 44 minutos y 96 MN.
+  answer: a
+  explanation: Tiempo a la estación = (Tiempo entre radiales × 60) / Grados de cambio<br>Tiempo entre
+    radiales = 12:44 − 12:37 = 7 min<br>T = 7 × 60 / 10° = 42 min<br>Distancia = 120 kt × 42/60 h = 84
+    NM.
+- id: k218
+  source:
+    key_item: 218
+  question: (Referirse a la Figura 29, ilustración 5) El receptor VOR tiene la indicación mostrada. ¿La
+    aeronave se encuentra sobre cuál radial?
+  options:
+    a: 210°.
+    b: 030°.
+    c: 300°.
+  answer: a
+  images:
+  - ppa-figura-29.jpg
+  explanation: 'En la ilustración 5 el OBS está en 030°, la aguja centrada y la bandera indica TO. Con
+    TO, el avión está sobre el radial recíproco: 030° + 180° = radial 210°. El radial 030° correspondería
+    a la bandera FROM.'
+- id: k221
+  source:
+    key_item: 221
+  question: 'Ingresando por el radial 190, un piloto selecciona el radial 195, vira 5° hacia la izquierda
+    y toma el tiempo. Mientras mantiene un rumbo constante, el piloto observa que el tiempo faltante para
+    que el indicador de desvio de curso (CDI) se centre es de 10 minutos. El tiempo estimado en ruta (ETE)
+    hasta la estacion es de:'
+  options:
+    a: 10 minutos.
+    b: 15 minutos.
+    c: 20 minutos.
+  answer: a
+  explanation: 'Es el método del triángulo isósceles: el piloto vira 5° y selecciona un radial 5° distinto.
+    Como el ángulo del viraje es igual al cambio de radial, el tiempo hasta la estación es igual al tiempo
+    que tarda en centrarse el CDI: 10 minutos. Los 20 minutos corresponderían a otro método (tiempo ×
+    60 / grados) que aquí no aplica.'
+- id: k231
+  source:
+    key_item: 231
+  question: (Referirse a Figura 30, ilustración 1) Determinar la marcación magnética a la estación.
+  options:
+    a: 030°.
+    b: 180°.
+    c: 210°.
+  answer: c
+  images:
+  - ppa-figura-30.jpg
+  explanation: 'En la ilustración 1 la rosa del ADF está ajustada al rumbo (aprox. 330° bajo el índice
+    superior), así que la cabeza de la aguja indica directamente la marcación magnética a la estación:
+    210°. El 030° es lo que indica la cola de la aguja (marcación desde la estación).'
+- id: k235
+  source:
+    key_item: 235
+  question: (Referirse a Figura 30, ilustración 2) ¿Qué marcación magnética debería usar el piloto para
+    volar hacia la estación?
+  options:
+    a: 010°.
+    b: 145°.
+    c: 190°.
+  answer: c
+  images:
+  - ppa-figura-30.jpg
+  explanation: 'En la ilustración 2 la rosa está ajustada al rumbo y la cabeza de la aguja señala aproximadamente
+    190°: esa es la marcación magnética para volar hacia la estación. El 010° es la cola de la aguja,
+    es decir la marcación desde la estación.'
+- id: k239
+  source:
+    key_item: 239
+  question: (Referirse a la Figura 30, ilustración 2) Determine el rumbo aproximado para interceptar la
+    marcación 180° hacia la estación.
+  options:
+    a: 040°.
+    b: 160°.
+    c: 220°.
+  answer: c
+  images:
+  - ppa-figura-30.jpg
+  explanation: 'La marcación a la estación es 190°, por lo que el avión está sobre la marcación 010° desde
+    la estación, al este del curso de acercamiento 180°.<br>Para interceptar con 40°: 180° + 40° = rumbo
+    220°.<br>Un rumbo de 160° alejaría al avión del curso, y 040° lo llevaría en dirección opuesta a la
+    estación.'
+- id: k241
+  source:
+    key_item: 241
+  question: (Referirse a Figura 30, ilustración 3) ¿Cuál es la marcación magnética desde la estación?
+  options:
+    a: 025°.
+    b: 115°.
+    c: 295°.
+  answer: b
+  images:
+  - ppa-figura-30.jpg
+  explanation: En la ilustración 3 el rumbo es 270° y la cabeza de la aguja indica aproximadamente 295°
+    (marcación hacia la estación). La cola de la aguja indica el recíproco:<br>295° − 180° = 115°, la
+    marcación magnética desde la estación.
+- id: k244
+  source:
+    key_item: 244
+  question: (Referirse a Figura 30) ¿Cuál de las indicaciones representa a la aeronave en curso hacia
+    la estación con viento cruzado de la derecha?
+  options:
+    a: '1.'
+    b: '2.'
+    c: '4.'
+  answer: c
+  images:
+  - ppa-figura-30.jpg
+  explanation: 'Volando hacia la estación con viento cruzado de la derecha, el piloto corrige con la nariz
+    hacia la derecha del curso, de modo que la estación queda levemente a la izquierda de la nariz. En
+    la ilustración 4 el rumbo es aprox. 210° y la aguja señala aprox. 190°-200°, a la izquierda del índice:
+    avión en curso con corrección a la derecha. En las ilustraciones 1 y 2 la estación está muy lejos
+    de la nariz.'
+- id: k247
+  source:
+    key_item: 247
+  question: '(Referirse a Figura 31, Ilustración 1) La marcación relativa a la estación es:'
+  options:
+    a: 045°.
+    b: 180°.
+    c: 315°.
+  answer: c
+  images:
+  - ppa-figura-31.jpg
+  explanation: En el ADF de rosa fija la nariz del avión es 0° y la cabeza de la aguja indica la marcación
+    relativa. En la ilustración 1 la cabeza apunta hacia arriba a la izquierda, sobre 315°, por lo que
+    la marcación relativa es 315°. El 135° (aprox.) es la cola, y 045° sería si la estación estuviera
+    a la derecha de la nariz.
+- id: k249
+  source:
+    key_item: 249
+  question: '(Referirse a Figura 31, ilustración 4) Con un rumbo magnético de 320°, la marcación magnética
+    hacia la estación (QDM) es:'
+  options:
+    a: 005°.
+    b: 185°.
+    c: 225°.
+  answer: b
+  images:
+  - ppa-figura-31.jpg
+  explanation: 'En la ilustración 4 la cabeza de la aguja apunta hacia abajo a la izquierda: marcación
+    relativa 225°.<br>Marcación magnética = Rumbo magnético + Marcación relativa<br>320° + 225° = 545°<br>545°
+    − 360° = 185°.<br>El 005° es el recíproco (marcación desde la estación) y 225° es solo la marcación
+    relativa.'
+- id: k251
+  source:
+    key_item: 251
+  question: '(Referirse a Figura 31, ilustración 6) Con un rumbo magnético de 120°, la marcación magnética
+    a la estación (QDM) es:'
+  options:
+    a: 045°.
+    b: 165°.
+    c: 270°.
+  answer: b
+  images:
+  - ppa-figura-31.jpg
+  explanation: 'En la ilustración 6 la cabeza de la aguja apunta hacia arriba a la derecha: marcación
+    relativa 045°.<br>Marcación magnética = Rumbo magnético + Marcación relativa<br>120° + 045° = 165°.<br>El
+    045° es solo la marcación relativa, no la magnética.'
+- id: k337
+  source:
+    key_item: 337
+  question: La Navegación Estimada es
+  options:
+    a: un método utilizado para determinar la posición utilizando el indicador de altura y cálculos basados
+      en temperatura, tiempo transcurrido y efecto del viento desde una posición conocida.
+    b: un método utilizado para determinar la posición utilizando el indicador rumbo y los cálculos basados
+      en velocidad, tiempo transcurrido y efecto del viento desde una posición conocida.
+    c: un método utilizado para determinar la posición utilizando unicamente el GPS
+  answer: b
+  explanation: La navegación estimada determina la posición a partir de una posición conocida, usando
+    el indicador de rumbo y cálculos de velocidad, tiempo transcurrido y efecto del viento. No se basa
+    en el altímetro ni en la temperatura (opción a), y depender únicamente del GPS no es navegación estimada.
+- id: k338
+  source:
+    key_item: 338
+  question: 'La Navegación Observada es:'
+  options:
+    a: la que se realiza basándose en las referencias del terreno, por ejemplo ciudades, pueblos, vías
+      de ferrocarril, lagos, rutas, etc
+    b: la que se realiza basándose en las referencias del terreno, Vor y ADF
+    c: la que se realiza basándose en las referencias de rutas y caminos
+  answer: a
+  explanation: La navegación observada se realiza comparando la carta con referencias visibles del terreno,
+    como ciudades, pueblos, vías de ferrocarril, lagos y rutas. El VOR y el ADF son radioayudas, no referencias
+    del terreno, y las rutas y caminos son solo una parte de las referencias posibles.

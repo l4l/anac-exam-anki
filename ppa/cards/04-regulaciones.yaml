@@ -1,0 +1,809 @@
+- id: k034
+  source:
+    key_item: 34
+    chapter_question: '4.1'
+  question: 'La definición de tiempo nocturno es:'
+  options:
+    a: De puesta del sol a la salida del sol.
+    b: 1.5 horas después de la puesta del sol hasta 1.5 horas antes de la salida del sol.
+    c: El tiempo entre el final del crepúsculo civil vespertino y el comienzo del crepúsculo civil matutino.
+  answer: c
+  explanation: Se considera <b>noche</b> el tiempo comprendido entre el fin del crepúsculo civil vespertino
+    y el comienzo del crepúsculo civil matutino. No se cuenta desde la puesta del sol (opción a), porque
+    durante el crepúsculo civil todavía hay luz suficiente, ni existe una regla de 1,5 horas (opción b).
+  theory: 'Noche: tiempo comprendido entre el fin del crepúsculo civil vespertino y el comienzo del crepúsculo
+    civil matutino.'
+- id: k105
+  source:
+    key_item: 105
+    chapter_question: '4.2'
+  question: 'El alumno de Piloto Privado puede volar solo:'
+  options:
+    a: Cumplidas como mínimo 30 horas de vuelo en doble comando.
+    b: Cumplidas las primeras 25 horas de vuelo.
+    c: Cumplidas como mínimo 8 horas de vuelo en doble comando.
+  answer: c
+  explanation: Según la RAAC 61, el alumno piloto debe completar <b>no menos de 8 horas de instrucción
+    en doble comando</b> antes de su primer vuelo solo. Las 30 horas corresponden al total de doble comando
+    exigido para la licencia, y las 25 horas se relacionan con el transporte de pasajeros, no con el vuelo
+    solo.
+  theory: El alumno debe acreditar no menos de 8 horas de vuelo en doble comando previo al primer vuelo
+    solo.
+- id: k177
+  source:
+    key_item: 177
+    chapter_question: '4.3'
+  question: 'El Piloto Privado puede transportar pasajeros:'
+  options:
+    a: Cumplidas 40 horas de vuelo mínimas.
+    b: Cumplidas 25 horas de vuelo solo.
+    c: Cumplidas las 10 horas de vuelo solo.
+  answer: b
+  explanation: Una vez obtenida la licencia, el Piloto Privado debe acumular <b>25 horas de vuelo como
+    piloto al mando</b> (más una evaluación con instructor) antes de poder transportar pasajeros. La opción
+    b es la que corresponde a ese requisito; 40 horas es el mínimo total para obtener la licencia y 10
+    horas solo no habilitan a llevar pasajeros.
+  theory: Para transportar pasajeros se requieren 25 horas como piloto al mando a partir de la obtención
+    de la licencia; las opciones a) y c) son incorrectas.
+  note: El requisito es 25 h como piloto al mando desde la obtención de la licencia; la redacción de la
+    opción es imprecisa.
+- id: k223
+  source:
+    key_item: 223
+    chapter_question: '4.4'
+  question: ¿Cuánto tiempo un Piloto Privado puede permanecer sin actividad de vuelo, sin requerir ser
+    rehabilitado por un Instructor de Vuelo?
+  options:
+    a: Hasta 30 días.
+    b: Hasta 90 días
+    c: Hasta 180 días.
+  answer: a
+  explanation: Según la RAAC 61, el Piloto Privado que permanezca <b>más de 30 días</b> sin actividad
+    de vuelo debe ser readaptado por un Instructor de Vuelo (vuelo de readaptación de aproximadamente
+    1 hora y 5 aterrizajes). Por lo tanto, puede estar hasta 30 días sin volar sin necesitar readaptación;
+    90 o 180 días exceden ese límite.
+  theory: Más de 30 días sin actividad de vuelo requiere readaptación por un Instructor de Vuelo.
+  status: outdated
+  official_key: a
+  note: Bajo la RAAC 61 vigente (2026) ya no existe la readaptación a los 30 días; la experiencia reciente
+    (61.140) exige 3 despegues y aterrizajes en los últimos 90 días.
+- id: k261
+  source:
+    key_item: 261
+    chapter_question: '4.5'
+  question: ¿Qué visibilidad mínima en tierra es requerida para que un Piloto Privado pueda iniciar un
+    vuelo desde un aeródromo controlado?
+  options:
+    a: 1500 metros.
+    b: 5 kilómetros.
+    c: 3000 metros.
+  answer: b
+  explanation: Según la RAAC 91.156, para operar VFR en un aeródromo controlado se requiere una <b>visibilidad
+    en tierra de 5 km</b> y un techo de nubes de 1000 pies. Los 1500 m y 3000 m son valores inferiores
+    al mínimo exigido.
+  theory: Visibilidad 5 km y techo de nubes 1000 pies.
+- id: k268
+  source:
+    key_item: 268
+    chapter_question: '4.6'
+  question: ¿Qué visibilidad y techo de nubes son requeridos para operar en un aeródromo que se encuentra
+    fuera de una zona de control?
+  options:
+    a: 5 kilómetros y 1000 pies.
+    b: 8 kilómetros y 1000 pies.
+    c: 2500 metros y 1000 pies.
+  answer: c
+  status: key_error
+  official_key: a
+  explanation: Según la RAAC 91.156, en la zona de tránsito de un aeródromo ubicado <b>fuera de una zona
+    de control</b> los mínimos VFR son <b>2500 m de visibilidad y 1000 pies de techo</b>. Los 5 km y 1000
+    pies corresponden a aeródromos controlados o dentro de una zona de control, y los 8 km a vuelo VFR
+    en ruta.
+  theory: Visibilidad 2500 m y techo de nubes 1000 pies; las opciones a) y b) son incorrectas.
+- id: c4-07
+  source:
+    chapter_question: '4.7'
+  question: Dentro de espacios aéreos controlados, ¿qué requisitos debe cumplir los pilotos?
+  options:
+    a: Tener comunicación con la torre de control.
+    b: Presentar previo a la salida un plan de vuelo en la oficina de Notificación de los Servicios de
+      Tránsito Aéreo del aeródromo.
+    c: Poseer la habilitación correspondiente para realizar vuelo VFR dentro de espacio aéreo controlado.
+  answer: c
+  explanation: Según la RAAC 91.152, para realizar vuelo VFR controlado el piloto debe <b>poseer la habilitación
+    correspondiente para vuelo VFR en espacio aéreo controlado</b>, además de llevar el equipamiento requerido
+    y notificarse en la oficina ARO. La comunicación con la torre o la presentación del plan de vuelo
+    son requisitos operativos, pero no reemplazan la habilitación exigida al piloto.
+  theory: El piloto debe poseer la habilitación correspondiente para vuelo VFR en espacio aéreo controlado.
+- id: k284
+  source:
+    key_item: 284
+    chapter_question: '4.8'
+  question: 'Si el piloto cambia de domicilio respecto al declarado anteriormente:'
+  options:
+    a: Debe informarlo dentro de los 60 días de producido el cambio.
+    b: No es obligatorio informar el cambio.
+    c: Debe informarlo dentro de los 30 días de producido el cambio.
+  answer: c
+  explanation: Todo cambio de domicilio respecto al declarado debe informarse a la Autoridad Aeronáutica
+    <b>dentro de los 30 días</b> de producido. No es optativo, y el plazo no es de 60 días.
+  theory: El cambio de domicilio debe informarse dentro de los 30 días de producido.
+  status: outdated
+  official_key: c
+  note: La RAAC 61 vigente (61.160) exige actualizar el domicilio en el legajo pero ya no fija el plazo
+    de 30 días.
+- id: c4-09
+  source:
+    chapter_question: '4.9'
+  question: 'La autoridad final en lo relacionado con la operación de una aeronave es de:'
+  options:
+    a: La Administración Nacional de Aviación Civil (ANAC).
+    b: El piloto al mando de la misma.
+    c: El fabricante de la aeronave.
+  answer: b
+  explanation: El <b>piloto al mando (Comandante)</b> es la autoridad final en todo lo relacionado con
+    la operación de la aeronave mientras está a su cargo. La ANAC dicta las normas y el fabricante define
+    las limitaciones, pero la decisión final durante la operación es del piloto al mando.
+  theory: El Comandante tendrá autoridad en todo lo relacionado con la aeronave.
+- id: k042
+  source:
+    key_item: 42
+    chapter_question: '4.10'
+  question: 'Si durante una emergencia en vuelo se requiere una acción inmediata, el piloto al mando puede:'
+  options:
+    a: Apartarse de las normas establecidas en las RAAC Parte 91, mientras dure la situación de emergencia,
+      pero deberá posteriormente elevar a la Autoridad Aeronáutica un informe escrito firmado dentro de
+      las 24 hs de ocurrido el hecho.
+    b: Apartarse de las normas establecidas en las RAAC Parte 91 durante el tiempo que requiera resolver
+      la situación de emergencia.
+    c: No apartarse de las normas establecidas en las RAAC Parte 91, a menos que la Autoridad Aeronáutica
+      previamente lo autorice.
+  answer: b
+  explanation: Según la RAAC 91.3, ante una emergencia que exija una acción inmediata, el piloto al mando
+    puede <b>apartarse de la Parte 91 en la medida y durante el tiempo necesarios</b> para resolverla.
+    El informe escrito solo se presenta <b>si lo requiere la Autoridad Aeronáutica</b>, por lo que la
+    opción a, con un informe obligatorio dentro de las 24 h, es incorrecta. Tampoco hace falta autorización
+    previa (opción c).
+  theory: El piloto al mando podrá apartarse de las normas por razones de seguridad que exijan medidas
+    inmediatas; el informe escrito se presenta solo si lo requiere la Autoridad Aeronáutica.
+- id: c4-11
+  source:
+    chapter_question: '4.11'
+  question: Un piloto que se ha apartado de las normas establecidas en las RAAC Parte 91 durante una emergencia,
+    ¿cuándo debe presentar un informe escrito a la Autoridad Aeronáutica?
+  options:
+    a: Dentro de los 7 días.
+    b: Dentro de los 10 días.
+    c: Cuando lo requiera la Autoridad Aeronáutica.
+  answer: c
+  explanation: Según la RAAC 91.3 b), el piloto que se apartó de la Parte 91 durante una emergencia debe
+    presentar un informe escrito <b>cuando lo requiera la Autoridad Aeronáutica</b>. No hay un plazo fijo
+    de 7 o 10 días.
+  theory: Presentar informe escrito si así lo requiere la Autoridad Aeronáutica.
+- id: k061
+  source:
+    key_item: 61
+    chapter_question: '4.13'
+  question: ¿Qué documentos deben estar en posesión del piloto o accesible en el avión mientras opera
+    la aeronave como piloto al mando?
+  options:
+    a: Licencia de piloto, certificación médica aeronáutica y certificación de horas voladas en los últimos
+      30 días.
+    b: Licencia de piloto, habilitación psicofisiológica, documento de identidad, libro de vuelo actualizado
+      y autorización del propietario de la aeronave para actuar como comandante de la aeronave.
+    c: Licencia de piloto, habilitación psicofisiológica y certificado de propiedad de la aeronave.
+  answer: b
+  explanation: 'Al actuar como piloto al mando se debe llevar o tener accesible: <b>licencia de piloto,
+    certificado de aptitud psicofisiológica, documento de identidad, libro de vuelo actualizado y autorización
+    del propietario o explotador</b> para actuar como comandante. La opción c pide el certificado de propiedad
+    en lugar de la autorización, y la opción a una certificación de horas que no se exige.'
+  theory: 'La norma enumera cinco documentos: licencia, habilitación psicofisiológica, documento de identidad,
+    libro de vuelo actualizado y autorización del propietario; las opciones a) y c) son incorrectas.'
+- id: k065
+  source:
+    key_item: 65
+    chapter_question: '4.14'
+  question: ¿Cuáles son las acciones específicamente requeridas al piloto, previo a cada vuelo?
+  options:
+    a: Verificar que los historiales del avión estén debidamente completados.
+    b: Familiarizarse con todo lo concerniente al vuelo por realizar.
+    c: Revisar los procedimientos para evitar las estelas turbulentas que pudieran encontrarse durante
+      el mismo.
+  answer: b
+  explanation: Antes de cada vuelo, el piloto al mando debe <b>familiarizarse con toda la información
+    disponible</b> concerniente al vuelo (meteorología, combustible, alternativas, longitudes de pista,
+    performance, etc.). Revisar historiales o procedimientos de estela turbulenta pueden formar parte
+    de esa preparación, pero no es la acción específicamente requerida por la norma.
+  theory: Antes de iniciar un vuelo, el piloto al mando deberá familiarizarse con toda la información
+    disponible concerniente al mismo.
+- id: k071
+  source:
+    key_item: 71
+    chapter_question: '4.15'
+  question: ¿Cuál es el combustible mínimo requerido para cumplir con un vuelo bajo reglas VFR a un destino,
+    sin considerar un lugar de alternativa?
+  options:
+    a: El suficiente para completar el vuelo a velocidad normal de crucero con condiciones adversas de
+      viento.
+    b: El suficiente para volar hasta el punto donde se intenta aterrizar y volar después 30 minutos a
+      velocidad normal de crucero.
+    c: El suficiente para volar al punto donde se intenta aterrizar más un mínimo de 45 minutos de vuelo.
+  answer: c
+  explanation: Según la RAAC 91.151, para un vuelo VFR sin alternativa se requiere combustible para llegar
+    al punto de aterrizaje previsto y luego volar un <b>30% adicional del tiempo de vuelo, nunca inferior
+    a 45 minutos</b>. Por eso la opción c es correcta; los 30 minutos de la opción b corresponden a la
+    norma diurna de la FAA, no a la RAAC.
+  theory: Combustible para volar al destino y prolongar el vuelo un 30% del tiempo previsto, nunca inferior
+    a 45 minutos.
+- id: k080
+  source:
+    key_item: 80
+    chapter_question: '4.16'
+  question: 'Es obligatorio que la tripulación de vuelo mantenga el cinturón de seguridad y arnés de hombro
+    colocados durante:'
+  options:
+    a: Despegues y aterrizajes.
+    b: Durante toda la operación de vuelo.
+    c: El vuelo con turbulencia.
+  answer: a
+  status: key_error
+  official_key: b
+  explanation: Según la RAAC 91.105, cada tripulante en su puesto debe tener colocado el <b>cinturón de
+    seguridad y el arnés de hombro durante el despegue y el aterrizaje</b>. En ruta solo se exige el cinturón
+    de seguridad mientras se está en el puesto; el arnés no es obligatorio durante toda la operación.
+    Como la pregunta se refiere a ambos elementos juntos, la respuesta es despegues y aterrizajes.
+  theory: Cinturón colocado durante despegue, aterrizaje y en ruta; arnés de hombro durante despegue y
+    aterrizaje. El requisito combinado corresponde a despegue y aterrizaje.
+- id: k086
+  source:
+    key_item: 86
+    chapter_question: '4.17'
+  question: Con respecto a los pasajeros, ¿qué obligación tiene el piloto al mando relacionado con el
+    uso de los cinturones de seguridad?
+  options:
+    a: El piloto al mando debe instruir a sus pasajeros para que mantengan permanentemente el cinturón
+      de seguridad colocado.
+    b: El piloto al mando debe instruir a sus pasajeros sobre el uso del cinturón de seguridad y notificarles
+      que deben usarlo durante las operaciones de rodaje, despegue y aterrizaje.
+    c: El piloto al mando no tiene obligación respecto al uso del cinturón de seguridad por parte de los
+      pasajeros.
+  answer: b
+  explanation: El piloto al mando debe asegurarse de que cada pasajero sea <b>instruido sobre cómo abrochar
+    y desabrochar el cinturón</b> y notificado de que debe usarlo durante el <b>rodaje, el despegue y
+    el aterrizaje</b>. No existe obligación de llevarlo colocado permanentemente (opción a), y el piloto
+    sí tiene responsabilidad al respecto (opción c).
+  theory: Cada pasajero debe ser instruido sobre cómo abrochar y desabrochar el cinturón, cuyo uso es
+    requerido durante el movimiento en superficie, el despegue y el aterrizaje.
+- id: k093
+  source:
+    key_item: 93
+    chapter_question: '4.18'
+  question: 'Con ciertas excepciones, se requiere que el cinturón de seguridad sea utilizado por los pasajeros
+    durante:'
+  options:
+    a: Rodaje, despegue y aterrizaje.
+    b: Durante todo el vuelo.
+    c: El vuelo con turbulencia.
+  answer: a
+  status: key_error
+  official_key: b
+  explanation: Según la RAAC 91.106, los pasajeros deben tener el cinturón abrochado durante el <b>movimiento
+    en superficie (rodaje), el despegue y el aterrizaje</b>. La norma no exige usarlo durante todo el
+    vuelo; en turbulencia es una recomendación prudente, pero no es una de las fases que define la regla.
+  theory: Uso del cinturón requerido durante el movimiento en superficie, el despegue y el aterrizaje.
+- id: k098
+  source:
+    key_item: 98
+    chapter_question: '4.19'
+  question: ¿Qué acción se requiere cuando dos aeronaves de la misma categoría están con rumbos convergentes
+    (no de frente)?
+  options:
+    a: Se dará paso a la aeronave más veloz.
+    b: La aeronave que tenga a la otra a su derecha cederá el paso.
+    c: Ambas aeronaves harán viraje por su derecha.
+  answer: b
+  explanation: Cuando dos aeronaves de la misma categoría convergen a niveles aproximadamente iguales,
+    <b>la que tiene a la otra a su derecha cede el paso</b>. La velocidad no otorga prioridad, y el viraje
+    de ambas por su derecha corresponde al encuentro de frente, no al de rumbos convergentes.
+  theory: La aeronave que tenga a la otra a su derecha cederá el paso.
+- id: k110
+  source:
+    key_item: 110
+    chapter_question: '4.20'
+  question: ¿Qué acción se requiere cuando dos aeronaves al mismo nivel o próximo mantienen rumbo de frente?
+  options:
+    a: De acuerdo a los niveles cuadrantales que debieran mantener, las impares deben descender y la pares
+      ascender.
+    b: Ambas aeronaves deben girar a la izquierda.
+    c: Ambas aeronaves deben girar por su derecha.
+  answer: c
+  explanation: Según la RAAC 91.113, cuando dos aeronaves se aproximan de frente o casi de frente, <b>ambas
+    alteran su rumbo hacia la derecha</b>. Girar a la izquierda aumentaría el riesgo de colisión, y la
+    regla no se basa en ascender o descender según niveles.
+  theory: Ambas aeronaves alterarán su rumbo hacia su derecha.
+- id: k119
+  source:
+    key_item: 119
+    chapter_question: '4.21'
+  question: ¿Qué acción se requiere cuando una aeronave por su mayor velocidad alcanza a la otra?
+  options:
+    a: Ascenderá y la sobrepasará con no menos 150 metros.
+    b: Descenderá y la sobrepasará con no menos de 150 metros.
+    c: Ascenderá, descenderá o mantendrá el nivel y en todos los casos virando por su derecha.
+  answer: c
+  explanation: La aeronave que alcanza a otra debe mantenerse apartada <b>virando hacia su derecha</b>,
+    ya sea que esté ascendiendo, descendiendo o en vuelo nivelado. Las opciones a y b son incorrectas
+    porque la regla no indica pasar por arriba o por abajo a 150 metros.
+  theory: La aeronave que alcanza siempre se aparta virando hacia su derecha; las opciones a) y b) son
+    incorrectas.
+- id: k123
+  source:
+    key_item: 123
+    chapter_question: '4.22'
+  question: ¿Cuál aeronave motorizada tiene derecho de paso sobre las siguientes mencionadas?
+  options:
+    a: Giroplano.
+    b: Dirigible.
+    c: Aeronave remolcando planeador.
+  answer: c
+  status: key_error
+  official_key: b
+  explanation: Según las reglas de derecho de paso (RAAC 91.113), las aeronaves propulsadas mecánicamente
+    deben ceder el paso a las que <b>van remolcando otras aeronaves u objetos</b>. El dirigible tiene
+    prioridad sobre el giroplano, pero la aeronave que remolca un planeador tiene prioridad sobre ambos,
+    por lo que la correcta es la c.
+  theory: Las aeronaves propulsadas mecánicamente cederán el paso a las que vayan remolcando a otras aeronaves
+    u objetos.
+- id: k131
+  source:
+    key_item: 131
+    chapter_question: '4.23'
+  question: ¿Qué acción deben tomar los pilotos de un planeador y un avión que se encuentran en rumbo
+    de colisión?
+  options:
+    a: El piloto del avión debería girar por izquierda.
+    b: El piloto del planeador debería girar por su derecha.
+    c: Ambos pilotos deberían girar a la derecha.
+  answer: c
+  explanation: 'En una aproximación de frente rige la regla general: <b>ambas aeronaves alteran su rumbo
+    hacia la derecha</b>, sin importar que una sea planeador. La prioridad del planeador aplica a rumbos
+    convergentes, no a un encuentro de frente, y girar a la izquierda es incorrecto.'
+  theory: 'Aproximación de frente: ambas aeronaves alterarán su rumbo hacia la derecha.'
+- id: c4-24
+  source:
+    chapter_question: '4.24'
+  question: Excepto cuando es necesario para el despegue o aterrizaje, ¿cuál es la altitud mínima de seguridad
+    para un piloto que opera cualquier aeronave?
+  options:
+    a: Una altura tal, que en caso de falla de motor que obligue a un aterrizaje de emergencia, no signifique
+      un riesgo a las personas o bienes en superficie.
+    b: Una altitud de 500 pies sobre la superficie y no menos de 500 pies de cualquier persona, nave,
+      vehículo o estructuras.
+    c: 300 m sobre la superficie terrestre.
+  answer: a
+  explanation: Según la RAAC 91.119 a), en cualquier lugar se debe volar a una altura que, ante una <b>falla
+    de motor que obligue a un aterrizaje de emergencia</b>, permita aterrizar sin riesgo indebido para
+    personas o bienes en la superficie. Los valores de 500 pies o 300 m son mínimos específicos para áreas
+    no congestionadas o congestionadas, no la regla general.
+  theory: Altura que permita, en caso de emergencia, aterrizar sin peligro para personas o bienes en la
+    superficie.
+- id: k153
+  source:
+    key_item: 153
+    chapter_question: '4.25'
+  question: Excepto cuando sea necesario para el despegue o aterrizaje, ¿cuál es la altitud mínima de
+    seguridad requerida para un piloto que vuela sobre áreas congestionadas?
+  options:
+    a: 1000 pies sobre cualquier persona.
+    b: Una altitud de 500 pies sobre el punto más alto en un radio de 300 metros de la aeronave.
+    c: Una altitud de 300 metros sobre el obstáculo más alto dentro de un radio horizontal de 600 metros.
+  answer: c
+  explanation: Según la RAAC 91.119, sobre áreas congestionadas (ciudades, poblaciones o reuniones de
+    personas al aire libre) se debe volar a <b>300 m (1000 pies) sobre el obstáculo más alto dentro de
+    un radio horizontal de 600 m</b>. La opción a omite la referencia al obstáculo más alto y al radio,
+    y los 500 pies de la opción b son el mínimo fuera de áreas congestionadas.
+  theory: 1000 pies (300 m) sobre el obstáculo más alto dentro de un radio horizontal de 600 m.
+- id: k157
+  source:
+    key_item: 157
+    chapter_question: '4.26'
+  question: Excepto cuando sea necesario para el despegue o aterrizaje, ¿cuál es la altitud mínima que
+    se requiere a un piloto que vuela fuera de las áreas congestionadas?
+  options:
+    a: A una altura que permita, si ocurre una falla de motor, no poner en riesgo a personas o propiedades
+      en superficies.
+    b: A una altitud de 500 pies sobre la superficie de tierra o agua.
+    c: A una altitud de 500 sobre el obstáculo más alto dentro de un radio horizontal de 300 metros.
+  answer: b
+  explanation: Según la RAAC 91.119 c), fuera de las áreas congestionadas la altitud mínima es de <b>500
+    pies sobre la superficie de tierra o agua</b>. La opción a es la regla general que se aplica en cualquier
+    lugar, no la específica para áreas no congestionadas.
+  theory: Altitud no menor de 500 pies sobre la superficie de tierra o agua.
+- id: k161
+  source:
+    key_item: 161
+    chapter_question: '4.27'
+  question: 'Cuando se vuela sin poder evitarlo sobre áreas sensibles al ruido, el piloto deberá:'
+  options:
+    a: Volar con la potencia reducida al mínimo.
+    b: Mantener una separación mínima de 1000 pies dentro de un radio de una milla desde la aeronave.
+    c: Mantener una separación mínima de 3000 pies sobre el obstáculo más alto situado dentro de un radio
+      de 2 millas náuticas desde la aeronave, en la trayectoria prevista y planificada.
+  answer: c
+  explanation: Cuando no se puede evitar volar sobre áreas sensibles al ruido, se debe mantener <b>3000
+    pies sobre el obstáculo más alto dentro de un radio de 2 NM</b> de la aeronave, a lo largo de la trayectoria
+    prevista. Reducir la potencia al mínimo no es la regla, y 1000 pies en una milla es insuficiente.
+  theory: Mantener 3000 pies sobre el obstáculo más alto dentro de un radio de 2 NM desde la aeronave.
+- id: c4-28
+  source:
+    chapter_question: '4.28'
+  question: (Referirse a Figura 4-5) ¿Cuál de los niveles para crucero VFR es apropiado si se mantiene
+    un curso magnético de 135°?
+  options:
+    a: Niveles pares.
+    b: Niveles pares más, 500 pies.
+    c: Niveles impares, más 500 pies.
+  answer: c
+  explanation: Por encima de 3000 pies AGL, la regla semicircular VFR se basa en el <b>curso magnético</b>:<br>Curso
+    0° a 179° → niveles impares + 500 pies<br>Curso 180° a 359° → niveles pares + 500 pies<br>135° está
+    entre 0° y 179° → <b>impares + 500 pies</b> (ej. 3500, 5500).
+  theory: 'Curso magnético de 0° a 179°: nivel impar más 500 pies.'
+  note: La Figura 4-5 no está en el anexo de figuras; se responde con la regla semicircular de niveles
+    de crucero VFR.
+- id: c4-29
+  source:
+    chapter_question: '4.29'
+  question: (Referirse a Figura 4-5) ¿Cuál nivel de crucero VFR es adecuado volando por encima de 3000
+    pies, con un curso magnético de 185°?
+  options:
+    a: '4000.'
+    b: '4500.'
+    c: '5000.'
+  answer: b
+  explanation: Por encima de 3000 pies AGL, con curso magnético de 180° a 359° corresponden <b>niveles
+    pares + 500 pies</b>:<br>185° está entre 180° y 359° → pares + 500<br>4000 + 500 = <b>4500 pies</b><br>4000
+    y 5000 son niveles redondos, reservados para IFR.
+  theory: 'Curso magnético de 180° a 359°: nivel par más 500 pies (ej. 4500).'
+  note: La Figura 4-5 no está en el anexo de figuras; se responde con la regla semicircular de niveles
+    de crucero VFR.
+- id: c4-30
+  source:
+    chapter_question: '4.30'
+  question: 'Un piloto que esté volando en crucero bajo reglas VFR deberá mantener niveles impares más
+    500 pies mientras mantenga:'
+  options:
+    a: Un rumbo magnético de 0° a 179°.
+    b: Un curso magnético de 0° a 179°
+    c: Un curso geográfico de 0° a 179°.
+  answer: b
+  explanation: La regla semicircular VFR se basa en el <b>curso magnético</b> (la trayectoria sobre el
+    terreno referida al norte magnético), no en el rumbo (hacia dónde apunta la nariz) ni en el curso
+    geográfico. Con curso magnético de 0° a 179° se vuela a niveles impares + 500 pies.
+  theory: Con un curso magnético de 0° a 179°, nivel impar más 500 pies.
+- id: k002
+  source:
+    key_item: 2
+  question: ¿Cuántas horas de vuelo como piloto al mando debe completar un Piloto Privado de Avión, a
+    partir que obtuvo su licencia, para estar facultado para transportar pasajeros?
+  options:
+    a: 15 Hs.
+    b: 20 Hs.
+    c: 25 Hs.
+  answer: c
+  explanation: Según la RAAC 61, el Piloto Privado de Avión debe acumular <b>25 horas como piloto al mando</b>
+    a partir de la obtención de su licencia, más una evaluación con instructor (1 hora y 3 aterrizajes),
+    para poder transportar pasajeros. 15 y 20 horas son inferiores al mínimo exigido.
+- id: k003
+  source:
+    key_item: 3
+  question: ¿Pasados cuantos días sin actividad de vuelo, un Piloto Privado de Avión, debe ser readaptado
+    por un Instructor?
+  options:
+    a: '30'
+    b: '45'
+    c: '60'
+  answer: a
+  explanation: Según la RAAC 61, el Piloto Privado de Avión que permanezca <b>más de 30 días</b> sin actividad
+    de vuelo debe ser readaptado por un Instructor (aproximadamente 1 hora de vuelo y 5 aterrizajes).
+    45 y 60 días superan ese límite.
+  status: outdated
+  official_key: a
+  note: Bajo la RAAC 61 vigente (2026) ya no existe la readaptación a los 30 días; la experiencia reciente
+    (61.140) exige 3 despegues y aterrizajes en los últimos 90 días.
+- id: k135
+  source:
+    key_item: 135
+  question: 'LA ANTICIPACIÓN MINIMA DE PRESENTACIÓN EN VUELO PARA LOS VUELOS CONTROLADOS CON TRANSMISIÓN
+    QUE EXIGIERA RETRANSMISIÓN, RESPECTO AL MOMENTO EN QUE SE CALCULA SE INICIARA LA OPERACIÓN, ES DE:'
+  options:
+    a: 10 minutos.
+    b: 20 minutos.
+    c: 30 minutos
+  answer: b
+  explanation: Un plan de vuelo presentado en vuelo para un vuelo controlado debe enviarse con una anticipación
+    mínima de <b>10 minutos</b> respecto al ingreso al espacio aéreo controlado. Cuando la transmisión
+    exige <b>retransmisión</b> por otra dependencia, la anticipación mínima aumenta a <b>20 minutos</b>.
+- id: k136
+  source:
+    key_item: 136
+  question: 'AL ATRAVESAR LA “CAPA DE TRANSICIÓN” DURANTE EL ASCENSO, LA POSICIÓN VERTICAL DE LAS AERONAVES,
+    A EXCEPCION, SE EXPRESARA EN:'
+  options:
+    a: Altura.
+    b: Altitudes.
+    c: Elevaciones.
+  answer: b
+  explanation: Al atravesar la capa de transición, la referencia vertical cambia entre <b>altitudes</b>
+    (con QNH) y <b>niveles de vuelo</b> (con 1013,2 hPa). Entre las opciones dadas, la respuesta esperada
+    es <b>altitudes</b>; altura y elevación son referencias sobre el terreno y no se usan para esto.
+  status: ambiguous
+  official_key: b
+  note: Según OACI, al atravesar la capa de transición en ascenso la posición vertical se expresa en niveles
+    de vuelo (en descenso, en altitudes). No hay opción «niveles de vuelo» y el enunciado está incompleto;
+    la clave oficial marca «Altitudes».
+- id: k138
+  source:
+    key_item: 138
+  question: 'CUANDO POR DETERIORO DE LAS CONDICIONES VMC DEBE SALIR DE ESPACIO AEREO CONTROLADO O ATERRIZAR
+    EN EL AERÓDROMO APROPIADO MAS PRÓXIMO, LO HARA:'
+  options:
+    a: Notificando a la dependencia de control de jurisdicción de la medida que adopta, al tener que suspender
+      la operación por no poder continuar en VMC.
+    b: Directamente sin cursar notificación alguna.
+    c: Directamente, pidiendo al QAM del aeródromo más próximo.
+  answer: a
+  explanation: Si por deterioro de las condiciones VMC el piloto debe salir del espacio aéreo controlado
+    o aterrizar en el aeródromo apropiado más próximo, debe <b>notificar a la dependencia de control</b>
+    con jurisdicción la medida adoptada. Hacerlo sin notificar (opción b) dejaría al control sin conocer
+    la posición e intenciones de la aeronave.
+- id: k139
+  source:
+    key_item: 139
+  question: 'CUANDO SE CAMBIE DE VUELO VFR A VFR CONTROLADO, SE OBTENDRA EL PERMISO DE TRANSITO DE LA
+    DEPENDENCIA DE CONTROL DE TRANSITO QUE CORRESPONDA:'
+  options:
+    a: ) Únicamente en el momento de presentación del Plan de Vuelo.
+    b: ) En el momento de ingresar al espacio aéreo controlado IFR/VFR.
+    c: ) Antes de ingresar al espacio aéreo controlado
+  answer: c
+  explanation: Al cambiar de VFR a VFR controlado, el permiso de tránsito de la dependencia de control
+    correspondiente debe obtenerse <b>antes de ingresar al espacio aéreo controlado</b>. Pedirlo en el
+    momento de ingresar es tarde, y no se limita a la presentación del plan de vuelo.
+- id: k140
+  source:
+    key_item: 140
+  question: 'En VMC el piloto podrá volar:'
+  options:
+    a: De acuerdo a reglas VFR especial o IFR
+    b: Siempre reglas VFR
+    c: IFR pero deberá evitar colisiones con otras aeronave
+  answer: c
+  status: key_error
+  official_key: b
+  explanation: En VMC el piloto puede volar según reglas VFR o, si lo desea, según reglas <b>IFR</b>.
+    Aun volando IFR con autorización del control, en VMC el piloto sigue siendo directamente <b>responsable
+    de evitar colisiones</b> con otras aeronaves. No es cierto que deba volar siempre VFR (opción b),
+    y el VFR especial se usa por debajo de los mínimos VMC (opción a).
+- id: k141
+  source:
+    key_item: 141
+  question: 'PARA LOS VUELOS PROYECTADOS COMO CONTROLADOS DESDE SU COMIENZO, EL PLAN DE VUELO DEBERÁ PRESENTARSE
+    ANTES DE LA PARTIDA, CON UNA ANTICIPACIÓN DE POR LO MENOS:'
+  options:
+    a: 60 minutos.
+    b: 40 minutos.
+    c: 45 minutos.
+  answer: c
+  explanation: Para los vuelos proyectados como controlados desde su comienzo, la RAAC 91 exige presentar
+    el plan de vuelo con una anticipación de <b>por lo menos 45 minutos</b> antes de la hora estimada
+    de partida. 60 minutos es el valor OACI general y no la cifra de la norma en la que se basa la pregunta.
+- id: k143
+  source:
+    key_item: 143
+  question: '10-13-Evitar colisiones con otras aeronaves es responsabilidad del piloto al mando:'
+  options:
+    a: Siempre
+    b: En VMC
+    c: Solo a requerimiento del explotador
+  answer: a
+  explanation: Evitar colisiones con otras aeronaves es responsabilidad del piloto al mando <b>siempre</b>,
+    tanto en VMC como volando IFR con autorización del control. No depende de las condiciones meteorológicas
+    ni de un requerimiento del explotador.
+- id: k292
+  source:
+    key_item: 292
+  question: 'Aeronáutica Civil es el conjunto de actividades vinculadas con el empleo de aeronaves:'
+  options:
+    a: Públicas.
+    b: Públicas, privadas y Militares.
+    c: Públicas y Privadas (excluidas las militares)
+  answer: c
+  explanation: Según el Código Aeronáutico argentino, la Aeronáutica Civil es el conjunto de actividades
+    vinculadas con el empleo de aeronaves <b>públicas y privadas, excluidas las militares</b>. Las aeronaves
+    militares quedan fuera del ámbito civil.
+- id: k293
+  source:
+    key_item: 293
+  question: 'AL ATRAVESAR LA “CAPA DE TRANSICIÓN” DURANTE EL DESCENSO, LA POSICIÓN VERTICAL DE LAS AERONAVES,
+    A EXCEPCIÓN DE LO QUE SE DISPONGA EN LOS PROCEDIMIENTOS DE APLICACIÓN, SE EXPRESARA EN:'
+  options:
+    a: Altura.
+    b: Elevaciones.
+    c: Niveles de vuelo.
+  answer: a
+  explanation: Al descender a través de la capa de transición, la posición vertical se expresa en <b>altitudes</b>
+    (con QNH), mientras que en ascenso se expresa en niveles de vuelo. Como la opción altitud no figura,
+    la respuesta esperada es <b>altura</b>; los niveles de vuelo corresponden al ascenso.
+  note: El término OACI correcto en descenso es «altitud»; la opción marcada es solo la más cercana.
+- id: k321
+  source:
+    key_item: 321
+  question: 'En la República Argentina el organismo encargado de investigar los accidentes es:'
+  options:
+    a: Región Aérea Centro (Ezeiza).
+    b: La Junta de Investigaciones de Accidentes de Aviación Civil.
+    c: Los peritos Aeronáuticos.
+  answer: b
+  explanation: En la época en que se redactó la pregunta, el organismo encargado de investigar los accidentes
+    de aviación civil era la <b>Junta de Investigación de Accidentes de Aviación Civil (JIAAC)</b>. Desde
+    2020 esa función la cumple la Junta de Seguridad en el Transporte (JST).
+- id: k339
+  source:
+    key_item: 339
+  question: 'La obligación de asegurar el buen estado de la aeronave antes de la partida es de:'
+  options:
+    a: El explotador.
+    b: El piloto al mando (Comandante).
+    c: La Autoridad Aeronáutica.
+  answer: b
+  explanation: Según la RAAC 91.7, el <b>piloto al mando (Comandante)</b> es responsable de determinar
+    si la aeronave está en condiciones para el vuelo seguro antes de la partida. El explotador tiene la
+    responsabilidad general del mantenimiento, pero la verificación previa a la partida es obligación
+    del Comandante.
+- id: k343
+  source:
+    key_item: 343
+  question: 'Los accidentes aeronáuticos son investigados para:'
+  options:
+    a: Establecer responsabilidades.
+    b: Determinar sus causas y establecer medidas tendientes a evitar su repetición.
+    c: Como dato estadístico.
+  answer: b
+  explanation: Según el Anexo 13 de la OACI, los accidentes se investigan para <b>determinar sus causas
+    y establecer medidas para evitar su repetición</b>. El objetivo no es asignar culpas ni responsabilidades,
+    ni solo obtener estadísticas.
+- id: k344
+  source:
+    key_item: 344
+  question: 'Los bultos de materiales radioactivos:'
+  options:
+    a: Pueden estibarse en la cabina de pasajeros.
+    b: Deben estibarse en los compartimentos de carga, sin necesidad de mantener una distancia mínima
+      de separación.
+    c: Deben ser almacenados tan lejos de los pasajeros y la tripulación como sea posible.
+  answer: c
+  explanation: Los bultos de materiales radiactivos <b>no pueden llevarse en la cabina de pasajeros</b>
+    y deben separarse de personas mediante distancias mínimas (según el índice de transporte). Entre las
+    opciones, la correcta es estibarlos lo más lejos posible de pasajeros y tripulación; la opción b es
+    incorrecta porque sí se exige distancia mínima.
+- id: k350
+  source:
+    key_item: 350
+  question: 'Para los fines del embalaje, se han asignado letras para representar el grado de peligro
+    presentado por el artículo o la sustancia, a saber:'
+  options:
+    a: A (Alto Riesgo) – B (Mediano Riesgo) – C (Bajo Riesgo).
+    b: Z (Alto Riesgo) – Y (Mediano Riesgo) – X (Bajo Riesgo).
+    c: X (Alto Riesgo) – Y (Mediano Riesgo) – Z (Bajo Riesgo).
+  answer: c
+  explanation: En las marcas de embalaje ONU, las letras indican el grupo de embalaje:<br>X = Grupo I
+    (alto riesgo)<br>Y = Grupo II (riesgo mediano)<br>Z = Grupo III (bajo riesgo)<br>La opción b invierte
+    el orden y la opción a usa letras que no corresponden.
+- id: k351
+  source:
+    key_item: 351
+  question: 'PARA LOS VUELOS VFR CONTROLADOS, LAS MINIMAS DE VISIBILIDAD EN VUELO EN ZONA DE CONTROL SON:'
+  options:
+    a: 3 KM.
+    b: 6 KM.
+    c: 5 KM.
+  answer: c
+  explanation: Para vuelos VFR controlados en zona de control, la visibilidad mínima en vuelo es de <b>5
+    km</b>, igual que el mínimo de visibilidad para operar VFR en un aeródromo controlado. 3 km es inferior
+    al mínimo y 6 km no es un valor de la norma.
+- id: k364
+  source:
+    key_item: 364
+  question: 'RAAC Parte 61.Esta Parte establece:'
+  options:
+    a: los requisitos mínimos y procedimientos para el otorgamiento de certificados de competencia unicamente,
+      con las condiciones bajo las cuales son necesarias, sus atribuciones y limitaciones.
+    b: los requisitos mínimos y procedimientos para el otorgamiento de licencias de piloto, certificados
+      de competencia de piloto o habilitaciones, las condiciones bajo las cuales son necesarias, sus atribuciones
+      y limitaciones.
+    c: habilitaciones y las condiciones bajo las cuales son necesarias, sus atribuciones y limitaciones.
+  answer: b
+  explanation: Según la RAAC 61.1, esta Parte establece los requisitos mínimos y procedimientos para el
+    otorgamiento de <b>licencias de piloto, certificados de competencia y habilitaciones</b>, las condiciones
+    en que son necesarios y sus atribuciones y limitaciones. Las opciones a y c están incompletas porque
+    mencionan solo certificados o solo habilitaciones.
+- id: k365
+  source:
+    key_item: 365
+  question: RAAC Parte 91.7 a). Ninguna persona puede operar una aeronave civil, a menos que dicha aeronave
+    se encuentre en condiciones de aeronavegabilidad. El piloto al mando de una aeronave civil es responsable
+    de determinar si esa aeronave se encuentra en condiciones para el vuelo seguro. El piloto al mando
+    no deberá iniciar el vuelo cuando ocurra una condición de no aeronavegabilidad estructural, mecánica
+    o eléctrica.
+  options:
+    a: Verdadero
+    b: Falso
+  answer: a
+  explanation: '<b>Verdadero.</b> El enunciado reproduce la RAAC 91.7: la aeronave debe estar en condiciones
+    de aeronavegabilidad, el piloto al mando es responsable de determinar si está en condiciones para
+    el vuelo seguro, y no debe iniciar (o debe interrumpir) el vuelo ante una condición de no aeronavegabilidad
+    estructural, mecánica o eléctrica.'
+- id: k367
+  source:
+    key_item: 367
+  question: 'Se dice que una mercancía peligrosa es incompatible si, en caso de mezclarse pueden generar:'
+  options:
+    a: Calor,Gases,
+    b: Sustancias corrosivas,Calor,Gases
+    c: Sustancias,Calor,Gases
+  answer: b
+  explanation: Las mercancías peligrosas son <b>incompatibles</b> si al mezclarse pueden reaccionar peligrosamente,
+    desprendiendo <b>calor o gases</b> o produciendo <b>sustancias corrosivas</b>. La opción b es la más
+    completa; la a omite las sustancias corrosivas y la c habla de sustancias en general.
+- id: k372
+  source:
+    key_item: 372
+  question: Si se cargan mercancías dentro de elementos unitarios de carga, no se necesitan etiquetas
+    de riesgo o de manipulación.
+  options:
+    a: Verdadero.
+    b: Falso.
+  answer: b
+  explanation: <b>Falso.</b> Cuando se cargan mercancías peligrosas dentro de elementos unitarios de carga
+    (ULD), estos siguen necesitando etiquetas o rótulos de riesgo y de manipulación que identifiquen su
+    contenido. El etiquetado no se suprime por estar dentro de un ULD.
+- id: k376
+  source:
+    key_item: 376
+  question: Un embalaje conteniendo mercancías peligrosas de la Clase 6, con un grupo de riesgo 4, no
+    re-presentan un alto riesgo para el individuo y la comunidad, como ser el Ebola, Hanta Virus y Hepatitis
+    B.
+  options:
+    a: Verdadero.
+    b: Falso.
+  answer: b
+  explanation: <b>Falso.</b> Los agentes del <b>grupo de riesgo 4</b> (por ejemplo, Ébola) representan
+    un <b>alto riesgo</b> tanto para el individuo como para la comunidad. Afirmar que no representan alto
+    riesgo es incorrecto.
+  note: El enunciado clasifica mal algunos ejemplos (Hanta virus y Hepatitis B suelen ser grupo de riesgo
+    3).
+- id: k377
+  source:
+    key_item: 377
+  question: Una aeronave sin el equipamiento mínimo para vuelo nocturno deberá finalizar el vuelo diurno.
+  options:
+    a: 30 minutos antes de el crepusculo
+    b: 25 minutos despues del atardecer
+    c: antes de la finalizacion del crepusculo.
+  answer: c
+  explanation: En Argentina la noche comienza al <b>finalizar el crepúsculo civil vespertino</b>. Por
+    lo tanto, una aeronave sin el equipamiento mínimo para vuelo nocturno debe terminar el vuelo diurno
+    <b>antes de la finalización del crepúsculo</b>. Los 30 minutos antes o 25 minutos después no son la
+    referencia de la norma.
+- id: k383
+  source:
+    key_item: 383
+  question: VFR El servicio de control de transito aéreo se suministrara.
+  options:
+    a: Únicamente a los vuelos IFR
+    b: A los vuelos no controlados.
+    c: a todos los vuelos controlados.
+  answer: c
+  explanation: Según el Anexo 11 de la OACI, el servicio de control de tránsito aéreo se suministra a
+    <b>todos los vuelos controlados</b>, sean IFR o VFR controlados. No se limita a vuelos IFR, y los
+    vuelos no controlados no reciben servicio de control.

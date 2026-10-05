@@ -1,0 +1,35 @@
+.card {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 1.45;
+  text-align: left;
+  color: #1d1d1f;
+  background: #ffffff;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 8px 12px;
+}
+.pregunta { font-weight: 600; margin-bottom: 12px; }
+.imagenes img { display: block; max-width: 100%; height: auto; margin: 8px auto; background: #fff; }
+.opciones { list-style: none; padding: 0; margin: 12px 0; }
+.opciones li { padding: 6px 10px; margin: 4px 0; border-radius: 6px; border: 1px solid #d0d0d5; }
+.opciones li.correcta { border-color: #1f8a3b; background: #e5f5e9; font-weight: 600; }
+.letra { font-weight: 700; margin-right: 4px; }
+.respuesta { font-size: 1.05em; margin: 10px 0; }
+.aviso { border-left: 4px solid #c62828; background: #fdecea; padding: 8px 10px; margin: 10px 0; border-radius: 4px; }
+.explicacion { margin: 10px 0; }
+.nota { border-left: 4px solid #e0a800; background: #fff8e1; padding: 8px 10px; margin: 10px 0; border-radius: 4px; font-size: 0.95em; }
+.teoria { margin: 10px 0; padding: 8px 10px; background: #f2f4f8; border-radius: 4px; font-size: 0.92em; }
+.rotulo { font-weight: 700; }
+.fuente { margin-top: 14px; font-size: 0.75em; color: #777; }
+
+/* Anki desktop / AnkiDroid / AnkiMobile night mode */
+.nightMode.card, .night_mode .card { color: #e6e6e6; background: #1e1e1e; }
+.nightMode .opciones li, .night_mode .opciones li { border-color: #555; }
+.nightMode .opciones li.correcta, .night_mode .opciones li.correcta { border-color: #4caf50; background: #1f3a24; }
+.nightMode .aviso, .night_mode .aviso { background: #3b1f1f; border-left-color: #ef5350; }
+.nightMode .nota, .night_mode .nota { background: #3a3220; border-left-color: #ffca28; }
+.nightMode .teoria, .night_mode .teoria { background: #2a2d33; }
+.nightMode .fuente, .night_mode .fuente { color: #999; }
+/* keep scanned figures on white so they stay legible in night mode */
+.nightMode .imagenes img, .night_mode .imagenes img { filter: none; }

@@ -1,0 +1,801 @@
+- id: k032
+  source:
+    key_item: 32
+    chapter_question: '3.1'
+  question: ¿Qué instrumentos quedarán inoperativos si se bloquea el tubo pitot?
+  options:
+    a: Altímetro.
+    b: Variómetro.
+    c: Velocímetro.
+  answer: c
+  explanation: El tubo pitot capta la presión de impacto (presión dinámica + estática), que alimenta únicamente
+    al <b>velocímetro</b>. Si se bloquea, el velocímetro deja de indicar correctamente. El altímetro y
+    el variómetro funcionan sólo con la presión estática, por lo que no se ven afectados por un pitot
+    bloqueado.
+  theory: La presión de impacto registrada por el tubo pitot alimenta solamente al velocímetro.
+- id: k103
+  source:
+    key_item: 103
+    chapter_question: '3.2'
+  question: ¿Qué instrumento/s quedarán inoperativos si se bloquean las tomas estáticas?
+  options:
+    a: Sólo el velocímetro.
+    b: Sólo el altímetro.
+    c: Altímetro, velocímetro y variómetro.
+  answer: c
+  explanation: 'Los tres instrumentos del sistema pitot-estático usan la presión estática: el <b>altímetro</b>,
+    el <b>velocímetro</b> (que compara presión de impacto con estática) y el <b>variómetro</b>. Por eso,
+    si se bloquean las tomas estáticas, los tres quedan afectados. Las opciones que nombran un solo instrumento
+    son incompletas.'
+  theory: Velocímetro, altímetro y variómetro reciben información de las tomas estáticas.
+- id: k181
+  source:
+    key_item: 181
+    chapter_question: '3.3'
+  question: Si el tubo pitot y las tomas estáticas quedaran bloqueadas, ¿qué instrumentos se verían afectados?
+  options:
+    a: El altímetro, el velocímetro y el indicador de viraje y ladeo.
+    b: El altímetro, el velocímetro y el variómetro.
+    c: El altímetro, el horizonte artificial y el indicador de viraje y ladeo.
+  answer: b
+  explanation: Los instrumentos que dependen del sistema pitot-estático son el <b>altímetro, el velocímetro
+    y el variómetro</b>. El indicador de viraje y ladeo y el horizonte artificial son instrumentos giroscópicos
+    (accionados por vacío o eléctricamente), así que no dependen del pitot ni de las tomas estáticas.
+  theory: El indicador de viraje y ladeo y el horizonte artificial son instrumentos giroscópicos, por
+    lo que no se ven afectados.
+- id: k226
+  source:
+    key_item: 226
+    chapter_question: '3.4'
+  question: El tubo pitot ¿provee presión de impacto a cuál instrumento?
+  options:
+    a: Altímetro.
+    b: Variómetro.
+    c: Velocímetro.
+  answer: c
+  explanation: La presión de impacto (o presión total) del tubo pitot sólo se envía al <b>velocímetro</b>,
+    que la compara con la presión estática para indicar la velocidad. El altímetro y el variómetro trabajan
+    exclusivamente con presión estática.
+  theory: El tubo pitot provee presión de impacto solamente al velocímetro.
+- id: k260
+  source:
+    key_item: 260
+    chapter_question: '3.5'
+  question: ¿Qué sigla representa la velocidad de maniobra de diseño?
+  options:
+    a: VA.
+    b: VLO.
+    c: VNE.
+  answer: a
+  explanation: '<b>VA</b> es la velocidad de maniobra de diseño: a esa velocidad o menos, una deflexión
+    completa y brusca de los comandos no supera el factor de carga límite de la estructura. VLO es la
+    velocidad máxima de operación del tren de aterrizaje y VNE es la velocidad de nunca exceder.'
+  theory: VA es la velocidad de maniobra.
+- id: k267
+  source:
+    key_item: 267
+    chapter_question: '3.6'
+  question: ¿Qué representa la línea roja marcada en el velocímetro?
+  options:
+    a: La velocidad de maniobra.
+    b: La velocidad máxima de turbulencia.
+    c: La velocidad de nunca exceder.
+  answer: c
+  explanation: La línea radial roja del velocímetro marca la <b>VNE</b>, la velocidad de nunca exceder,
+    por encima de la cual existe riesgo de daño estructural o flameo. La velocidad de maniobra (VA) no
+    está marcada con colores en el velocímetro.
+  theory: La línea roja indica la velocidad que nunca se debe exceder (VNE).
+- id: k274
+  source:
+    key_item: 274
+    chapter_question: '3.7'
+  question: ¿Cuál color identifica la velocidad de nunca exceder?
+  options:
+    a: El límite inferior del arco amarillo.
+    b: El límite superior del arco blanco.
+    c: La línea radial roja.
+  answer: c
+  images:
+  - ppa-key-x323.jpg
+  explanation: La VNE se identifica con la <b>línea radial roja</b> (en la Figura 4, en 208 MPH, al final
+    del arco amarillo). El límite inferior del arco amarillo es VNO (máxima estructural de crucero) y
+    el límite superior del arco blanco es VFE (máxima con flaps extendidos).
+  theory: La línea roja indica la VNE.
+- id: k279
+  source:
+    key_item: 279
+    chapter_question: '3.8'
+  question: ¿Cuál color identifica la velocidad de pérdida sin potencia con configuración determinada?
+  options:
+    a: El límite superior del arco verde.
+    b: El límite superior del arco blanco.
+    c: El límite inferior del arco verde.
+  answer: c
+  images:
+  - ppa-key-x323.jpg
+  explanation: 'El <b>límite inferior del arco verde</b> es VS1: la velocidad de pérdida sin potencia
+    en una configuración determinada (normalmente limpia, flaps y tren arriba). El límite superior del
+    arco verde es VNO y el límite superior del arco blanco es VFE. La pérdida en configuración de aterrizaje
+    (VSO) es el límite inferior del arco blanco.'
+  theory: El límite inferior del arco verde (VS1) es la velocidad de pérdida para una configuración determinada.
+- id: k288
+  source:
+    key_item: 288
+    chapter_question: '3.9'
+  question: ¿Qué sigla representa la velocidad de mejor ángulo de ascenso?
+  options:
+    a: VY.
+    b: VA.
+    c: VX.
+  answer: c
+  explanation: '<b>VX</b> es la velocidad de mejor ángulo de ascenso: da la mayor ganancia de altura en
+    la menor distancia horizontal (útil para franquear obstáculos). VY es la de mejor régimen de ascenso
+    (mayor altura en el menor tiempo) y VA es la de maniobra.'
+  theory: VX es la velocidad de mejor ángulo de ascenso; VY es la de mejor régimen y VA la de maniobra.
+- id: k041
+  source:
+    key_item: 41
+    chapter_question: '3.10'
+  question: Después del despegue, ¿qué velocidad se debería utilizar para ganar la mayor altitud en un
+    período de tiempo dado?
+  options:
+    a: VY.
+    b: VX.
+    c: VA.
+  answer: a
+  explanation: <b>VY</b>, velocidad de mejor régimen de ascenso, da el mayor incremento de altitud por
+    unidad de tiempo. VX, en cambio, da la mayor altura en la menor distancia (mejor ángulo), y VA es
+    la velocidad de maniobra, que no tiene relación con la performance de ascenso.
+  theory: VY (mejor régimen de ascenso) obtiene el mayor incremento de altitud por unidad de tiempo.
+- id: k044
+  source:
+    key_item: 44
+    chapter_question: '3.11'
+  question: ¿Cuál es el rango de velocidades para volar con máximo flaps extendido ?
+  options:
+    a: 60 a 100 MPH.
+    b: 60 a 208 MPH
+    c: 208 MPH.
+  answer: a
+  images:
+  - ppa-key-x323.jpg
+  explanation: El rango de operación con flaps extendidos es el <b>arco blanco</b>, que va de VSO a VFE.
+    En la Figura 4:<br>Límite inferior del arco blanco (VSO) = 60 MPH<br>Límite superior del arco blanco
+    (VFE) = 100 MPH<br>Rango con flaps = 60 a 100 MPH.<br>60 a 208 MPH abarca todo el rango del velocímetro
+    hasta la VNE, no sólo el de flaps.
+  theory: El arco blanco va de VSO a VFE y marca el rango de operación con flaps extendidos.
+- id: k051
+  source:
+    key_item: 51
+    chapter_question: '3.12'
+  question: 'La máxima velocidad a la cual el avión puede volar en aire calmo es:'
+  options:
+    a: 100 MPH.
+    b: 165 MPH.
+    c: 208 MPH.
+  answer: c
+  images:
+  - ppa-key-x323.jpg
+  explanation: La velocidad máxima que nunca debe superarse, aun en aire calmo, es la <b>VNE</b>, marcada
+    con la línea roja. En la Figura 4:<br>Arco amarillo (precaución, sólo en aire calmo) = 165 a 208 MPH<br>Línea
+    roja (VNE) = 208 MPH.<br>165 MPH es VNO (fin del arco verde) y 100 MPH es VFE.
+  theory: La velocidad máxima del rango de precaución, que sólo se usa en aire calmo, es 208 MPH (VNE).
+- id: k057
+  source:
+    key_item: 57
+    chapter_question: '3.13'
+  question: ¿Cuál es la máxima velocidad para extender el flaps?
+  options:
+    a: 65 MPH.
+    b: 100 MPH
+    c: 165 MPH.
+  answer: b
+  images:
+  - ppa-key-x323.jpg
+  explanation: La velocidad máxima con flaps extendidos (VFE) es el <b>límite superior del arco blanco</b>.
+    En la Figura 4:<br>Límite superior del arco blanco = 100 MPH → VFE = 100 MPH.<br>165 MPH es VNO (límite
+    superior del arco verde) y no tiene relación con los flaps.
+  theory: VFE es el límite superior del arco blanco, 100 MPH en este avión.
+- id: k064
+  source:
+    key_item: 64
+    chapter_question: '3.14'
+  question: ¿Qué color identifica la velocidad normal de operación con flap?
+  options:
+    a: Desde el límite inferior al superior del arco blanco.
+    b: El arco verde.
+    c: El arco blanco.
+  answer: c
+  images:
+  - ppa-key-x323.jpg
+  explanation: El rango normal de operación con flaps está marcado con el <b>arco blanco</b>, que va de
+    VSO (límite inferior) a VFE (límite superior). El arco verde corresponde al rango normal de operación
+    sin flaps, de VS1 a VNO.
+  theory: El rango de operación con flaps está marcado con el arco blanco.
+  note: Las opciones a y c describen lo mismo (el arco blanco); la clave oficial marca c.
+- id: k070
+  source:
+    key_item: 70
+    chapter_question: '3.15'
+  question: ¿Cuál color identifica la velocidad de pérdida sin potencia con el flaps y tren de aterrizaje
+    en configuración de aterrizaje?
+  options:
+    a: Límite superior del arco verde.
+    b: Límite superior del arco blanco.
+    c: Límite inferior del arco blanco.
+  answer: c
+  images:
+  - ppa-key-x323.jpg
+  explanation: La velocidad de pérdida sin potencia en configuración de aterrizaje (flaps y tren extendidos)
+    es <b>VSO</b>, que corresponde al <b>límite inferior del arco blanco</b> (60 MPH en la Figura 4).
+    El límite superior del arco verde es VNO y el límite superior del arco blanco es VFE.
+  theory: El límite inferior del arco blanco es VSO; el límite superior del arco verde es VNO y el del
+    arco blanco es VFE.
+- id: k077
+  source:
+    key_item: 77
+    chapter_question: '3.16'
+  question: ¿Cuál es la velocidad máxima estructural de crucero?
+  options:
+    a: 100 MPH.
+    b: 165 MPH.
+    c: 208 MPH.
+  answer: b
+  images:
+  - ppa-key-x323.jpg
+  explanation: La velocidad máxima estructural de crucero es <b>VNO</b>, que corresponde al límite superior
+    del arco verde. En la Figura 4:<br>Límite superior del arco verde = 165 MPH → VNO = 165 MPH.<br>100
+    MPH es VFE (fin del arco blanco) y 208 MPH es VNE (línea roja).
+  theory: El límite superior del arco verde es VNO; 100 MPH es VFE y 208 MPH es VNE.
+- id: k083
+  source:
+    key_item: 83
+    chapter_question: '3.17'
+  question: ¿Cuál es la limitación importante de velocidad que no está codificada con colores en el velocímetro?
+  options:
+    a: Velocidad de nunca exceder.
+    b: Velocidad máxima estructural de crucero.
+    c: Velocidad de maniobra.
+  answer: c
+  explanation: La <b>velocidad de maniobra (VA)</b> no está marcada con colores en el velocímetro porque
+    varía con el peso del avión (disminuye al bajar el peso). Hay que buscarla en el manual de vuelo o
+    en un placard. La VNE (línea roja) y la VNO (fin del arco verde) sí están marcadas.
+  theory: La velocidad de maniobra (VA) no está indicada en el velocímetro.
+- id: k089
+  source:
+    key_item: 89
+    chapter_question: '3.18'
+  question: ¿Cuál de las velocidades representa la de máxima extensión de flaps?
+  options:
+    a: VFE.
+    b: VLOF.
+    c: VFC.
+  answer: a
+  explanation: <b>VFE</b> es la velocidad máxima con flaps extendidos y corresponde al límite superior
+    del arco blanco. VLOF es la velocidad de despegue (cuando el avión deja el suelo) y VFC no es la sigla
+    de la velocidad máxima de flaps.
+  theory: VFE es la mayor velocidad permitida con flaps extendidos.
+- id: k097
+  source:
+    key_item: 97
+    chapter_question: '3.19'
+  question: ¿Cuál es la velocidad que representa la máxima para volar con el tren de aterrizaje extendido?
+  options:
+    a: VLE.
+    b: VLO.
+    c: VFE.
+  answer: a
+  explanation: <b>VLE</b> es la velocidad máxima con el tren de aterrizaje extendido. VLO es la velocidad
+    máxima para operar el tren, es decir, para extenderlo o retraerlo. VFE es la velocidad máxima con
+    flaps extendidos.
+  theory: VLE es la máxima velocidad con el tren de aterrizaje extendido.
+- id: k116
+  source:
+    key_item: 116
+    chapter_question: '3.20'
+  question: 'VNO es definida como:'
+  options:
+    a: Rango normal de operación.
+    b: Velocidad de nunca exceder.
+    c: Máxima estructural de crucero.
+  answer: c
+  explanation: <b>VNO</b> es la velocidad máxima estructural de crucero y está marcada en el límite superior
+    del arco verde. Por encima de ella (arco amarillo) sólo se debe volar en aire calmo. La velocidad
+    de nunca exceder es VNE, y el rango normal de operación es todo el arco verde.
+  theory: VNO es la máxima velocidad estructural de crucero.
+- id: k117
+  source:
+    key_item: 117
+    chapter_question: '3.21'
+  question: ¿Cuál es el rango de velocidad de precaución de la aeronave?
+  options:
+    a: 0 a 60 MPH.
+    b: 100 a 165 MPH.
+    c: 165 a 208 MPH.
+  answer: c
+  images:
+  - ppa-key-x323.jpg
+  explanation: El rango de precaución es el <b>arco amarillo</b>, que va de VNO a VNE. En la Figura 4:<br>Inicio
+    del arco amarillo (VNO) = 165 MPH<br>Fin del arco amarillo / línea roja (VNE) = 208 MPH<br>Rango de
+    precaución = 165 a 208 MPH.<br>100 a 165 MPH es parte del rango normal de operación (arco verde).
+  theory: El rango de precaución (arco amarillo) va de 165 a 208 MPH.
+- id: k127
+  source:
+    key_item: 127
+    chapter_question: '3.22'
+  question: 'Antes del despegue, el altímetro debería ser ajustado a:'
+  options:
+    a: Al QNH (altura media sobre el nivel del mar) del aeropuerto si está disponible o en la elevación
+      del aeropuerto (QFE)
+    b: La altitud de densidad del aeropuerto.
+    c: La presión de altitud del aeropuerto.
+  answer: a
+  explanation: Antes del despegue se ajusta el altímetro al <b>QNH del aeródromo</b>. Así indica la elevación
+    del aeródromo en tierra y la altitud sobre el nivel medio del mar en vuelo. Si no se dispone del QNH,
+    se ajusta el altímetro hasta que indique la elevación del aeródromo. La altitud de densidad y la altitud
+    de presión no son reglajes del altímetro para el despegue.
+  theory: Antes del despegue, el altímetro debe ajustarse de modo que indique la elevación del aeródromo
+    de partida.
+- id: k130
+  source:
+    key_item: 130
+    chapter_question: '3.23'
+  question: ¿A qué altitud se debe selectar en el altímetro 1013 Mb o 29,92” cuando se está ascendiendo
+    al nivel de crucero?
+  options:
+    a: 4500 pies MSL
+    b: 8000 pies MSL.
+    c: A la altitud establecida para cada aeródromo.
+  answer: c
+  explanation: En Argentina, el cambio a 1013,2 hPa (29,92 pulgadas) al ascender se hace al pasar la <b>altitud
+    de transición</b>, que se establece para cada aeródromo y figura en sus cartas. No existe un valor
+    fijo único como los 18.000 pies de EE.UU., así que 4500 u 8000 pies MSL no son correctos de forma
+    general.
+  theory: Se ajusta 1013,2 hPa (29,92 pulgadas) al alcanzar la altitud de transición indicada en la carta
+    de cada aeródromo.
+- id: k145
+  source:
+    key_item: 145
+    chapter_question: '3.24'
+  question: ¿A qué se denomina altitud absoluta?
+  options:
+    a: La altitud leída directamente en el altímetro.
+    b: La distancia vertical entre el avión y el terreno.
+    c: La altitud sobre el nivel medio del mar.
+  answer: b
+  explanation: La <b>altitud absoluta</b> es la distancia vertical entre el avión y el terreno que tiene
+    debajo (altura AGL). La altitud sobre el nivel medio del mar es la altitud verdadera, y la que se
+    lee directamente en el altímetro es la altitud indicada.
+  theory: La altitud absoluta es la altura sobre la superficie del terreno.
+- id: k149
+  source:
+    key_item: 149
+    chapter_question: '3.25'
+  question: ¿A qué se denomina altitud de presión?
+  options:
+    a: La altitud indicada corregida por instalación.
+    b: La altitud indicada cuando la presión barométrica en la ventanilla Kohlsman es ajustada a 29,92”
+      o 1013.25 Mb.
+    c: La altitud indicada es corregida por temperatura y presión.
+  answer: b
+  explanation: La <b>altitud de presión</b> es la que indica el altímetro con 29,92 pulgadas (1013,25
+    hPa) ajustado en la ventanilla de Kollsman, es decir, la altura sobre el plano de presión estándar.
+    La altitud indicada corregida por temperatura y presión se acerca más a la altitud verdadera o de
+    densidad, y la corrección por instalación da la altitud calibrada.
+  theory: La altitud de presión es la que indica el altímetro con 29,92 pulgadas (1013,25 hPa) ajustado
+    en la ventanilla de Kollsman.
+- id: k155
+  source:
+    key_item: 155
+    chapter_question: '3.26'
+  question: ¿En qué circunstancia la altitud indicada es la misma que la altitud verdadera?
+  options:
+    a: Si el altímetro no tiene errores mecánicos.
+    b: Cuando al nivel del mar las condiciones son estándares.
+    c: Cuando a 4000 pies MSL se selecta el altímetro en 29,92”.
+  answer: b
+  explanation: 'La altitud indicada coincide con la verdadera sólo cuando existen <b>condiciones atmosféricas
+    estándar</b> (ISA: 1013,25 hPa y 15 °C a nivel del mar, con el gradiente estándar). Con presión o
+    temperatura no estándar aparecen errores, aunque el altímetro no tenga ningún defecto mecánico.'
+  theory: En un día estándar a nivel del mar, la altitud indicada y la verdadera son iguales.
+- id: k160
+  source:
+    key_item: 160
+    chapter_question: '3.27'
+  question: ¿Bajo qué condiciones la presión de altitud es igual a la altitud verdadera?
+  options:
+    a: Cuando la presión atmosférica es 29,92”.
+    b: Cuando existen condiciones atmosféricas estándares.
+    c: Cuando la altitud indicada es igual a la altitud de presión.
+  answer: b
+  explanation: La altitud de presión es igual a la verdadera sólo en <b>condiciones atmosféricas estándar</b>.
+    Que la presión sea 29,92 pulgadas no alcanza, porque la temperatura también debe ser estándar. Que
+    la altitud indicada sea igual a la de presión sólo significa que el altímetro está ajustado en 29,92.
+  theory: La altitud de presión es igual a la verdadera cuando las condiciones atmosféricas son estándar.
+- id: k169
+  source:
+    key_item: 169
+    chapter_question: '3.28'
+  question: 'Si se vuela desde un área de baja presión hacia una de alta presión sin efectuar ajustes
+    en el altímetro, este indicará:'
+  options:
+    a: La altitud actual sobre el nivel del mar.
+    b: Mayor altitud que la actual sobre el nivel del mar.
+    c: Menor que la actual sobre el nivel del mar.
+  answer: c
+  status: key_error
+  official_key: b
+  explanation: 'Al volar de baja a alta presión sin reajustar, el altímetro queda con un reglaje menor
+    que la presión real. Por eso indica <b>menos</b> que la altitud real: el avión está más alto de lo
+    que muestra el instrumento. El caso inverso, de alta a baja presión, hace que el altímetro indique
+    más que la altitud real; es el caso peligroso, en el que el avión está más bajo de lo que cree el
+    piloto.'
+  theory: De baja a alta presión, la altitud real de la aeronave será mayor que la que indica el altímetro.
+- id: k175
+  source:
+    key_item: 175
+    chapter_question: '3.29'
+  question: 'Si se vuela desde un área de alta presión hacia una de baja presión, el altímetro indicará
+    una altitud:'
+  options:
+    a: Menor que la altitud actual sobre el nivel del mar.
+    b: Mayor que la altitud actual sobre el nivel del mar.
+    c: La actual altitud sobre el nivel del mar.
+  answer: b
+  explanation: 'Al volar de alta a baja presión sin reajustar, el altímetro queda con un reglaje mayor
+    que la presión real. Por eso indica una altitud <b>mayor</b> que la real: el avión está más bajo de
+    lo que muestra el instrumento. Es la situación peligrosa por la cercanía al terreno; de ahí la regla
+    «de alta a baja, cuidado abajo».'
+  theory: La altitud real será menor que la indicada en el altímetro, que indica más.
+- id: k183
+  source:
+    key_item: 183
+    chapter_question: '3.30'
+  question: ¿Qué condiciones pueden causar que el altímetro indique una altitud menor que la verdadera?
+  options:
+    a: Una temperatura menor que la estándar
+    b: Una presión atmosférica menor que la estándar.
+    c: Una temperatura mayor que la estándar.
+  answer: c
+  explanation: 'Con una <b>temperatura mayor que la estándar</b>, el aire es menos denso y los niveles
+    de presión quedan más altos. El avión está entonces más alto de lo que indica el altímetro, que marca
+    una altitud menor que la verdadera. Una temperatura menor que la estándar o una presión menor producen
+    el efecto contrario: el altímetro indica más que la altitud verdadera.'
+  theory: El altímetro indicará una altitud menor que la verdadera si la temperatura es mayor que la estándar.
+- id: c3-31
+  source:
+    chapter_question: '3.31'
+  question: '(Referirse a la Figura 3) El altímetro 1 indica:'
+  options:
+    a: 500 pies.
+    b: 1500 pies.
+    c: 10500 pies.
+  answer: c
+  images:
+  - ppa-figura-03.jpg
+  explanation: 'Se suman las tres agujas del altímetro 1:<br>Aguja corta (10.000 pies): pasando el 1 →
+    10.000 pies<br>Aguja mediana (1000 pies): entre 0 y 1 → 0 pies<br>Aguja larga (100 pies): en 5 → 500
+    pies<br>Total = 10.000 + 0 + 500 = <b>10.500 pies</b>.'
+  theory: 'La aguja corta pasa los 10.000, la mediana está entre 0 y 1000 y la larga en 500: total 10.500
+    pies.'
+- id: c3-32
+  source:
+    chapter_question: '3.32'
+  question: '(Referirse a la Figura 3) El altímetro 2 indica:'
+  options:
+    a: 1500 pies.
+    b: 4500 pies.
+    c: 14500 pies.
+  answer: c
+  images:
+  - ppa-figura-03.jpg
+  explanation: 'Se suman las tres agujas del altímetro 2:<br>Aguja corta (10.000 pies): entre 1 y 2 →
+    10.000 pies<br>Aguja mediana (1000 pies): entre 4 y 5 → 4000 pies<br>Aguja larga (100 pies): en 5
+    → 500 pies<br>Total = 10.000 + 4000 + 500 = <b>14.500 pies</b>.'
+  theory: 'La aguja corta está entre 10.000 y 20.000, la mediana entre 4000 y 5000 y la larga en 500:
+    total 14.500 pies.'
+- id: c3-33
+  source:
+    chapter_question: '3.33'
+  question: '(Referirse a la Figura 3) El altímetro 3 indica:'
+  options:
+    a: 9500 pies.
+    b: 10950 pies.
+    c: 15940 pies.
+  answer: a
+  images:
+  - ppa-figura-03.jpg
+  explanation: 'Se suman las tres agujas del altímetro 3:<br>Aguja corta (10.000 pies): justo antes del
+    1 → 0 pies (todavía no llega a 10.000)<br>Aguja mediana (1000 pies): entre 9 y 0 → 9000 pies<br>Aguja
+    larga (100 pies): en 5 → 500 pies<br>Total = 0 + 9000 + 500 = <b>9500 pies</b>.'
+  theory: 'La aguja corta está casi en 10.000, la mediana entre 9000 y 10.000 y la larga en 500: total
+    9500 pies.'
+- id: c3-34
+  source:
+    chapter_question: '3.34'
+  question: (Referirse a la Figura 3) ¿Cuál de los altímetros indica más de 10000 pies?
+  options:
+    a: 1, 2 y 3.
+    b: 1 y 2 solamente
+    c: 1 solamente.
+  answer: b
+  images:
+  - ppa-figura-03.jpg
+  explanation: Lecturas de la Figura 3:<br>Altímetro 1 = 10.500 pies → más de 10.000<br>Altímetro 2 =
+    14.500 pies → más de 10.000<br>Altímetro 3 = 9500 pies → menos de 10.000<br>Por lo tanto, sólo <b>1
+    y 2</b>.
+  theory: Los altímetros 1 y 2 indican más de 10.000 pies; el 3 indica menos.
+- id: c3-35
+  source:
+    chapter_question: '3.35'
+  question: (Referirse a Figura 7) ¿Cómo podría el piloto determinar para qué lado está inclinado observando
+    el Horizonte Artificial tal como se muestra en la figura?
+  options:
+    a: Por la dirección del puntero en la escala (A).
+    b: Por la inclinación de la barra del horizonte.
+    c: Por la relación del pequeño símbolo del aeroplano respecto a la inclinación de la barra del horizonte.
+  answer: c
+  images:
+  - ppa-figura-07.jpg
+  explanation: La dirección del alabeo se determina por la <b>relación entre el avión miniatura (C) y
+    la barra del horizonte (B)</b>. El ala del avión miniatura que queda por debajo de la barra del horizonte
+    indica hacia qué lado está inclinado el avión. La inclinación de la barra sola puede confundir, porque
+    la barra se mueve en sentido contrario al alabeo.
+  theory: El alabeo se determina por la relación entre el avión miniatura (C) y la barra del horizonte
+    (B).
+- id: c3-36
+  source:
+    chapter_question: '3.36'
+  question: '(Referirse a la Figura 7) El ajuste apropiado que debe hacerse en horizonte artificial volando
+    nivelado es alineando:'
+  options:
+    a: La barra del horizonte artificial con el nivel de vuelo.
+    b: La barra del horizonte artificial con el símbolo del avión.
+    c: El símbolo del avión con la barra del horizonte artificial.
+  answer: c
+  images:
+  - ppa-figura-07.jpg
+  explanation: En vuelo recto y nivelado se ajusta el <b>símbolo del avión miniatura</b> con la perilla
+    hasta alinearlo con la barra del horizonte. La barra del horizonte está estabilizada por el giróscopo
+    y no se puede ajustar; sólo se mueve la figura del avión.
+  theory: Sólo se puede ajustar la figura del avión miniatura.
+- id: c3-37
+  source:
+    chapter_question: '3.37'
+  question: '(Referirse a Figura 6) Para mantener en forma precisa durante el vuelo la indicación del
+    rumbo, al instrumento se debe:'
+  options:
+    a: Ajustar antes del vuelo a un rumbo conocido.
+    b: Mantener calibrado el compás a intervalos regulares.
+    c: Periódicamente realinear con el compás magnético para ir corrigiendo la precesión.
+  answer: c
+  images:
+  - ppa-figura-06.jpg
+  explanation: El indicador de rumbo (giróscopo direccional) sufre <b>precesión</b> por fricción y por
+    la rotación de la Tierra. Por eso hay que realinearlo periódicamente con el compás magnético, en vuelo
+    recto, nivelado y no acelerado (aproximadamente cada 15 minutos). Ajustarlo sólo antes del vuelo no
+    alcanza, porque la deriva se acumula durante el vuelo.
+  theory: Debe verificarse frecuentemente con el compás magnético.
+- id: c3-38
+  source:
+    chapter_question: '3.38'
+  question: 'El desvío del compás magnético (brújula) es causado por:'
+  options:
+    a: Defectos en el imán permanente del compás magnético.
+    b: Diferencia de posición entre el norte geográfico y el norte magnético.
+    c: Campos magnéticos dentro del avión que perturban la indicación del compás magnético.
+  answer: c
+  explanation: 'El <b>desvío</b> del compás es causado por los campos magnéticos dentro del propio avión:
+    partes metálicas, equipos eléctricos y radios. Se corrige con compensadores y una tarjeta de desvíos.
+    La diferencia entre el norte geográfico y el norte magnético es la variación magnética (declinación),
+    no el desvío.'
+  theory: Las perturbaciones magnéticas producidas por metales o accesorios eléctricos del avión causan
+    el desvío del compás.
+- id: c3-39
+  source:
+    chapter_question: '3.39'
+  question: 'La diferencia angular entre el norte verdadero (geográfico) y el norte magnético se denomina:'
+  options:
+    a: Desvío magnético.
+    b: Variación magnética (declinación).
+    c: Error de aceleración del compás.
+  answer: b
+  explanation: La diferencia angular entre el norte verdadero (geográfico) y el norte magnético se llama
+    <b>variación magnética o declinación</b>, y depende del lugar de la Tierra. El desvío es el error
+    causado por los campos magnéticos del propio avión, y el error de aceleración aparece al acelerar
+    o desacelerar en rumbos este u oeste.
+  theory: Se denomina declinación o variación magnética.
+- id: c3-40
+  source:
+    chapter_question: '3.40'
+  question: Durante el vuelo, ¿cuándo es más precisa la lectura del compás magnético?
+  options:
+    a: Sólo en vuelo recto y nivelado con velocidad constante.
+    b: Cuando se mantiene la velocidad constante.
+    c: Cuando durante un viraje la inclinación no excede los 18°.
+  answer: a
+  explanation: El compás magnético sólo es preciso en <b>vuelo recto y nivelado con velocidad constante</b>.
+    En los virajes aparece el error de viraje (inclinación magnética) y con los cambios de velocidad aparece
+    el error de aceleración. Mantener sólo la velocidad constante no alcanza si el avión vira o cambia
+    de actitud.
+  theory: El compás debe leerse sólo en vuelo recto y nivelado y a velocidad constante.
+- id: k294
+  source:
+    key_item: 294
+  question: 'Altitud es:'
+  options:
+    a: la distancia vertical entre un nivel, punto u objeto considerado como punto y el nivel medio del
+      mar (MSL) y diferentes términos se identifican según el nivel de referencia usado.
+    b: la distancia horizontal entre un nivel, punto u objeto considerado como punto y el nivel medio
+      del mar (MSL) y diferentes términos se identifican según el nivel de referencia usado
+    c: la distancia vertical entre un nivel, punto u objeto considerado como punto y el nivel de vuelo
+      medio del mar (MVSL)
+  answer: a
+  explanation: La <b>altitud</b> es la distancia <b>vertical</b> entre un nivel, punto u objeto y el nivel
+    medio del mar (MSL). Según la referencia que se use, existen distintos términos (altura, elevación,
+    etc.). La opción b habla de distancia horizontal, lo cual es incorrecto, y la c inventa una referencia
+    inexistente (MVSL).
+- id: k295
+  source:
+    key_item: 295
+  question: Como se denomina a la velocidad de una aeronave que indica el velocímetro, asociado al sistema
+    pitot-estático no corregido por errores del sistema.
+  options:
+    a: Velocidad Calibrada (CAS)
+    b: Velocidad Indicada (IAS)
+    c: Velocidad de crucero
+  answer: b
+  explanation: La velocidad que se lee directamente en el velocímetro, sin corregir por errores del sistema
+    pitot-estático, es la <b>velocidad indicada (IAS)</b>. La velocidad calibrada (CAS) es la IAS corregida
+    por error de instrumento y de posición o instalación.
+- id: k320
+  source:
+    key_item: 320
+  question: 'En la figura numero 4 el indicador de giros y ladeos nos indica que la aeronave se encuentra
+    en:'
+  options:
+    a: en un giro coordinado
+    b: en un viraje suave coordinado por derecha
+    c: en vuelo recto y nivelado
+  answer: b
+  images:
+  - ppa-key-x331.jpg
+  explanation: En el coordinador de viraje (instrumento 4), el avión miniatura está levemente inclinado
+    hacia la derecha (R), sin llegar a la marca de viraje estándar, y la bola está centrada. Eso indica
+    un <b>viraje suave coordinado por derecha</b>. No es vuelo recto y nivelado porque las alas del símbolo
+    no están niveladas.
+- id: k328
+  source:
+    key_item: 328
+  question: 'Instru V: La lectura del instrumento indica'
+  options:
+    a: Presion y Temperatura dentro del parametro normal.
+    b: Temperatura dentro de rango normal y baja presión
+    c: Alta presión y temperatura normal
+  answer: b
+  images:
+  - ppa-key-x338.jpg
+  explanation: 'Lectura del indicador combinado de aceite:<br>Temperatura: aguja en aproximadamente 155-160
+    °C → dentro del arco verde (normal)<br>Presión: aguja en aproximadamente 25-30 PSI → por debajo del
+    arco verde (aprox. 60-100), cerca de la marca roja inferior → baja<br>Resultado: <b>temperatura normal
+    y baja presión</b>.'
+- id: k329
+  source:
+    key_item: 329
+  question: Instru V. A la cual de las siguientes figuras corresponde un viraje no coordinado.
+  options:
+    a: Figura 1 y 3
+    b: Figura 2 y 3
+    c: Figura 1 y 2
+  answer: c
+  images:
+  - ppa-key-x336.jpg
+  explanation: Un viraje es <b>no coordinado</b> cuando la bola del inclinómetro está desplazada del centro.
+    En la figura 1 la bola está hacia afuera del viraje (derrape) y en la figura 2 está hacia adentro
+    (resbale). En la figura 3 la bola está centrada, es decir, el viraje está coordinado. Por lo tanto,
+    la respuesta es <b>1 y 2</b>.
+- id: k330
+  source:
+    key_item: 330
+  question: 'Instru. v: En vuelo la Lectura del instrumento esta indicando que:'
+  options:
+    a: Baja presion de aceite lo cual indicaria una posible falla en la planta motriz
+    b: Baja presion de temperatura y alta temperatura de aceite en relacion. lo cual indica una falla
+      en la planta motriz
+    c: Presion de aceite y temperatura normal en relacion.
+  answer: a
+  images:
+  - ppa-key-x338.jpg
+  explanation: El instrumento muestra la temperatura de aceite dentro del arco verde (normal) y la presión
+    de aceite por debajo del arco verde, cerca de la línea roja. Una <b>baja presión de aceite</b> en
+    vuelo puede indicar una falla en la planta motriz (pérdida de aceite o falla de la bomba). Por eso
+    no es correcto decir que ambos parámetros son normales.
+- id: k342
+  source:
+    key_item: 342
+  question: 'La Velocidad Calibrada (CAS):'
+  options:
+    a: es la velocidad indicada de una aeronave, corregida por presion del instrumento.
+    b: es la velocidad absoluta de una aeronave, corregida por error de instrumento.
+    c: es la velocidad indicada de una aeronave, corregida por posición y error de instrumento.
+  answer: c
+  explanation: La <b>velocidad calibrada (CAS)</b> es la velocidad indicada (IAS) corregida por error
+    de posición (instalación) y por error de instrumento. La opción a omite el error de posición, y la
+    b habla de velocidad absoluta, lo cual es incorrecto.
+- id: k363
+  source:
+    key_item: 363
+  question: 'Previo al despegue, se debe:'
+  options:
+    a: realizar el ajuste altimétrico, obteniendo el QFE correspondiente al aeropuerto. Si esta información
+      no se encuentra disponible, se debería ajustar la elevación del lugar ultimo de despegue.
+    b: realizar el ajuste altimétrico, obteniendo el QNH correspondiente al aeropuerto. Si esta información
+      no se encuentra disponible, se debería ajustar la elevación del lugar de despegue (QFE o elevación
+      del aeródromo o cabecera usada para el despegue).
+    c: realizar el ajuste milimétrico, obteniendo el QNH correspondiente al aeropuerto. Si esta información
+      no se encuentra disponible, se debería ajustar la elevación del lugar de despegue (MSL).
+  answer: b
+  explanation: Antes del despegue se ajusta el altímetro con el <b>QNH del aeródromo</b>. Si no está disponible,
+    se ajusta hasta que indique la elevación del lugar de despegue (aeródromo o cabecera en uso). La opción
+    a usa QFE como reglaje principal y la elevación del último lugar de despegue, lo cual es incorrecto.
+    La c habla de un «ajuste milimétrico», que no existe.
+- id: k370
+  source:
+    key_item: 370
+  question: 'Segun la lectura de los instrumentos 1 / 3 / 6 del panel de instrumentos la aeronave esta
+    en:'
+  options:
+    a: Descenso de velocidad y en ascenso.
+    b: Velocidad de ascenso 80 kt, ascenso positivo a un rango de 1000 pies por minuto.
+    c: Velocidad de ascenso 80 Millas, ascenso positivo a un rango de 100 pies por minuto.
+  answer: b
+  images:
+  - ppa-key-x331.jpg
+  explanation: 'Lectura de los instrumentos:<br>Instrumento 1 (velocímetro, en nudos): aproximadamente
+    80 kt<br>Instrumento 6 (variómetro, escala ×100 pies/min): aguja en 10 del lado UP → +1000 pies/min<br>Instrumento
+    3 (altímetro): en ascenso<br>Resultado: <b>80 kt con ascenso de 1000 pies por minuto</b>. La opción
+    c es incorrecta porque el velocímetro está en nudos (no millas) y 10 en la escala equivale a 1000
+    pies/min, no a 100.'
+- id: k373
+  source:
+    key_item: 373
+  question: Si se realiza un vuelo desde un área de alta presión hacia una de baja presión sin efectuar
+    ajustes en el altímetro, la altitud actual de la aeronave será menor que la indicada en el altímetro
+    y cuando se vuela desde un área de baja presión hacia una de alta presión la altitud actual de la
+    aeronave será mayor que la indicada en el altímetro
+  options:
+    a: Verdadero
+    b: Falso
+  answer: a
+  explanation: '<b>Verdadero.</b> De alta a baja presión sin reajustar, el altímetro indica más que la
+    altitud real, así que el avión está más bajo de lo que se cree («de alta a baja, cuidado abajo»).
+    De baja a alta presión ocurre lo contrario: el altímetro indica menos y la altitud real es mayor que
+    la indicada.'
+- id: k381
+  source:
+    key_item: 381
+  question: 'Velocidad Calibrada (CAS):'
+  options:
+    a: Es la velocidad corregida por posición. La velocidad calibrada es diferente a la velocidad verdadera
+      a nivel del mar.
+    b: Es la velocidad de crucero de una aeronave, corregida por posición y error del instrumento que
+      mide la altura. .
+    c: Es la velocidad indicada de una aeronave, corregida por posición y error de instrumento. La velocidad
+      calibrada es igual a la velocidad verdadera en la atmósfera estándar a nivel del mar.
+  answer: c
+  explanation: La <b>CAS</b> es la velocidad indicada corregida por error de posición y de instrumento.
+    En la atmósfera estándar a nivel del mar, la CAS es igual a la velocidad verdadera (TAS). La opción
+    a afirma que son diferentes a nivel del mar, y la b habla de velocidad de crucero y de un instrumento
+    que mide altura, lo cual es incorrecto.
+- id: k382
+  source:
+    key_item: 382
+  question: 'Velocidad Verdadera (TAS):'
+  options:
+    a: es la velocidad calibrada corregida por variaciones de temperatura y presión.
+    b: es la velocidad que aumenta por variaciones de temperatura y presión.
+    c: es la velocidad por variaciones de temperatura y altura en relacion al nivel del mar.
+  answer: a
+  explanation: La <b>velocidad verdadera (TAS)</b> es la velocidad calibrada (CAS) corregida por temperatura
+    y presión no estándar, es decir, por la densidad del aire según la altitud. Es la velocidad real del
+    avión respecto de la masa de aire. Las opciones b y c no la definen a partir de la CAS y son imprecisas.

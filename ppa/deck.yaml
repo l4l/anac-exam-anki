@@ -1,0 +1,30 @@
+# Deck configuration for build.py. IDs must never change once the deck is
+# shared, otherwise Anki treats a re-import as a brand new deck / note type.
+name: ANAC PPA
+slug: anac-ppa            # namespace for stable note GUIDs (guid = hash(slug, card id))
+model_id: 1730115201
+model_name: ANAC PPA (opción múltiple)
+tag_prefix: ppa
+chapters:                 # file prefix -> subdeck (deck id, title)
+  "01": {id: 1730115211, title: "01 Aerodinámica básica"}
+  "02": {id: 1730115212, title: "02 Grupo motopropulsor"}
+  "03": {id: 1730115213, title: "03 Instrumentos de vuelo"}
+  "04": {id: 1730115214, title: "04 Regulaciones"}
+  "05": {id: 1730115215, title: "05 Generalidades"}
+  "06": {id: 1730115216, title: "06 Meteorología"}
+  "07": {id: 1730115217, title: "07 Performance"}
+  "08": {id: 1730115218, title: "08 Navegación"}
+  "09": {id: 1730115219, title: "09 Factores humanos y seguridad operacional"}
+status:                   # card status -> tag + warning shown on the back
+  key_error:
+    tag: clave_oficial_erronea
+    warning: "La clave oficial de ANAC marca <b>{official_key})</b>, pero es incorrecta. En el examen podría corregirse según la clave oficial."
+  no_key:
+    tag: sin_clave_oficial
+    warning: "La clave oficial de ANAC no marca ninguna opción para esta pregunta."
+  ambiguous:
+    tag: ambigua
+    warning: "Pregunta ambigua o defectuosa. La opción marcada coincide con la clave oficial ({official_key})."
+  outdated:
+    tag: desactualizada
+    warning: "Respuesta según la clave oficial (RAAC 2013-2014). La normativa vigente cambió: ver nota."

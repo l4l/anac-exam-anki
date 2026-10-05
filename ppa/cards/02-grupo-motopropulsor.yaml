@@ -1,0 +1,1121 @@
+- id: k355
+  source:
+    key_item: 355
+    chapter_question: '2.1'
+  question: 'Si fuera necesario poner en marcha un motor de avión a mano por no poseer sistema de arranque
+    (starter), resulta extremadamente importante que un piloto competente:'
+  options:
+    a: Confirme "en contacto" antes de tocar la hélice.
+    b: Se encuentre en los controles en la cabina.
+    c: Se encuentre en la cabina y colacione las órdenes
+  answer: b
+  status: key_error
+  official_key: c
+  explanation: Al arrancar un motor a mano (girando la hélice), lo fundamental es que un piloto competente
+    esté <b>en los controles de la cabina</b>, para poder actuar sobre frenos, acelerador, mezcla y magnetos
+    si el motor arranca. Confirmar "en contacto" o colacionar las órdenes son buenas prácticas de comunicación,
+    pero no reemplazan tener a alguien controlando el avión.
+  theory: Un piloto competente debe encontrarse en los controles de la cabina; a) y c) son incorrectas.
+- id: c2-02
+  source:
+    chapter_question: '2.2'
+  question: ¿Cuál sería la primera acción luego de encender un motor de avión?
+  options:
+    a: Ajustar las RPM adecuadas y verificar los parámetros correctos en los instrumentos de motor.
+    b: Selectar temporalmente el interruptor del magneto o encendido en la posición de APAGADO (OFF) para
+      verificar la correcta puesta a masa.
+    c: Probar cada freno y el freno de estacionamiento.
+  answer: a
+  explanation: Inmediatamente después de la puesta en marcha se ajustan las RPM de calentamiento y se
+    verifican los instrumentos de motor, en especial la <b>presión de aceite</b>. La verificación de puesta
+    a masa de los magnetos se hace al detener el motor, y la prueba de frenos al comenzar el rodaje.
+  theory: Ajuste las RPM de calentamiento y verifique la presión de aceite; b) se realiza al final del
+    vuelo; c) al comenzar a rodar.
+- id: c2-03
+  source:
+    chapter_question: '2.3'
+  question: ¿Cuál de los siguientes es uno de los fines para los que se utilizan motores alternativos?
+  options:
+    a: Se distribuye mejor el calor.
+    b: Preservar la duración de la cabeza de cilindro y mantener temperaturas más bajas.
+    c: Son relativamente simples y económicos para operar.
+  answer: c
+  explanation: Los aviones de instrucción y livianos usan motores alternativos porque son <b>relativamente
+    simples y económicos de operar</b>. Las otras opciones no describen un motivo para elegir este tipo
+    de motor.
+  theory: Se utilizan motores alternativos porque son relativamente económicos y sencillos de operar.
+- id: c2-04
+  source:
+    chapter_question: '2.4'
+  question: 'Uno de los fines del sistema dual de encendido en motor de aeronave consiste en proporcionar:'
+  options:
+    a: Mejor rendimiento del motor.
+    b: Distribución uniforme del calor.
+    c: Compresión balanceada en la cabeza de cilindro.
+  answer: a
+  explanation: El encendido dual (dos magnetos y dos bujías por cilindro) brinda <b>redundancia</b> y
+    <b>mejor rendimiento del motor</b>, ya que dos frentes de llama queman la mezcla de forma más completa
+    y rápida. No tiene relación con la distribución del calor ni con la compresión en el cilindro.
+  theory: Redundancia y mejora en el rendimiento del motor; b) y c) son incorrectas.
+- id: c2-05
+  source:
+    chapter_question: '2.5'
+  question: 'Ocurre una falla en el sistema eléctrico (batería y generador) durante el vuelo. En esta
+    situación, Ud.:'
+  options:
+    a: Sufre una falla en el equipamiento de aviónica.
+    b: Probablemente sufra una falla en el sistema de encendido del motor, en los indicadores del motor,
+      en el sistema de iluminación de la aeronave y en el equipamiento de aviónica.
+    c: Probablemente sufra una falla del motor debido a la pérdida de la bomba eléctrica de combustible
+      y también sufra fallas en el equipamiento de radio, luces y todos los instrumentos que requieren
+      corriente alterna.
+  answer: a
+  explanation: Los magnetos generan su propia corriente y son independientes del sistema eléctrico, y
+    la bomba de combustible principal es mecánica, accionada por el motor. Por eso, al perder batería
+    y alternador, el motor sigue funcionando y solo falla el <b>equipamiento eléctrico, como la aviónica</b>.
+    Las opciones b) y c) suponen erróneamente que el encendido o el motor dependen del sistema eléctrico.
+  theory: Falla en el equipo de aviónica; b) es incorrecta porque los magnetos son independientes; c)
+    es incorrecta porque la bomba de combustible del motor es mecánica.
+- id: c2-06
+  source:
+    chapter_question: '2.6'
+  question: 'Si el cable a tierra conectado entre el magneto y el interruptor de encendido se desconecta,
+    el resultado más notable será que el motor:'
+  options:
+    a: Funcione en forma muy brusca.
+    b: No arranque con el interruptor colocado en la posición de ENCENDIDO (ON).
+    c: No se pueda parar al colocar el interruptor en la posición de APAGADO (OFF).
+  answer: c
+  explanation: El motor se detiene con el interruptor en OFF porque este pone a masa el primario del magneto
+    a través de ese cable. Si el cable a tierra se desconecta, el magneto queda "vivo" y el motor <b>no
+    se puede parar</b> con el interruptor en OFF; además, mover la hélice puede hacerlo arrancar. El motor
+    sí arranca y funciona normalmente con el interruptor en ON.
+  theory: No se puede detener el motor al colocar el interruptor en APAGADO (OFF).
+- id: c2-07
+  source:
+    chapter_question: '2.7'
+  question: 'El principio operativo de los carburadores de tipo flotante se encuentra basado en:'
+  options:
+    a: La regulación automática de aire en el venturi a medida que la aeronave gana altitud.
+    b: La diferencia entre la presión de aire en la garganta del venturi y la entrada de aire.
+    c: El incremento de la velocidad del aire en la garganta de un venturi, lo que causa un incremento
+      en la presión del aire.
+  answer: b
+  explanation: 'El carburador de flotante funciona por la <b>diferencia de presión</b> entre la garganta
+    del venturi (baja presión) y la entrada de aire, que hace fluir el combustible hacia el venturi. La
+    opción c) es incorrecta: al aumentar la velocidad del aire en el venturi, la presión <b>disminuye</b>,
+    no aumenta.'
+  theory: Diferencia de presión entre el área de baja presión del venturi y el aire exterior; a) y c)
+    son incorrectas.
+- id: k014
+  source:
+    key_item: 14
+    chapter_question: '2.8'
+  question: 'El propósito principal de regular el control de la mezcla aire/combustible en altitud es:'
+  options:
+    a: reducir el flujo de combustible para compensar la menor densidad del aire.
+    b: reducir la cantidad de combustible en la mezcla a fin de compensar la mayor densidad del aire.
+    c: incrementar la cantidad de combustible en la mezcla a fin de compensar la menor presión y densidad
+      del aire.
+  answer: a
+  explanation: Al ganar altitud el aire es menos denso, pero el carburador sigue entregando la misma cantidad
+    de combustible, por lo que la mezcla se enriquece. Se empobrece la mezcla para <b>reducir el flujo
+    de combustible</b> y compensar la menor densidad del aire. La opción b) es errónea porque en altura
+    la densidad es menor, no mayor, y c) haría la mezcla aún más rica.
+  theory: Disminuir el caudal de combustible para compensar la disminución de la densidad del aire; b)
+    y c) son incorrectas.
+- id: c2-09
+  source:
+    chapter_question: '2.9'
+  question: Durante el vuelo nivelado a 9500 pies a nivel medio del mar (MSL), la mezcla de combustible
+    y aire se ajusta en forma adecuada. ¿Qué ocurrirá si se realiza un descenso de 4500 pies a nivel medio
+    del mar (MSL) sin reajustar la mezcla?
+  options:
+    a: La mezcla de combustible y aire podría ser excesivamente pobre.
+    b: Habrá más combustible en los cilindros de lo que se necesita para la combustión normal y el combustible
+      excedente absorberá calor y enfriará el motor.
+    c: La mezcla excesivamente rica creará temperaturas mayores de la cabeza de cilindro y podría causar
+      detonación.
+  answer: a
+  explanation: 'La mezcla quedó empobrecida para la densidad de 9500 pies. Al descender a 4500 pies el
+    aire es más denso: entra más aire con el mismo caudal de combustible, por lo que la mezcla podría
+    quedar <b>excesivamente pobre</b>. Las opciones b) y c) describen una mezcla rica, que es lo contrario
+    de lo que ocurre.'
+  theory: En el descenso aumenta la densidad del aire y el combustible no varía, por lo que la mezcla
+    se empobrece; b) y c) son incorrectas.
+- id: c2-10
+  source:
+    chapter_question: '2.10'
+  question: Durante la prueba de motores en un aeropuerto de gran elevación, un piloto nota una ligera
+    brusquedad en el motor que no se ve afectada por la verificación del magneto pero empeora durante
+    la verificación del calor al carburador. En estas circunstancias, ¿cuál sería la acción inicial más
+    lógica?
+  options:
+    a: Verificar los resultados obtenidos con una configuración más pobre de la mezcla.
+    b: Volver a plataforma para un chequeo de mantenimiento.
+    c: Reducir el acelerador para controlar la detonación.
+  answer: a
+  explanation: En un aeródromo de gran elevación el aire es poco denso y, sin empobrecer, la mezcla queda
+    demasiado rica. El calor al carburador reduce aún más la densidad y enriquece la mezcla, por eso la
+    brusquedad empeora. Lo lógico es <b>empobrecer la mezcla</b> y repetir la verificación; volver a mantenimiento
+    corresponde solo si no mejora, y con mezcla rica no hay detonación.
+  theory: 'Mezcla demasiado rica por la altitud: empobrecer; b) solo si no mejora; c) con mezcla rica
+    no hay detonación.'
+- id: c2-11
+  source:
+    chapter_question: '2.11'
+  question: 'Si una aeronave se encuentra equipada con una hélice de paso fijo y un carburador de tipo
+    flotante, la primera indicación de hielo en el carburador sería más probablemente debido a:'
+  options:
+    a: Una caída de la temperatura del aceite y de la temperatura de la cabeza de cilindro.
+    b: Brusquedad del motor.
+    c: Pérdida de RPM.
+  answer: c
+  explanation: Con hélice de paso fijo, el hielo en el carburador restringe el paso de aire y lo primero
+    que se nota es una <b>pérdida de RPM</b>. La brusquedad del motor aparece después, cuando el hielo
+    ya es importante, y la caída de temperaturas no es la indicación inicial típica.
+  theory: La primera indicación es la pérdida de RPM; a) y b) se desarrollan después.
+- id: c2-12
+  source:
+    chapter_question: '2.12'
+  question: 'Se puede verificar la presencia de hielo en el carburador de una aeronave equipada con una
+    hélice de paso fijo al aplicar aire caliente al carburador y notar:'
+  options:
+    a: Un incremento de RPM y luego una disminución gradual de las mismas.
+    b: Una disminución de RPM y luego una indicación constante de las mismas.
+    c: Una disminución de RPM y luego un incremento gradual de las mismas.
+  answer: c
+  explanation: Al aplicar aire caliente, el aire menos denso enriquece la mezcla y las RPM <b>disminuyen</b>.
+    Si había hielo, a medida que se derrite las RPM <b>aumentan gradualmente</b>. Una caída de RPM que
+    luego se mantiene constante (opción b) indica que no había hielo.
+  theory: Las RPM disminuyen y luego aumentan si había hielo; b) correspondería a la ausencia de hielo.
+- id: c2-13
+  source:
+    chapter_question: '2.13'
+  question: ¿Cuál condición es la más favorable para el desarrollo de hielo en el carburador?
+  options:
+    a: Cualquier temperatura bajo cero y humedad relativa de menos del 50 por ciento.
+    b: Temperatura entre 1° C y 10° C y baja humedad.
+    c: Temperatura entre -7° C y 21° C y alta humedad.
+  answer: c
+  explanation: El hielo en el carburador se forma por el enfriamiento del venturi y la vaporización del
+    combustible, que pueden bajar la temperatura más de 20 °C. Por eso es más probable entre <b>-7 °C
+    y 21 °C con alta humedad</b>. Con baja humedad hay poco vapor de agua que congelar, por lo que a)
+    y b) no son las condiciones más favorables.
+  theory: Entre -7 °C y 21 °C con humedad visible o alta; a) y b) son incorrectas.
+- id: c2-14
+  source:
+    chapter_question: '2.14'
+  question: 'La posibilidad de formación de hielo en el carburador existe aún cuando la temperatura ambiente
+    del aire alcanza:'
+  options:
+    a: Hasta 21° C y la humedad relativa es alta.
+    b: Hasta 32° C y hay humedad visible.
+    c: Hasta -15° C y la humedad relativa es alta.
+  answer: a
+  explanation: Debido al gran enfriamiento dentro del carburador, puede formarse hielo con temperaturas
+    exteriores de <b>hasta 21 °C</b> si la humedad relativa es alta. Por encima de 21 °C (32 °C) o por
+    debajo de -7 °C (-15 °C) la formación es mucho menos probable.
+  theory: b) es menos probable por encima de 21 °C; c) es menos probable por debajo de -7 °C.
+- id: c2-15
+  source:
+    chapter_question: '2.15'
+  question: 'La formación de hielo en el carburador puede ocurrir con una temperatura del aire exterior
+    que alcance:'
+  options:
+    a: 100° F y humedad visible.
+    b: 20° C y humedad relativa alta.
+    c: 75° F y humedad relativa baja.
+  answer: b
+  explanation: El rango de riesgo de hielo en el carburador es de -7 °C a 21 °C con alta humedad. <b>20
+    °C con humedad relativa alta</b> está dentro de ese rango. 100 °F (≈38 °C) es demasiado caliente,
+    y 75 °F (≈24 °C) con humedad baja hace muy improbable la formación de hielo.
+  theory: Entre -7 °C y 21 °C con alta humedad; 20 °C con humedad alta está dentro del rango.
+- id: c2-16
+  source:
+    chapter_question: '2.16'
+  question: 'Aplicar aire caliente al carburador:'
+  options:
+    a: Causará que pase más aire a través del carburador.
+    b: Enriquecerá la mezcla de combustible y aire.
+    c: No afectará la mezcla de combustible y aire.
+  answer: b
+  explanation: El aire caliente es <b>menos denso</b>; el carburador entrega la misma cantidad de combustible
+    para una menor masa de aire, por lo que la mezcla se <b>enriquece</b>. No hace pasar más aire (en
+    masa) por el carburador, y sí afecta la mezcla.
+  theory: La mezcla de combustible y aire se enriquece; a) y c) son incorrectas.
+- id: c2-17
+  source:
+    chapter_question: '2.17'
+  question: ¿Qué cambio ocurre en la mezcla de combustible y aire cuando se aplica el calor del carburador?
+  options:
+    a: La mezcla pobre causa una disminución en las RPM.
+    b: La mezcla de combustible y aire se enriquece.
+    c: La mezcla de combustible y aire se empobrece.
+  answer: b
+  explanation: Al aplicar calor al carburador entra aire más caliente y menos denso con el mismo caudal
+    de combustible, por lo que la mezcla se <b>enriquece</b>. Por eso las RPM bajan, pero no por empobrecimiento
+    como sugieren a) y c).
+  theory: Las respuestas a) y c) son incorrectas porque la mezcla se enriquece.
+- id: c2-18
+  source:
+    chapter_question: '2.18'
+  question: 'En términos generales, el uso del aire caliente al carburador tiende a:'
+  options:
+    a: Disminuir el rendimiento del motor.
+    b: Incrementar el rendimiento del motor.
+    c: No tiene efecto alguno sobre el rendimiento del motor.
+  answer: a
+  explanation: El aire caliente es menos denso y enriquece la mezcla, por lo que el motor entrega <b>menos
+    potencia</b>; además aumenta la temperatura de funcionamiento. Por eso no se recomienda usarlo cuando
+    se necesita toda la potencia, por ejemplo en el despegue.
+  theory: Tiende a reducir el rendimiento del motor y a aumentar su temperatura.
+- id: c2-19
+  source:
+    chapter_question: '2.19'
+  question: 'Con respecto al hielo del carburador y en comparación con los sistemas de inyección de combustible,
+    se considera que los sistemas de carburador de tipo flotante son:'
+  options:
+    a: Más susceptibles a la formación de hielo.
+    b: Igualmente susceptibles a la formación de hielo.
+    c: Susceptibles a la formación de hielo sólo cuando existe humedad visible.
+  answer: a
+  explanation: 'El carburador de flotante tiene venturi y vaporiza el combustible en el conducto de admisión,
+    lo que provoca un fuerte enfriamiento. Por eso es <b>más susceptible</b> a la formación de hielo que
+    la inyección. Tampoco hace falta humedad visible: alcanza con humedad relativa alta.'
+  theory: La inyección de combustible es menos susceptible a la formación de hielo; b) y c) son incorrectas.
+- id: c2-20
+  source:
+    chapter_question: '2.20'
+  question: En aeronaves equipadas con bomba de combustible eléctrica, ¿cuándo se utiliza dicha bomba?
+  options:
+    a: Todo el tiempo para ayudar a la bomba mecánica de combustible.
+    b: En el caso que la bomba de combustible mecánica del motor falle.
+    c: Constantemente, excepto cuando se arranque el motor.
+  answer: b
+  explanation: 'La bomba eléctrica es <b>auxiliar</b>: se usa como respaldo en caso de falla de la bomba
+    mecánica del motor y, según el manual de vuelo, en el arranque, el despegue y el aterrizaje. No funciona
+    permanentemente durante todo el vuelo.'
+  theory: La bomba eléctrica es auxiliar y se utiliza en caso de que falle la bomba principal.
+- id: c2-21
+  source:
+    chapter_question: '2.21'
+  question: 'Si el grado de combustible que se utiliza en un motor de aeronave es menor al especificado
+    para el motor, lo más probable es que cause:'
+  options:
+    a: Una mezcla de combustible y aire que no es uniforme en todos los cilindros.
+    b: Temperaturas más bajas de la cabeza de cilindro.
+    c: Detonación.
+  answer: c
+  explanation: Un combustible de grado (octanaje) menor al especificado tiene menor <b>poder antidetonante</b>,
+    por lo que lo más probable es que cause <b>detonación</b>. Esto aumenta la temperatura de la cabeza
+    de cilindro, no la disminuye.
+  theory: Un combustible de menor octanaje causa detonación; a) y b) son incorrectas.
+- id: c2-22
+  source:
+    chapter_question: '2.22'
+  question: 'La detonación puede ocurrir en configuraciones de alta potencia cuando:'
+  options:
+    a: La mezcla de combustible enciende instantáneamente en lugar de quemarse en forma pareja y progresiva.
+    b: Una mezcla de combustible excesivamente rica causa mayor potencia durante la explosión.
+    c: Se enciende la mezcla de combustible demasiado pronto por depósitos de carbono caliente en el cilindro.
+  answer: a
+  explanation: La detonación es la combustión <b>instantánea y explosiva</b> de la mezcla en lugar de
+    quemarse en forma pareja y progresiva. La opción c) describe el preencendido, y b) es incorrecta porque
+    la detonación se asocia a mezcla pobre, no rica.
+  theory: Explosión repentina en lugar de un quemado suave; b) es incorrecta; c) describe el preencendido.
+- id: c2-23
+  source:
+    chapter_question: '2.23'
+  question: 'La detonación ocurre en un motor alternativo de avión cuando:'
+  options:
+    a: Las bujías de encendido se encuentran obstruidas o en cortocircuito o el cableado está defectuoso.
+    b: Puntos calientes en la cámara de combustión encienden la mezcla de combustible/aire antes del encendido
+      normal.
+    c: La mezcla sin quemar en los cilindros explota en lugar de quemarse normalmente.
+  answer: c
+  explanation: En la detonación, la mezcla sin quemar en el cilindro <b>explota</b> en lugar de quemarse
+    normalmente. La opción b) (puntos calientes que encienden la mezcla antes de la chispa) es el preencendido,
+    y a) es una falla del sistema de encendido.
+  theory: a) no tiene relación con el cableado; b) describe el preencendido.
+- id: k019
+  source:
+    key_item: 19
+    chapter_question: '2.24'
+  question: 'El encendido no controlado de la mezcla aire/combustible, antes de la ignición normal de
+    la chispa, se conoce como:'
+  options:
+    a: combustión instantánea.
+    b: detonación.
+    c: pre-ignición.
+  answer: c
+  explanation: El encendido no controlado de la mezcla <b>antes</b> de la chispa normal se llama <b>preencendido
+    (pre-ignición)</b>, y suele deberse a puntos calientes como depósitos de carbón incandescentes. La
+    detonación, en cambio, es la explosión de la mezcla después del encendido normal.
+  theory: El preencendido se define como el encendido de la mezcla antes del encendido normal.
+- id: c2-25
+  source:
+    chapter_question: '2.25'
+  question: ¿Qué combustible tipo puede ser sustituido para una aeronave si el octano recomendado no se
+    encuentra disponible?
+  options:
+    a: El próximo mayor octanaje.
+    b: El próximo menor octanaje.
+    c: Combustible automotor sin plomo de la misma categoría de octanaje.
+  answer: a
+  explanation: Si no se dispone del octanaje especificado, se puede usar el <b>próximo octanaje mayor</b>
+    de combustible de aviación. Un octanaje menor puede provocar detonación, y el combustible automotor
+    solo se puede usar si la aeronave está certificada para ello.
+  theory: Utilizar el próximo octanaje mayor; b) y c) son incorrectas.
+- id: c2-26
+  source:
+    chapter_question: '2.26'
+  question: 'Cargar los tanques de combustible luego del último vuelo del día se considera un buen procedimiento
+    operativo porque:'
+  options:
+    a: Forzará al agua existente a que suba al tope del tanque, lejos de las líneas de combustibles al
+      motor.
+    b: Prevendrá la expansión del combustible al eliminar espacio de aire en los tanques.
+    c: Prevendrá la condensación de humedad al eliminar espacio de aire en los tanques.
+  answer: c
+  explanation: Al llenar los tanques se elimina el espacio de aire, donde durante la noche la humedad
+    se <b>condensa</b> en las paredes y agrega agua al combustible. El agua es más pesada que el combustible
+    y se deposita en el fondo, no en el tope, por lo que a) es incorrecta.
+  theory: Prevendrá la condensación de humedad; a) y b) son incorrectas.
+- id: c2-27
+  source:
+    chapter_question: '2.27'
+  question: 'Para purgar el agua en forma adecuada del sistema de combustible de una aeronave equipada
+    con depósitos de tanque de combustible y un drenaje rápido de filtro de combustible, es necesario
+    hacerlo:'
+  options:
+    a: Desde el filtro de drenaje rápido de combustible.
+    b: Desde el punto más bajo en el sistema de combustible.
+    c: Desde el drenaje rápido del filtro de combustible y desde los depósitos de tanque de combustible.
+  answer: c
+  explanation: Para eliminar el agua por completo hay que drenar el <b>filtro de combustible</b> (drenaje
+    rápido) <b>y los sumideros de todos los tanques</b>, ya que el agua puede acumularse en cada uno de
+    esos puntos bajos. Drenar solo el filtro o un único punto no garantiza purgar todo el sistema.
+  theory: Se deben drenar el filtro de combustible y los sumideros de todos los tanques.
+- id: c2-28
+  source:
+    chapter_question: '2.28'
+  question: 'Si un piloto sospecha que un motor (con una hélice de paso fijo) está detonando durante el
+    ascenso luego del despegue, la acción correctiva inicial que se debería tomar sería:'
+  options:
+    a: Empobrecer la mezcla.
+    b: Bajar levemente la nariz para incrementar la velocidad.
+    c: Aplicar calor de carburador.
+  answer: b
+  explanation: Ante una sospecha de detonación en el ascenso, lo primero es <b>bajar levemente la nariz</b>
+    para aumentar la velocidad y el flujo de aire de refrigeración. Empobrecer la mezcla aumenta la temperatura
+    y el calor al carburador calienta el aire de admisión, empeorando la detonación.
+  theory: Bajar la nariz para ganar velocidad; a) y c) son incorrectas.
+- id: c2-29
+  source:
+    chapter_question: '2.29'
+  question: 'Temperaturas de motor excesivamente altas:'
+  options:
+    a: Causarán daño a las salidas de escape y torsión de las aletas de enfriamiento del cilindro.
+    b: Causarán pérdida de potencia, consumo excesivo de combustible y posible daño interno permanente
+      del motor.
+    c: No afectará en forma perceptible al motor de una aeronave.
+  answer: b
+  explanation: Las temperaturas excesivas del motor provocan <b>pérdida de potencia, consumo excesivo
+    y posible daño interno permanente</b>. La opción b) es la que describe estos efectos (la teoría habla
+    de consumo excesivo de aceite). Afirmar que no afecta al motor (c) es claramente falso.
+  theory: Pérdida de potencia, consumo excesivo de aceite y posible daño interno; a) y c) son incorrectas.
+  note: La opción b dice «consumo excesivo de combustible»; la fuente original se refiere a consumo excesivo
+    de aceite.
+- id: c2-30
+  source:
+    chapter_question: '2.30'
+  question: 'Temperaturas de motor excesivamente altas, tanto en el aire como en tierra:'
+  options:
+    a: Incrementarán el consumo de combustible y puede incrementar la potencia debido al aumento de temperatura.
+    b: Causarán daño en las salidas de escape y pueden provocar la torsión de las aletas de enfriamiento
+      de los cilindros.
+    c: Causarán pérdida de potencia, consumo excesivo de aceite y posible daño interno permanente del
+      motor.
+  answer: c
+  explanation: Tanto en vuelo como en tierra, las temperaturas excesivas del motor causan <b>pérdida de
+    potencia, consumo excesivo de aceite y posible daño interno permanente</b>. No aumentan la potencia,
+    como sugiere a); al contrario, favorecen la detonación.
+  theory: Pérdida de potencia, consumo excesivo de aceite, detonación y daño grave al motor.
+- id: c2-31
+  source:
+    chapter_question: '2.31'
+  question: 'Si los indicadores de la temperatura del aceite del motor y de la cabeza de cilindro excedieron
+    el rango operativo normal, el piloto pudo haber estado operando con:'
+  options:
+    a: La mezcla demasiado rica.
+    b: La presión de aceite más alta de lo normal.
+    c: Demasiada potencia y la mezcla muy pobre.
+  answer: c
+  explanation: Temperaturas de aceite y de cabeza de cilindro por encima del rango normal indican que
+    se operó con <b>demasiada potencia y mezcla muy pobre</b>. Una mezcla rica enfría el motor gracias
+    al exceso de combustible, y una presión de aceite alta no eleva la temperatura.
+  theory: Causadas por demasiada potencia con mezcla demasiado pobre; a) y b) son incorrectas.
+- id: c2-32
+  source:
+    chapter_question: '2.32'
+  question: ¿Qué causaría más probablemente que los indicadores de la temperatura de la cabeza de cilindro
+    y del aceite del motor excedan los rangos operativos normales?
+  options:
+    a: Utilizar combustible que tenga un octanaje menor del especificado.
+    b: Utilizar combustible que tenga un octanaje mayor del especificado.
+    c: Operar con presión de aceite más alta de la normal.
+  answer: a
+  explanation: Usar combustible de <b>octanaje menor al especificado</b> puede provocar detonación y temperaturas
+    excesivas de la cabeza de cilindro y del aceite. Un octanaje mayor no causa sobrecalentamiento, y
+    una presión de aceite alta tampoco.
+  theory: Combustible de octanaje demasiado bajo; b) y c) son incorrectas.
+- id: c2-33
+  source:
+    chapter_question: '2.33'
+  question: 'Para el enfriamiento interno, los motores alternativos de aeronaves son especialmente dependientes
+    de:'
+  options:
+    a: Un termostato que funcione en forma adecuada.
+    b: Aire que fluya sobre el escape múltiple.
+    c: La circulación de aceite lubricante.
+  answer: c
+  explanation: En los motores alternativos enfriados por aire, el enfriamiento de las partes internas
+    depende en gran medida de la <b>circulación del aceite lubricante</b>, que absorbe calor y lo disipa.
+    Estos motores no tienen termostato como un sistema de refrigeración líquida, y el flujo de aire sobre
+    el escape no enfría el interior.
+  theory: El aceite enfría las partes internas del motor a medida que circula; a) y b) son incorrectas.
+- id: c2-34
+  source:
+    chapter_question: '2.34'
+  question: 'Una indicación de temperatura alta de aceite de motor fuera de lo normal puede ser causada
+    por:'
+  options:
+    a: El nivel de aceite demasiado bajo.
+    b: Operar con un aceite de demasiada viscosidad.
+    c: Operar con una mezcla excesivamente rica.
+  answer: a
+  explanation: Con un <b>nivel de aceite demasiado bajo</b> hay menos aceite para absorber y transportar
+    el calor, por lo que su temperatura sube en forma anormal. Una mezcla excesivamente rica, en cambio,
+    tiende a enfriar el motor.
+  theory: Si el nivel de aceite es demasiado bajo, la temperatura del aceite aumenta; b) y c) son incorrectas.
+- id: c2-35
+  source:
+    chapter_question: '2.35'
+  question: ¿Qué acción puede realizar un piloto para ayudar a refrigerar el motor que se está sobrecalentando
+    durante un ascenso?
+  options:
+    a: Reducir el rango de ascenso e incrementar la velocidad.
+    b: Reducir la velocidad de ascenso e incrementar las RPM.
+    c: Incrementar la velocidad del ascenso e incrementar las RPM.
+  answer: a
+  explanation: Para refrigerar el motor en el ascenso se <b>reduce el régimen de ascenso y se aumenta
+    la velocidad</b>, lo que incrementa el flujo de aire de refrigeración. Aumentar las RPM genera más
+    calor, por lo que b) y c) empeoran el sobrecalentamiento.
+  theory: Ascenso con menor pendiente, aumentando la velocidad; b) y c) son incorrectas.
+- id: c2-36
+  source:
+    chapter_question: '2.36'
+  question: ¿Cuál de los siguientes es un procedimiento adecuado para ayudar a refrigerar un motor que
+    se está sobrecalentando?
+  options:
+    a: Enriquecer la mezcla de combustible.
+    b: Incrementar las RPM.
+    c: Reducir la velocidad.
+  answer: a
+  explanation: <b>Enriquecer la mezcla</b> ayuda a refrigerar el motor porque el combustible excedente
+    absorbe calor. Aumentar las RPM genera más calor y reducir la velocidad disminuye el flujo de aire
+    de refrigeración.
+  theory: Enriquecer la mezcla; b) aumenta el calor; c) reduce el flujo de aire.
+- id: k359
+  source:
+    key_item: 359
+    chapter_question: '2.37'
+  question: 'La regla más importante que se debe recordar si sucede una falla de potencia luego de estar
+    en el aire es:'
+  options:
+    a: Establecer en forma inmediata la actitud de planeo y la velocidad adecuadas.
+    b: Verificar rápidamente la provisión de combustible ante un posible agotamiento de combustible.
+    c: Determinar la dirección del viento para planificar un aterrizaje forzoso.
+  answer: a
+  explanation: Ante una falla de potencia en vuelo, lo primero es <b>establecer de inmediato la actitud
+    y la velocidad de planeo</b> adecuadas, para conservar el control y la mayor distancia de planeo posible.
+    Verificar el combustible o determinar el viento son pasos importantes, pero vienen después.
+  theory: Mantener la velocidad de planeo adecuada es la regla más importante.
+- id: c2-38
+  source:
+    chapter_question: '2.38'
+  question: ¿Cómo se controla la operación del motor en una aeronave equipada con motor con una hélice
+    de velocidad constante?
+  options:
+    a: El acelerador controla la entrega de potencia, como se observa en el indicador múltiple de presión
+      y el control de paso de hélice regula las RPM.
+    b: El acelerador controla la entrega de potencia como se observa en el indicador múltiple de presión
+      y el control de paso de hélice regula un ángulo constante de pala.
+    c: El acelerador controla las RPM del motor como se registra en el taquímetro y el control de la mezcla
+      regula la salida de potencia.
+  answer: a
+  explanation: Con hélice de velocidad constante, el <b>acelerador controla la potencia</b>, indicada
+    en el manómetro de presión de admisión (manifold), y el <b>control de paso de la hélice regula las
+    RPM</b>, indicadas en el tacómetro. El ángulo de pala varía automáticamente para mantener las RPM,
+    no es constante (b), y la mezcla no regula la potencia (c).
+  theory: El acelerador controla la potencia (presión de admisión) y el control de la hélice determina
+    las RPM.
+- id: c2-39
+  source:
+    chapter_question: '2.39'
+  question: ¿Cuál de las siguientes es una ventaja de una hélice de velocidad constante?
+  options:
+    a: Permite al piloto seleccionar y mantener la velocidad de crucero deseada.
+    b: Permite al piloto seleccionar el ángulo de la pala para lograr el rendimiento más eficiente.
+    c: Proporciona una operación más suave con RPM estables y elimina vibraciones.
+  answer: b
+  explanation: La ventaja de la hélice de velocidad constante es que el piloto puede seleccionar, mediante
+    las RPM, el <b>ángulo de pala más eficiente</b> para cada condición de vuelo (despegue, ascenso, crucero).
+    No sirve para fijar la velocidad de crucero ni elimina las vibraciones.
+  theory: Permite elegir el ángulo de pala más eficiente; a) y c) son incorrectas.
+- id: c2-40
+  source:
+    chapter_question: '2.40'
+  question: 'Para la operación de un motor equipado con una hélice de velocidad constante, una precaución
+    consiste en:'
+  options:
+    a: Evitar configuraciones de RPM altas con presión múltiple alta.
+    b: Evitar configuraciones de presión múltiple altas con RPM bajas.
+    c: Siempre utilizar una mezcla rica con configuraciones de RPM altas.
+  answer: b
+  explanation: Se debe evitar operar con <b>presión de admisión alta y RPM bajas</b>, porque somete a
+    los cilindros y componentes internos a esfuerzos excesivos. Por eso, para reducir potencia se baja
+    primero la presión de admisión y luego las RPM, y para aumentarla se suben primero las RPM y luego
+    la presión de admisión.
+  theory: Evitar presión de admisión alta con RPM bajas; a) y c) son incorrectas.
+- id: k025
+  source:
+    key_item: 25
+    chapter_question: '2.41'
+  question: ¿En que condición del vuelo el efecto del torque producido por la hélice afecta la performance
+    del avión mono motor?
+  options:
+    a: alta velocidad, gran ángulo de ataque.
+    b: poca velocidad, alta potencia, gran ángulo de ataque.
+    c: poca velocidad, poca potencia, poco ángulo de ataque.
+  answer: b
+  explanation: Los efectos del torque y del factor P de la hélice son máximos con <b>poca velocidad, alta
+    potencia y gran ángulo de ataque</b>, como en el despegue y el ascenso. A alta velocidad o con poca
+    potencia, estos efectos son reducidos.
+  theory: Potencia alta, velocidad baja y gran ángulo de ataque; a) y c) son incorrectas.
+- id: c2-42
+  source:
+    chapter_question: '2.42'
+  question: 'La tendencia de giro a la izquierda de una aeronave causada por el efecto- P (P- factor),
+    es un resultado de:'
+  options:
+    a: Rotación en sentido de reloj del motor y la hélice girando al avión en sentido contrario de reloj.
+    b: La pala de la hélice desciende a la derecha, lo cual produce más tracción que la pala ascendente
+      a la izquierda.
+    c: Las fuerzas giroscópicas aplicadas a las palas de la hélice en rotación actuando 90° antes del
+      punto donde la fuerza fue aplicada.
+  answer: b
+  explanation: 'Con gran ángulo de ataque, la <b>pala descendente (lado derecho)</b> tiene mayor ángulo
+    de ataque y produce <b>más tracción</b> que la pala ascendente (lado izquierdo), lo que hace guiñar
+    el avión a la izquierda: eso es el efecto P. La opción a) describe la reacción del torque y c) la
+    precesión giroscópica.'
+  theory: La pala descendente derecha tiene mayor ángulo de ataque y tracción; a) es el torque; c) es
+    la precesión giroscópica.
+- id: c2-43
+  source:
+    chapter_question: '2.43'
+  question: ¿Cuándo el efecto-P causa que el avión guiñe a la izquierda?
+  options:
+    a: En ángulos de ataque reducidos.
+    b: En grandes ángulos de ataque.
+    c: En velocidades altas.
+  answer: b
+  explanation: El efecto P hace guiñar el avión a la izquierda en <b>grandes ángulos de ataque</b> con
+    potencia alta, porque la pala descendente produce más tracción que la ascendente. Con ángulos de ataque
+    reducidos o a alta velocidad, el efecto es mínimo.
+  theory: Ocurre con grandes ángulos de ataque y alta potencia; a) y c) son incorrectas.
+- id: k053
+  source:
+    key_item: 53
+    chapter_question: '2.44'
+  question: ¿Quién es responsable de determinar si una aeronave se encuentra en condiciones seguras de
+    vuelo?
+  options:
+    a: El mecánico aeronáutico habilitado.
+    b: El piloto al mando.
+    c: El propietario o el operador de la misma.
+  answer: b
+  explanation: Según las RAAC, el <b>piloto al mando</b> es responsable de determinar si la aeronave está
+    en condiciones seguras para el vuelo antes de cada vuelo. El mecánico certifica el mantenimiento y
+    el propietario u operador mantiene la aeronavegabilidad, pero la decisión de volar es del piloto al
+    mando.
+  theory: El piloto al mando es responsable (RAAC 91.7 a) y b)).
+- id: c2-45
+  source:
+    chapter_question: '2.45'
+  question: ¿Cómo se debería realizar la inspección previa al vuelo de una aeronave para el primer vuelo
+    del día?
+  options:
+    a: Una inspección rápida general con verificación de combustible y aceite.
+    b: Con medios exhaustivos y sistemáticos recomendados por el fabricante.
+    c: Cualquier secuencia determinada por el piloto al mando.
+  answer: b
+  explanation: La inspección prevuelo del primer vuelo del día debe ser <b>exhaustiva y sistemática</b>,
+    siguiendo la lista recomendada por el fabricante en el Manual de Vuelo. Una revisión rápida o una
+    secuencia improvisada por el piloto puede pasar por alto defectos.
+  theory: Mediante un procedimiento exhaustivo y sistemático según el Manual de Vuelo.
+- id: c2-46
+  source:
+    chapter_question: '2.46'
+  question: ¿Quién es fundamentalmente responsable de mantener una aeronave en condición aeronavegable?
+  options:
+    a: El piloto al mando.
+    b: El dueño u operador.
+    c: El mecánico.
+  answer: b
+  explanation: El <b>propietario u operador</b> es el responsable principal de mantener la aeronave en
+    condición aeronavegable, haciendo cumplir las inspecciones y el mantenimiento requeridos. El piloto
+    al mando determina si la aeronave está en condiciones antes de cada vuelo, y el mecánico ejecuta el
+    mantenimiento.
+  theory: El dueño u operador es responsable de mantener la aeronave en condición aeronavegable.
+- id: k005
+  source:
+    key_item: 5
+  question: 'En el Ciclo OTTO la combustion se realiza a:'
+  options:
+    a: volumen constante.
+    b: presion constante.
+    c: volumen y presion constantes.
+  answer: a
+  explanation: En el ciclo Otto ideal, la combustión se produce casi instantáneamente con el pistón en
+    el punto muerto superior, es decir, a <b>volumen constante</b>. La combustión a presión constante
+    corresponde al ciclo Diesel.
+- id: k006
+  source:
+    key_item: 6
+  question: 'Una manera de detectar una falla en el corte de magnetos es:'
+  options:
+    a: poner en ralenti el motor y cortar momentáneamente la ignición.
+    b: llevar el motor a máxima potencia, mientras se aplican los frenos, y apagar momentáneamente la
+      ignición.
+    c: hacer funcionar un magneto, empobrecer la mezcla y obtener un aumento en la presión del múltiple
+      de admisión del motor.
+  answer: a
+  explanation: 'Para detectar una falla en el corte (puesta a masa) de los magnetos, con el motor <b>en
+    ralentí</b> se lleva momentáneamente el interruptor de encendido a OFF: el motor debe comenzar a detenerse,
+    y se vuelve enseguida a BOTH. Hacerlo a máxima potencia es peligroso y puede dañar el motor.'
+- id: k007
+  source:
+    key_item: 7
+  question: 'Si se desconecta el cable a masa ubicado entre el magneto y el interruptor de la ignición,
+    el motor:'
+  options:
+    a: no operara con un solo magneto.
+    b: no se puede poner en marcha con el interruptor en la posición BOTH.
+    c: podría ponerse en marcha accidentalmente si la hélice es movida habiendo combustible en el cilindro.
+  answer: c
+  explanation: Si se desconecta el cable a masa entre el magneto y el interruptor, el magneto no puede
+    ponerse a masa y queda "vivo". Por eso, el motor <b>podría ponerse en marcha accidentalmente</b> si
+    se mueve la hélice habiendo combustible en el cilindro. El motor sí arranca y funciona con el interruptor
+    en BOTH.
+- id: k008
+  source:
+    key_item: 8
+  question: ¿Que indica el numero de octanos de un combustible?
+  options:
+    a: calidad antidetonante.
+    b: calidad de la mezcla aire combustible.
+    c: ninguna de las respuestas anteriores es correcta.
+  answer: a
+  explanation: El número de octanos indica la <b>calidad antidetonante</b> del combustible, es decir,
+    su resistencia a la detonación. Un octanaje mayor soporta mayores presiones y temperaturas sin detonar.
+- id: k009
+  source:
+    key_item: 9
+  question: 'Es más probable que se empasten las bujías si:'
+  options:
+    a: Si la aeronave gana altitud sin un ajuste de mezcla.
+    b: la aeronave desciende de altitud sin un ajuste de mezcla.
+    c: se mueve el acelerador de la aeronave de manera abrupta.
+  answer: a
+  explanation: Si la aeronave asciende sin empobrecer la mezcla, el aire es cada vez menos denso y la
+    mezcla se vuelve <b>excesivamente rica</b>. El combustible que no se quema deja depósitos de carbón
+    en las bujías y las <b>empasta</b>. Al descender sin ajustar, la mezcla se empobrece, no se enriquece.
+- id: k010
+  source:
+    key_item: 10
+  question: 'El piloto controla la relación aire/combustible con:'
+  options:
+    a: el acelerador.
+    b: la presión del múltiple (manifold).
+    c: el control de la mezcla.
+  answer: c
+  explanation: La relación aire/combustible se controla con el <b>control de la mezcla</b>. El acelerador
+    regula la cantidad de mezcla que entra al motor (potencia), y la presión de admisión es solo una indicación
+    de esa potencia.
+- id: k011
+  source:
+    key_item: 11
+  question: 'Ajustar el control de la mezcla:'
+  options:
+    a: impide que la relación aire/combustible se enriquezca demasiado a grandes altitudes.
+    b: regula la cantidad de flujo de aire a través del venturi del carburador.
+    c: impide que la combinación aire/combustible se empobrezca a medida que el avión asciende.
+  answer: a
+  explanation: Al ganar altitud la densidad del aire disminuye mientras el combustible se mantiene, por
+    lo que la mezcla se enriquece. Ajustar (empobrecer) el control de la mezcla <b>impide que la mezcla
+    se enriquezca demasiado</b> en altura. No regula el flujo de aire por el venturi, y en el ascenso
+    la mezcla tiende a enriquecerse, no a empobrecerse.
+- id: k012
+  source:
+    key_item: 12
+  question: ¿Que sucederá si a medida que se incrementa la altitud de vuelo no se realiza el empobrecimiento
+    en el control de la mezcla?
+  options:
+    a: tanto el volumen del aire que ingresa al carburador como la cantidad de combustible disminuirán.
+    b: la densidad del aire que ingresa al carburador disminuirá y la cantidad de combustible se incrementara.
+    c: la densidad del aire que ingresa al carburador disminuirá y la cantidad de combustible permanecerá
+      constante.
+  answer: c
+  explanation: Si no se empobrece al ascender, la <b>densidad del aire disminuye</b> mientras la <b>cantidad
+    de combustible permanece constante</b>, por lo que la mezcla se enriquece. El combustible no aumenta
+    (b) ni disminuye (a) por sí solo.
+- id: k013
+  source:
+    key_item: 13
+  question: 'A menos que sea regulada, la mezcla aire/combustible se enriquece cuando se incrementa la
+    altitud debido a que la cantidad de combustible:'
+  options:
+    a: disminuye a medida que el volumen de aire disminuye.
+    b: permanece constante mientras que el volumen de aire disminuye.
+    c: permanece constante mientras que la densidad del aire disminuye.
+  answer: c
+  explanation: El carburador mide el combustible según el volumen de aire, que no cambia con la altitud;
+    lo que disminuye es la <b>densidad</b> del aire. Con la misma cantidad de combustible y aire menos
+    denso, la mezcla se enriquece. Por eso la respuesta habla de densidad y no de volumen.
+- id: k015
+  source:
+    key_item: 15
+  question: 'Dejar encendido el aire caliente al carburador mientras se realiza el despegue:'
+  options:
+    a: empobrece la mezcla para más potencia en el despegue.
+    b: reduce la distancia de despegue.
+    c: incrementa la carrera de despegue.
+  answer: c
+  explanation: El aire caliente al carburador es menos denso y enriquece la mezcla, por lo que el motor
+    entrega menos potencia. Con menos potencia, la aeronave acelera más lento y <b>aumenta la carrera
+    de despegue</b>. No empobrece la mezcla ni reduce la distancia de despegue.
+- id: k016
+  source:
+    key_item: 16
+  question: ¿Cual de las siguientes afirmaciones es correcta con respecto al efecto causado por aplicar
+    aire caliente al carburador?
+  options:
+    a: enriquece la mezcla aire/combustible.
+    b: empobrece la mezcla aire/combustible.
+    c: no tiene efecto alguno sobre la mezcla aire/combustible.
+  answer: a
+  explanation: El aire caliente es menos denso y el carburador entrega la misma cantidad de combustible,
+    por lo que la mezcla aire/combustible se <b>enriquece</b>. No la empobrece y sí tiene efecto sobre
+    ella.
+- id: k017
+  source:
+    key_item: 17
+  question: 'Aplicar aire caliente al carburador:'
+  options:
+    a: no afecta a la mezcla.
+    b: empobrece la mezcla aire/combustible.
+    c: enriquece la mezcla aire/combustible.
+  answer: c
+  explanation: Al aplicar aire caliente al carburador entra aire menos denso con el mismo caudal de combustible,
+    por lo que la mezcla se <b>enriquece</b>. Las opciones que dicen que no la afecta o que la empobrece
+    son incorrectas.
+- id: k018
+  source:
+    key_item: 18
+  question: 'La detonación puede producirse por:'
+  options:
+    a: una mezcla de combustible rica.
+    b: temperaturas bajas del motor.
+    c: el uso de combustible de menor grado que el recomendado.
+  answer: c
+  explanation: La detonación puede producirse por usar <b>combustible de menor grado (octanaje)</b> que
+    el recomendado, que tiene menor poder antidetonante. También la favorecen la mezcla pobre y las temperaturas
+    altas del motor; una mezcla rica y temperaturas bajas, en cambio, la reducen.
+- id: k020
+  source:
+    key_item: 20
+  question: 'Para lograr el enfriamiento interno, los motores recíprocos de una aeronave dependen especialmente
+    de:'
+  options:
+    a: un aumentador de aleta de ventilación (cowl flap) que funcione adecuadamente.
+    b: la circulación del aceite lubricante.
+    c: la adecuada relación de producción freón/compresor.
+  answer: b
+  explanation: En los motores recíprocos enfriados por aire, el enfriamiento interno depende en gran medida
+    de la <b>circulación del aceite lubricante</b>, que absorbe el calor de las piezas internas. Los cowl
+    flaps ayudan al enfriamiento externo, y el sistema freón/compresor no tiene relación con el motor.
+- id: k021
+  source:
+    key_item: 21
+  question: 'Una indicación de temperatura de aceite de motor anormalmente alta puede tener su origen
+    en:'
+  options:
+    a: un rodaje defectuoso.
+    b: un nivel de aceite demasiado bajo.
+    c: operar con una mezcla excesivamente rica.
+  answer: b
+  explanation: Con un <b>nivel de aceite demasiado bajo</b> hay menos aceite para absorber y disipar el
+    calor, por lo que su temperatura sube anormalmente. Una mezcla excesivamente rica tiende a enfriar
+    el motor.
+- id: k022
+  source:
+    key_item: 22
+  question: 'La eficiencia de la hélice es:'
+  options:
+    a: la proporción entre caballos de fuerza de empuje y caballos de fuerza al freno.
+    b: la distancia real que avanza una hélice en una revolución.
+    c: la proporción entre paso geométrico y paso efectivo.
+  answer: a
+  explanation: La eficiencia de la hélice es la relación entre la <b>potencia de tracción (empuje) y la
+    potencia al freno</b> que entrega el motor. La distancia que avanza la hélice en una revolución es
+    el paso efectivo, no la eficiencia.
+- id: k023
+  source:
+    key_item: 23
+  question: 'Durante un prevuelo en clima frio, se debe poner especial atención a las líneas del respiradero
+    del carter debido a que son susceptibles a obstruirse por:'
+  options:
+    a: congelamiento de aceite proveniente de la carcasa del cigüeñal.
+    b: humedad proveniente del aire de fuera que se ha congelado.
+    c: hielo proveniente de los vapores del interior del carter, que se han condensado y congelado en
+      consecuencia.
+  answer: c
+  explanation: Los vapores del interior del cárter contienen humedad que, en clima frío, se <b>condensa
+    y se congela</b> en las líneas del respiradero y puede obstruirlas. Una obstrucción puede aumentar
+    la presión en el cárter y provocar pérdidas de aceite. No se trata de aceite congelado ni de humedad
+    del aire exterior.
+- id: k024
+  source:
+    key_item: 24
+  question: ¿Como se debería precalentar un avión durante operaciones de clima frio?
+  options:
+    a: se debe precalentar el área de cabina así como el motor.
+    b: no se debe precalentar el área de cabina con calentadores portátiles.
+    c: se debe inyectar aire caliente directamente al motor a través de la toma de admisión
+  answer: a
+  explanation: En operaciones con clima frío se deben <b>precalentar tanto el motor como la cabina</b>,
+    ya que el frío afecta también a los instrumentos y equipos de cabina. No se debe inyectar aire caliente
+    directamente por la toma de admisión.
+- id: k026
+  source:
+    key_item: 26
+  question: 'La mezcla que va a los cilindros entra:'
+  options:
+    a: presión provocada por la fuerza ejercida en el interior de los cilindros.
+    b: con una depresión que provocan los pistones al subir.
+    c: por succión cuando los pistones bajan.
+  answer: c
+  explanation: En un motor de aspiración normal, durante el tiempo de admisión el pistón <b>baja</b> y
+    crea una baja presión en el cilindro, que <b>aspira (succiona)</b> la mezcla. Cuando el pistón sube
+    se produce la compresión, no la admisión.
+- id: k027
+  source:
+    key_item: 27
+  question: 'Durante la compresión, ¿que relación hay entre presión, temperatura y volumen?:'
+  options:
+    a: la presión y temperatura aumentan, el volumen disminuye.
+    b: la presión, temperatura y volumen aumentan.
+    c: la presión y temperatura no varían, si el volumen.
+  answer: a
+  explanation: 'Durante la compresión el pistón sube y reduce el espacio: el <b>volumen disminuye</b>
+    mientras la <b>presión y la temperatura aumentan</b>. Por eso las opciones b) y c) son incorrectas.'
+- id: k028
+  source:
+    key_item: 28
+  question: 'La presión máxima dentro del cilindro se produce después de la:'
+  options:
+    a: compresión.
+    b: combustión
+    c: expansión.
+  answer: b
+  explanation: La presión máxima dentro del cilindro se alcanza inmediatamente después de la <b>combustión</b>,
+    cerca del punto muerto superior, cuando los gases se calientan y se expanden. Durante la expansión
+    esa presión va disminuyendo a medida que el pistón baja.
+- id: k029
+  source:
+    key_item: 29
+  question: 'Durante la expansión, el ciclo entrega:'
+  options:
+    a: calor.
+    b: trabajo.
+    c: volumen.
+  answer: b
+  explanation: Durante la expansión (tiempo de potencia), los gases empujan el pistón hacia abajo y el
+    ciclo entrega <b>trabajo</b> útil al cigüeñal. Es el único tiempo del ciclo que produce trabajo.
+- id: k305
+  source:
+    key_item: 305
+  question: 'CUANDO UN MOTOR RECIPROCO FUNCIONA EN TIERRA, LA DETONACION SE DIFERENCIA DEL AUTO-ENCENDIDO
+    PORQUE:'
+  options:
+    a: CORTANDO MAGNETOS SI HAY DETONACION, EL MOTOR SIGUE GIRANDO PERO EN SENTIDO CONTRARIO CON VIBRACIONES
+      EN AUMENTO.
+    b: CORTANDO COMBUSTIBLE, EL MOTOR SE ACELERA CON VIBRACIONES EXCESIVAS, MIENTRAS QUE CON AUTOENCENDIDO
+      NO EXISTEN VIBRACIONES EXCESIVAS HASTA SU DETENCION.
+    c: CORTANDO MAGNETOS, SI HUBO DETONACIÓN, EL MOTOR SE DETIENE, MIENTRAS QUE CON AUTO-ENCENDIDO SIGUE
+      GIRANDO.
+  answer: c
+  explanation: La detonación necesita el encendido normal por chispa, por lo que al <b>cortar los magnetos
+    el motor se detiene</b>. En el autoencendido, puntos calientes en la cámara siguen encendiendo la
+    mezcla, por lo que el motor <b>sigue girando</b> aunque se corten los magnetos. Las opciones a) y
+    b) no describen comportamientos reales.
+- id: k308
+  source:
+    key_item: 308
+  question: 'DURANTE LA COMPROBACIÓN DEL FUNCIONAMIENTO DE LOS MAGNETOS, SEGÚN EL TIPO DE MOTOR, LA CAÍDA
+    MÁXIMA DE RPM, ESTARÁ COMPRENDIDA ENTRE:'
+  options:
+    a: 50 Y 175 RPM.
+    b: 100 A 250 RPM.
+    c: 500 Y 700 RPM.
+  answer: a
+  explanation: En la comprobación de magnetos, la caída de RPM al operar con un solo magneto está normalmente
+    <b>entre 50 y 175 RPM</b>, según el motor, con una diferencia máxima entre magnetos de unos 50 RPM.
+    Una caída de 500 a 700 RPM indicaría una falla grave.
+- id: k318
+  source:
+    key_item: 318
+  question: El pre encendido es el quemado prematuro de la mezcla de aire/combustible. Está causado por
+    un área tal como un carbón o depósito de plomo incandescente, que funciona como un encendedor antes
+    del encendido normal.
+  options:
+    a: Falso
+    b: Verdadero
+  answer: b
+  explanation: <b>Verdadero.</b> El preencendido es el encendido prematuro de la mezcla aire/combustible
+    antes de la chispa normal, causado por un punto caliente como un depósito de carbón o de plomo incandescente
+    que actúa como fuente de ignición.
+- id: k336
+  source:
+    key_item: 336
+  question: 'La mayoría de los motores alternativos que se utilizan en las aeronaves pequeñas incorporan:'
+  options:
+    a: un sistema de ignición integrado.
+    b: dos sistemas de ignición independientes (magnetos y bujías).
+    c: un sistema de ignición
+  answer: b
+  explanation: 'La mayoría de los motores alternativos de aeronaves pequeñas tienen <b>dos sistemas de
+    ignición independientes</b>: dos magnetos y dos bujías por cilindro. Esto brinda redundancia y mejor
+    combustión.'
+- id: k345
+  source:
+    key_item: 345
+  question: Los sistemas de inyección de combustible son menos susceptibles a la formación de hielo que
+    los sistemas de carburador debido a que no sufren la caída de temperatura causada por el venturi en
+    el carburador.
+  options:
+    a: Verdadero
+    b: Falso
+  answer: a
+  explanation: <b>Verdadero.</b> Los sistemas de inyección no tienen venturi, por lo que no sufren la
+    caída de temperatura que produce el venturi del carburador. Por eso son menos susceptibles a la formación
+    de hielo en la admisión que los carburadores.
+- id: k357
+  source:
+    key_item: 357
+  question: 'MOT: Cual de las siguientes afirmaciones es la correcta respecto al uso del aire caliente
+    al carburador.'
+  options:
+    a: La primera indicación de hielo en el carburador debería ser una disminución en RPM ya que el suministro
+      de aire aumenta con la disminución de la temperatura. La aplicación de calor del carburador disminuirá
+      la densidad del aire, lo que causa que las RPM aumenten luego, a medida que el hielo en el carburador
+      se derrite, las RPM disminuiran en forma gradual.
+    b: La primera indicación de hielo en el carburador debería ser una disminución en RPM ya que el suministro
+      de aire disminuye. La aplicación de calor del carburador disminuirá la densidad del aire, lo que
+      causa que las RPM bajen aún más. Luego, a medida que el hielo en el carburador se derrite, las RPM
+      aumentaran en forma gradual.
+    c: En un avión con una hélice de paso fijo, la primera indicación de hielo en el carburador debería
+      ser una disminución en RPM ya que el suministro de aire disminuye. La aplicación de calor del carburador
+      disminuirá la densidad del aire, lo que causa que las RPM se mantengan en rango. Luego, a medida
+      que el hielo en el carburador se derrite, las RPM se mantendran en forma gradual.
+  answer: b
+  explanation: Con hélice de paso fijo, el hielo reduce el suministro de aire y lo primero que se nota
+    es una <b>disminución de RPM</b>. Al aplicar calor, el aire menos denso hace que las RPM <b>bajen
+    aún más</b>; luego, a medida que el hielo se derrite, las RPM <b>aumentan gradualmente</b>. La opción
+    a) invierte la secuencia y c) dice que las RPM se mantienen, lo cual es incorrecto.
+- id: k358
+  source:
+    key_item: 358
+  question: 'MOT: La posibilidad de formación de hielo debería ser considerada cuando se opera en condiciones
+    en las que la temperatura se encuentra entre:'
+  options:
+    a: 0° y 21° (7° F y 70° F) y humedad de 60% o mas.
+    b: 7° y 21° (20° F y 70° F) y humedad relativa alta.
+    c: 17° y 21° (20° F y 70° F) y humedad relativa alta.
+  answer: b
+  explanation: El riesgo de hielo en el carburador se debe considerar entre <b>-7 °C y 21 °C (20 °F y
+    70 °F) con humedad relativa alta</b>. La opción b) coincide con esos valores en °F; el "7°" debe leerse
+    como -7 °C. Las opciones a) y c) tienen límites inferiores incorrectos.
+  note: 'Errata en la opción b: «7°» debería ser «−7 °C».'
+- id: k360
+  source:
+    key_item: 360
+  question: 'MOT: Si la temperatura se encuentra entre -7° C (20° F) y 21° C (70° C) con humedad visible
+    o alta humedad, el piloto debería estar en constante alerta a que se forme hielo en el carburador.'
+  options:
+    a: Verdadero
+    b: Falso
+  answer: a
+  explanation: <b>Verdadero.</b> Con temperaturas entre -7 °C (20 °F) y 21 °C (70 °F) y humedad visible
+    o alta, el piloto debe estar constantemente alerta a la formación de hielo en el carburador. El "70°
+    C" del enunciado corresponde a 70 °F.
+- id: k368
+  source:
+    key_item: 368
+  question: Se puede contaminar el combustible por aire y/o suciedad. El aire dentro de los tanques de
+    combustible de la aeronave puede enfriarse durante la noche y este enfriamiento forma gotitas de agua
+    (mediante condensación) en los interiores de los tanques de combustible. Luego, estas gotitas caen
+    dentro del combustible. Para evitar este problema usted puede como medida precautoria.
+  options:
+    a: siempre vacie los tanques completamente cuando se estaciona durante la noche.
+    b: siempre llenar los tanques completamente cuando se estaciona durante la noche.
+    c: prevea la carga de combustible solo en un lugares autorizados.
+  answer: b
+  explanation: Al <b>llenar completamente los tanques</b> antes de estacionar durante la noche se elimina
+    el espacio de aire donde la humedad se condensa y forma gotas de agua. Vaciar los tanques dejaría
+    más espacio para la condensación.
+- id: k371
+  source:
+    key_item: 371
+  question: 'SI LA MEZCLA NAFTA/AIRE QUE ENTREGA EL CARBURADOR ES DEMASIADO POBRE, SE PRODUCIRA:'
+  options:
+    a: UN AUMENTO DE POTENCIA.
+    b: HUMO NEGRO Y LLAMAS ROJAS EN EL ESCAPE.
+    c: DETONACIONES.
+  answer: c
+  status: key_error
+  official_key: b
+  explanation: Una mezcla demasiado pobre se quema más caliente y en forma irregular, eleva la temperatura
+    de los cilindros y puede producir <b>detonación</b>. El humo negro y las llamas rojas en el escape
+    son señales de mezcla demasiado <b>rica</b>. Una mezcla excesivamente pobre tampoco aumenta la potencia.
+- id: k378
+  source:
+    key_item: 378
+  question: 'Una recomendación para operar con bajas temperaturas seria de las siguientes opciones:'
+  options:
+    a: Controlar la temperatura del carburador antes del despegue. Cuando la temperatura se encuentra
+      próxima a los 0° C, se debe utilizar el calefactor para evitar la formación de hielo o eliminar
+      el que se haya formado en el carburador.
+    b: Controlar la temperatura del carburador en el despegue. Cuando la temperatura se encuentra próxima
+      a los 0° C, se debe utilizar el calefactor para evitar la formación de hielo o eliminar el que se
+      haya formado en el carburador
+    c: Controlar la temperatura del carburador antes del despegue. Cuando la temperatura se encuentra
+      próxima a los -10° C, se debe utilizar el calefactor para evitar la formación de hielo o eliminar
+      el que se haya formado en el carburador
+  answer: a
+  explanation: En operaciones con bajas temperaturas se debe controlar la temperatura del carburador <b>antes
+    del despegue</b> y, si está cerca de <b>0 °C</b>, usar el calefactor para evitar o eliminar el hielo.
+    Durante el despegue no se usa calor al carburador porque reduce la potencia (b), y -10 °C no es el
+    valor de referencia (c).

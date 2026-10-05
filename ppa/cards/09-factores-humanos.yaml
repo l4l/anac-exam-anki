@@ -1,0 +1,225 @@
+- id: k253
+  source:
+    key_item: 253
+  question: El Modelo de James Reason es la representacion grafica de una cadena de errores a traves de
+    un modelo que contempla Fallas Latentes, Fallas Activas y las Defensas que deben interponerse a efectos
+    de cortar dicha cadena.
+  options:
+    a: verdadero.
+    b: falso.
+  answer: a
+  explanation: <b>Verdadero.</b> El modelo de James Reason (conocido como modelo del "queso suizo") representa
+    el accidente como el resultado de una cadena de errores. En él intervienen las <b>fallas latentes</b>
+    (condiciones de la organización que permanecen ocultas), las <b>fallas activas</b> (actos inseguros
+    de quienes operan) y las <b>defensas</b>, que son las barreras que deben interponerse para cortar
+    esa cadena. El accidente ocurre cuando los "agujeros" de todas las defensas se alinean.
+- id: k254
+  source:
+    key_item: 254
+  question: 'En su concepto, la Seguridad Operacional se define como:'
+  options:
+    a: un estado en cual el riesgo de lesiones a personas o daños a los bienes es eliminado mediante la
+      aplicacion de medidas preventivas rigurosas, fiscalizadas por la Autoridad Aeronautica competente.
+    b: un estado en que el riesgo de lesiones a personas o daños a los bienes se reduce y se mantiene
+      en un nivel aceptable o por debajo del mismo, por medio de un proceso continuo de identificacion
+      de peligros y gestion de riesgo.
+    c: Ambas son falsas.
+  answer: b
+  explanation: 'Según la definición de la OACI, la Seguridad Operacional es el estado en que el riesgo
+    de lesiones a personas o daños a los bienes <b>se reduce y se mantiene en un nivel aceptable</b> o
+    por debajo de él, mediante un proceso continuo de identificación de peligros y gestión de riesgos.
+    La opción a) es incorrecta porque el riesgo nunca puede eliminarse por completo: siempre existe un
+    riesgo residual que se gestiona.'
+- id: k255
+  source:
+    key_item: 255
+  question: 'En su concepto, ¿cual es el factor que afecta mayormente los accidentes considerados evitables?:'
+  options:
+    a: fallas estructurales de la aeronave.
+    b: error humano.
+    c: fallas mecanicas.
+  answer: b
+  explanation: 'El <b>error humano</b> es el factor predominante en los accidentes considerados evitables:
+    aproximadamente el 70-80% de los accidentes tienen al factor humano como causa principal o contribuyente.
+    Las fallas estructurales y mecánicas representan una proporción mucho menor de los accidentes.'
+- id: k256
+  source:
+    key_item: 256
+  question: '¿Cual es el primer paso en la toma de decisiones para un efectivo manejo de una situacion
+    de riesgo?:'
+  options:
+    a: identificarlo.
+    b: detectarlo.
+    c: evaluarlo.
+  answer: b
+  status: ambiguous
+  official_key: b
+  explanation: 'En el modelo de toma de decisiones aeronáuticas DECIDE, el primer paso es <b>Detectar</b>:
+    darse cuenta de que ocurrió un cambio que requiere atención. Recién después se estima la necesidad
+    de reaccionar, se eligen alternativas, se identifican acciones, se actúa y se evalúa el resultado.
+    "Identificar" y "evaluar" son pasos posteriores; no se puede gestionar un riesgo que todavía no se
+    detectó.'
+- id: k297
+  source:
+    key_item: 297
+  question: 'CRM . En un mensaje, la retroalimentación, le permite al emisor:'
+  options:
+    a: verificar la correcta recepcion del mensaje
+    b: -comunicarse con el receptor
+    c: '- no es relevante'
+  answer: a
+  explanation: La retroalimentación (feedback) es la respuesta del receptor que le permite al emisor <b>verificar
+    que el mensaje fue recibido y comprendido correctamente</b>. Por eso es un elemento clave en CRM,
+    como en la colación de autorizaciones (read-back). La comunicación con el receptor existe aun sin
+    retroalimentación; lo que esta aporta es la confirmación.
+- id: k298
+  source:
+    key_item: 298
+  question: 'CRM 2.Para que la comunicación sea eficiente, el lenguaje utilizado debe ser:'
+  options:
+    a: '- Comun al emisor y receptor'
+    b: El utilizado de forma adecuada solo por el emisor
+    c: No es relevante siempre que la la fluidez de la conversación sea sobre el tema.
+  answer: a
+  explanation: Para que la comunicación sea eficiente, emisor y receptor deben compartir un <b>código
+    o lenguaje común</b>; de lo contrario el mensaje no se decodifica correctamente. Un lenguaje que solo
+    maneja bien el emisor (opción b) genera malentendidos, y la fluidez de la conversación no garantiza
+    la comprensión (opción c).
+- id: k299
+  source:
+    key_item: 299
+  question: CRM Un buen lider, para ser efectivo debera reunir condiciones de
+  options:
+    a: -Autoritario, tenaz, rigido
+    b: Democratico-servicial-amable-proactivo
+    c: Asertivo-democratico-proactivo-flexible
+  answer: c
+  explanation: 'En CRM, un líder efectivo es <b>asertivo, democrático (participativo), proactivo y flexible</b>:
+    expresa con claridad sus decisiones, escucha a la tripulación, se anticipa a los problemas y se adapta
+    a la situación. La opción a) describe un estilo autoritario y rígido, que inhibe la comunicación;
+    la b) omite la asertividad, imprescindible para tomar decisiones firmes.'
+- id: k300
+  source:
+    key_item: 300
+  question: 'CRM: La gestión de riesgo es la parte del proceso de toma de decisiones que depende de:'
+  options:
+    a: De la intuicion y buen juicio-
+    b: La consciencia situacional, el reconocimiento del problema y buen juicio para reducir los riesgos
+      relacionados con cada vuelo.
+    c: De lo sistemático del análisis.
+  answer: b
+  explanation: La gestión de riesgo dentro de la toma de decisiones aeronáuticas se apoya en la <b>conciencia
+    situacional</b>, el <b>reconocimiento del problema</b> y el <b>buen juicio</b> para reducir los riesgos
+    de cada vuelo. La intuición sola (opción a) no es suficiente, y el análisis sistemático (opción c)
+    es solo una parte del proceso.
+- id: k312
+  source:
+    key_item: 312
+  question: 'El fundamento de la Prevención de Accidentes es:'
+  options:
+    a: Todo accidente es una cadena de errores.
+    b: Todo accidente ocurre hay que investigar por que.
+    c: Todo accidente puede ser evitado.
+  answer: c
+  explanation: El fundamento (premisa básica) de la prevención de accidentes es que <b>todo accidente
+    puede ser evitado</b>. La idea de la cadena de errores (opción a) explica cómo se produce un accidente,
+    pero no es el fundamento de la prevención; investigar las causas (opción b) es una herramienta, no
+    la base filosófica.
+- id: k313
+  source:
+    key_item: 313
+  question: 'El objetivo de la Prevención de Accidentes es:'
+  options:
+    a: Detectar las acciones.
+    b: Evitar o Minimizar los riesgos.
+    c: Maximizar la seguridad.
+  answer: b
+  explanation: El objetivo de la prevención de accidentes es <b>evitar o minimizar los riesgos</b>. Detectar
+    acciones o peligros es un medio para lograrlo, y maximizar la seguridad es una consecuencia de reducir
+    los riesgos, no el objetivo formulado en sí.
+- id: k325
+  source:
+    key_item: 325
+  question: 'En toda investigación de accidentes existe una relación entre:'
+  options:
+    a: El hombre, la meteorología y la psicología.
+    b: Hombre – máquina – medio ambiente.
+    c: Hombre – salud – investigación.
+  answer: b
+  explanation: 'En toda investigación de accidentes se analiza la relación entre <b>hombre – máquina –
+    medio ambiente</b>: el factor humano (piloto, tripulación), la aeronave y el entorno (meteorología,
+    aeródromo, etc.). Las otras opciones mezclan elementos que no forman esa tríada clásica.'
+- id: k331
+  source:
+    key_item: 331
+  question: La acción fundamental de la prevención de accidentes es detectar los peligros potenciales.
+  options:
+    a: Verdadero.
+    b: Falso.
+  answer: a
+  explanation: <b>Verdadero.</b> La acción fundamental de la prevención de accidentes es detectar e identificar
+    los peligros potenciales antes de que se materialicen en un accidente. Solo una vez detectado un peligro
+    se puede eliminar o reducir el riesgo asociado.
+- id: k334
+  source:
+    key_item: 334
+  question: 'La filosofía de la prevención presenta ciertos aspectos:'
+  options:
+    a: Aspecto Moral.
+    b: Aspecto Material.
+    c: Ambas son correctas
+  answer: c
+  explanation: 'La filosofía de la prevención abarca <b>ambos aspectos</b>: el <b>moral</b>, ya que se
+    busca preservar la vida y la integridad de las personas, y el <b>material</b>, porque los accidentes
+    provocan pérdidas económicas (aeronaves, bienes, costos operativos). Por eso la opción c) es la correcta.'
+- id: k340
+  source:
+    key_item: 340
+  question: 'La prevención de accidentes en el trabajo aéreo se realizará:'
+  options:
+    a: En alguna de sus actividades.
+    b: En forma selectiva.
+    c: En la totalidad de sus actividades
+  answer: c
+  explanation: 'La prevención de accidentes en el trabajo aéreo debe aplicarse <b>en la totalidad de sus
+    actividades</b>: operación, mantenimiento, instrucción y administración. Aplicarla en forma selectiva
+    o solo en algunas actividades deja peligros sin detectar en el resto del sistema.'
+- id: k341
+  source:
+    key_item: 341
+  question: 'La seguridad aérea consiste en reducir los riesgos a un mínimo a través de las medidas necesarias
+    para identificar falencias en los procesos administrativos, de mantenimiento y entrenamiento que pudieran
+    afectar la operación de las aeronaves:'
+  options:
+    a: Verdadero.
+    b: Falso.
+  answer: a
+  explanation: '<b>Verdadero.</b> La seguridad aérea consiste en reducir los riesgos a un mínimo mediante
+    las medidas necesarias para identificar falencias en los procesos administrativos, de mantenimiento
+    y de entrenamiento que pudieran afectar la operación de las aeronaves. Es decir, no se limita a la
+    cabina: abarca toda la organización.'
+- id: k374
+  source:
+    key_item: 374
+  question: Si un determinado factor ha demostrado ser capaz de producir un accidente, mientras no se
+    elimine o modifique dicho factor, el ACCIDENTE tendera a repetirse.
+  options:
+    a: Verdadero.
+    b: Falso.
+  answer: a
+  explanation: '<b>Verdadero.</b> Es un principio básico de la prevención: si un factor demostró ser capaz
+    de producir un accidente y no se lo elimina o modifica, el accidente tenderá a repetirse. Por eso
+    la investigación de accidentes busca identificar los factores causales para corregirlos.'
+- id: k380
+  source:
+    key_item: 380
+  question: 'Uno de los elementos más importantes para frenar la cadena de errores es:'
+  options:
+    a: El buen funcionamiento del sistema.
+    b: La acertada decisión.
+    c: La comunicación.
+  answer: c
+  explanation: 'En factores humanos y CRM, la <b>comunicación</b> es uno de los elementos más importantes
+    para cortar la cadena de errores: permite que cualquier miembro de la tripulación (o el control de
+    tránsito aéreo) advierta un error y lo comunique antes de que se transforme en un accidente. Una decisión
+    acertada depende, a su vez, de contar con información bien comunicada.'

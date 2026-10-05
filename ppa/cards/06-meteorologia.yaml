@@ -1,0 +1,748 @@
+- id: k035
+  source:
+    key_item: 35
+    chapter_question: '6.1'
+  question: 'La fuente principal generadora de cambios atmosféricos es:'
+  options:
+    a: Las mareas.
+    b: El Sol.
+    c: El calentamiento de la tierra.
+  answer: b
+  explanation: 'El Sol es la fuente principal de los cambios atmosféricos: su calentamiento desigual de
+    la superficie terrestre genera diferencias de temperatura y de presión, que a su vez producen viento,
+    nubes y precipitación. El calentamiento de la tierra no es la fuente en sí, sino una consecuencia
+    de la radiación solar. Las mareas no influyen en el tiempo atmosférico.'
+  theory: La fuente principal generadora de los cambios atmosféricos es el Sol.
+- id: k104
+  source:
+    key_item: 104
+    chapter_question: '6.2'
+  question: 'Cada proceso físico en la atmósfera es acompañado o es el resultado de:'
+  options:
+    a: Movimiento de aire.
+    b: Presión diferencial.
+    c: Intercambio de calor.
+  answer: c
+  explanation: Todo proceso físico del tiempo atmosférico (evaporación, condensación, convección, formación
+    de viento) va acompañado de un intercambio de calor o es resultado de él. El movimiento de aire y
+    las diferencias de presión son consecuencias de ese calentamiento desigual, no su causa.
+  theory: Cada proceso físico de la atmósfera es acompañado o es el resultado de un intercambio de calor,
+    originado en el calentamiento desigual de la superficie terrestre.
+- id: k178
+  source:
+    key_item: 178
+    chapter_question: '6.3'
+  question: 'El viento que se desplaza es creado por:'
+  options:
+    a: Movimiento de aire desde áreas de baja presión hacia un área de alta presión.
+    b: Movimiento de aire desde áreas de alta presión hacia un área de baja presión.
+    c: El efecto que provoca la fuerza de coriolis.
+  answer: b
+  explanation: El viento es el movimiento del aire desde las zonas de alta presión hacia las de baja presión,
+    impulsado por la diferencia de presión. La fuerza de Coriolis solo desvía la trayectoria del viento
+    (hacia la izquierda en el hemisferio sur), pero no lo genera.
+  theory: El viento se origina por el desplazamiento del aire desde las áreas de alta presión hacia las
+    de baja presión.
+- id: k227
+  source:
+    key_item: 227
+    chapter_question: '6.4'
+  question: 'Los centros de baja presión son áreas a las cuales se las denomina:'
+  options:
+    a: Con la letra A.
+    b: Ciclónicas o de depresión.
+    c: Áreas de subsidencia.
+  answer: b
+  explanation: Los centros de baja presión se denominan ciclones o depresiones (en las cartas se marcan
+    con la letra B o L). La letra A identifica a los anticiclones (alta presión), y la subsidencia (descenso
+    de aire) es propia de las altas presiones, no de las bajas.
+  theory: Los centros de baja presión se denominan ciclónicos o depresiones.
+- id: k263
+  source:
+    key_item: 263
+    chapter_question: '6.5'
+  question: Los centros de baja presión están asociados a
+  options:
+    a: Cielo claro.
+    b: Tiempo bueno y estable.
+    c: Abundante nubosidad en capas bajas y medias.
+  answer: c
+  explanation: En una baja presión el aire converge en superficie y asciende; al ascender se enfría, se
+    condensa y forma abundante nubosidad en capas bajas y medias, con mal tiempo. El cielo claro y el
+    tiempo bueno y estable están asociados a las altas presiones (anticiclones).
+  theory: Los centros de baja presión están asociados a abundante nubosidad en capas bajas y medias.
+- id: k270
+  source:
+    key_item: 270
+    chapter_question: '6.6'
+  question: El descenso de temperatura promedio en altura es de
+  options:
+    a: 2,5° F cada 1000 pies.
+    b: 2° C cada 300 metros (1000 pies).
+    c: 2° C cada 1000 metros.
+  answer: b
+  explanation: En la atmósfera estándar la temperatura desciende aproximadamente 2 °C cada 1000 pies (unos
+    300 m), es decir, 6,5 °C cada 1000 m. La opción c (2 °C cada 1000 m) subestima mucho el gradiente,
+    y 2,5 °F por 1000 pies tampoco corresponde (serían unos 3,5 °F).
+  theory: El descenso promedio de temperatura con la altura es de 2 °C cada 300 m (1000 pies).
+- id: k277
+  source:
+    key_item: 277
+    chapter_question: '6.7'
+  question: 'La temperatura estándar a nivel del mar es de:'
+  options:
+    a: 13° C.
+    b: 15° C.
+    c: 15° F.
+  answer: b
+  explanation: La atmósfera estándar (ISA) fija a nivel del mar una temperatura de 15 °C (59 °F) y una
+    presión de 1013,25 hPa (29,92 pulgadas de mercurio). 15 °F sería bajo cero en Celsius, y 13 °C no
+    es el valor estándar.
+  theory: La temperatura estándar a nivel del mar es de 15 °C.
+- id: k282
+  source:
+    key_item: 282
+    chapter_question: '6.8'
+  question: ¿En qué condición meteorológica es probable hablar de una inversión de temperatura?
+  options:
+    a: Con nubes de gran desarrollo vertical sobre una altura de inversión.
+    b: Buena visibilidad en las capas bajas de la atmósfera y pobre visibilidad sobre la zona de inversión.
+    c: Un incremento de la temperatura a medida que aumenta la altitud.
+  answer: c
+  explanation: Una inversión de temperatura es una capa en la que la temperatura aumenta con la altitud,
+    en lugar de disminuir como es normal. Las inversiones indican aire estable, por lo que no se asocian
+    a nubes de gran desarrollo vertical; además, la mala visibilidad (bruma, humo) suele quedar atrapada
+    debajo de la inversión, no por encima.
+  theory: Una inversión de temperatura es un incremento de la temperatura a medida que aumenta la altitud;
+    las demás opciones son incorrectas.
+- id: k291
+  source:
+    key_item: 291
+    chapter_question: '6.9'
+  question: 'La humedad relativa puede incrementarse:'
+  options:
+    a: Por una baja de la temperatura ambiente o por un incremento de la cantidad de humedad en el aire.
+    b: Por la presión.
+    c: Por incremento de viento por encima de 15 nudos.
+  answer: a
+  explanation: La humedad relativa es la relación entre el vapor de agua presente y el máximo que el aire
+    puede contener a esa temperatura. Por eso aumenta si baja la temperatura (disminuye la capacidad del
+    aire) o si se agrega humedad. La presión y el viento no son los factores que la determinan.
+  theory: La humedad relativa puede incrementarse por una baja de la temperatura ambiente o por un incremento
+    de la cantidad de humedad en el aire.
+- id: k039
+  source:
+    key_item: 39
+    chapter_question: '6.10'
+  question: ¿Qué significa el término punto de rocío?
+  options:
+    a: La temperatura en la cual condensación y evaporación son iguales.
+    b: La temperatura en la que el rocío siempre se forma.
+    c: La temperatura en la cual el aire debe enfriarse manteniendo constante la humedad para que se sature.
+  answer: c
+  explanation: 'El punto de rocío es la temperatura a la que debe enfriarse el aire, manteniendo constante
+    su contenido de humedad (y la presión), para que se sature. El rocío no siempre se forma a esa temperatura:
+    depende de que la superficie se enfríe hasta ese valor.'
+  theory: 'Punto de rocío: temperatura a la cual debe enfriarse el aire, manteniendo constante la humedad,
+    para que se sature.'
+- id: k047
+  source:
+    key_item: 47
+    chapter_question: '6.11'
+  question: 'La cantidad de humedad que el aire puede contener depende de:'
+  options:
+    a: El punto de rocío.
+    b: La temperatura de aire.
+    c: La estabilidad del aire.
+  answer: b
+  explanation: 'La cantidad máxima de vapor de agua que el aire puede contener depende de su temperatura:
+    cuanto más caliente, más vapor admite. El punto de rocío indica cuánta humedad hay realmente, no cuánta
+    puede contener.'
+  theory: La cantidad de vapor de agua que el aire puede contener depende principalmente de su temperatura.
+- id: k055
+  source:
+    key_item: 55
+    chapter_question: '6.12'
+  question: 'Las nubes, la niebla y el rocío siempre se forman cuando:'
+  options:
+    a: El vapor de agua se condensa.
+    b: Cuando el vapor de agua está presente.
+    c: Cuando la humedad relativa alcanza el 100%.
+  answer: a
+  explanation: 'Las nubes, la niebla y el rocío se forman siempre que el vapor de agua se condensa (en
+    gotas visibles o sobre superficies). La sola presencia de vapor no alcanza, y llegar al 100% de humedad
+    relativa no garantiza por sí solo la formación: hace falta que ocurra la condensación.'
+  theory: Las nubes, la niebla y el rocío requieren la condensación del vapor de agua; las otras opciones
+    son incorrectas.
+- id: k058
+  source:
+    key_item: 58
+    chapter_question: '6.13'
+  question: ¿Cuál es el proceso por el cual la humedad se incorpora al aire no saturado?
+  options:
+    a: Evaporación y sublimación.
+    b: Calor y condensación.
+    c: Sobresaturación y evaporación.
+  answer: a
+  explanation: 'La humedad se incorpora al aire no saturado por evaporación (de agua líquida a vapor)
+    y por sublimación (de hielo directamente a vapor). La condensación es el proceso inverso: quita vapor
+    del aire.'
+  theory: La humedad se incorpora al aire por evaporación (líquido a vapor) y sublimación (sólido a vapor).
+- id: k068
+  source:
+    key_item: 68
+    chapter_question: '6.14'
+  question: 'Si una masa de aire se va trasladando estará:'
+  options:
+    a: Desarrollando propiedades convectivas.
+    b: Tomando propiedades de la superficie por donde transita.
+    c: Permaneciendo en su estado original.
+  answer: b
+  explanation: Cuando una masa de aire se desplaza, va adquiriendo las propiedades de temperatura y humedad
+    de la superficie sobre la que transita (por ejemplo, se calienta y se humedece sobre un mar cálido).
+    No permanece en su estado original; desarrolla propiedades convectivas solo si la superficie la calienta
+    desde abajo.
+  theory: Al trasladarse, la masa de aire toma las propiedades de la nueva superficie por donde transita.
+- id: k075
+  source:
+    key_item: 75
+    chapter_question: '6.15'
+  question: 'Cuando una masa de aire frio y caliente se encuentran:'
+  options:
+    a: El aire frio se posesiona por encima del aire caliente.
+    b: El aire caliente se mantiene por debajo del aire frio.
+    c: El aire frio se posesiona por debajo del aire caliente.
+  answer: c
+  explanation: El aire frío es más denso que el caliente, por eso, cuando se encuentran, el aire frío
+    se ubica por debajo, formando una cuña que levanta al aire caliente. Las opciones a y b describen
+    lo contrario.
+  theory: Cuando se encuentran, el aire frío se posiciona por debajo del aire caliente.
+- id: k082
+  source:
+    key_item: 82
+    chapter_question: '6.16'
+  question: 'Un fenómeno meteorológico que siempre ocurre cuando se vuela través de un frente es un cambio
+    en:'
+  options:
+    a: La dirección del viento
+    b: Tipo de precipitación
+    c: La estabilidad de las masas
+  answer: a
+  explanation: Al cruzar un frente siempre se produce un cambio en la dirección del viento, porque cambia
+    el campo de presión entre ambas masas de aire. El tipo de precipitación o la estabilidad pueden variar,
+    pero no ocurre siempre.
+  theory: Al cruzar un frente siempre cambia la dirección del viento.
+- id: k088
+  source:
+    key_item: 88
+    chapter_question: '6.17'
+  question: 'Uno de los cambios fácilmente reconocibles cuando se cruza un frente es:'
+  options:
+    a: El cambio en la temperatura.
+    b: El incremento de la cobertura nubosa.
+    c: El aumento de la humedad relativa.
+  answer: a
+  explanation: Uno de los cambios más fáciles de reconocer al cruzar un frente es el cambio de temperatura,
+    ya que el frente separa masas de aire de distinta temperatura. El aumento de nubosidad o de humedad
+    relativa no se da necesariamente en todos los frentes.
+  theory: El cambio de temperatura es el más fácilmente reconocible al cruzar un frente.
+- id: k095
+  source:
+    key_item: 95
+    chapter_question: '6.18'
+  question: 'Según el movimiento y la temperatura de las masas de aire, los frentes se clasifican como:'
+  options:
+    a: Fríos - Calientes.
+    b: Masas de aire.
+    c: Fríos - Calientes - Estacionarios - Ocluidos.
+  answer: c
+  explanation: Según el movimiento y la temperatura de las masas de aire, los frentes se clasifican en
+    fríos, calientes, estacionarios y ocluidos. La opción a está incompleta, y las masas de aire no son
+    un tipo de frente.
+  theory: Los frentes se clasifican en fríos, calientes, estacionarios y ocluidos.
+- id: k101
+  source:
+    key_item: 101
+    chapter_question: '6.19'
+  question: 'El grado de estabilidad atmosférica se determina:'
+  options:
+    a: Por la diferencia de presión entre una porción de aire y el aire circundante.
+    b: Por la diferencia de temperatura entre una porción de aire y el aire circundante.
+    c: Por el vuelo con turbulencia.
+  answer: b
+  status: key_error
+  official_key: c
+  explanation: La estabilidad se determina comparando la temperatura de una porción de aire desplazada
+    con la del aire que la rodea. Si la porción queda más caliente que el entorno, sigue subiendo (aire
+    inestable); si queda más fría, vuelve a descender (aire estable). La turbulencia es solo una manifestación
+    de la inestabilidad, no la forma de determinarla, y la diferencia de presión no define la estabilidad.
+  theory: La estabilidad se determina por la diferencia de temperatura entre una porción de aire y el
+    aire circundante.
+- id: k111
+  source:
+    key_item: 111
+    chapter_question: '6.20'
+  question: ¿Qué características se corresponden con una masa de aire estable?
+  options:
+    a: Buena visibilidad / aire turbulento.
+    b: Neblina / precipitación.
+    c: Aire suave / regular a mala visibilidad.
+  answer: c
+  explanation: 'El aire estable no favorece los movimientos verticales: el vuelo es suave, pero la bruma,
+    el humo y las nubes estratiformes quedan atrapados en capas bajas, y la visibilidad es regular a mala.
+    La buena visibilidad con turbulencia corresponde al aire inestable.'
+  theory: 'Características del aire estable: aire suave y visibilidad regular a mala.'
+- id: k120
+  source:
+    key_item: 120
+    chapter_question: '6.21'
+  question: ¿Qué características se corresponden con una masa de aire inestable?
+  options:
+    a: Aire suave / buena visibilidad.
+    b: Nubes cumuliformes / aire turbulento.
+    c: Nubes stratiformes / niebla.
+  answer: b
+  explanation: En el aire inestable el aire ascendente se sigue elevando, lo que genera nubes cumuliformes
+    y turbulencia (con buena visibilidad fuera de las precipitaciones). Las nubes estratiformes, la niebla
+    y el aire suave son propios del aire estable.
+  theory: 'Características del aire inestable: nubes cumuliformes y aire turbulento.'
+- id: k124
+  source:
+    key_item: 124
+    chapter_question: '6.22'
+  question: ¿Cuál de los tipos de nubes se forman teniendo un importante desarrollo vertical?
+  options:
+    a: Las stratiformes.
+    b: Las stratocumulos.
+    c: Las cumuliformes.
+  answer: c
+  explanation: Las nubes cumuliformes (cúmulos, cumulonimbus) se forman por corrientes ascendentes en
+    aire inestable y tienen un importante desarrollo vertical. Las estratiformes y los estratocúmulos
+    se extienden en capas horizontales, con poco desarrollo vertical.
+  theory: Las nubes cumuliformes son las de importante desarrollo vertical.
+- id: k134
+  source:
+    key_item: 134
+    chapter_question: '6.23'
+  question: 'Las nubes formadas por el aire enfriado de una capa estable son:'
+  options:
+    a: Cúmulos.
+    b: Nimbus.
+    c: Stratus.
+  answer: c
+  explanation: Cuando se enfría una capa de aire estable, la condensación se produce en capas horizontales
+    y se forman estratos (nubes estratiformes). Los cúmulos requieren aire inestable con corrientes ascendentes.
+  theory: Las nubes formadas por enfriamiento de una capa estable son los estratos.
+- id: k146
+  source:
+    key_item: 146
+    chapter_question: '6.24'
+  question: ¿Qué se puede esperar del aire estable y húmedo que fluye por una pendiente ascendente?
+  options:
+    a: Formación de nubes estratificadas.
+    b: Chaparrones y tormentas.
+    c: Desarrollo de turbulencia convectiva.
+  answer: a
+  explanation: El aire estable y húmedo que es forzado a subir por una pendiente se enfría y condensa
+    en capas, formando nubes estratificadas (o niebla orográfica). Los chaparrones, las tormentas y la
+    turbulencia convectiva son propios del aire inestable.
+  theory: El aire estable forzado a ascender forma nubes planas, estratificadas.
+- id: k154
+  source:
+    key_item: 154
+    chapter_question: '6.25'
+  question: Si una masa de aire inestable es forzado a ascender, ¿qué tipo de nubosidad se puede esperar?
+  options:
+    a: Nubes estratiformes de poco desarrollo vertical.
+    b: Nubes estratiformes con considerable turbulencia.
+    c: Nubes con considerable desarrollo vertical asociado a turbulencia.
+  answer: c
+  explanation: Si una masa de aire inestable es forzada a ascender, continúa subiendo por sí misma y forma
+    nubes cumuliformes con considerable desarrollo vertical y turbulencia. Las nubes estratiformes de
+    poco desarrollo corresponden al aire estable.
+  theory: El aire inestable forzado a ascender produce nubes de extenso desarrollo vertical.
+- id: k158
+  source:
+    key_item: 158
+    chapter_question: '6.26'
+  question: 'La precipitación constante que precede a un frente es una indicación de:'
+  options:
+    a: Nubes estratiformes con turbulencia moderada.
+    b: Nubes cumuliformes con poca o sin turbulencia.
+    c: Nubes estratiformes con poca o sin turbulencia.
+  answer: c
+  explanation: La precipitación continua y constante delante de un frente (típica del frente caliente)
+    indica aire estable, con nubes estratiformes y poca o ninguna turbulencia. Las nubes cumuliformes
+    producen chaparrones intermitentes y turbulencia.
+  theory: La precipitación de nubes estratiformes es continua, con poca o ninguna turbulencia.
+- id: k162
+  source:
+    key_item: 162
+    chapter_question: '6.27'
+  question: 'Las condiciones necesarias para la formación de nubes cumulonimbus son corrientes ascendentes
+    y:'
+  options:
+    a: Aire inestable que contiene un exceso de núcleos de condensación.
+    b: Inestabilidad, aire húmedo.
+    c: Ya sea aire estable o inestable.
+  answer: b
+  explanation: 'Para que se forme un cumulonimbus (nube de tormenta) se necesitan tres condiciones: un
+    mecanismo de ascenso (corrientes ascendentes), aire inestable y alto contenido de humedad. El aire
+    estable no desarrolla tormentas, y un exceso de núcleos de condensación no es la condición clave.'
+  theory: Para la formación de tormentas se requiere suficiente vapor de agua y un gradiente de temperatura
+    inestable.
+- id: k168
+  source:
+    key_item: 168
+    chapter_question: '6.28'
+  question: 'Calcular la altura de la base de las nubes con los siguientes datos: Temperatura actual 19,5°
+    C, punto de rocío 15° C:'
+  options:
+    a: 69 m.
+    b: 692 m.
+    c: 962 m.
+  answer: b
+  explanation: Según el método del banco de preguntas, la altura de la base se obtiene dividiendo la diferencia
+    entre temperatura y punto de rocío por 6,5 y multiplicando por 1000 m:<br>Diferencia = 19,5 °C − 15
+    °C = 4,5 °C<br>4,5 ÷ 6,5 = 0,692<br>0,692 × 1000 m ≈ 692 m<br>Las opciones a y c son errores de coma
+    o de dígitos invertidos.
+  theory: 'Resultado: 692 m.'
+  note: La respuesta usa la fórmula del banco ANAC (diferencia temperatura − punto de rocío ÷ 6,5 × 1000
+    m). El método estándar (≈ 125 m por °C) daría ≈ 560 m.
+- id: k173
+  source:
+    key_item: 173
+    chapter_question: '6.29'
+  question: 'Calcular la altura de la base de las nubes con los siguientes datos: Temperatura actual 10°
+    C, punto de rocío 8° C:'
+  options:
+    a: 300 m.
+    b: 207 m.
+    c: 307,69 m.
+  answer: c
+  explanation: Usando el método del banco de preguntas (diferencia temperatura − punto de rocío dividida
+    por 6,5, por 1000 m):<br>Diferencia = 10 °C − 8 °C = 2 °C<br>2 ÷ 6,5 = 0,3077<br>0,3077 × 1000 m =
+    307,69 m
+  theory: 'Resultado: 307,69 m.'
+  note: La respuesta usa la fórmula del banco ANAC (diferencia temperatura − punto de rocío ÷ 6,5 × 1000
+    m). El método estándar (≈ 125 m por °C) daría ≈ 250 m.
+- id: k186
+  source:
+    key_item: 186
+    chapter_question: '6.30'
+  question: 'La intensidad de la turbulencia se puede clasificar como:'
+  options:
+    a: Leve, moderada, fuerte, severa.
+    b: Inestable.
+    c: Estable.
+  answer: a
+  explanation: 'La intensidad de la turbulencia se clasifica en una escala de leve, moderada, fuerte o
+    severa (en la terminología OACI: leve, moderada, severa y extrema). Inestable y estable describen
+    el estado de la atmósfera, no la intensidad de la turbulencia.'
+  theory: La turbulencia se clasifica como leve, moderada, fuerte y severa.
+- id: k189
+  source:
+    key_item: 189
+    chapter_question: '6.31'
+  question: Si el piloto se encuentra una turbulencia severa, ¿qué condición de vuelo debería tratar de
+    mantener?
+  options:
+    a: Altitud y velocidad constante.
+    b: Ángulo de ataque constante.
+    c: Actitud de vuelo nivelado.
+  answer: c
+  explanation: En turbulencia severa el piloto debe mantener una actitud de vuelo nivelado, a la velocidad
+    de maniobra o por debajo de ella, y aceptar las variaciones de altitud y velocidad. Intentar mantener
+    altitud y velocidad constantes obliga a corregir bruscamente con los mandos, lo que aumenta el factor
+    de carga y las tensiones estructurales.
+  theory: Ante turbulencia severa se debe volar por actitud; las opciones a y b son incorrectas.
+- id: k191
+  source:
+    key_item: 191
+    chapter_question: '6.32'
+  question: ¿Qué características están normalmente asociadas a la etapa de cúmulo en una tormenta?
+  options:
+    a: La nube rotor.
+    b: Corrientes ascendentes continuas.
+    c: Relámpagos frecuentes.
+  answer: b
+  explanation: La etapa de cúmulo de una tormenta se caracteriza por corrientes ascendentes continuas,
+    que hacen crecer la nube. Los relámpagos frecuentes y las corrientes descendentes aparecen en la etapa
+    de madurez.
+  theory: La etapa de cúmulo se caracteriza por corrientes ascendentes constantes.
+- id: k196
+  source:
+    key_item: 196
+    chapter_question: '6.33'
+  question: Durante el ciclo de vida de una tormenta, ¿cuál etapa se caracteriza por predominantes corrientes
+    descendentes?
+  options:
+    a: Cúmulus.
+    b: Disipación.
+    c: Maduración.
+  answer: b
+  explanation: En la etapa de disipación predominan las corrientes descendentes, que cortan el aporte
+    de aire húmedo y hacen que la tormenta se debilite. En la madurez coexisten corrientes ascendentes
+    y descendentes, y en la etapa de cúmulo dominan las ascendentes.
+  theory: La etapa de disipación se caracteriza por corrientes descendentes.
+- id: k198
+  source:
+    key_item: 198
+    chapter_question: '6.34'
+  question: Si hay actividad de tormenta en la vecindad del lugar en el que se piensa aterrizar, ¿cuál
+    fenómeno atmosférico riesgoso se puede esperar encontrar durante la aproximación para el aterrizaje?
+  options:
+    a: Precipitación estática.
+    b: Cortante de viento (wind shear).
+    c: Lluvia continua.
+  answer: b
+  explanation: Las tormentas producen corrientes descendentes intensas (microrráfagas) y frentes de ráfagas
+    que se extienden lejos de la celda, generando cortante de viento (wind shear) a baja altura, el principal
+    peligro durante la aproximación. La lluvia continua es propia de nubes estratiformes, no de tormentas.
+  theory: El fenómeno riesgoso esperable es la cortante de viento (wind shear).
+- id: k199
+  source:
+    key_item: 199
+    chapter_question: '6.35'
+  question: ¿Que debería esperar un piloto en la aproximación sobre un aeródromo si se encuentra en el
+    tramo final con una cortante de viento de frente pasando a viento calmo?
+  options:
+    a: Que la velocidad del aire disminuya, la nariz de avión tienda a bajar, con una pérdida de altitud.
+    b: Que la velocidad del aire aumente, la nariz de avión tienda a subir y la altitud decrezca.
+    c: Que la velocidad del aire se reduzca, la nariz de avión tienda a bajar y la altitud aumente.
+  answer: a
+  explanation: Si el viento de frente pasa a calma, la velocidad indicada cae bruscamente y con ella la
+    sustentación. El avión tiende a bajar la nariz y descender por debajo de la senda, perdiendo altitud.
+    La opción b describe el caso contrario (aumento del viento de frente) y la c es contradictoria.
+  theory: 'Con cortante de viento de frente a calma: pérdida de velocidad, la nariz baja y la altitud
+    disminuye.'
+- id: k204
+  source:
+    key_item: 204
+    chapter_question: '6.36'
+  question: 'Se llama engelamiento:'
+  options:
+    a: A una altura en la cual no es posible el vuelo.
+    b: A la formación de hielo que se produce sobre un avión o parte de él.
+    c: A la formación de agua que se produce sobre un avión o parte de él.
+  answer: b
+  explanation: Se llama engelamiento a la formación de hielo sobre el avión o alguna de sus partes (alas,
+    hélice, parabrisas, toma de aire, carburador). Es peligroso porque aumenta el peso y la resistencia
+    y reduce la sustentación.
+  theory: Engelamiento es la formación de hielo sobre un avión o parte de él.
+- id: k209
+  source:
+    key_item: 209
+    chapter_question: '6.37'
+  question: 'Para que se forme hielo sobre un avión en vuelo es necesario que:'
+  options:
+    a: El agua que forma parte de las nubes o precipitación sea líquida, y que la temperatura del aire
+      se encuentre en 0° C (isoterma de 0° C) o por debajo.
+    b: La inestabilidad de las nubes sean de mediano o alto desarrollo vertical.
+    c: La nube sea estratiforme y con lluvia.
+  answer: a
+  explanation: 'Para que se forme hielo en vuelo hacen falta dos condiciones: agua en estado líquido (gotas
+    sobreenfriadas de nube o precipitación) y temperatura del aire en 0 °C (isoterma de 0 °C) o inferior.
+    El tipo de nube o su desarrollo vertical no es la condición necesaria.'
+  theory: Se requiere agua líquida y temperatura en 0 °C o por debajo; las opciones b y c son incorrectas.
+- id: k214
+  source:
+    key_item: 214
+    chapter_question: '6.38'
+  question: 'Para la disipación de la niebla será necesario vientos de o mayor de:'
+  options:
+    a: 5 nudos.
+    b: 7 nudos.
+    c: 15 nudos.
+  answer: c
+  explanation: 'La niebla de radiación se disipa por calentamiento o por aumento del viento: cuando el
+    viento alcanza unos 15 nudos o más, la mezcla turbulenta levanta la niebla y la transforma en estratos
+    bajos. Con vientos débiles (5 a 7 nudos) la niebla puede persistir o incluso hacerse más espesa.'
+  theory: Si el viento aumenta a 15 nudos, la niebla se levanta y se transforma en estratos bajos.
+- id: k220
+  source:
+    key_item: 220
+    chapter_question: '6.39'
+  question: 'Se formará niebla si:'
+  options:
+    a: La temperatura desciende.
+    b: La temperatura aumenta a la del punto de rocío
+    c: La temperatura desciende a la del punto de rocío.
+  answer: c
+  explanation: La niebla se forma cuando la temperatura del aire desciende hasta igualar el punto de rocío
+    (o el punto de rocío sube hasta la temperatura), saturando el aire cerca de la superficie. Un descenso
+    de temperatura que no llega al punto de rocío no alcanza, y la temperatura no aumenta hacia el punto
+    de rocío porque este nunca es mayor que ella.
+  theory: Se forma niebla cuando la temperatura desciende hasta igualar el punto de rocío.
+- id: k229
+  source:
+    key_item: 229
+    chapter_question: '6.40'
+  question: ¿Qué condiciones favorecen la formación de niebla de radiación?
+  options:
+    a: Humedad en capas bajas, poco o nada de viento, noches despejadas.
+    b: Humedad, aire tropical moviéndose sobre superficies de aguas frías costeras.
+    c: Movimiento de aires frio sobre superficies de agua más calientes.
+  answer: a
+  explanation: 'La niebla de radiación se forma en noches despejadas, con poco o nada de viento y humedad
+    en capas bajas: el suelo pierde calor por radiación y enfría el aire en contacto hasta el punto de
+    rocío. Las opciones b y c describen nieblas de advección y de vapor (aire que se mueve sobre agua).'
+  theory: La niebla de radiación se favorece con cielos despejados, poco o nada de viento y alta humedad.
+- id: k296
+  source:
+    key_item: 296
+  question: 'Con una cortante de viento de frente a viento en calma:'
+  options:
+    a: se produce una aumento de sustentación a medida que aumenta la velocidad del aire, el avión sube
+      la nariz, y sube por encima de la senda de planeo (disminución de altitud).
+    b: Se produce una pérdida de sustentación a medida que disminuye la velocidad del aire, el avión baja
+      la nariz, y desciende por debajo de la senda de planeo (disminución de altitud).
+    c: se produce una disminucion de sustentación a medida que aumenta la velocidad del aire, el avión
+      baja la nariz, y sube por encima de la senda de planeo (aumento de altitud).
+  answer: b
+  explanation: Cuando el viento de frente pasa a calma, cae la velocidad indicada y con ella la sustentación;
+    el avión baja la nariz y desciende por debajo de la senda de planeo, perdiendo altitud. La opción
+    a describe el caso contrario (aumento del viento de frente) y la c se contradice (menos sustentación
+    con más velocidad).
+- id: k302
+  source:
+    key_item: 302
+  question: Cuando hay un aumento repentino de un viento de cola (o disminución en el viento de frente)
+  options:
+    a: Habrá una pérdida de velocidad indicada, acompañada de una tendencia a bajar la nariz y descender.
+    b: Habrá una aumento de velocidad indicada, acompañada de una tendencia a subir la nariz y descender.
+    c: Habrá una aproximacion a la pérdida,acompañada de una tendencia a bajar la nariz y descender.
+  answer: a
+  explanation: Un aumento repentino del viento de cola (o una disminución del viento de frente) reduce
+    la velocidad indicada y por lo tanto la sustentación. El avión tiende a bajar la nariz y a descender.
+    Un aumento de velocidad indicada solo ocurre en el caso inverso (más viento de frente).
+- id: k303
+  source:
+    key_item: 303
+  question: Cuando la masa de aire se va trasladando estará tomando propiedades de la nueva superficie
+    por donde transita. La tendencia del cambio se denomina
+  options:
+    a: aire inestable
+    b: Frente
+    c: modificación de la masa de aire
+  answer: c
+  explanation: Cuando una masa de aire se desplaza y adquiere las propiedades de temperatura y humedad
+    de la nueva superficie, ese proceso se llama modificación de la masa de aire. Un frente es el límite
+    entre dos masas de aire distintas, no el cambio de una de ellas.
+- id: k304
+  source:
+    key_item: 304
+  question: Cuando un cuerpo o masa de aire tiende a estar en reposo o se mueve lentamente en un área
+    extensa, las propiedades de temperatura y humedad.
+  options:
+    a: Inestables
+    b: inertes
+    c: son bastante uniformes
+  answer: c
+  explanation: Cuando una masa de aire permanece en reposo o se mueve lentamente sobre una región extensa
+    y homogénea (región fuente), adquiere propiedades de temperatura y humedad bastante uniformes. Así
+    se forman las masas de aire.
+- id: k317
+  source:
+    key_item: 317
+  question: 'El piloto puede esperar cortantes de vientos en la zona de inversión de temperatura cuando
+    el viento es de:'
+  options:
+    a: 5 nudos o más, entre los 1000 pies y los 1500 pies de altitud.
+    b: 25 nudos o más, entre los 2000 pies y los 4000 pies de altitud.
+    c: 8 nudos o más, entre los 2000 pies y los 3000 pies de altitud.
+  answer: b
+  explanation: Se puede esperar cortante de viento en la zona de una inversión de temperatura cuando hay
+    vientos de 25 nudos o más entre los 2000 y 4000 pies. El aire calmo bajo la inversión contrasta con
+    el viento fuerte por encima, generando el cizallamiento, especialmente peligroso en despegues y aterrizajes.
+- id: k332
+  source:
+    key_item: 332
+  question: 'La cortante de viento puede ocurrir a cualquier nivel y puede ser detectada por el piloto
+    como un:'
+  options:
+    a: súbito cambio en la velocidad.
+    b: un cambio en la temperatura
+    c: una fluctuación inesperada en el variometro
+  answer: a
+  explanation: La cortante de viento puede ocurrir a cualquier nivel y el piloto la detecta principalmente
+    como un cambio súbito en la velocidad indicada, acompañado de variaciones de altitud y actitud. Un
+    cambio de temperatura no la identifica, y la indicación del variómetro es solo una consecuencia secundaria.
+- id: k335
+  source:
+    key_item: 335
+  question: 'La humedad relativa se presenta como:'
+  options:
+    a: rocio
+    b: vapor.
+    c: vapor de agua en el aire.
+  answer: c
+  explanation: La humedad relativa expresa la cantidad de vapor de agua presente en el aire en relación
+    con el máximo que podría contener a esa temperatura. El rocío es agua ya condensada sobre superficies,
+    no humedad en el aire.
+- id: k352
+  source:
+    key_item: 352
+  question: 'Para que se forme hielo sobre un avión es necesario que se cumplan dos condiciones:'
+  options:
+    a: 1. Que el agua que forma parte de las nubes o precipitación sea líquida. 2. Que la temperatura
+      del aire se encuentre por debajo de cero grado centígrado (isoterma de 0º C).
+    b: 1 Que el agua que forma parte de las nubes o precipitación sea solida. 2 Que la temperatura del
+      aire se encuentre por debajo de 10 grados bajo cero
+    c: 1 Que el agua que forma parte de las nubes o precipitación sea líquida. 2 Que la temperatura del
+      aire se encuentre por encima de cero grado centígrado
+  answer: a
+  explanation: Para que se forme hielo sobre el avión se necesitan agua líquida (gotas sobreenfriadas
+    de nube o precipitación) y temperatura del aire bajo cero (isoterma de 0 °C o por debajo). El agua
+    sólida (nieve, cristales de hielo) no se adhiere de la misma forma, y por encima de 0 °C el agua no
+    se congela.
+- id: k353
+  source:
+    key_item: 353
+  question: 'Cuáles de los siguientes características se vinculan con la Tropósfera:'
+  options:
+    a: Alta concentración de vapor de agua y Presencia de núcleos de condensación.
+    b: Enfriamiento máximo debido a la radiación.
+    c: La temperatura permanece constante.
+  answer: a
+  explanation: La tropósfera, la capa más baja de la atmósfera, contiene casi todo el vapor de agua y
+    los núcleos de condensación, por eso allí se producen las nubes y el tiempo meteorológico. En ella
+    la temperatura disminuye con la altura; la temperatura constante es característica de la tropopausa
+    y la parte baja de la estratósfera.
+- id: k354
+  source:
+    key_item: 354
+  question: 'MET: Según el movimiento y la temperatura de las masas de aire podemos clasificar los frentes
+    en:'
+  options:
+    a: Fríos-Calientes-Locales- Ocluidos
+    b: Fríos-Calientes- Estacionarios- Ocluidos
+    c: -Calientes-Fríos-
+  answer: b
+  explanation: Según el movimiento y la temperatura de las masas de aire, los frentes se clasifican en
+    fríos, calientes, estacionarios y ocluidos. No existen frentes locales en esta clasificación, y la
+    opción c está incompleta.
+- id: k366
+  source:
+    key_item: 366
+  question: 'Se denomina superficie frontal a:'
+  options:
+    a: A la separación de dos masas de aire con iguales características.
+    b: A la separación de dos masas de aire con diferentes características
+    c: La union de dos masas de aire con diferentes características
+  answer: b
+  explanation: Superficie frontal es la zona de separación entre dos masas de aire de diferentes características
+    (temperatura, humedad, densidad). Si las masas fueran iguales no habría frente, y no se trata de una
+    unión sino de un límite entre ellas.
+- id: k369
+  source:
+    key_item: 369
+  question: Se puede esperar la cortante de viento de baja altitud durante fuertes inversiones de temperatura,
+    en todos los lados de la tormenta y directamente debajo de la celda.
+  options:
+    a: Falso
+    b: Verdadero
+  answer: b
+  explanation: Verdadero. La cortante de viento a baja altitud se puede esperar con inversiones de temperatura
+    fuertes y alrededor de las tormentas, en todos sus lados y directamente debajo de la celda, por las
+    corrientes descendentes y los frentes de ráfagas.

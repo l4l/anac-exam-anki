@@ -1,0 +1,828 @@
+- id: k030
+  source:
+    key_item: 30
+    chapter_question: '5.1'
+  question: ¿Cuál es el procedimiento correcto para la salida de patrón de tráfico que se debe utilizar
+    en un aeropuerto no controlado?
+  options:
+    a: Partir en cualquier dirección, considerando la seguridad luego de cruzar los límites del aeropuerto.
+    b: Realizar todos los virajes hacia la izquierda.
+    c: Cumplir cualquier patrón de tráfico establecido con respecto a cualquier aeropuerto.
+  answer: c
+  status: key_error
+  official_key: b
+  explanation: Al partir de un aeródromo no controlado se debe cumplir el circuito de tránsito establecido
+    (publicado) para ese aeródromo. Los virajes por la izquierda son solo la regla por defecto cuando
+    no hay un circuito publicado, por lo que la opción b) no es la regla general. Partir en cualquier
+    dirección (a) ignora el circuito y es incorrecto.
+  theory: Cumplir con el circuito de tránsito publicado y, en caso de no estarlo, efectuar los virajes
+    por la izquierda.
+- id: k108
+  source:
+    key_item: 108
+    chapter_question: '5.2'
+  question: 'La posición recomendada de entrada al circuito de tránsito local consiste en:'
+  options:
+    a: 45° al tramo básico, justo por debajo de la altitud del circuito de tránsito.
+    b: Entrar 45° al punto medio del tramo a favor del viento en la altitud del circuito de tránsito.
+    c: Cruzar directamente sobre el aeropuerto en la altitud del circuito de tránsito e ingresar al tramo
+      contra el viento (final).
+  answer: b
+  explanation: La entrada recomendada al circuito es con un ángulo de 45° hacia el punto medio del tramo
+    a favor del viento (tramo inicial o "downwind"), ya establecido a la altitud del circuito. Entrar
+    al tramo básico por debajo de la altitud del circuito o cruzar sobre el aeródromo para entrar en final
+    no es el procedimiento estándar y aumenta el riesgo de conflicto con otro tránsito.
+  theory: Entrar a 45° al punto medio del tramo a favor del viento, a la altitud del circuito.
+- id: k180
+  source:
+    key_item: 180
+    chapter_question: '5.3'
+  question: 'Los números 09 y 27 en una pista indican que su orientación es aproximadamente:'
+  options:
+    a: 009° y 027° verdadera.
+    b: 090° y 270° verdadera.
+    c: 090° y 270° magnética.
+  answer: c
+  explanation: El número de pista es el rumbo magnético de la pista dividido por 10 y redondeado. Pista
+    09 ≈ 090° magnético y pista 27 ≈ 270° magnético. No se refiere al rumbo verdadero, y 009°/027° sería
+    no multiplicar por 10.
+  theory: El número de pista es el rumbo magnético de la pista (dividido por 10).
+- id: k224
+  source:
+    key_item: 224
+    chapter_question: '5.4'
+  question: 'Al aproximarse para aterrizar en una pista que cuenta con un indicador visual de pendiente
+    de aproximación (VASI), el piloto deberá:'
+  options:
+    a: Mantener una altitud que capture la senda de planeo al menos a 2 millas en tramo con el viento
+      desde el umbral de la pista.
+    b: Mantener una altitud al nivel de la pendiente de planeo o por encima de éste.
+    c: Permanecer en la senda de planeo y aterrizar entre las dos barras luminosas.
+  answer: b
+  explanation: 'Con un VASI, el piloto debe mantener una altitud igual o superior a la senda de planeo
+    hasta que sea necesaria una altitud menor para aterrizar, garantizando el franqueamiento de obstáculos.
+    No es obligatorio capturar la senda a una distancia determinada, y el VASI no indica que haya que
+    aterrizar "entre las barras": el punto de toma de contacto está más allá de las barras.'
+  theory: Mantener una altitud igual o superior a la senda de planeo hasta que sea necesaria una altitud
+    menor para aterrizar.
+- id: k264
+  source:
+    key_item: 264
+    chapter_question: '5.5'
+  question: 'Una indicación de senda de planeo levemente alta causada por un indicador de trayectoria
+    de aproximación de precisión (PAPI) es:'
+  options:
+    a: Cuatro luces blancas.
+    b: Tres luces blancas y una luz roja.
+    c: Dos luces blancas y dos luces rojas.
+  answer: b
+  images:
+  - ppa-key-x313.jpg
+  explanation: En el PAPI, cuantas más luces blancas, más alto está el avión:<br>4 blancas = alto<br>3
+    blancas y 1 roja = levemente alto<br>2 blancas y 2 rojas = en la senda<br>1 blanca y 3 rojas = levemente
+    bajo<br>4 rojas = bajo.<br>Por eso, levemente alto corresponde a tres blancas y una roja; dos y dos
+    es la senda correcta.
+  theory: Tres luces blancas y una luz roja indican que la aeronave se encuentra levemente alta.
+- id: k266
+  source:
+    key_item: 266
+    chapter_question: '5.6'
+  question: 'La ilustración A indica que la aeronave se encuentra:'
+  options:
+    a: Debajo de la senda de planeo.
+    b: En la senda de planeo.
+    c: Encima de la senda de planeo.
+  answer: b
+  images:
+  - ppa-key-x324.jpg
+  explanation: En un VASI de dos barras, rojo sobre blanco (barra lejana roja, barra cercana blanca) indica
+    que la aeronave está en la senda de planeo. En la ilustración A la barra superior (lejana) es oscura/roja
+    y la inferior (cercana) es blanca, es decir, rojo sobre blanco. Ambas rojas indicarían debajo de la
+    senda y ambas blancas, encima.
+- id: k275
+  source:
+    key_item: 275
+    chapter_question: '5.7'
+  question: 'Las luces VASI, indicadas en la ilustración C, muestran que el avión se encuentra:'
+  options:
+    a: Fuera de curso a la izquierda.
+    b: Encima de la senda de planeo.
+    c: Debajo de la senda de planeo.
+  answer: b
+  images:
+  - ppa-key-x319.jpg
+  explanation: En el VASI, la ilustración C muestra ambas barras blancas (blanco sobre blanco), lo que
+    indica que la aeronave está por encima de la senda de planeo. Rojo sobre blanco sería en la senda
+    y ambas rojas, debajo. El VASI no da información de desvío lateral, por lo que "fuera de curso a la
+    izquierda" no aplica.
+  theory: Ambas barras blancas indican que la aeronave se encuentra por encima de la senda de planeo.
+- id: k283
+  source:
+    key_item: 283
+    chapter_question: '5.8'
+  question: 'Durante la aproximación final a una pista de aterrizaje equipada con un VASI estándar de
+    dos barras, las luces se ven tal como se muestra en la ilustración B. Esto significa que la aeronave
+    se encuentra:'
+  options:
+    a: Encima de la senda de planeo.
+    b: Debajo de la senda de planeo.
+    c: En la senda de planeo.
+  answer: c
+  images:
+  - ppa-key-x319.jpg
+  explanation: 'En un VASI estándar de dos barras: rojo sobre blanco = en la senda; blanco sobre blanco
+    = encima; rojo sobre rojo = debajo. La ilustración que corresponde a esta pregunta es la de rojo sobre
+    blanco (barra lejana roja y cercana blanca), por lo que la aeronave está en la senda de planeo.'
+  theory: Luces rojas sobre luces blancas indican que la aeronave se encuentra en la senda de planeo.
+- id: k289
+  source:
+    key_item: 289
+    chapter_question: '5.9'
+  question: Cuando se realiza el rodaje con vientos fuertes de cola parcialmente cruzados, ¿qué posiciones
+    del alerón se deben utilizar?
+  options:
+    a: Alerón abajo en el lado a favor del viento.
+    b: Alerones neutros.
+    c: Alerón abajo en el lado desde donde sopla el viento.
+  answer: c
+  explanation: Con viento de cola parcialmente cruzado, el viento tiende a levantar el ala del lado desde
+    donde sopla al entrar por detrás. Para contrarrestarlo se coloca el alerón de ese lado hacia abajo
+    (mando hacia el lado opuesto al viento), además del elevador abajo. Poner el alerón abajo en el lado
+    a favor del viento haría lo contrario.
+  theory: Con viento de cola, el alerón del lado desde donde sopla el viento debe estar hacia abajo para
+    evitar que el ala se eleve.
+- id: k040
+  source:
+    key_item: 40
+    chapter_question: '5.10'
+  question: Cuando el piloto realiza el rodaje con vientos fuertes de frente parcialmente cruzados, ¿qué
+    posiciones de alerón utiliza generalmente?
+  options:
+    a: Alerón arriba en el lado desde donde sopla el viento.
+    b: Alerón abajo en el lado desde donde sopla el viento.
+    c: Alerones neutros.
+  answer: a
+  explanation: 'Con viento de frente parcialmente cruzado, se gira el mando hacia el viento: el alerón
+    del lado desde donde sopla el viento queda hacia arriba y así el viento empuja esa ala hacia abajo,
+    evitando que se levante. El alerón abajo de ese lado aumentaría la sustentación y favorecería que
+    el ala se eleve.'
+  theory: Con viento de frente, el alerón del lado desde donde sopla el viento debe estar hacia arriba.
+- id: k045
+  source:
+    key_item: 45
+    chapter_question: '5.11'
+  question: ¿Cuál condición de viento sería la más crítica al rodar un avión equipado con alas altas y
+    rueda de nariz?
+  options:
+    a: Viento de cola parcialmente cruzado.
+    b: Viento cruzado directo.
+    c: Viento de frente, parcialmente cruzado.
+  answer: a
+  explanation: 'En un avión de ala alta y rueda de nariz, el viento de cola parcialmente cruzado es la
+    condición más crítica para el rodaje: el viento entra por detrás y por debajo del ala y del empenaje,
+    pudiendo levantar el ala del lado del viento y la cola y hacer volcar la aeronave. El viento de frente
+    o el cruzado directo son más fáciles de controlar.'
+  theory: Rodar con viento de cola parcialmente cruzado produce las condiciones más peligrosas.
+- id: k050
+  source:
+    key_item: 50
+    chapter_question: '5.12'
+  question: ¿Cómo se deberían mantener los controles de vuelo al rodar un avión equipado con un tren de
+    aterrizaje triciclo, con viento de frente, parcialmente cruzado, de la izquierda?
+  options:
+    a: Alerón izquierdo arriba, elevador neutral.
+    b: Alerón izquierdo abajo, elevador neutral.
+    c: Alerón izquierdo arriba, elevador abajo.
+  answer: a
+  images:
+  - ppa-key-x230.jpg
+  explanation: 'Viento de frente desde la izquierda (área A de la figura) en un avión triciclo:<br>Alerón:
+    mando girado hacia el viento → alerón izquierdo arriba.<br>Elevador: neutro, porque en el triciclo
+    no hace falta cargar la rueda de nariz ni la cola.<br>Alerón izquierdo abajo levantaría el ala del
+    lado del viento.'
+  theory: Con viento de frente, el elevador en posición neutra y el alerón del lado desde donde sopla
+    el viento hacia arriba.
+- id: k063
+  source:
+    key_item: 63
+    chapter_question: '5.13'
+  question: (Refiérase a la Figura 9, área B) ¿Cómo se deberían mantener los controles de vuelo al rodar
+    un avión con rueda de cola, con viento de frente, parcialmente cruzado, de la derecha?
+  options:
+    a: Alerón derecho arriba, elevador arriba.
+    b: Alerón derecho abajo, elevador neutro.
+    c: Alerón derecho arriba, elevador abajo.
+  answer: a
+  images:
+  - ppa-figura-09.jpg
+  explanation: 'Viento de frente desde la derecha (área B) en un avión con rueda de cola:<br>Alerón: mando
+    girado hacia el viento → alerón derecho arriba.<br>Elevador: arriba (mando atrás) para mantener la
+    cola apoyada en el suelo.<br>El elevador neutro o abajo descargaría la rueda de cola y reduciría el
+    control direccional.'
+  theory: 'Rueda de cola con viento de frente: alerón del lado del viento arriba y elevador arriba.'
+- id: k067
+  source:
+    key_item: 67
+    chapter_question: '5.14'
+  question: (Refiérase a la Figura 9, área C) ¿Cómo se deberían mantener los controles de vuelo al rodar
+    un avión con rueda de cola con viento de cola, parcialmente cruzado, de la izquierda?
+  options:
+    a: Alerón izquierdo arriba, elevador neutro.
+    b: Alerón izquierdo abajo, elevador neutro.
+    c: Alerón izquierdo abajo, elevador abajo.
+  answer: c
+  images:
+  - ppa-figura-09.jpg
+  explanation: 'Viento de cola desde la izquierda (área C) en un avión con rueda de cola:<br>Alerón: mando
+    hacia el lado opuesto al viento → alerón izquierdo abajo.<br>Elevador: abajo (mando adelante), para
+    que el viento de cola no levante la cola.<br>Con el elevador neutro el viento podría levantar la cola
+    por debajo del estabilizador.'
+  theory: 'Rueda de cola con viento de cola: alerón del lado del viento abajo y elevador también abajo.'
+- id: k074
+  source:
+    key_item: 74
+    chapter_question: '5.15'
+  question: (Refiérase a la Figura 9, área C) ¿Cómo se deberían mantener los controles de vuelo al rodar
+    un avión equipado con un tren de aterrizaje triciclo, con viento de cola, parcialmente cruzado, de
+    la izquierda?
+  options:
+    a: Alerón izquierdo arriba, elevador neutro.
+    b: Alerón izquierdo abajo, elevador abajo.
+    c: Alerón izquierdo arriba, elevador abajo.
+  answer: b
+  images:
+  - ppa-figura-09.jpg
+  explanation: 'Viento de cola desde la izquierda (área C) en un avión triciclo:<br>Alerón: mando hacia
+    el lado opuesto al viento → alerón izquierdo abajo.<br>Elevador: abajo (mando adelante), para que
+    el viento no levante la cola.<br>Con viento de cola la técnica es la misma para triciclo y rueda de
+    cola; alerón arriba solo se usa con viento de frente.'
+  theory: 'Con viento de cola: elevador hacia abajo y alerón del lado del viento hacia abajo.'
+- id: k081
+  source:
+    key_item: 81
+    chapter_question: '5.16'
+  question: 'Para minimizar las cargas laterales sobre el tren de aterrizaje durante el aterrizaje, el
+    piloto debería mantener:'
+  options:
+    a: La dirección de movimiento de la aeronave paralela a la pista de aterrizaje.
+    b: El eje longitudinal de la aeronave paralelo a la dirección de su movimiento.
+    c: El ala a favor del viento bajada lo suficiente para eliminar la tendencia de la aeronave a irse
+      a la deriva.
+  answer: b
+  explanation: Para evitar cargas laterales sobre el tren, en la toma de contacto el eje longitudinal
+    del avión debe estar alineado con la dirección en que realmente se mueve. Que la trayectoria sea paralela
+    a la pista no basta si el avión toca con ángulo de deriva (cangrejo). Bajar el ala del lado del viento
+    es la técnica para corregir la deriva, pero no es la definición de lo que hay que mantener.
+  theory: El eje longitudinal debe mantenerse paralelo a la dirección en la cual se mueve el avión.
+- id: c5-17
+  source:
+    chapter_question: '5.17'
+  question: 'Cuando se opera una aeronave a altitudes de presión de cabina superiores a 10000 pies a nivel
+    medio del mar hasta 13000 pies a nivel medio del mar inclusive, se debería utilizar oxígeno suplementario
+    durante:'
+  options:
+    a: Todo el tiempo de vuelo en esas altitudes.
+    b: Ese tiempo de vuelo más 10 minutos de exceso en esas altitudes.
+    c: Todo el tiempo de vuelo que exceda los 30 minutos en esas altitudes.
+  answer: c
+  explanation: Según el RAAC 91, a altitudes de presión de cabina por encima de 10000 pies y hasta 13000
+    pies inclusive, la tripulación mínima debe usar oxígeno suplementario durante la parte del vuelo a
+    esas altitudes que exceda los 30 minutos. Por encima de 13000 pies se debe usar todo el tiempo, por
+    eso la opción a) no corresponde a este rango.
+  theory: Usar oxígeno suplementario durante la parte del vuelo en esas altitudes que dure más de 30 minutos
+    (RAAC 91).
+- id: k094
+  source:
+    key_item: 94
+    chapter_question: '5.18'
+  question: 'Grandes acumulaciones de monóxido de carbono en el cuerpo humano causan:'
+  options:
+    a: Rigidez en la frente.
+    b: Pérdida de fuerza muscular.
+    c: Una sensación aumentada de bienestar.
+  answer: b
+  explanation: El monóxido de carbono se une a la hemoglobina e impide el transporte de oxígeno; grandes
+    acumulaciones producen pérdida de fuerza muscular, además de dolor de cabeza y mareos. No produce
+    sensación de bienestar (eso se asocia más a la hipoxia) ni rigidez en la frente como síntoma principal.
+  theory: Una gran acumulación de monóxido de carbono en el cuerpo causa pérdida de fuerza muscular.
+- id: k096
+  source:
+    key_item: 96
+    chapter_question: '5.19'
+  question: ¿Cuál de las siguientes afirmaciones define mejor la hipoxia?
+  options:
+    a: Un estado de deficiencia de oxígeno en el cuerpo.
+    b: Un incremento anormal en el volumen de aire respirado.
+    c: Una afección por la formación de burbujas de gas alrededor de las articulaciones o músculos.
+  answer: a
+  explanation: La hipoxia es un estado de deficiencia de oxígeno en el cuerpo, suficiente para afectar
+    funciones como el cerebro. El aumento anormal del volumen de aire respirado es la hiperventilación,
+    y las burbujas de gas en articulaciones corresponden a la enfermedad descompresiva.
+  theory: La hipoxia es una deficiencia de oxígeno en el cuerpo.
+- id: k113
+  source:
+    key_item: 113
+    chapter_question: '5.20'
+  question: 'Cuando se enfrenta una situación estresante durante el vuelo, un incremento anormal en el
+    volumen de aire inspirado y exhalado puede causar una afección conocida como:'
+  options:
+    a: Hiperventilación.
+    b: Aerosinusitis.
+    c: Aerotitis.
+  answer: a
+  explanation: Un aumento anormal de la frecuencia y el volumen de la respiración, típico ante el estrés,
+    se llama hiperventilación y elimina demasiado dióxido de carbono. La aerosinusitis y la aerotitis
+    son afecciones de senos y oído por cambios de presión.
+  theory: Un aumento anormal del volumen de aire inspirado y exhalado causa hiperventilación.
+- id: k118
+  source:
+    key_item: 118
+    chapter_question: '5.21'
+  question: ¿Cuál de las siguientes causas es la más probable que produzca hiperventilación?
+  options:
+    a: Tensión emocional, ansiedad o miedo.
+    b: El consumo excesivo de alcohol.
+    c: Un índice extremadamente lento de respiración y oxígeno insuficiente.
+  answer: a
+  explanation: La hiperventilación se produce con mayor probabilidad por tensión emocional, ansiedad o
+    miedo, que llevan a respirar más rápido y profundo. Un ritmo de respiración lento es justamente lo
+    contrario, y el alcohol no es la causa típica.
+  theory: La hiperventilación es más probable durante periodos de estrés o ansiedad.
+- id: k128
+  source:
+    key_item: 128
+    chapter_question: '5.22'
+  question: 'Un piloto debería ser capaz de superar los síntomas de hiperventilación o evitar futuros
+    eventos al:'
+  options:
+    a: Controlar en detalle los instrumentos de vuelo para controlar el avión.
+    b: Enlentecer el índice de respiración, respirar en una bolsa o hablar en voz alta.
+    c: Incrementar el índice de respiración para aumentar la ventilación de los pulmones.
+  answer: b
+  explanation: 'Para revertir la hiperventilación hay que restaurar el nivel de dióxido de carbono: reducir
+    conscientemente la frecuencia respiratoria, respirar dentro de una bolsa de papel o hablar en voz
+    alta. Aumentar la respiración empeora el cuadro.'
+  theory: Controlar la frecuencia respiratoria, respirar en una bolsa de papel o hablar en voz alta.
+- id: k133
+  source:
+    key_item: 133
+    chapter_question: '5.23'
+  question: 'La vulnerabilidad a envenenamiento por monóxido de carbono aumenta a medida que:'
+  options:
+    a: La altitud aumenta.
+    b: La altitud disminuye.
+    c: La presión de aire aumenta.
+  answer: a
+  explanation: La susceptibilidad al envenenamiento por monóxido de carbono aumenta con la altitud, porque
+    la presión parcial de oxígeno es menor y el organismo ya dispone de menos oxígeno. Al disminuir la
+    altitud o aumentar la presión del aire, la vulnerabilidad baja.
+  theory: La susceptibilidad al envenenamiento por monóxido de carbono aumenta con la altitud.
+- id: k147
+  source:
+    key_item: 147
+    chapter_question: '5.24'
+  question: 'Se puede reducir el peligro de desorientación espacial durante el vuelo en condiciones visuales
+    pobres al:'
+  options:
+    a: Cambiar la vista en forma alternada entre el campo visual externo y el panel de instrumentos.
+    b: Confiar en los instrumentos en vez de considerar las percepciones sensoriales.
+    c: Inclinar el cuerpo en dirección opuesta al movimiento de la aeronave.
+  answer: b
+  explanation: En condiciones visuales pobres, los sentidos del cuerpo (oído interno, músculos) dan información
+    engañosa; hay que confiar en los instrumentos y no en las sensaciones. Alternar la vista entre afuera
+    y el panel, o inclinar el cuerpo, puede empeorar la desorientación.
+  theory: Confíe en las indicaciones de los instrumentos; mover los ojos con rapidez o inclinarse empeoran
+    el problema.
+- id: k152
+  source:
+    key_item: 152
+    chapter_question: '5.25'
+  question: 'Al estado de confusión temporal que causa la información engañosa enviada al cerebro por
+    los diversos órganos sensoriales se lo define como:'
+  options:
+    a: Desorientación espacial.
+    b: Hiperventilación.
+    c: Hipoxia.
+  answer: a
+  explanation: La desorientación espacial es el estado de confusión temporal causado por información engañosa
+    que los órganos sensoriales (vista, oído interno, músculos) envían al cerebro. La hiperventilación
+    y la hipoxia son problemas respiratorios y de oxigenación, no de percepción.
+  theory: La desorientación espacial es un estado de confusión espacial temporaria.
+- id: k159
+  source:
+    key_item: 159
+    chapter_question: '5.26'
+  question: 'Los pilotos se encuentran más susceptibles a la desorientación espacial si:'
+  options:
+    a: Ignoran las sensaciones de los músculos y el oído interno.
+    b: Si desaparecen referencias visuales, guiándose solamente por las sensaciones experimentadas por
+      su cuerpo.
+    c: Los ojos se mueven a menudo en el proceso de verificar los instrumentos de vuelo.
+  answer: b
+  explanation: El piloto es más susceptible a la desorientación espacial cuando pierde las referencias
+    visuales y se guía solo por las sensaciones del cuerpo, que son engañosas. Ignorar esas sensaciones
+    y verificar los instrumentos es precisamente lo que la previene.
+  theory: Durante baja visibilidad, al perder referencias visuales, el piloto es vulnerable a la desorientación
+    espacial.
+- id: k165
+  source:
+    key_item: 165
+    chapter_question: '5.27'
+  question: 'Si un piloto experimenta desorientación espacial durante el vuelo en una condición de visibilidad
+    restringida, la mejor manera de superar el efecto consiste en:'
+  options:
+    a: Confiar en las indicaciones de los instrumentos de la aeronave.
+    b: Concentrarse en las sensaciones de guiño, cabeceo y balanceo.
+    c: Aminorar en forma consciente el ritmo de respiración hasta que los síntomas desaparezcan y se normalice
+      el ritmo normal de respiración.
+  answer: a
+  explanation: La mejor manera de superar la desorientación espacial es confiar en los instrumentos de
+    vuelo e ignorar las sensaciones de guiñada, cabeceo y alabeo. Controlar la respiración es el remedio
+    para la hiperventilación, no para la desorientación.
+  theory: Confíe en las indicaciones de los instrumentos.
+- id: c5-28
+  source:
+    chapter_question: '5.28'
+  question: ¿Cuál es el antídoto cuando un piloto tiene una actitud riesgosa, como "antiautoridad"?
+  options:
+    a: Las normas no se aplican en esta situación.
+    b: Sé lo que estoy haciendo.
+    c: Seguir las normas.
+  answer: c
+  explanation: La actitud antiautoridad se resume en "no me digan qué hacer". Su antídoto es "seguir las
+    normas, normalmente son correctas". Las opciones a) y b) expresan el pensamiento peligroso, no el
+    antídoto.
+  theory: 'El antídoto para la actitud antiautoridad es: sigue las reglas.'
+- id: k171
+  source:
+    key_item: 171
+    chapter_question: '5.29'
+  question: ¿Cuál es el antídoto cuando un piloto tiene una actitud riesgosa, como "impulsividad"?
+  options:
+    a: Me podría suceder a mí.
+    b: Hazlo rápido para terminar con eso.
+    c: No tan rápido, piensa primero.
+  answer: c
+  explanation: La impulsividad es la necesidad de hacer algo rápido sin pensar ("hazlo rápido"). Su antídoto
+    es "no tan rápido, piensa primero". La opción b) es el pensamiento peligroso y "me podría suceder
+    a mí" es el antídoto de la invulnerabilidad.
+  theory: 'El antídoto para la impulsividad es: no tan rápido, piensa primero.'
+- id: c5-30
+  source:
+    chapter_question: '5.30'
+  question: Las actitudes riesgosas les suceden a todos los pilotos en algún grado en algún momento. ¿Cuáles
+    son algunas de esas actitudes riesgosas?
+  options:
+    a: Manejo pobre de riesgos y falta de manejo de estrés.
+    b: Antiautoridad, impulsividad, machismo, resignación e invulnerabilidad.
+    c: Consciencia situacional pobre, criterios precipitados y falta de un proceso de toma de decisiones.
+  answer: b
+  explanation: Las cinco actitudes peligrosas son antiautoridad, impulsividad, invulnerabilidad, machismo
+    y resignación. Las otras opciones mencionan fallas en la gestión de riesgo o la toma de decisiones,
+    pero no son las actitudes peligrosas definidas.
+  theory: 'Las cinco actitudes peligrosas son: antiautoridad, impulsividad, invulnerabilidad, machismo
+    y resignación.'
+- id: k188
+  source:
+    key_item: 188
+    chapter_question: '5.31'
+  question: En el proceso de toma de decisiones aeronáuticas ¿cuál es el primer paso para neutralizar
+    una actitud riesgosa?
+  options:
+    a: Tomar un criterio racional.
+    b: Reconocer los pensamientos riesgosos.
+    c: Reconocer la invulnerabilidad de la situación.
+  answer: b
+  explanation: El primer paso para neutralizar una actitud peligrosa es reconocer los pensamientos peligrosos;
+    luego se los rotula y se aplica el antídoto correspondiente. No se puede aplicar un criterio racional
+    sin antes reconocer el problema, y "reconocer la invulnerabilidad" es justamente una actitud peligrosa.
+  theory: El reconocimiento de los pensamientos peligrosos es el primer paso para neutralizarlos.
+- id: k193
+  source:
+    key_item: 193
+    chapter_question: '5.32'
+  question: El manejo de riesgo, como parte de un proceso de toma de decisiones aeronáuticas, ¿de qué
+    características depende para reducir los riesgos relacionados con cada vuelo?
+  options:
+    a: La aplicación de manejo de estrés y procedimientos de elementos de riesgo.
+    b: Consciencia situacional, reconocimiento del problema y buen criterio.
+    c: El proceso mental de analizar toda la información en una situación en particular y tomar una decisión
+      oportuna en la elección de una acción.
+  answer: b
+  explanation: La gestión de riesgo, dentro de la toma de decisiones aeronáuticas, depende de la consciencia
+    situacional, el reconocimiento del problema y el buen criterio para reducir los riesgos de cada vuelo.
+    La opción c) describe el proceso de toma de decisiones en general, no las características de las que
+    depende la gestión de riesgo.
+  theory: La gestión de riesgo depende de la consciencia situacional, el reconocimiento del problema y
+    el buen juicio.
+- id: c5-33
+  source:
+    chapter_question: '5.33'
+  question: ¿Cuál es el antídoto cuando un piloto tiene una actitud riesgosa, como "invulnerabilidad"?
+  options:
+    a: No me sucederá a mí.
+    b: No puede ser tan malo.
+    c: Podría sucederme a mí.
+  answer: c
+  explanation: La invulnerabilidad se expresa como "no me sucederá a mí". Su antídoto es "podría sucederme
+    a mí". La opción a) es el pensamiento peligroso y la b) es una forma de minimizar el riesgo, no un
+    antídoto.
+  theory: 'El antídoto para la invulnerabilidad es: podría sucederme a mí.'
+- id: c5-34
+  source:
+    chapter_question: '5.34'
+  question: ¿Cuál es el antídoto cuando un piloto tiene una actitud riesgosa, como "machismo"?
+  options:
+    a: Puedo hacerlo.
+    b: Tomar oportunidades es tonto.
+    c: Nada sucederá.
+  answer: b
+  explanation: El machismo se expresa como "puedo hacerlo", tomando riesgos para impresionar. Su antídoto
+    es "tomar riesgos es tonto". La opción a) es el pensamiento peligroso en sí mismo.
+  theory: 'El antídoto para el machismo es: tomar riesgos es tonto.'
+- id: c5-35
+  source:
+    chapter_question: '5.35'
+  question: ¿Cuál es el antídoto cuando un piloto tiene una actitud riesgosa, como "resignación"?
+  options:
+    a: Es inútil.
+    b: Otra persona es responsable.
+    c: No estoy indefenso/desamparado.
+  answer: c
+  explanation: La resignación se expresa como "¿para qué?, es inútil". Su antídoto es "no estoy indefenso,
+    puedo hacer la diferencia". "Es inútil" es el pensamiento peligroso y culpar a otro tampoco es un
+    antídoto.
+  theory: 'El antídoto para la resignación es: no estoy indefenso, puedo hacer la diferencia.'
+- id: k202
+  source:
+    key_item: 202
+    chapter_question: '5.36'
+  question: ¿Quién es responsable de determinar si un piloto se encuentra apto para volar en un vuelo
+    en particular, aún si él/ella cuenta con un psicofísico vigente?
+  options:
+    a: La ANAC.
+    b: El médico.
+    c: El piloto.
+  answer: c
+  explanation: Aunque tenga el certificado psicofísico vigente, el piloto es el responsable de determinar
+    antes de cada vuelo si está apto (enfermedad, medicación, estrés, alcohol, fatiga). La ANAC y el médico
+    evalúan la aptitud general, no el estado en cada vuelo particular.
+  theory: El piloto es responsable de determinar si se encuentra apto para cada vuelo.
+- id: k205
+  source:
+    key_item: 205
+    chapter_question: '5.37'
+  question: ¿Cuál es el factor común que afecta los accidentes más prevenibles?
+  options:
+    a: Falla estructural.
+    b: Falla mecánica.
+    c: Error humano.
+  answer: c
+  explanation: 'La mayoría de los accidentes prevenibles tienen un factor común: el error humano. Las
+    fallas estructurales o mecánicas son causas mucho menos frecuentes.'
+  theory: 'La mayoría de los accidentes prevenibles tienen un factor común: el error humano.'
+- id: k210
+  source:
+    key_item: 210
+    chapter_question: '5.38'
+  question: ¿Qué suele causar desorientación espacial o colisión con el suelo u obstáculos cuando se vuela
+    según las Reglas de Vuelo Visual (VFR)?
+  options:
+    a: El vuelo visual que se continúa con condiciones instrumentales, sin estar preparado para ello.
+    b: Situarse detrás de la aeronave.
+    c: Volar ignorando las sensaciones del cuerpo.
+  answer: a
+  explanation: Continuar un vuelo VFR hacia condiciones instrumentales sin entrenamiento ni preparación
+    es una causa frecuente de desorientación espacial y de colisión con el terreno u obstáculos. Ignorar
+    las sensaciones del cuerpo y confiar en los instrumentos, en cambio, es lo correcto.
+  theory: Continuar un vuelo VFR en condiciones instrumentales suele causar desorientación espacial o
+    colisión con el suelo u obstáculos.
+- id: c5-39
+  source:
+    chapter_question: '5.39'
+  question: ¿Cuál es uno de los ítems descuidados cuando un piloto confía en su memoria de corto y largo
+    plazo para las tareas repetitivas?
+  options:
+    a: Listas de chequeo.
+    b: Consciencia situacional.
+    c: Volar fuera del envolvente. Evitar colisiones
+  answer: a
+  explanation: Confiar en la memoria de corto y largo plazo para tareas repetitivas (rutas o aviones conocidos)
+    lleva a descuidar la planificación, las inspecciones de prevuelo y, sobre todo, las listas de chequeo.
+    La consciencia situacional no es una tarea repetitiva que se "saltee".
+  theory: La confianza injustificada en la memoria causa negligencia en la planificación del vuelo, las
+    inspecciones de prevuelo y las listas de chequeo.
+- id: k233
+  source:
+    key_item: 233
+    chapter_question: '5.40'
+  question: 'La mayoría de las colisiones en el aire ocurren durante:'
+  options:
+    a: Días de neblina.
+    b: Días claros.
+    c: Noches nubladas.
+  answer: b
+  explanation: La mayoría de las colisiones en el aire ocurren en días claros, con buena visibilidad y
+    en condiciones VFR, cuando hay más tránsito y los pilotos relajan la vigilancia. En neblina o de noche
+    nublada hay menos tránsito VFR.
+  theory: La gran mayoría de las colisiones en vuelo (81 %) ocurren con cielo despejado y visibilidad
+    ilimitada.
+- id: k236
+  source:
+    key_item: 236
+    chapter_question: '5.41'
+  question: 'Antes de iniciar cada maniobra, los pilotos deberían:'
+  options:
+    a: Verificar la altitud, la velocidad indicada y las indicaciones de rumbo.
+    b: Observar el área completa para evitar colisiones.
+    c: Anunciar sus intenciones al CTA más cercano.
+  answer: b
+  explanation: Antes de iniciar cada maniobra, el piloto debe observar el área completa (virajes de despeje)
+    para evitar colisiones. Verificar instrumentos es útil pero no reemplaza la vigilancia exterior, y
+    no es necesario avisar a un control de tránsito aéreo (CTA).
+  theory: La observación del cielo es un factor clave para evitar colisiones antes de cada maniobra.
+- id: k237
+  source:
+    key_item: 237
+    chapter_question: '5.42'
+  question: ¿Qué efecto tiene la neblina sobre la capacidad para observar tránsito o terreno durante el
+    vuelo?
+  options:
+    a: La neblina causa que los ojos se enfoquen al infinito.
+    b: Los ojos tienden a trabajar demasiado en la neblina y no detectan movimientos relativos fácilmente.
+    c: Todas las características del tránsito o terreno parecen encontrarse más lejos de lo que están.
+  answer: c
+  explanation: La neblina reduce el contraste y crea la ilusión de que el tránsito y el terreno están
+    más lejos de lo que realmente están, lo que es peligroso para evitar colisiones. El enfoque al infinito
+    ocurre en un cielo vacío y sin rasgos, no por la neblina.
+  theory: La neblina puede crear la ilusión de que los objetos están a mayor distancia de la real.
+- id: k242
+  source:
+    key_item: 242
+    chapter_question: '5.43'
+  question: 'El método más eficaz para encontrar otra aeronave para evitar colisiones durante el vuelo
+    diurno consiste en utilizar:'
+  options:
+    a: Una concentración espaciada regularmente en las posiciones 3, 9 y 12 en punto.
+    b: Una serie de movimientos oculares cortos, regularmente espaciados, para buscar en cada sector de
+      10 grados.
+    c: Visión periférica al observar pequeños sectores y utilizar la visión no enfocada en el centro.
+  answer: b
+  explanation: La técnica de vigilancia diurna más eficaz es una serie de movimientos oculares cortos
+    y regularmente espaciados, observando cada sector de unos 10° durante al menos un segundo. Mirar solo
+    las posiciones de las 3, 9 y 12 deja sectores sin cubrir, y la visión periférica sirve más de noche.
+  theory: Usar una serie de movimientos oculares cortos y regularmente espaciados; cada movimiento no
+    debería exceder los 10°.
+- id: c5-44
+  source:
+    chapter_question: '5.44'
+  question: ¿Qué técnica debería emplear el piloto para encontrar tránsito hacia la derecha e izquierda
+    durante el vuelo horizontal en línea recta?
+  options:
+    a: Concentrarse en diferentes segmentos del cielo por intervalos cortos y en forma sistemática.
+    b: Concentrarse en movimientos relativos detectados en el área de visión periférica.
+    c: Barrido continuo del parabrisas desde la derecha hacia la izquierda.
+  answer: a
+  explanation: Se debe explorar el cielo de forma sistemática, concentrándose en distintos segmentos por
+    intervalos cortos, para que cada área pase por la visión central, que es la que detecta mejor. Un
+    barrido continuo no permite que el ojo enfoque, y la visión periférica sola no basta de día.
+  theory: Serie de movimientos oculares cortos y regularmente espaciados que lleven áreas sucesivas del
+    cielo al campo visual central.
+- id: k245
+  source:
+    key_item: 245
+    chapter_question: '5.45'
+  question: ¿Cómo puede determinar si hay otra aeronave en curso de colisión con su aeronave?
+  options:
+    a: La otra aeronave parecerá siempre que se agranda o achica en un ritmo rápido.
+    b: La nariz de cada avión apunta al mismo punto en el espacio.
+    c: No habrá movimiento relativo aparente entre su aeronave y la otra.
+  answer: c
+  explanation: 'Una aeronave en curso de colisión no presenta movimiento relativo aparente: permanece
+    fija en el mismo punto del parabrisas y solo aumenta de tamaño, a menudo lentamente al principio.
+    Por eso no hay que esperar que crezca rápido para reconocer el peligro.'
+  theory: Una aeronave sin movimiento relativo aparente se encuentra en curso de colisión.
+- id: k137
+  source:
+    key_item: 137
+  question: 'ANTES QUE LA AERONAVE ENTRE EN EL CIRCUITO DE TRANSITO, SE LE FACILITARAN LAS SIGUIENTES
+    INFORMACIONES, EXCEPTO AQUELLAS QUE SE SEPA QUE YA HA RECIBIDO:'
+  options:
+    a: Identificación alfanumérica del aeródromo, número y ancho de pistas.
+    b: Identificación Morse del faro de aeródromo, elevación inclinación y pendiente de pistas.
+    c: Pista en uso e información meteorológica pertinente que se disponga.
+  answer: c
+  explanation: Antes de entrar en el circuito de tránsito, se le proporciona a la aeronave la pista en
+    uso y la información meteorológica pertinente disponible (viento, QNH, etc.) y de tránsito, salvo
+    la que se sepa que ya recibió. Los datos fijos del aeródromo, como identificación, elevación o pendiente
+    de pistas, se obtienen de las publicaciones, no en ese momento.
+- id: k142
+  source:
+    key_item: 142
+  question: 'Si una aeronave debe realizar un Descenso de emergencia, activara su transpondedor en:'
+  options:
+    a: '7600'
+    b: '7500'
+    c: '7700'
+  answer: c
+  explanation: En un descenso de emergencia se selecciona en el transpondedor el código de emergencia
+    7700. El 7600 indica falla de comunicaciones y el 7500, interferencia ilícita.
+- id: k170
+  source:
+    key_item: 170
+  question: En caso de una falla total de motor cuando la aeronave se encuentra en vuelo luego del despegue,
+    ¿que accion inmediata y vital debe realizar el piloto?
+  options:
+    a: mantener una velocidad segura.
+    b: aterrizar directamente contra el viento.
+    c: regresar al campo de despegue.
+  answer: a
+  explanation: 'Ante una falla total de motor después del despegue, la acción inmediata y vital es mantener
+    una velocidad segura: bajar la nariz y establecer la velocidad de planeo para evitar la pérdida y
+    la barrena. Intentar regresar al campo a baja altura es muy peligroso y la dirección de aterrizaje
+    se elige luego, generalmente hacia adelante.'
+- id: k319
+  source:
+    key_item: 319
+  question: 'En la aproximacion al aerodromo usted encuentra viento de los 040 grados con intensidad de
+    10 Kt la pista en uso sera la pista:'
+  options:
+    a: La pista 18
+    b: La pista 36
+    c: La Pista 04
+  answer: b
+  images:
+  - ppa-key-x328.jpg
+  explanation: 'Viento 040°/10 kt: la pista 04 sería la ideal, pero la figura muestra la pista 04-22 clausurada
+    (X en ambas cabeceras).<br>Pista 18: viento de cola, no sirve.<br>Pista 36: diferencia de 40° con
+    el viento.<br>Viento de frente = 10 × cos 40° ≈ 7,7 kt<br>Componente de viento cruzado = 10 × sen
+    40° ≈ 6,4 kt<br>Por lo tanto, la pista en uso será la 36.'
+- id: k327
+  source:
+    key_item: 327
+  question: 'Hipoxia, un estado de deficiencia de oxígeno, afecta las funciones del cerebro y otros órganos.
+    Dolor de cabeza, somnolencia, mareos y euforia son todos síntomas de la hipoxia. Para una protección
+    óptima, los pilotos deberían evitar el vuelo por encima de los:'
+  options:
+    a: 10.000 metros MSL por períodos prolongados sin utilizar oxígeno suplementario
+    b: 1000 metros MSL por períodos prolongados sin utilizar oxígeno suplementario
+    c: 10.000 pies MSL por períodos prolongados sin utilizar oxígeno suplementario
+  answer: c
+  status: no_key
+  official_key: null
+  explanation: Para una protección óptima contra la hipoxia, se recomienda evitar volar por encima de
+    10.000 pies MSL por períodos prolongados sin oxígeno suplementario. 10.000 metros (unos 33.000 pies)
+    es demasiado alto y 1000 metros es demasiado bajo para que la hipoxia sea un problema.
+- id: k333
+  source:
+    key_item: 333
+  question: La falta de entrenamiento físico y la obsedidad no afecta la tolerancia a la hipoxia.
+  options:
+    a: Verdadero
+    b: Falso
+  answer: b
+  explanation: 'La afirmación es falsa: la falta de entrenamiento físico y la obesidad reducen la tolerancia
+    a la hipoxia, igual que el tabaco, el alcohol y la fatiga.'
+- id: k361
+  source:
+    key_item: 361
+  question: 'NAV. En la aproximacion al aerodromo usted encuentra una de las pistas en uso clausurada,
+    esta sera la pista:'
+  options:
+    a: 18-36
+    b: 22-04
+    c: ninguna es correcta
+  answer: b
+  images:
+  - ppa-key-x328.jpg
+  explanation: En la figura se ven marcas en X en ambas cabeceras de la pista 04-22, que indican pista
+    clausurada. La pista 18-36 no tiene X; sus flechas indican umbral desplazado, no clausura.
+- id: k379
+  source:
+    key_item: 379
+  question: 'Una recomendación para operar con bajas temperaturas seria de las siguientes:'
+  options:
+    a: En el despegue, se elimina la escarcha que se haya formado en las diferentes partes de la aeronave
+    b: Antes de despegar, se debe eliminar la escarcha que se haya formado en las diferentes partes de
+      la aeronave con agua caliente.
+    c: Antes de despegar, se debe eliminar la escarcha que se haya formado en las diferentes partes de
+      la aeronave (nunca utilizar agua caliente, puede tener consecuencias contraproducentes).
+  answer: c
+  explanation: Antes del despegue se debe eliminar toda la escarcha de la aeronave, porque altera el perfil
+    del ala, reduce la sustentación y aumenta la resistencia. No se debe usar agua caliente, ya que puede
+    volver a congelarse en otras partes (bisagras, superficies de control) o causar daños. Quitarla "en
+    el despegue" no es posible.
+- id: k384
+  source:
+    key_item: 384
+  question: 'La ilustración A indica que la aeronave se encuentra:'
+  options:
+    a: Debajo de la senda de planeo.
+    b: En la senda de planeo.
+    c: Encima de la senda de planeo.
+  answer: a
+  images:
+  - ppa-key-x319.jpg
+  explanation: En el VASI de dos barras, la ilustración A muestra ambas barras oscuras (rojas), es decir,
+    rojo sobre rojo, lo que indica que la aeronave está por debajo de la senda de planeo. Rojo sobre blanco
+    sería en la senda y blanco sobre blanco, encima.
