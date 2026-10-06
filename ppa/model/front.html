@@ -5,3 +5,26 @@
   <li data-letra="b"><span class="letra">b)</span> {{OpcionB}}</li>
   {{#OpcionC}}<li data-letra="c"><span class="letra">c)</span> {{OpcionC}}</li>{{/OpcionC}}
 </ol>
+<script>
+  /* Tap an option to answer: the choice is remembered for the back side and the
+     answer is revealed (desktop: pycmd, AnkiDroid: signal URL; AnkiMobile: tap "Show answer"). */
+  (function () {
+    var key = 'ppa-eleccion-{{ID}}';
+    if (document.getElementById('ppa-dorso')) return;  /* re-run inside {{FrontSide}} on the back */
+    try { sessionStorage.removeItem(key); } catch (e) {}
+    window.ppaEleccion = '';
+    var opciones = document.querySelectorAll('.opciones li');
+    Array.prototype.forEach.call(opciones, function (li) {
+      li.classList.add('elegible');
+      li.addEventListener('click', function () {
+        Array.prototype.forEach.call(opciones, function (o) { o.classList.remove('elegida'); });
+        li.classList.add('elegida');
+        var letra = li.getAttribute('data-letra');
+        window.ppaEleccion = letra;
+        try { sessionStorage.setItem(key, letra); } catch (e) {}
+        if (typeof pycmd === 'function') { pycmd('ans'); }
+        else if (/android/i.test(navigator.userAgent)) { window.location.href = 'signal:show_answer'; }
+      });
+    });
+  })();
+</script>

@@ -1,5 +1,7 @@
+<div id="ppa-dorso" hidden></div>
 {{FrontSide}}
 <hr id="answer">
+<div id="resultado" class="resultado" hidden></div>
 <div class="respuesta">Respuesta correcta: <b>{{Respuesta}})</b> {{RespuestaTexto}}</div>
 {{#Aviso}}<div class="aviso">⚠ {{Aviso}}</div>{{/Aviso}}
 <div class="explicacion">{{Explicacion}}</div>
@@ -7,6 +9,21 @@
 {{#Teoria}}<div class="teoria"><span class="rotulo">Teoría ANAC:</span> «{{Teoria}}»</div>{{/Teoria}}
 <div class="fuente">{{Fuente}}</div>
 <script>
-  document.querySelectorAll('.opciones li[data-letra="{{Respuesta}}"]')
-    .forEach(function (li) { li.classList.add('correcta'); });
+  (function () {
+    var correcta = '{{Respuesta}}', eleccion = '';
+    try { eleccion = sessionStorage.getItem('ppa-eleccion-{{ID}}') || ''; } catch (e) {}
+    eleccion = eleccion || window.ppaEleccion || '';
+    Array.prototype.forEach.call(document.querySelectorAll('.opciones li'), function (li) {
+      var letra = li.getAttribute('data-letra');
+      li.classList.remove('elegible');
+      if (letra === correcta) li.classList.add('correcta');
+      if (letra === eleccion && eleccion !== correcta) li.classList.add('incorrecta');
+    });
+    if (eleccion) {
+      var r = document.getElementById('resultado');
+      r.hidden = false;
+      if (eleccion === correcta) { r.textContent = '✓ Correcto'; r.classList.add('ok'); }
+      else { r.textContent = '✗ Incorrecto: elegiste ' + eleccion + ')'; r.classList.add('mal'); }
+    }
+  })();
 </script>

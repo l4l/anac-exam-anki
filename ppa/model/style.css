@@ -14,6 +14,12 @@
 .opciones { list-style: none; padding: 0; margin: 12px 0; }
 .opciones li { padding: 6px 10px; margin: 4px 0; border-radius: 6px; border: 1px solid #d0d0d5; }
 .opciones li.correcta { border-color: #1f8a3b; background: #e5f5e9; font-weight: 600; }
+.opciones li.elegible { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.opciones li.elegible:active, .opciones li.elegida { border-color: #1565c0; background: #e3f0fc; }
+.opciones li.incorrecta { border-color: #c62828; background: #fdecea; text-decoration: line-through; }
+.resultado { font-weight: 700; font-size: 1.1em; margin: 10px 0; }
+.resultado.ok { color: #1f8a3b; }
+.resultado.mal { color: #c62828; }
 .letra { font-weight: 700; margin-right: 4px; }
 .respuesta { font-size: 1.05em; margin: 10px 0; }
 .aviso { border-left: 4px solid #c62828; background: #fdecea; padding: 8px 10px; margin: 10px 0; border-radius: 4px; }
@@ -27,6 +33,10 @@
 .nightMode.card, .night_mode .card { color: #e6e6e6; background: #1e1e1e; }
 .nightMode .opciones li, .night_mode .opciones li { border-color: #555; }
 .nightMode .opciones li.correcta, .night_mode .opciones li.correcta { border-color: #4caf50; background: #1f3a24; }
+.nightMode .opciones li.elegida, .night_mode .opciones li.elegida { border-color: #64b5f6; background: #1c2f44; }
+.nightMode .opciones li.incorrecta, .night_mode .opciones li.incorrecta { border-color: #ef5350; background: #3b1f1f; }
+.nightMode .resultado.ok, .night_mode .resultado.ok { color: #66bb6a; }
+.nightMode .resultado.mal, .night_mode .resultado.mal { color: #ef5350; }
 .nightMode .aviso, .night_mode .aviso { background: #3b1f1f; border-left-color: #ef5350; }
 .nightMode .nota, .night_mode .nota { background: #3a3220; border-left-color: #ffca28; }
 .nightMode .teoria, .night_mode .teoria { background: #2a2d33; }
