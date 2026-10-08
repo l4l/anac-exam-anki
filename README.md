@@ -5,7 +5,7 @@ Anki decks for the Argentine ANAC pilot theory exams, kept as reviewable text
 
 | Deck | Folder | Cards |
 |------|--------|-------|
-| Piloto Privado de Avión (PPA) | [`ppa/`](ppa/) | 456 |
+| Piloto Privado de Avión (PPA) | [`ppa/`](ppa/) | 444 |
 
 ## Build
 

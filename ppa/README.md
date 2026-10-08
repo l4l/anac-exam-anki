@@ -11,7 +11,7 @@ files dated 2021/05, content from 2013–2014):
 
 ## What the deck contains
 
-The union of both question lists, deduplicated: 456 cards in 9 subdecks (the
+The union of both question lists, deduplicated: 444 cards in 9 subdecks (the
 8 chapters plus *Factores humanos y seguridad operacional* for key items that
 are not in the chapter list). Card ids: `kNNN` is key item NNN, and `cC-NN`
 is a chapter question with no key equivalent.
@@ -30,6 +30,30 @@ reviewers, one of whom argued for the official key.
 Smaller typos in the official questions (stem data that doesn't match any
 option, duplicated options, misprints) are explained in a yellow **Nota** on
 the card (`note:` in the YAML).
+
+### Duplicated key items
+
+The key repeats some questions under two item numbers (same question, options
+and answer). Only one card is kept: the one matched to a chapter question. The
+other item number has no card, and its id must not be reused.
+
+| kept | dropped | question |
+|------|---------|----------|
+| k203 | k004 | Fig. 29, ilustr. 1: posición relativa del avión respecto a la estación VOR |
+| k206 | k207 | Fig. 29, ilustr. 8: ¿sobre cuál radial? |
+| k211 | k212 | Fig. 29, ilustr. 2: ¿sobre cuál radial? |
+| k217 | k218 | Fig. 29, ilustr. 5: ¿sobre cuál radial? |
+| k230 | k231 | Fig. 30, ilustr. 1: marcación magnética a la estación |
+| k234 | k235 | Fig. 30, ilustr. 2: marcación magnética para volar hacia la estación |
+| k238 | k239 | Fig. 30, ilustr. 2: rumbo para interceptar la marcación 180° hacia la estación |
+| k240 | k241 | Fig. 30, ilustr. 3: marcación magnética desde la estación |
+| k243 | k244 | Fig. 30: indicación en curso hacia la estación con viento cruzado de la derecha |
+| k246 | k247 | Fig. 31, ilustr. 1: marcación relativa a la estación |
+| k248 | k249 | Fig. 31, ilustr. 4: QDM con rumbo magnético 320° |
+| k250 | k251 | Fig. 31, ilustr. 6: QDM con rumbo magnético 120° |
+
+Questions that the bank asks twice with *different* options (k095/k354,
+k342/k381, k036/k337, c2-16/k017) are kept as separate cards.
 
 ## Images
 
