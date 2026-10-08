@@ -24,7 +24,7 @@ status:                   # card status -> tag + warning shown on the back
     warning: "La clave oficial de ANAC no marca ninguna opción para esta pregunta."
   ambiguous:
     tag: ambigua
-    warning: "Pregunta ambigua o defectuosa. La opción marcada coincide con la clave oficial ({official_key})."
+    warning: "Pregunta ambigua o defectuosa. La opción marcada coincide con la clave oficial ({answer})."
   outdated:
     tag: desactualizada
     warning: "Respuesta según la clave oficial (RAAC 2013-2014). La normativa vigente cambió: ver nota."

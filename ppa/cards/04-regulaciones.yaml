@@ -65,7 +65,6 @@
     1 hora y 5 aterrizajes). Por lo tanto, puede estar hasta 30 días sin volar sin necesitar readaptación;
     90 o 180 días exceden ese límite.
   status: outdated
-  official_key: a
   note: Bajo la RAAC 61 vigente (2026) ya no existe la readaptación a los 30 días; la experiencia reciente
     (61.140) exige 3 despegues y aterrizajes en los últimos 90 días.
 - id: k261
@@ -97,7 +96,6 @@
     c: 2500 metros y 1000 pies.
   answer: a
   status: ambiguous
-  official_key: a
   explanation: 'Según la RAAC 91.156(a)(2) vigente, en la zona de tránsito de un aeródromo ubicado <b>fuera
     de una zona de control</b> los mínimos VFR son <b>5 km de visibilidad y 1000 pies de techo</b>.'
   note: 'La misma RAAC, en la nota (2) de 91.155, dice «En aeródromos no controlados ubicados fuera de
@@ -131,7 +129,6 @@
   theory: …tiene la obligación de informar personalmente o por correo, dentro de los 30 días de producido
     este hecho, a la Dirección Nacional de Seguridad Operacional.
   status: outdated
-  official_key: c
   note: La RAAC 61 vigente (61.160) exige actualizar el domicilio en el legajo pero ya no fija el plazo
     de 30 días.
 - id: c4-09
@@ -291,7 +288,6 @@
     c: El vuelo con turbulencia.
   answer: b
   status: ambiguous
-  official_key: b
   explanation: 'El enunciado dice «con ciertas excepciones»: la regla base es llevar el cinturón abrochado
     <b>durante todo el vuelo</b>, y las excepciones son los momentos en que se permite desabrocharlo. La
     RAAC 91.106 exige como mínimo que esté abrochado durante el <b>rodaje, el despegue y el aterrizaje</b>
@@ -359,7 +355,6 @@
     c: Aeronave remolcando planeador.
   answer: b
   status: ambiguous
-  official_key: b
   explanation: Según la RAAC 91.113(e)(1), los <b>aerodinos</b> propulsados mecánicamente (el giroplano
     y el avión que remolca) ceden el paso a los <b>dirigibles</b>.
   note: La RAAC 91.113(e)(5) agrega que las aeronaves propulsadas mecánicamente (incluido el dirigible)
@@ -529,7 +524,6 @@
     de vuelo debe ser readaptado por un Instructor (aproximadamente 1 hora de vuelo y 5 aterrizajes).
     45 y 60 días superan ese límite.
   status: outdated
-  official_key: a
   note: Bajo la RAAC 61 vigente (2026) ya no existe la readaptación a los 30 días; la experiencia reciente
     (61.140) exige 3 despegues y aterrizajes en los últimos 90 días.
 - id: k135
@@ -559,7 +553,6 @@
     (con QNH) y <b>niveles de vuelo</b> (con 1013,2 hPa). Entre las opciones dadas, la respuesta esperada
     es <b>altitudes</b>; altura y elevación son referencias sobre el terreno y no se usan para esto.
   status: ambiguous
-  official_key: b
   note: Según OACI, al atravesar la capa de transición en ascenso la posición vertical se expresa en niveles
     de vuelo (en descenso, en altitudes). No hay opción «niveles de vuelo» y el enunciado está incompleto;
     la clave oficial marca «Altitudes».

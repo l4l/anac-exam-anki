@@ -51,6 +51,8 @@ def load_cards(deck_dir, cfg):
                 errors.append(f"{where}: answer {c['answer']!r} not among options")
             if (status := c.get("status")) and status not in cfg["status"]:
                 errors.append(f"{where}: unknown status {status!r}")
+            if (status == "key_error") != ("official_key" in c):
+                errors.append(f"{where}: official_key is required for key_error and only allowed there")
             for img in c.get("images") or []:
                 if not (media / img).is_file():
                     errors.append(f"{where}: missing media/{img}")
@@ -68,7 +70,7 @@ def fields_for(c, cfg):
     ]))
     aviso = ""
     if status := c.get("status"):
-        aviso = cfg["status"][status]["warning"].format(official_key=c.get("official_key") or "—")
+        aviso = cfg["status"][status]["warning"].format(official_key=c.get("official_key"), answer=c["answer"])
     imgs = "".join(f'<img src="{html.escape(i)}">' for i in c.get("images") or [])
     return [
         c["id"], c["question"], opts.get("a", ""), opts.get("b", ""), opts.get("c", ""),

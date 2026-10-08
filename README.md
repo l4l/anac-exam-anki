@@ -45,7 +45,7 @@ ppa/
   options: {a: 2200 kg., b: 3100 kg., c: 3300 kg.}
   answer: b                    # the answer the card teaches
   status: key_error            # optional: key_error | no_key | ambiguous | outdated
-  official_key: c              # optional: what the official ANAC key marks
+  official_key: c              # key_error only: the (wrong) option the official ANAC key marks
   images: [ppa-figura-02.jpg]  # optional, files in media/
   explanation: 'Factor de carga a 45° = 1,414<br>2200 kg × 1,414 ≈ 3111 kg → 3100 kg'
   note: ...                    # optional, yellow "Nota" box (errata, outdated rules)
