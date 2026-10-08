@@ -267,11 +267,10 @@
   answer: c
   images:
   - ppa-figura-02.jpg
-  explanation: 'Carga = peso × factor de carga.<br>Figura 2: a 30° de inclinación, n = 1,154<br>1540 kg
-    × 1,154 ≈ 1777 kg<br>La opción 1848 kg equivale a usar n ≈ 1,2. 1294 kg es menor que el peso, lo cual
-    es imposible en un viraje, y 1588 kg queda muy por debajo del resultado.'
-  note: 'El enunciado parece tener un error: 1540 kg × 1,154 = 1777 kg, que no coincide con ninguna opción.
-    La clave espera la más cercana (1848 kg).'
+  explanation: 'Carga = peso × factor de carga. Leyendo la curva de la Figura 2 a 30°, n ≈ 1,2:<br>1540
+    kg × 1,2 = <b>1848 kg</b><br>Con el valor exacto de la tabla (n = 1,154) la carga es 1777 kg; la estructura
+    debe soportar al menos eso, y la única opción que lo cubre es 1848 kg. 1294 kg es menor que el peso
+    (imposible en un viraje) y 1588 kg no alcanza.'
 - id: k099
   source:
     key_item: 99
@@ -282,14 +281,12 @@
     a: 2200 kg.
     b: 3100 kg.
     c: 3300 kg.
-  answer: b
-  status: key_error
-  official_key: c
+  answer: c
   images:
   - ppa-figura-02.jpg
-  explanation: 'En un viraje nivelado, n = 1/cos de la inclinación.<br>Figura 2: a 45°, n = 1/0,707 =
-    1,414<br>2200 kg × 1,414 ≈ 3111 kg → 3100 kg<br>3300 kg correspondería a n = 1,5, que no es el factor
-    de carga a 45°.'
+  explanation: 'Carga = peso × factor de carga. Leyendo la curva de la Figura 2 a 45°, n ≈ 1,5:<br>2200
+    kg × 1,5 = <b>3300 kg</b><br>Con el valor exacto de la tabla (n = 1,414) la carga es 3111 kg; la estructura
+    debe soportar al menos eso, y 3100 kg no alcanza.'
 - id: k115
   source:
     key_item: 115
@@ -391,16 +388,15 @@
     a: En el viraje 1-2-3, la inclinación es levantada rápidamente durante la última parte del viraje.
     b: En el viraje 4-5-6, la inclinación es incrementada rápidamente en la primera parte del viraje.
     c: En el viraje 4-5-6, la inclinación es incrementada muy lentamente en la última parte del viraje.
-  answer: b
-  status: key_error
-  official_key: c
+  answer: c
   images:
   - ppa-figura-67.jpg
   explanation: En la Figura 67 el viento sopla hacia arriba, de modo que el viraje 4-5-6 comienza con
-    viento de frente, a baja velocidad respecto del suelo. Ese viraje debe iniciarse con poca inclinación
-    e irla aumentando gradualmente. Si la inclinación se <b>incrementa rápidamente al comienzo</b>, el
-    semicírculo resulta más chico y el viraje no se completa antes de llegar a la línea de referencia.
-    Un aumento lento al final (opción c) agrandaría el arco en lugar de achicarlo.
+    viento de frente (baja velocidad respecto del suelo) y termina con viento de cola (alta velocidad).
+    Por eso la inclinación debe iniciarse suave e ir <b>aumentando</b> hasta el punto 6. Si se incrementa
+    <b>muy lentamente en la última parte</b>, el viento arrastra el avión hacia la línea antes de completar
+    el viraje y ese semicírculo resulta más chico. Un aumento rápido al comienzo (b) haría terminar el
+    viraje antes, no después.
 - id: k164
   source:
     key_item: 164

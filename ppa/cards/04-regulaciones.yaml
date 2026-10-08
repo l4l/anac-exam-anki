@@ -95,13 +95,13 @@
     a: 5 kilómetros y 1000 pies.
     b: 8 kilómetros y 1000 pies.
     c: 2500 metros y 1000 pies.
-  answer: c
-  status: key_error
+  answer: a
+  status: ambiguous
   official_key: a
-  explanation: Según la RAAC 91.156, en la zona de tránsito de un aeródromo ubicado <b>fuera de una zona
-    de control</b> los mínimos VFR son <b>2500 m de visibilidad y 1000 pies de techo</b>. Los 5 km y 1000
-    pies corresponden a aeródromos controlados o dentro de una zona de control, y los 8 km a vuelo VFR
-    en ruta.
+  explanation: 'Según la RAAC 91.156(a)(2) vigente, en la zona de tránsito de un aeródromo ubicado <b>fuera
+    de una zona de control</b> los mínimos VFR son <b>5 km de visibilidad y 1000 pies de techo</b>.'
+  note: 'La misma RAAC, en la nota (2) de 91.155, dice «En aeródromos no controlados ubicados fuera de
+    CTR, visibilidad mínima 2500 m» (opción c), y la teoría ANAC de 2013 también enseña 2500 m.'
 - id: c4-07
   source:
     chapter_question: '4.7'
@@ -289,12 +289,13 @@
     a: Rodaje, despegue y aterrizaje.
     b: Durante todo el vuelo.
     c: El vuelo con turbulencia.
-  answer: a
-  status: key_error
+  answer: b
+  status: ambiguous
   official_key: b
-  explanation: Según la RAAC 91.106, los pasajeros deben tener el cinturón abrochado durante el <b>movimiento
-    en superficie (rodaje), el despegue y el aterrizaje</b>. La norma no exige usarlo durante todo el
-    vuelo; en turbulencia es una recomendación prudente, pero no es una de las fases que define la regla.
+  explanation: 'El enunciado dice «con ciertas excepciones»: la regla base es llevar el cinturón abrochado
+    <b>durante todo el vuelo</b>, y las excepciones son los momentos en que se permite desabrocharlo. La
+    RAAC 91.106 exige como mínimo que esté abrochado durante el <b>rodaje, el despegue y el aterrizaje</b>
+    (opción a), por lo que esa opción también es defendible si se lee como el requisito obligatorio.'
   theory: Ningún piloto puede iniciar el movimiento en la superficie, el despegue o el aterrizaje de una
     aeronave civil matriculada en la República Argentina (a excepción de un globo libre que posea una
     canasta o góndola o un dirigible que haya obtenido su Certificado Tipo original antes del 02 de noviembre
@@ -356,13 +357,14 @@
     a: Giroplano.
     b: Dirigible.
     c: Aeronave remolcando planeador.
-  answer: c
-  status: key_error
+  answer: b
+  status: ambiguous
   official_key: b
-  explanation: Según las reglas de derecho de paso (RAAC 91.113), las aeronaves propulsadas mecánicamente
-    deben ceder el paso a las que <b>van remolcando otras aeronaves u objetos</b>. El dirigible tiene
-    prioridad sobre el giroplano, pero la aeronave que remolca un planeador tiene prioridad sobre ambos,
-    por lo que la correcta es la c.
+  explanation: Según la RAAC 91.113(e)(1), los <b>aerodinos</b> propulsados mecánicamente (el giroplano
+    y el avión que remolca) ceden el paso a los <b>dirigibles</b>.
+  note: La RAAC 91.113(e)(5) agrega que las aeronaves propulsadas mecánicamente (incluido el dirigible)
+    ceden el paso a las que van remolcando, lo que favorecería la opción c. La RAAC no indica cuál regla
+    prevalece; la FAA sí da prioridad explícita al remolque.
   theory: (1) Los aerodinos propulsados mecánicamente, cederán el paso a los dirigibles, planeadores,
     aerodeslizadores y globos. (2) Los dirigibles cederán el paso a los planeadores, aerodeslizadores
     y globos. (3) Los planeadores cederán el paso a los aerodeslizadores y globos. (4) Los aerodeslizadores

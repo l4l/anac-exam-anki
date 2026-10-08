@@ -303,15 +303,13 @@
     a: 25 nudos.
     b: 29 nudos.
     c: 35 nudos.
-  answer: c
-  status: key_error
-  official_key: a
+  answer: a
   images:
   - ppa-figura-37.jpg
-  explanation: Componente cruzada = velocidad del viento × sen(ángulo), entonces velocidad máxima = componente
-    cruzada ÷ sen(ángulo).<br>25 ÷ sen 45° = 25 ÷ 0,707 ≈ 35,4 → <b>35 nudos</b><br>En la Figura 37, el
-    radial de 45° corta la vertical de 25 nudos de viento cruzado entre los arcos de 30 y 40 nudos.<br>25
-    nudos solo sería correcto con viento a 90° de la pista.
+  explanation: 'Se pregunta el viento <b>de frente</b>. A 45° las componentes de frente y cruzada son
+    iguales (sen 45° = cos 45°):<br>componente de frente = componente cruzada = <b>25 nudos</b>'
+  note: 'Atención a lo que se pregunta: 25 nudos es la componente de frente; la velocidad total del viento
+    sería 25 ÷ sen 45° ≈ 35 nudos (opción c), que es lo que pregunta la versión original de la FAA.'
 - id: k112
   source:
     key_item: 112

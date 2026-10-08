@@ -52,8 +52,6 @@
     b: detectarlo.
     c: evaluarlo.
   answer: b
-  status: ambiguous
-  official_key: b
   explanation: 'En el modelo de toma de decisiones aeronáuticas DECIDE, el primer paso es <b>Detectar</b>:
     darse cuenta de que ocurrió un cambio que requiere atención. Recién después se estima la necesidad
     de reaccionar, se eligen alternativas, se identifican acciones, se actúa y se evalúa el resultado.
