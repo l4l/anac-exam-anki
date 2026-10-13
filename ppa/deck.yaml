@@ -18,7 +18,7 @@ chapters:                 # file prefix -> subdeck (deck id, title)
 status:                   # card status -> tag + warning shown on the back
   key_error:
     tag: clave_oficial_erronea
-    warning: "La clave oficial de ANAC marca <b>{official_key})</b>, pero es incorrecta. En el examen podría corregirse según la clave oficial."
+    warning: "Se marca la opción de la clave oficial de ANAC, que es la que se usa para corregir el examen, pero es incorrecta. La respuesta correcta es <b>{answer})</b> {answer_text}"
   no_key:
     tag: sin_clave_oficial
     warning: "La clave oficial de ANAC no marca ninguna opción para esta pregunta."

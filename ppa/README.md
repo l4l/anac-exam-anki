@@ -22,7 +22,7 @@ reviewers, one of whom argued for the official key.
 
 | status | count | meaning |
 |--------|------:|---------|
-| `key_error` | 10 | the official key marks a wrong option; the card teaches the correct one and shows what the key says |
+| `key_error` | 10 | the official key marks a wrong option; the card still marks the key's option (the exam is graded by it) and the warning and explanation give the correct one |
 | `no_key` | 1 | the key marks no option (k327) |
 | `ambiguous` | 5 | defective question; the card keeps the key's answer (k030, k093, k123, k136, k268) |
 | `outdated` | 3 | correct in 2014, changed in RAAC 61 (2026) (k003, k223, k284) |

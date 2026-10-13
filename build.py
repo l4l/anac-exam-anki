@@ -53,11 +53,18 @@ def load_cards(deck_dir, cfg):
                 errors.append(f"{where}: unknown status {status!r}")
             if (status == "key_error") != ("official_key" in c):
                 errors.append(f"{where}: official_key is required for key_error and only allowed there")
+            elif "official_key" in c and (c["official_key"] not in c["options"] or c["official_key"] == c["answer"]):
+                errors.append(f"{where}: official_key must be another of the options")
             for img in c.get("images") or []:
                 if not (media / img).is_file():
                     errors.append(f"{where}: missing media/{img}")
             cards.append((chapter, c))
     return cards, errors
+
+
+def taught(c):
+    """The option the card marks as its answer: the official key's, even when it is wrong."""
+    return c.get("official_key", c["answer"])
 
 
 def fields_for(c, cfg):
@@ -70,11 +77,12 @@ def fields_for(c, cfg):
     ]))
     aviso = ""
     if status := c.get("status"):
-        aviso = cfg["status"][status]["warning"].format(official_key=c.get("official_key"), answer=c["answer"])
+        aviso = cfg["status"][status]["warning"].format(
+            official_key=c.get("official_key"), answer=c["answer"], answer_text=opts[c["answer"]])
     imgs = "".join(f'<img src="{html.escape(i)}">' for i in c.get("images") or [])
     return [
         c["id"], c["question"], opts.get("a", ""), opts.get("b", ""), opts.get("c", ""),
-        c["answer"], opts[c["answer"]], imgs, c["explanation"], c.get("theory") or "", aviso, c.get("note") or "", fuente,
+        taught(c), opts[taught(c)], imgs, c["explanation"], c.get("theory") or "", aviso, c.get("note") or "", fuente,
     ]
 
 
@@ -95,7 +103,7 @@ def write_preview(deck_dir, cfg, cards, out):
         f["FrontSide"] = render(front, f)
         # the template's highlight script is page-global, so mark the answer statically here
         card_html = re.sub(r"<script>.*?</script>", "", render(back, f), flags=re.S).replace(
-            f'<li data-letra="{c["answer"]}"', f'<li class="correcta" data-letra="{c["answer"]}"')
+            f'<li data-letra="{taught(c)}"', f'<li class="correcta" data-letra="{taught(c)}"')
         body.append(f'<section class="card" id="{c["id"]}"><h3 class="fuente">{cfg["chapters"][ch]["title"]}'
                     f'</h3>{card_html}</section>')
     out.write_text(f'<!doctype html><meta charset="utf-8"><title>{cfg["name"]} preview</title>'
